@@ -52,3 +52,17 @@ foreach ($doc in $documents.GetEnumerator()) {
     Write-Warning "$($doc.Key): $($_.Exception.Message)"
   }
 }
+
+# The current SLAMKit manual is served from Slamtec Support's download bucket.
+$slamkitManual = Join-Path $folder 'slamkit-manual.pdf'
+if (-not (Test-Path -LiteralPath $slamkitManual)) {
+  $headers = @{ Referer = 'https://www.slamtec.com/'; 'User-Agent' = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/132.0 Safari/537.36' }
+  Invoke-WebRequest -Uri 'https://bucket-download.slamtec.com/b759ba73a75785137f1064df9081f061b92e0bf0/Slamkit%20UserManualV1.0_EN%2020240529.pdf' -Headers $headers -OutFile $slamkitManual -TimeoutSec 90
+  $stream = [System.IO.File]::OpenRead($slamkitManual)
+  try { $signature = New-Object byte[] 4; [void]$stream.Read($signature, 0, 4) }
+  finally { $stream.Dispose() }
+  if ([System.Text.Encoding]::ASCII.GetString($signature) -ne '%PDF') {
+    Remove-Item -LiteralPath $slamkitManual
+    throw 'SLAMKit manual was not a PDF'
+  }
+}

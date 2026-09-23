@@ -1,5 +1,4 @@
 const pdf = (name, file) => ({ name, url: `assets/docs/${file}`, local: true });
-const support = (name, hash) => ({ name, url: `https://www.slamtec.com/en/support#${hash}`, local: false });
 
 // Product selection and specifications are based on RobotSepeti's Slamtec search results.
 // PDF labels and model matches follow Slamtec Support and Slamtec Wiki.
@@ -58,7 +57,7 @@ const products = [
     features: ['Haritalama ve gerçek zamanlı lokalizasyon', 'Lisans modülü + Slamware yazılımı', 'RoboStudio ve SDK ekosistemi'],
     specs: [['Ürün tipi', 'Lisans modülü + lisanslı yazılım'], ['LiDAR', 'Ayrı satın alınır'], ['Haritalama', 'Büyük alan ve yüksek çözünürlük'], ['Geliştirme', 'C++, Java, REST ve ROS araçları']],
     chips: ['SLAM', 'Lisans', 'SDK'],
-    docs: [pdf('SLAMKit teknik föyü', 'slamkit-datasheet.pdf'), support('Kullanım kılavuzu · Slamtec Support', 'slamkit')]
+    docs: [pdf('SLAMKit teknik föyü', 'slamkit-datasheet.pdf'), pdf('SLAMKit kullanım kılavuzu', 'slamkit-manual.pdf')]
   },
   {
     id: 'lpx-e3', name: 'LPX-E3P1', fullName: 'Slamtec LPX-E3P1 360° 2D Endüstriyel Alan İzleme Lidarı',
@@ -318,8 +317,8 @@ function renderDetail(product) {
     </section>` : ''}
     <div class="docs-panel" id="belgeler">
       <div><span class="eyebrow"><span class="eyebrow-line"></span> Slamtec Support</span><h3>Teknik belgeler</h3></div>
-      <div class="docs-list">${product.docs.map((document) => `<a class="doc-link" href="${escapeHtml(document.url)}" ${document.local ? 'download' : 'target="_blank" rel="noopener noreferrer"'}><span>${escapeHtml(document.name)}</span><span aria-hidden="true">${document.local ? '↓' : '↗'}</span></a>`).join('')}</div>
-      <p class="docs-note">${product.docs.some((document) => !document.local) ? 'Yerel PDF doğrudan indirilir; üretici bağlantısı Slamtec Support sayfasını açar.' : 'Belgeler doğrudan PDF olarak indirilir. Güncel sürümler Slamtec Support sayfasındadır.'}</p>
+      <div class="docs-list">${product.docs.map((document) => `<a class="doc-link" href="${escapeHtml(document.url)}" download><span>${escapeHtml(document.name)}</span><span aria-hidden="true">↓</span></a>`).join('')}</div>
+      <p class="docs-note">Belgeler doğrudan PDF olarak indirilir. Güncel sürümler Slamtec Support sayfasındadır.</p>
     </div>
     <div class="source-links"><span>Bilgi kaynakları</span><a href="${escapeHtml(product.url)}" target="_blank" rel="noopener noreferrer">RobotSepeti ürün sayfası ↗</a><a href="${escapeHtml(product.official)}" target="_blank" rel="noopener noreferrer">Slamtec teknik sayfası ↗</a></div>
     <dialog class="image-dialog" id="image-dialog" aria-label="Üretici görseli"><button class="image-dialog-close" type="button" data-close-story aria-label="Görseli kapat">✕</button><img alt=""></dialog>`;
