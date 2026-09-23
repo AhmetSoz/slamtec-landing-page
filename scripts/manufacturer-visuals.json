@@ -1,0 +1,192 @@
+[
+  {
+    "family": "aurora-s",
+    "file": "aurora-s-architecture.webp",
+    "alt": "Aurora S Block Diagram",
+    "url": "https://image.slamtec.com/images/auroras/pc/auroras-section3-en.webp",
+    "page": "https://www.slamtec.com/en/aurora-s",
+    "width": "1920",
+    "height": "901"
+  },
+  {
+    "family": "aurora-s",
+    "file": "aurora-s-dense-map.webp",
+    "alt": "Aurora built dense texture map",
+    "url": "https://image.slamtec.com/images/auroras/pc/auroras-section4-02.webp",
+    "page": "https://www.slamtec.com/en/aurora-s",
+    "width": "666",
+    "height": "426"
+  },
+  {
+    "family": "aurora",
+    "file": "aurora-stable-localization.gif",
+    "alt": " Aurora Solution Stays Stable",
+    "url": "https://image.slamtec.com/images/aurora/gif/aurora-section4-1-dnn.gif",
+    "page": "https://www.slamtec.com/en/aurora",
+    "width": "640",
+    "height": "417"
+  },
+  {
+    "family": "aurora",
+    "file": "aurora-3d-pointcloud.gif",
+    "alt": "Garage Mapping - 3D Point Cloud Output",
+    "url": "https://image.slamtec.com/images/aurora/gif/aurora-section6-1-3d.gif",
+    "page": "https://www.slamtec.com/en/aurora",
+    "width": "640",
+    "height": "417"
+  },
+  {
+    "family": "lpx-t1",
+    "file": "lpx-t1-small-objects.webp",
+    "alt": "LPX-T1 has the ability to detect small objects",
+    "url": "https://image.slamtec.com/images/t1/pc/t1-section3-en.webp",
+    "page": "https://www.slamtec.com/en/t1",
+    "width": "1920",
+    "height": "900"
+  },
+  {
+    "family": "lpx-t1",
+    "file": "lpx-t1-daylight.webp",
+    "alt": "80klux sunlight resistance",
+    "url": "https://image.slamtec.com/images/t1/pc/t1-section4-en.webp",
+    "page": "https://www.slamtec.com/en/t1",
+    "width": "1920",
+    "height": "900"
+  },
+  {
+    "family": "slamkit",
+    "file": "slamkit-architecture.webp",
+    "alt": "SLAMKit structure on robot platform",
+    "url": "https://image.slamtec.com/images/slamkit/pc/slamkit-section3-en.webp",
+    "page": "https://www.slamtec.com/en/slamkit",
+    "width": "1920",
+    "height": "842"
+  },
+  {
+    "family": "s2",
+    "file": "s2-dtof-principle.webp",
+    "alt": "Schematic diagram of DTOF technology used in RPLIDAR S2",
+    "url": "https://image.slamtec.com/images/s2/mobile/phone-s2-section2-en.webp",
+    "page": "https://www.slamtec.com/en/s2",
+    "width": "640",
+    "height": "511"
+  },
+  {
+    "family": "s2",
+    "file": "s2-ip65.webp",
+    "alt": "RPLIDAR S2 has an IP65 protection rating",
+    "url": "https://image.slamtec.com/images/s2/pc/s2-section9-cn.webp",
+    "page": "https://www.slamtec.com/en/s2",
+    "width": "1920",
+    "height": "900"
+  },
+  {
+    "family": "s3",
+    "file": "s3-ranging-technology.webp",
+    "alt": "SLAMTEC's self-developed ranging technology performs excellently",
+    "url": "https://image.slamtec.com/images/s3/pc/s3-section0-en.webp",
+    "page": "https://www.slamtec.com/en/s3",
+    "width": "1920",
+    "height": "900"
+  },
+  {
+    "family": "s3",
+    "file": "s3-low-reflectivity.webp",
+    "alt": "RPLIDAR S3 performs excellently in ranging under low reflectivity conditions",
+    "url": "https://image.slamtec.com/images/s3/pc/s3-section2-en.webp",
+    "page": "https://www.slamtec.com/en/s3",
+    "width": "1920",
+    "height": "900"
+  },
+  {
+    "family": "a3",
+    "file": "a3-range.webp",
+    "alt": "RPLIDAR A3 25m ranging radius",
+    "url": "https://image.slamtec.com/images/a3/pc/bg_3.webp",
+    "page": "https://www.slamtec.com/en/lidar/a3",
+    "width": "1920",
+    "height": "900"
+  },
+  {
+    "family": "a3",
+    "file": "a3-ranging-engine.webp",
+    "alt": "High-speed visual ranging engine",
+    "url": "https://image.slamtec.com/images/a3/pc/bg_8_en.webp",
+    "page": "https://www.slamtec.com/en/lidar/a3",
+    "width": "1920",
+    "height": "898"
+  },
+  {
+    "family": "a2",
+    "file": "a2-operating-principle.webp",
+    "alt": "RPLIDAR A2 operating principle diagram",
+    "url": "https://image.slamtec.com/images/a2/a2-overview/summary-section2.webp",
+    "page": "https://www.slamtec.com/en/lidar/a2",
+    "width": "1920",
+    "height": "900"
+  },
+  {
+    "family": "a2",
+    "file": "a2-360-scan.webp",
+    "alt": "RPLIDAR A2 360-degree laser scanning diagram",
+    "url": "https://image.slamtec.com/images/a2/a2-overview/summary-section5.webp",
+    "page": "https://www.slamtec.com/en/lidar/a2",
+    "width": "1920",
+    "height": "900"
+  },
+  {
+    "family": "a1",
+    "file": "a1-triangulation.webp",
+    "alt": "RPLIDAR A1 laser triangulation technology diagram",
+    "url": "https://image.slamtec.com/images/a1/a1-overview/summary-section2.webp",
+    "page": "https://www.slamtec.com/en/lidar/a1",
+    "width": "1920",
+    "height": "900"
+  },
+  {
+    "family": "a1",
+    "file": "a1-360-scan.webp",
+    "alt": "RPLIDAR A1 360-degree laser scanning",
+    "url": "https://image.slamtec.com/images/a1/a1-overview/summary-section3.webp",
+    "page": "https://www.slamtec.com/en/lidar/a1",
+    "width": "1920",
+    "height": "900"
+  },
+  {
+    "family": "mapper",
+    "file": "mapper-handheld-map.webp",
+    "alt": "Mapper handheld mapping effect",
+    "url": "https://image.slamtec.com/images/mapper/pc/summary-section4-en.webp",
+    "page": "https://www.slamtec.com/en/lidar/mapper",
+    "width": "1920",
+    "height": "900"
+  },
+  {
+    "alt": "LPX ScanDesigner alan düzenleyici ekranı",
+    "family": "lpx-e3",
+    "page": "https://www.slamtec.com/en/e3",
+    "file": "lpx-e3-field-editor.webp",
+    "url": "https://image.slamtec.com/images/e3/pc/e3-section5-1-en.webp"
+  },
+  {
+    "alt": "LPX ScanDesigner çoklu alan ve maskeleme ayarları",
+    "family": "lpx-e3",
+    "page": "https://www.slamtec.com/en/e3",
+    "file": "lpx-e3-mask.webp",
+    "url": "https://image.slamtec.com/images/e3/pc/e3-section5-3-en.webp"
+  },
+  {
+    "alt": "S1 ve SLAMWARE ile üretilen otopark haritası",
+    "family": "s1",
+    "page": "https://www.slamtec.com/en/news/detail/202",
+    "file": "s1-parking-map.jpg",
+    "url": "https://bucket-download.slamtec.com/33b49e0bed1e9ed86611f337df2ef67db3919fbe/84647e3b-b67e-47c3-a123-a9cdd4bdb84e"
+  },
+  {
+    "alt": "S1 dış mekân saha testi",
+    "family": "s1",
+    "page": "https://www.slamtec.com/en/news/detail/202",
+    "file": "s1-outdoor-map.jpg",
+    "url": "https://bucket-download.slamtec.com/55dd31902d4a682fef59e841494aff2c99e07c28/e4c6e4b8-bfbb-4f18-9f32-5886ad4c0efe"
+  }
+]

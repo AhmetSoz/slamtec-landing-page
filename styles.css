@@ -135,6 +135,30 @@ h1 em{font-style:normal;color:var(--orange)}
 .selection-note{margin-top:26px;border-left:3px solid var(--orange);background:#fff8f3;padding:18px 20px;border-radius:0 8px 8px 0}
 .selection-note strong{font-size:13px;color:#993f0e}
 .selection-note p{margin:7px 0 0;font-size:13px;line-height:1.7;color:#64574f}
+.manufacturer-story{margin-top:76px;padding-top:55px;border-top:1px solid #dce5ee}
+.manufacturer-story-heading{display:flex;justify-content:space-between;align-items:end;gap:28px;margin-bottom:27px}
+.manufacturer-story-heading h3{font-size:clamp(25px,2.8vw,36px);line-height:1.18;letter-spacing:-.04em;margin:15px 0 10px}
+.manufacturer-story-heading p{margin:0;max-width:690px;color:#66758a;font-size:14px;line-height:1.7}
+.manufacturer-story-list{display:grid;gap:29px}
+.manufacturer-figure{overflow:hidden;margin:0;border:1px solid #dce5ee;border-radius:17px;background:#fff;box-shadow:0 12px 40px rgba(28,46,68,.055)}
+.manufacturer-image{position:relative;display:flex;align-items:center;justify-content:center;width:100%;padding:0;border:0;background:#e9eef3;cursor:zoom-in;overflow:hidden}
+.manufacturer-image img{display:block;width:100%;height:auto;max-height:620px;object-fit:contain;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.manufacturer-figure.is-compact .manufacturer-image{background:#1a2330}
+.manufacturer-figure.is-compact .manufacturer-image img{width:auto;max-width:100%;max-height:530px}
+.manufacturer-image:hover img{transform:scale(1.018)}
+.image-expand{position:absolute;right:18px;bottom:18px;border-radius:7px;background:rgba(255,255,255,.93);padding:9px 12px;color:#152437;font-size:11px;font-weight:800;box-shadow:0 4px 20px #10203720}
+.manufacturer-figure figcaption{display:flex;gap:18px;padding:24px 29px 27px}
+.figure-index{font-size:13px;font-weight:800;color:var(--orange);padding-top:2px}
+.manufacturer-figure figcaption strong{font-size:19px;letter-spacing:-.02em;color:var(--ink)}
+.manufacturer-figure figcaption p{max-width:780px;margin:8px 0 11px;color:#5a6a7f;font-size:14px;line-height:1.7}
+.manufacturer-figure figcaption a{font-size:12px;font-weight:800;color:#245c7c;text-decoration:underline;text-underline-offset:3px}
+.manufacturer-figure figcaption a:hover{color:var(--orange)}
+.manufacturer-story .will-reveal{opacity:0;transform:translateY(18px);transition:opacity .55s ease,transform .55s cubic-bezier(.2,.7,.2,1)}
+.manufacturer-story .will-reveal.is-visible{opacity:1;transform:none}
+.image-dialog{position:fixed;inset:0;margin:auto;max-width:min(96vw,1500px);max-height:94vh;width:max-content;padding:18px;border:0;border-radius:12px;background:#fff;box-shadow:0 30px 100px #07152688;overflow:auto}
+.image-dialog::backdrop{background:rgba(6,16,32,.78);backdrop-filter:blur(4px)}
+.image-dialog img{display:block;max-width:calc(96vw - 36px);max-height:calc(94vh - 36px);object-fit:contain}
+.image-dialog-close{position:sticky;z-index:1;top:0;float:right;margin:0 0 -39px -39px;width:39px;height:39px;border:0;border-radius:7px;background:#101a2b;color:#fff;cursor:pointer}
 .docs-panel{margin-top:57px;border-radius:16px;background:#111a2b;color:#fff;padding:36px 39px;display:grid;grid-template-columns:260px 1fr;gap:25px;align-items:center}
 .docs-panel .eyebrow{color:#7cd8fa}
 .docs-panel .eyebrow-line{background:#7cd8fa}
@@ -153,6 +177,8 @@ h1 em{font-style:normal;color:var(--orange)}
 ::view-transition-new(product-panel){animation:catalog-in .32s cubic-bezier(.2,.7,.2,1) both}
 @keyframes catalog-out{to{opacity:0;transform:translateY(-10px) scale(.99)}}
 @keyframes catalog-in{from{opacity:0;transform:translateY(18px) scale(.985)}to{opacity:1;transform:none}}
+@media(max-width:780px){.manufacturer-story{margin-top:52px;padding-top:40px}.manufacturer-figure figcaption{padding:19px 20px 22px}.manufacturer-figure figcaption strong{font-size:17px}}
+@media(max-width:530px){.manufacturer-story-heading p{font-size:13px}.manufacturer-story-list{gap:18px}.manufacturer-figure figcaption{gap:12px}.manufacturer-figure figcaption p{font-size:12px}.image-expand{right:10px;bottom:10px;padding:7px 9px;font-size:10px}}
 .about-section{background:#f3f7fb;padding:90px 0}
 .about-grid{display:grid;grid-template-columns:32% 1fr;gap:75px;align-items:center}
 .about-kicker{font:800 clamp(32px,4vw,59px)/1.05 Manrope,sans-serif;letter-spacing:-.07em;color:#cbd5e1;max-width:250px;word-break:break-word}

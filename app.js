@@ -233,6 +233,7 @@ const products = [
 for (const product of products) {
   if (!productEditorial[product.id]) throw new Error(`Eksik ürün içeriği: ${product.id}`);
   Object.assign(product, productEditorial[product.id]);
+  product.manufacturerStories = manufacturerStories[product.id] || [];
 }
 
 const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
@@ -246,6 +247,7 @@ const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matc
 let routeRevision = 0;
 let galleryRevision = 0;
 let filterTimer;
+let revealObserver;
 
 function renderCards() {
   const shown = products.filter((product) => activeFilter === 'all' || product.category === activeFilter);
@@ -265,7 +267,9 @@ function renderCards() {
 }
 
 function renderDetail(product) {
+  revealObserver?.disconnect();
   const gallery = [product.image, ...product.gallery];
+  const specs = new Map([...product.specs, ...product.extraSpecs].map(([label, value]) => [label, value]));
   detail.innerHTML = `
     <button class="detail-back" type="button" id="detail-back"><span aria-hidden="true">←</span> Tüm ürünlere dön</button>
     <div class="detail-overview">
@@ -299,16 +303,39 @@ function renderDetail(product) {
       </div>
       <div class="spec-column">
         <h3>Teknik özellikler</h3>
-        <table class="spec-table"><tbody>${[...product.specs, ...product.extraSpecs].map(([label, value]) => `<tr><th scope="row">${escapeHtml(label)}</th><td>${escapeHtml(value)}</td></tr>`).join('')}</tbody></table>
+        <table class="spec-table"><tbody>${[...specs].map(([label, value]) => `<tr><th scope="row">${escapeHtml(label)}</th><td>${escapeHtml(value)}</td></tr>`).join('')}</tbody></table>
         <div class="selection-note"><strong>Model seçimi için not</strong><p>${escapeHtml(product.note)}</p></div>
       </div>
     </div>
+    ${product.manufacturerStories.length ? `<section class="manufacturer-story" aria-labelledby="manufacturer-story-title">
+      <div class="manufacturer-story-heading">
+        <div><span class="eyebrow"><span class="eyebrow-line"></span> Üretici görselleri</span><h3 id="manufacturer-story-title">${escapeHtml(product.name)} nasıl çalışır?</h3><p>Slamtec'in ürün anlatımından seçilen şemalar ve uygulama örnekleri. Aileye ait görsellerde model farkları açıklamalarda belirtilir.</p></div>
+      </div>
+      <div class="manufacturer-story-list">${product.manufacturerStories.map((story, index) => `<figure class="manufacturer-figure ${story.compact ? 'is-compact' : ''}">
+        <button class="manufacturer-image" type="button" data-story-image="${escapeHtml(story.file)}" data-story-alt="${escapeHtml(story.title)}" aria-label="${escapeHtml(story.title)} görselini büyüt"><img src="assets/images/official/${escapeHtml(story.file)}" alt="${escapeHtml(story.title)}" loading="lazy" decoding="async"><span class="image-expand" aria-hidden="true">Büyüt ↗</span></button>
+        <figcaption><span class="figure-index">${String(index + 1).padStart(2, '0')}</span><div><strong>${escapeHtml(story.title)}</strong><p>${escapeHtml(story.caption)}</p><a href="${escapeHtml(story.source)}" target="_blank" rel="noopener noreferrer">Slamtec kaynağı ↗</a></div></figcaption>
+      </figure>`).join('')}</div>
+    </section>` : ''}
     <div class="docs-panel" id="belgeler">
       <div><span class="eyebrow"><span class="eyebrow-line"></span> Slamtec Support</span><h3>Teknik belgeler</h3></div>
       <div class="docs-list">${product.docs.map((document) => `<a class="doc-link" href="${escapeHtml(document.url)}" ${document.local ? 'download' : 'target="_blank" rel="noopener noreferrer"'}><span>${escapeHtml(document.name)}</span><span aria-hidden="true">${document.local ? '↓' : '↗'}</span></a>`).join('')}</div>
       <p class="docs-note">${product.docs.some((document) => !document.local) ? 'Yerel PDF doğrudan indirilir; üretici bağlantısı Slamtec Support sayfasını açar.' : 'Belgeler doğrudan PDF olarak indirilir. Güncel sürümler Slamtec Support sayfasındadır.'}</p>
     </div>
-    <div class="source-links"><span>Bilgi kaynakları</span><a href="${escapeHtml(product.url)}" target="_blank" rel="noopener noreferrer">RobotSepeti ürün sayfası ↗</a><a href="${escapeHtml(product.official)}" target="_blank" rel="noopener noreferrer">Slamtec teknik sayfası ↗</a></div>`;
+    <div class="source-links"><span>Bilgi kaynakları</span><a href="${escapeHtml(product.url)}" target="_blank" rel="noopener noreferrer">RobotSepeti ürün sayfası ↗</a><a href="${escapeHtml(product.official)}" target="_blank" rel="noopener noreferrer">Slamtec teknik sayfası ↗</a></div>
+    <dialog class="image-dialog" id="image-dialog" aria-label="Üretici görseli"><button class="image-dialog-close" type="button" data-close-story aria-label="Görseli kapat">✕</button><img alt=""></dialog>`;
+  if (!reducedMotion && 'IntersectionObserver' in window) {
+    revealObserver = new IntersectionObserver((entries, observer) => {
+      for (const entry of entries) {
+        if (!entry.isIntersecting) continue;
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    }, { threshold: 0.08, rootMargin: '0px 0px 35px 0px' });
+    detail.querySelectorAll('.manufacturer-story-heading, .manufacturer-figure').forEach((element) => {
+      element.classList.add('will-reveal');
+      revealObserver.observe(element);
+    });
+  }
 }
 
 function showCatalog() {
@@ -354,6 +381,16 @@ renderCards();
 route();
 window.addEventListener('hashchange', () => route({ scroll: true, focus: true }));
 detail.addEventListener('click', (event) => {
+  const storyImage = event.target.closest('[data-story-image]');
+  if (storyImage) {
+    const dialog = detail.querySelector('#image-dialog');
+    dialog.querySelector('img').src = `assets/images/official/${storyImage.dataset.storyImage}`;
+    dialog.querySelector('img').alt = storyImage.dataset.storyAlt;
+    dialog.showModal();
+    dialog.querySelector('[data-close-story]').focus();
+  }
+  if (event.target.closest('[data-close-story]')) detail.querySelector('#image-dialog')?.close();
+  if (event.target.id === 'image-dialog') event.target.close();
   if (event.target.closest('#detail-back')) location.hash = 'urunler';
   if (event.target.closest('[data-scroll-docs]')) detail.querySelector('#belgeler')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   const thumb = event.target.closest('[data-gallery-image]');
