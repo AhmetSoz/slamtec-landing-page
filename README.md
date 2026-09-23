@@ -12,4 +12,6 @@ Ardından `http://127.0.0.1:4173/` adresini açın. Ürün kartı seçildiğinde
 
 Statik yayın paketini oluşturmak için `node scripts/build.js` komutunu çalıştırın. Çıktı `dist/` klasörüne yazılır.
 
-Ürün görselleri RobotSepeti'nden, tanıtım görselleri ve belgeler Slamtec kaynaklarından alınmıştır. SLAMKit kullanım kılavuzu üreticinin Support sayfasına bağlanır. Diğer belgeler `assets/docs/` altında yerel PDF dosyalarıdır.
+16 ürünün kartı ve üçer görsellik galerisi RobotSepeti ürün sayfalarındaki görselleri kullanır. Açıklamalar RobotSepeti ürün sayfaları ile Slamtec teknik tablolarına göre düzenlenmiştir; her detayda kaynak bağlantıları bulunur. 29 farklı teknik PDF `assets/docs/` altında yerel olarak sunulur. SLAMKit kullanım kılavuzu Slamtec Support sayfasına bağlanır.
+
+`scripts/gallery-sources.json` görsellerin kaynak URL'lerini kaydeder. `scripts/collect-gallery.ps1` ve `scripts/download-gallery.ps1` bu kaynakları güncellemek için kullanılır.

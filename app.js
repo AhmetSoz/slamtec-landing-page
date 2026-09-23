@@ -8,7 +8,7 @@ const products = [
     id: 'aurora-s', name: 'Aurora S', fullName: 'SLAMTEC Aurora S Deep Learning vSLAM Kompakt Haritalama ve Algılama Sensörü',
     family: '3D Haritalama', category: 'mapping', image: 'aurora-s.jpg',
     url: 'https://www.robotsepeti.com/slamtec-aurora-s-deep-learning-vslam-lidar-kompakt-haritalama-ve-algilama-sensoru',
-    summary: 'Görsel algılama, IMU ve AI-VSLAM teknolojisini kompakt bir gövdede birleştiren yeni nesil uzamsal algılama sistemi.',
+    summary: 'Stereo kameralar ve IMU ile 3D harita, derinlik ve 6DoF poz üreten gömülü AI-VSLAM sensörü; LiDAR füzyonu opsiyonel.',
     paragraphs: [
       'Aurora S, Slamtec’in görsel algılama, ataletsel ölçüm birimi (IMU) ve derin öğrenme tabanlı vSLAM teknolojisini bir araya getiren kompakt sensörüdür. İç ve dış mekânda 3D haritalama, çevre algılama ve altı serbestlik dereceli konumlandırma için tasarlanmıştır.',
       'Çift balık gözü kamera, yerleşik işlem birimi ve isteğe bağlı LiDAR füzyonu sayesinde gerçek zamanlı nokta bulutu, derinlik haritası ve nesne segmentasyonu çıktıları sağlar. Gömülü zekâ, dijital ikiz, endüstriyel otomasyon ve düşük hızlı otonom sürüş projelerinde değerlendirilebilir.'
@@ -22,7 +22,7 @@ const products = [
     id: 'aurora', name: 'Aurora', fullName: 'Slamtec AURORA All in One Yerelleştirme ve 3D Haritalama Multi Source Lidar Sensör',
     family: '3D Haritalama', category: 'mapping', image: 'aurora.webp',
     url: 'https://www.robotsepeti.com/slamtec-aurora-all-in-one-yerellestirme-ve-haritalama-multi-source-lidar-sensor',
-    summary: 'LiDAR, binoküler görüş ve IMU verilerini birleştirerek iç ve dış mekânda 3D haritalama ve konumlandırma sunar.',
+    summary: 'Yerleşik LiDAR, binoküler kamera ve IMU verilerini birleştirerek 3D harita ve 6DoF konum üretir.',
     paragraphs: [
       'Aurora; LiDAR, görüntü, IMU ve öğrenme tabanlı algoritmaları tek bir gövdede birleştiren yerelleştirme ve haritalama sensörüdür. Harici sensöre bağımlı kalmadan üç boyutlu ortam haritaları ve 6DoF konum verisi üretebilir.',
       'RobotSepeti ürün açıklamasında Robostudio arayüzü ve SDK araçlarının geliştirme sürecine sağladığı destek öne çıkıyor. GPS/RTK ve odometri gibi ek kaynaklarla genişletilebilen çoklu veri füzyonu, mobil robot ve araştırma uygulamalarına uyum sağlar.'
@@ -36,7 +36,7 @@ const products = [
     id: 'lpx-t1', name: 'LPX-T1', fullName: 'Slamtec RPLIDAR LPX-T1 (LPX-T1M4) 2D TOF 270° Lidar Lazer Tarayıcı',
     family: 'Endüstriyel LiDAR', category: 'industrial', image: 'lpx-t1.webp',
     url: 'https://www.robotsepeti.com/slamtec-rplidar-lpx-t1-t1m4-2d-tof-270-lidar-lazer-tarayici',
-    summary: 'AGV ve servis robotları için 270° görüş, 40 m menzil ve yüksek örnekleme hızlı 2D ToF tarayıcı.',
+    summary: 'AGV ve servis robotları için 270° tarama, 40 m azami menzil ve 60 kHz ölçüm; Ethernet bağlantılı.',
     paragraphs: [
       'LPX-T1, orta ve uzun menzilli çevre algılaması için geliştirilmiş 270° 2D ToF lazer tarayıcıdır. RobotSepeti açıklamasına göre 40 metreye kadar tarama ve yüksek örnekleme frekansıyla gerçek zamanlı nokta bulutu üretir.',
       '20–40 Hz tarama aralığı, 0,12° açısal çözünürlük ve güçlü ortam ışığına dayanım; otomatik güdümlü araçların, servis robotlarının ve hafif otonom sistemlerin konumlandırma ve navigasyon işlerinde kullanılmasını sağlar.'
@@ -50,7 +50,7 @@ const products = [
     id: 'slamkit', name: 'SLAMKit', fullName: 'SLAMKit Mobil Robotlar için SLAM Kiti (Lisans Kartı + Lisanslı Yazılım)',
     family: 'Haritalama & SLAM', category: 'mapping', image: 'slamkit.jpg',
     url: 'https://www.robotsepeti.com/slamkit-mobil-robotlar-icin-slam-kiti',
-    summary: 'Mobil robotlara haritalama ve gerçek zamanlı konumlandırma yeteneği kazandıran lisans modülü ve yazılım çözümü.',
+    summary: 'Robot kontrolcüsüne haritalama ve konumlandırma ekleyen lisans kartı ve yazılım; LiDAR ayrı seçilir.',
     paragraphs: [
       'SLAMKit, farklı mobil robot platformlarının harita oluşturması ve gerçek zamanlı konumunu belirlemesi için geliştirilen bir yazılım lisanslama çözümüdür. Robot kontrol kartına gömülü çalışır ve geniş alanların yüksek çözünürlüklü haritalanmasını destekler.',
       'RobotSepeti’nde sunulan pakette lisans modülü ile lisanslı Slamware yazılımı bulunur. RPLIDAR ayrı satın alınır. RoboStudio ve SDK araçları, otonom yerelleştirme ve navigasyon geliştirme sürecini hızlandırır.'
@@ -64,13 +64,13 @@ const products = [
     id: 'lpx-e3', name: 'LPX-E3P1', fullName: 'Slamtec LPX-E3P1 360° 2D Endüstriyel Alan İzleme Lidarı',
     family: 'Endüstriyel LiDAR', category: 'industrial', image: 'lpx-e3.jpg',
     url: 'https://www.robotsepeti.com/slamtec-lpx-e3p1-360-endustriyel-alan-izleme-lidari',
-    summary: 'Yapılandırılabilir alan setleriyle endüstriyel bölgeleri eş zamanlı izleyen 360° alan monitörü.',
+    summary: '360° alan izleme için 64 yapılandırılabilir set ve IO çıkışı; E3P1 nokta bulutu üretmez.',
     paragraphs: [
       'LPX-E3P1, endüstriyel alan izleme için tasarlanmış 360° 2D LiDAR çözümüdür. RobotSepeti açıklamasında 64 yapılandırılabilir alan seti ve her sette eş zamanlı izlenebilen üç alan öne çıkıyor.',
-      '20 Hz tarama ve 0,225° açısal çözünürlük; robot engel algılama, montaj hattı parça sayımı ve geçiş denetimi gibi uygulamalarda kullanılır. İzleme bölgelerinin uygulamaya göre tanımlanabilmesi, üretim ortamlarına uyumu artırır.'
+      '20 Hz tarama ve 0,225° açısal çözünürlük; montaj hattı parça sayımı, alan ihlali ve geçiş denetimi gibi uygulamalarda kullanılır. Bölgeler yapılandırma yazılımında tanımlanır ve ihlal bilgisi IO çıkışından alınır.'
     ],
-    features: ['64 yapılandırılabilir alan seti', 'Aynı anda üç bölge izleme', 'Endüstriyel otomasyon uygulamaları'],
-    specs: [['Menzil', '4–25 m'], ['Tarama açısı', '360°'], ['Örnekleme', '32.000 örnek/sn'], ['Tarama frekansı', '20 Hz'], ['Açısal çözünürlük', '0,225°']],
+    features: ['64 yapılandırılabilir alan seti', 'Aynı anda üç bölge izleme', 'PLC bağlantısı için IO çıkışı'],
+    specs: [['İzleme menzili', '0,05–25 m (%70 yansıtıcılık)'], ['Tarama açısı', '360°'], ['Tarama frekansı', '20 Hz'], ['Açısal çözünürlük', '0,225°'], ['Çıkış', 'IO; nokta bulutu yok']],
     chips: ['25 m', '360°', '64 alan'],
     docs: [pdf('LPX-E3 teknik föyü', 'e3-datasheet.pdf'), pdf('Alan izleme kılavuzu', 'e3-manual.pdf')]
   },
@@ -112,7 +112,7 @@ const products = [
       'Slamtec’in S1 serisi özellikle uzak, açık ya da koyu renkli nesneleri ve doğrudan gün ışığı altındaki çevreyi algılamak üzere geliştirilmiştir. Koruyucu gövdesi sayesinde endüstriyel ve dış ortam projelerine uygundur.'
     ],
     features: ['40 m uzun menzil', 'Dış ortamda gün ışığına dayanım', 'ROS ve SDK ile entegrasyon'],
-    specs: [['Menzil', '40 m’ye kadar'], ['Tarama açısı', '360°'], ['Örnekleme', '9.200 örnek/sn'], ['Tarama frekansı', '5–15 Hz'], ['Açısal çözünürlük', '0,391°']],
+    specs: [['Menzil', '40 m’ye kadar'], ['Tarama açısı', '360°'], ['Örnekleme', '9.200 örnek/sn'], ['Tarama frekansı', '8–15 Hz'], ['Açısal çözünürlük', '0,391° (10 Hz)']],
     chips: ['40 m', '9.2K', 'ToF'],
     docs: [pdf('S1 teknik föyü', 's1-datasheet.pdf'), pdf('S1 kullanım kılavuzu', 's1-manual.pdf')]
   },
@@ -126,7 +126,7 @@ const products = [
       'RobotSepeti ürün açıklamasında iç ve dış mekân için iki çalışma modu, güneş ışığına karşı dayanım ve ROS ile SLAMWARE desteği vurgulanır. Siyah ve beyaz yüzeyler arasında değişen ortamlarda mobil robot navigasyonu için değerlendirilebilir.'
     ],
     features: ['İç ve dış mekân çalışma modları', 'ROS ve SLAMWARE desteği', '16 kHz örnekleme'],
-    specs: [['Menzil', '0,15–25 m'], ['Tarama açısı', '360°'], ['Örnekleme', '16.000 örnek/sn'], ['Tarama frekansı', '5–20 Hz'], ['Açısal çözünürlük', '0,225°']],
+    specs: [['Menzil', '0,2–25 m (gelişmiş mod)'], ['Tarama açısı', '360°'], ['Örnekleme', '16.000/sn (gelişmiş); 10.000/sn (dış ortam)'], ['Tarama frekansı', '5–15 Hz'], ['Açısal çözünürlük', '0,225°']],
     chips: ['25 m', '16K', '360°'],
     docs: [pdf('A3M1 teknik föyü', 'a3-datasheet.pdf'), pdf('A3M1 geliştirme kiti kılavuzu', 'a3-manual.pdf')]
   },
@@ -151,10 +151,10 @@ const products = [
     summary: 'Haritalama, lokalizasyon ve eğitim projeleri için ekonomik 360° LiDAR.',
     paragraphs: [
       'A1M8-R6, 12 metrelik menzil içinde 360° tarama yapabilen giriş seviyesi LiDAR sensörüdür. Ürettiği 2D nokta bulutu, robot navigasyonu, haritalama, nesne ve ortam modelleme uygulamalarında kullanılır.',
-      'RobotSepeti ürün açıklamasına göre tarama frekansı motor kontrolüyle ayarlanabilir; veri seri bağlantı ya da USB arabirimi üzerinden alınır. ROS desteği, prototipleme ve eğitim projelerini kolaylaştırır.'
+      'RobotSepeti ürün açıklamasına göre tarama frekansı motor kontrolüyle ayarlanabilir. Sensörün veri çıkışı UART’tır; USB bağlantısı, varsa paketteki dönüştürücü aracılığıyla sağlanır. ROS desteği prototipleme ve eğitim projelerini kolaylaştırır.'
     ],
-    features: ['Ekonomik 360° tarama', 'Seri bağlantı ve USB veri erişimi', 'ROS desteği'],
-    specs: [['Menzil', '0,15–12 m'], ['Tarama açısı', '360°'], ['Örnekleme', '8.000 örnek/sn'], ['Tarama frekansı', '2–10 Hz'], ['Ölçüm yöntemi', 'Lazer üçgenleme']],
+    features: ['Giriş seviyesi 360° tarama', 'UART veri çıkışı', 'ROS desteği'],
+    specs: [['Menzil', '0,15–12 m'], ['Tarama açısı', '360°'], ['Örnekleme', '8.000 örnek/sn'], ['Tarama frekansı', '5,5–10 Hz'], ['Ölçüm yöntemi', 'Lazer üçgenleme']],
     chips: ['12 m', '8K', '360°'],
     docs: [pdf('A1M8 teknik föyü', 'a1-datasheet.pdf'), pdf('A1M8 geliştirme kiti kılavuzu', 'a1-manual.pdf')]
   },
@@ -162,7 +162,7 @@ const products = [
     id: 's3', name: 'RPLIDAR S3', fullName: 'Slamtec RPLIDAR S3 360° DTOF 2D Lidar Sensör',
     family: 'RPLIDAR S Serisi', category: 'lidar', image: 's3.jpg',
     url: 'https://www.robotsepeti.com/slamtec-rplidar-s3-360-dtof-2d-lidar-sensor',
-    summary: 'Kompakt gövdede 40 m menzil ve 32 kHz örnekleme sunan yeni nesil 2D dToF LiDAR.',
+    summary: 'Kompakt gövdede 40 m azami menzil, 32 kHz örnekleme ve 10–20 Hz dönüş sunan 2D ToF LiDAR.',
     paragraphs: [
       'RPLIDAR S3, kompakt boyutlu ve yüksek performanslı bir 360° 2D dToF lazer tarayıcıdır. 40 metre menzilinde nokta bulutu üreterek AMR, drone ve eğitim robotlarının haritalama, lokalizasyon ve navigasyon görevlerini destekler.',
       '32 kHz örnekleme hızı ve 0,1125° açısal çözünürlük, ayrıntılı çevre verisi sağlar. RobotSepeti açıklamasında uzun mesafeli nesne algısı ve ortam ışığına karşı istikrarlı çalışma özellikleri öne çıkar.'
@@ -224,11 +224,16 @@ const products = [
       'RobotSepeti açıklamasında 8 kHz örnekleme, ayarlanabilir 5–15 Hz tarama frekansı, Class 1 lazer güvenliği ve ince mekanik tasarım öne çıkar. Üretici A2M8 modelini satış dışı olarak işaretlese de ürün RobotSepeti arama sonuçlarında listelenmektedir; güncel stok ve tedarik bilgisi ürün sayfasından doğrulanmalıdır.'
     ],
     features: ['İnce gövdeli 360° tarama', 'OPTMAG teknolojisi', 'Class 1 lazer güvenliği'],
-    specs: [['Menzil', '0,15–12 m'], ['Tarama açısı', '360°'], ['Örnekleme', '8.000 örnek/sn'], ['Tarama frekansı', '5–15 Hz'], ['Açısal çözünürlük', '0,45°']],
+    specs: [['Menzil', '0,2–12 m'], ['Tarama açısı', '360°'], ['Örnekleme', '8.000 örnek/sn'], ['Tarama frekansı', '5–15 Hz'], ['Açısal çözünürlük', '0,45°']],
     chips: ['12 m', '8K', '360°'],
     docs: [pdf('A2M8 teknik föyü', 'a2m8-datasheet.pdf'), pdf('A2 serisi geliştirme kiti kılavuzu', 'a2-series-manual.pdf')]
   }
 ];
+
+for (const product of products) {
+  if (!productEditorial[product.id]) throw new Error(`Eksik ürün içeriği: ${product.id}`);
+  Object.assign(product, productEditorial[product.id]);
+}
 
 const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
 const grid = document.getElementById('product-grid');
@@ -237,27 +242,39 @@ const detail = document.getElementById('product-detail');
 const intro = document.getElementById('product-intro');
 const productsSection = document.getElementById('urunler');
 let activeFilter = 'all';
+const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+let routeRevision = 0;
+let galleryRevision = 0;
+let filterTimer;
 
 function renderCards() {
   const shown = products.filter((product) => activeFilter === 'all' || product.category === activeFilter);
   grid.innerHTML = shown.map((product) => `
     <article class="product-card">
-      <div class="card-image"><img src="assets/images/${escapeHtml(product.image)}" alt="${escapeHtml(product.name)} ürün görseli" loading="lazy"></div>
-      <div class="card-body">
-        <span class="card-family">${escapeHtml(product.family)}</span>
-        <h3 class="card-title">${escapeHtml(product.name)}</h3>
-        <p class="card-summary">${escapeHtml(product.summary)}</p>
-        <div class="card-specs">${product.chips.map((chip) => `<span>${escapeHtml(chip)}</span>`).join('')}</div>
-      </div>
-      <button class="card-open" type="button" data-product="${escapeHtml(product.id)}" aria-label="${escapeHtml(product.name)} ürün detayını aç">Ürünü incele <span aria-hidden="true">↗</span></button>
+      <a class="card-hit" href="#urun=${escapeHtml(product.id)}" aria-label="${escapeHtml(product.name)} ürün detayını aç">
+        <div class="card-image"><img src="assets/images/${escapeHtml(product.image)}" alt="${escapeHtml(product.name)} ürün görseli" loading="lazy"></div>
+        <div class="card-body">
+          <span class="card-family">${escapeHtml(product.family)}</span>
+          <h3 class="card-title">${escapeHtml(product.name)}</h3>
+          <p class="card-summary">${escapeHtml(product.summary)}</p>
+          <div class="card-specs">${product.chips.map((chip) => `<span>${escapeHtml(chip)}</span>`).join('')}</div>
+        </div>
+        <span class="card-open">Teknik detayları gör <span aria-hidden="true">↗</span></span>
+      </a>
     </article>`).join('');
 }
 
 function renderDetail(product) {
+  const gallery = [product.image, ...product.gallery];
   detail.innerHTML = `
     <button class="detail-back" type="button" id="detail-back"><span aria-hidden="true">←</span> Tüm ürünlere dön</button>
     <div class="detail-overview">
-      <div class="detail-image"><img src="assets/images/${escapeHtml(product.image)}" alt="${escapeHtml(product.name)} ürün görseli"></div>
+      <div class="detail-media">
+        <div class="detail-image"><img id="detail-main-image" src="assets/images/${escapeHtml(product.image)}" alt="${escapeHtml(product.name)} ürün görseli 1"></div>
+        <div class="gallery-thumbs" role="group" aria-label="${escapeHtml(product.name)} ürün görselleri">
+          ${gallery.map((photo, index) => `<button class="gallery-thumb ${index === 0 ? 'is-active' : ''}" type="button" data-gallery-image="${escapeHtml(photo)}" data-gallery-index="${index + 1}" aria-label="${escapeHtml(product.name)} görsel ${index + 1}" aria-pressed="${index === 0}"><img src="assets/images/${escapeHtml(photo)}" alt="" loading="lazy"></button>`).join('')}
+        </div>
+      </div>
       <div class="detail-intro">
         <span class="eyebrow"><span class="eyebrow-line"></span> ${escapeHtml(product.family)}</span>
         <h2 id="detail-heading">${escapeHtml(product.name)}</h2>
@@ -268,61 +285,97 @@ function renderDetail(product) {
           <a class="primary-button" href="${escapeHtml(product.url)}" target="_blank" rel="noopener noreferrer">RobotSepeti'nde incele <span aria-hidden="true">↗</span></a>
           <button class="outline-button" type="button" data-scroll-docs>Teknik belgeler ↓</button>
         </div>
+        <a class="manufacturer-link" href="${escapeHtml(product.official)}" target="_blank" rel="noopener noreferrer">Slamtec teknik sayfası <span aria-hidden="true">↗</span></a>
       </div>
     </div>
     <div class="detail-content">
       <div class="detail-copy">
-        <h3>Ürün hakkında</h3>
-        ${product.paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}
+        <h3>Modelin çalışma biçimi ve kullanım amacı</h3>
+        ${[...product.paragraphs, ...product.detail].map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}
+        <h3 class="subsection-title">Uygun kullanım alanları</h3>
+        <ul class="application-list">${product.scenarios.map((scenario) => `<li>${escapeHtml(scenario)}</li>`).join('')}</ul>
+        <h3 class="subsection-title">Öne çıkan işlevler</h3>
         <ul class="feature-list">${product.features.map((feature) => `<li>${escapeHtml(feature)}</li>`).join('')}</ul>
       </div>
-      <div>
+      <div class="spec-column">
         <h3>Teknik özellikler</h3>
-        <table class="spec-table"><tbody>${product.specs.map(([label, value]) => `<tr><th scope="row">${escapeHtml(label)}</th><td>${escapeHtml(value)}</td></tr>`).join('')}</tbody></table>
+        <table class="spec-table"><tbody>${[...product.specs, ...product.extraSpecs].map(([label, value]) => `<tr><th scope="row">${escapeHtml(label)}</th><td>${escapeHtml(value)}</td></tr>`).join('')}</tbody></table>
+        <div class="selection-note"><strong>Model seçimi için not</strong><p>${escapeHtml(product.note)}</p></div>
       </div>
     </div>
     <div class="docs-panel" id="belgeler">
       <div><span class="eyebrow"><span class="eyebrow-line"></span> Slamtec Support</span><h3>Teknik belgeler</h3></div>
       <div class="docs-list">${product.docs.map((document) => `<a class="doc-link" href="${escapeHtml(document.url)}" ${document.local ? 'download' : 'target="_blank" rel="noopener noreferrer"'}><span>${escapeHtml(document.name)}</span><span aria-hidden="true">${document.local ? '↓' : '↗'}</span></a>`).join('')}</div>
-      <p class="docs-note">${product.docs.some((document) => !document.local) ? 'PDF belgeler yerel indirilir; üretici bağlantısı Slamtec destek sayfasını açar.' : 'Belgeler PDF formatında indirilir. Güncel sürümler için Slamtec Support sayfasını kontrol edin.'}</p>
-    </div>`;
-  detail.hidden = false;
-  catalog.hidden = true;
-  intro.hidden = true;
+      <p class="docs-note">${product.docs.some((document) => !document.local) ? 'Yerel PDF doğrudan indirilir; üretici bağlantısı Slamtec Support sayfasını açar.' : 'Belgeler doğrudan PDF olarak indirilir. Güncel sürümler Slamtec Support sayfasındadır.'}</p>
+    </div>
+    <div class="source-links"><span>Bilgi kaynakları</span><a href="${escapeHtml(product.url)}" target="_blank" rel="noopener noreferrer">RobotSepeti ürün sayfası ↗</a><a href="${escapeHtml(product.official)}" target="_blank" rel="noopener noreferrer">Slamtec teknik sayfası ↗</a></div>`;
 }
 
 function showCatalog() {
-  detail.hidden = true;
   detail.innerHTML = '';
+  detail.hidden = true;
   catalog.hidden = false;
   intro.hidden = false;
 }
 
 function route({ scroll = false, focus = false } = {}) {
+  const revision = ++routeRevision;
   const match = location.hash.match(/^#urun=([a-z0-9-]+)$/);
   const product = match && products.find((item) => item.id === match[1]);
-  if (product) {
-    renderDetail(product);
-    if (scroll) productsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    if (focus) detail.querySelector('#detail-back')?.focus({ preventScroll: true });
+  const changingView = Boolean(product) !== !detail.hidden;
+  const update = () => {
+    if (revision !== routeRevision) return;
+    if (product) {
+      renderDetail(product);
+      detail.hidden = false;
+      catalog.hidden = true;
+      intro.hidden = true;
+    } else showCatalog();
+  };
+  const finish = () => {
+    if (revision !== routeRevision) return;
+    if (scroll && (product || location.hash === '#urunler')) productsSection.scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth', block: 'start' });
+    if (focus && product) detail.querySelector('#detail-back')?.focus({ preventScroll: true });
+    if (focus && !product && location.hash === '#urunler') {
+      const heading = document.getElementById('products-heading');
+      heading?.setAttribute('tabindex', '-1');
+      heading?.focus({ preventScroll: true });
+    }
+  };
+  if (scroll && changingView && !reducedMotion && document.startViewTransition) {
+    document.startViewTransition(update).finished.then(finish).catch(finish);
   } else {
-    showCatalog();
-    if (scroll && location.hash === '#urunler') productsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    if (focus && location.hash === '#urunler') document.getElementById('products-heading')?.setAttribute('tabindex', '-1');
-    if (focus && location.hash === '#urunler') document.getElementById('products-heading')?.focus({ preventScroll: true });
+    update();
+    finish();
   }
 }
 
 renderCards();
 route();
 window.addEventListener('hashchange', () => route({ scroll: true, focus: true }));
-grid.addEventListener('click', (event) => {
-  const button = event.target.closest('[data-product]');
-  if (button) location.hash = `urun=${button.dataset.product}`;
-});
 detail.addEventListener('click', (event) => {
   if (event.target.closest('#detail-back')) location.hash = 'urunler';
   if (event.target.closest('[data-scroll-docs]')) detail.querySelector('#belgeler')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  const thumb = event.target.closest('[data-gallery-image]');
+  if (thumb) {
+    const mainImage = detail.querySelector('#detail-main-image');
+    const revision = ++galleryRevision;
+    const updateImage = () => {
+      if (revision !== galleryRevision) return;
+      mainImage.src = `assets/images/${thumb.dataset.galleryImage}`;
+      mainImage.alt = `${detail.querySelector('#detail-heading').textContent} ürün görseli ${thumb.dataset.galleryIndex}`;
+      detail.querySelectorAll('.gallery-thumb').forEach((item) => {
+        const active = item === thumb;
+        item.classList.toggle('is-active', active);
+        item.setAttribute('aria-pressed', String(active));
+      });
+    };
+    if (reducedMotion) updateImage();
+    else mainImage.animate([{ opacity: 1, transform: 'scale(1)' }, { opacity: 0, transform: 'scale(.985)' }], { duration: 130, easing: 'ease-in' }).finished.then(() => {
+      updateImage();
+      mainImage.animate([{ opacity: 0, transform: 'scale(1.015)' }, { opacity: 1, transform: 'scale(1)' }], { duration: 220, easing: 'ease-out' });
+    }).catch(() => {});
+  }
 });
 document.querySelectorAll('.filter').forEach((button) => button.addEventListener('click', () => {
   activeFilter = button.dataset.filter;
@@ -331,7 +384,12 @@ document.querySelectorAll('.filter').forEach((button) => button.addEventListener
     item.classList.toggle('is-active', selected);
     item.setAttribute('aria-pressed', String(selected));
   });
-  renderCards();
+  if (!reducedMotion) grid.classList.add('is-filtering');
+  window.clearTimeout(filterTimer);
+  filterTimer = window.setTimeout(() => {
+    renderCards();
+    grid.classList.remove('is-filtering');
+  }, reducedMotion ? 0 : 150);
 }));
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape' && !detail.hidden) location.hash = 'urunler';
@@ -339,13 +397,13 @@ document.addEventListener('keydown', (event) => {
 
 const slides = [...document.querySelectorAll('.hero-slide')];
 let currentSlide = 0;
-const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 function setSlide(index) {
   currentSlide = (index + slides.length) % slides.length;
   slides.forEach((slide, slideIndex) => {
     const active = slideIndex === currentSlide;
     slide.classList.toggle('is-active', active);
     slide.setAttribute('aria-hidden', String(!active));
+    slide.inert = !active;
   });
   document.getElementById('hero-index').textContent = `${String(currentSlide + 1).padStart(2, '0')} / ${String(slides.length).padStart(2, '0')}`;
 }

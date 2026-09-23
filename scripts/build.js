@@ -9,7 +9,7 @@ if (output !== path.join(root, 'dist') || !output.startsWith(root + path.sep)) {
 
 fs.rmSync(output, { recursive: true, force: true });
 fs.mkdirSync(output, { recursive: true });
-for (const name of ['index.html', 'styles.css', 'app.js']) {
+for (const name of ['index.html', 'styles.css', 'product-editorial.js', 'app.js']) {
   fs.copyFileSync(path.join(root, name), path.join(output, name));
 }
 fs.cpSync(path.join(root, 'assets'), path.join(output, 'assets'), { recursive: true });

@@ -8,6 +8,7 @@
   <title>Slamtec LiDAR ve SLAM Ürünleri | RobotSepeti</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="styles.css">
+  <script src="product-editorial.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -33,47 +34,56 @@
     <section class="hero" aria-label="Öne çıkan Slamtec ürünleri">
       <div class="hero-stage" id="hero-stage">
         <div class="hero-slide is-active" data-slide="0" aria-hidden="false">
-          <img src="assets/images/hero-aurora.webp" alt="Slamtec Aurora haritalama sensörü" fetchpriority="high">
+          <div class="container hero-slide-inner">
+            <div class="hero-slide-copy"><span class="hero-slide-kicker">3D haritalama sensörü</span><strong class="hero-slide-title">Aurora S</strong><p>Stereo görüş ve IMU ile 3D harita, derinlik ve 6DoF konum bilgisi. LiDAR füzyonu isteğe bağlıdır.</p><a href="#urun=aurora-s">Ürünü incele <span aria-hidden="true">↗</span></a></div>
+            <img src="assets/images/aurora-s.jpg" alt="Slamtec Aurora S sensörü" fetchpriority="high">
+          </div>
         </div>
-        <div class="hero-slide" data-slide="1" aria-hidden="true">
-          <img src="assets/images/hero-e3.webp" alt="Slamtec LPX-E3 endüstriyel alan izleme lidarı" loading="lazy">
+        <div class="hero-slide" data-slide="1" aria-hidden="true" inert>
+          <div class="container hero-slide-inner">
+            <div class="hero-slide-copy"><span class="hero-slide-kicker">Endüstriyel alan izleme</span><strong class="hero-slide-title">LPX-E3P1</strong><p>360° tarama, 64 yapılandırılabilir alan seti ve ihlal durumları için IO çıkışı.</p><a href="#urun=lpx-e3">Ürünü incele <span aria-hidden="true">↗</span></a></div>
+            <img src="assets/images/lpx-e3.jpg" alt="Slamtec LPX-E3P1 alan izleme sensörü" loading="lazy">
+          </div>
         </div>
-        <div class="hero-slide" data-slide="2" aria-hidden="true">
-          <img src="assets/images/hero-slamkit.webp" alt="Slamtec SLAMKit haritalama ve lokalizasyon çözümü" loading="lazy">
+        <div class="hero-slide" data-slide="2" aria-hidden="true" inert>
+          <div class="container hero-slide-inner">
+            <div class="hero-slide-copy"><span class="hero-slide-kicker">Yerleşik SLAM</span><strong class="hero-slide-title">Mapper M2M3</strong><p>360° LiDAR verisini gömülü SLAM motoruyla işleyerek 2D harita ve konum bilgisi üretir.</p><a href="#urun=m2m3">Ürünü incele <span aria-hidden="true">↗</span></a></div>
+            <img src="assets/images/m2m3.jpg" alt="Slamtec Mapper M2M3 sensörü" loading="lazy">
+          </div>
         </div>
         <div class="hero-controls container">
           <span class="hero-index" id="hero-index">01 / 03</span>
           <div class="hero-arrows">
-            <button id="hero-prev" type="button" aria-label="Önceki görsel">←</button>
-            <button id="hero-next" type="button" aria-label="Sonraki görsel">→</button>
+            <button id="hero-prev" type="button" aria-label="Önceki ürün">←</button>
+            <button id="hero-next" type="button" aria-label="Sonraki ürün">→</button>
           </div>
         </div>
       </div>
       <div class="hero-caption container">
         <div>
           <span class="eyebrow"><span class="eyebrow-line"></span> RobotSepeti × Slamtec</span>
-          <h1>Çevreyi algılayan teknolojiler,<br><em>projenizle buluşuyor.</em></h1>
-          <p>RobotSepeti'nde satışa sunulan Slamtec LiDAR, haritalama ve SLAM çözümlerini tek bir yerde keşfedin.</p>
+          <h1>Slamtec LiDAR ve<br><em>haritalama ürünleri.</em></h1>
+          <p>RobotSepeti'nde listelenen 16 modeli menzil, tarama açısı, bağlantı ve kullanım alanına göre inceleyin. Her modelin teknik föyü ve kılavuzu ürün detayında.</p>
         </div>
-        <a class="primary-button" href="#urunler">Ürünleri incele <span aria-hidden="true">↗</span></a>
+        <a class="primary-button" href="#urunler">Modelleri incele <span aria-hidden="true">↗</span></a>
       </div>
     </section>
 
-    <section class="trust-strip" aria-label="Ürün aileleri">
+    <section class="trust-strip" aria-label="Katalog kapsamı">
       <div class="container trust-inner">
-        <div><strong>360°</strong><span>LiDAR tarama</span></div>
-        <div><strong>3D</strong><span>Haritalama ve algılama</span></div>
-        <div><strong>SLAM</strong><span>Yerelleştirme çözümleri</span></div>
-        <div><strong>PDF</strong><span>Teknik belgeler</span></div>
+        <div><strong>9</strong><span>RPLIDAR modeli</span></div>
+        <div><strong>5</strong><span>Haritalama ve SLAM ürünü</span></div>
+        <div><strong>2</strong><span>Endüstriyel LiDAR</span></div>
+        <div><strong>29</strong><span>Farklı teknik PDF</span></div>
       </div>
     </section>
 
     <section id="urunler" class="products-section container" aria-labelledby="products-heading">
       <div class="section-heading" id="product-intro">
         <div>
-          <span class="eyebrow"><span class="eyebrow-line"></span> Ürün koleksiyonu</span>
-          <h2 id="products-heading">Slamtec ürünlerini keşfedin<span class="heading-dot">.</span></h2>
-          <p>RobotSepeti'nde listelenen 16 model. İhtiyacınız olan teknolojiyi seçin; açıklama, teknik değerler ve belgeleri bir arada görün.</p>
+          <span class="eyebrow"><span class="eyebrow-line"></span> RobotSepeti ürünleri</span>
+          <h2 id="products-heading">Slamtec modelleri</h2>
+          <p>Modeli seçin; sensörün ne ürettiğini, teknik sınırlarını, bağlantı bilgilerini ve kullanım belgelerini aynı sayfada görün.</p>
         </div>
         <div class="product-count"><strong>16</strong><span>ürün</span></div>
       </div>
@@ -93,17 +103,19 @@
       <div class="container about-grid">
         <div class="about-kicker">SLAMTEC <span>×</span> ROBOTSEPETİ</div>
         <div>
-          <span class="eyebrow"><span class="eyebrow-line"></span> Marka ve çözüm</span>
-          <h2>Algılamadan otonom harekete.</h2>
-          <p>Slamtec; LiDAR tarayıcılar, haritalama sensörleri ve robotlar için yerelleştirme yazılımları geliştiriyor. RobotSepeti'ndeki seçili ürünler; eğitim ve Ar-Ge projelerinden mobil robotlara, depo ve endüstriyel alan uygulamalarına kadar farklı gereksinimlere hitap ediyor.</p>
-          <a href="https://www.slamtec.com/en" target="_blank" rel="noopener noreferrer">Slamtec'in sitesini ziyaret et <span aria-hidden="true">↗</span></a>
+          <span class="eyebrow"><span class="eyebrow-line"></span> Model seçimi</span>
+          <h2>Hangi ürün ailesi hangi veriyi sağlar?</h2>
+          <p><strong>RPLIDAR A ve S serileri</strong> çevrenin 2D mesafe ve nokta bulutu verisini sağlar. Haritalama ve navigasyon yazılımını kendi sisteminde çalıştıracak projeler için uygun başlangıç noktasıdır.</p>
+          <p><strong>Mapper, Aurora ve SLAMKit</strong> harita ve konum bilgisini de üretmeye yönelik çözümlerdir. Mapper 2D lazer tabanlı, Aurora görsel ve ataletsel verilerle 3D, SLAMKit ise robot kontrolcüsüne entegre edilen yazılım lisansıdır.</p>
+          <p><strong>LPX serisi</strong> endüstriyel gereksinimlere yöneliktir. LPX-T1 AGV navigasyonu için tarama verisi sunarken LPX-E3P1 önceden tanımlanan alanların ihlalini izler; bu iki model aynı işi yapmaz.</p>
+          <a href="https://www.slamtec.com/en" target="_blank" rel="noopener noreferrer">Slamtec ürün ailesini incele <span aria-hidden="true">↗</span></a>
         </div>
       </div>
     </section>
 
     <section id="iletisim" class="contact-section container">
       <div>
-        <span class="eyebrow"><span class="eyebrow-line"></span> Projeniz için</span>
+        <span class="eyebrow"><span class="eyebrow-line"></span> Ürün danışmanlığı</span>
         <h2>Hangi Slamtec ürünü size uygun?</h2>
         <p>Model seçimi, ürün uygunluğu veya kurumsal alım için RobotSepeti ekibine ulaşın.</p>
       </div>
