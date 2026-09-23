@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111a2b">
+  <meta name="description" content="RobotSepeti'nde satılan Slamtec LiDAR, haritalama ve SLAM ürünlerini karşılaştırın. Teknik özellikleri, ürün açıklamalarını ve belgeleri tek sayfada inceleyin.">
+  <title>Slamtec LiDAR ve SLAM Ürünleri | RobotSepeti</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#urunler">Ürünlere geç</a>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand-pair" href="#top" aria-label="RobotSepeti ve Slamtec ana sayfa">
+        <img class="robotsepeti-logo" src="assets/images/robotsepeti-logo.png" alt="RobotSepeti">
+        <span class="brand-divider" aria-hidden="true"></span>
+        <img class="slamtec-logo" src="assets/images/slamtec-logo.png" alt="Slamtec">
+      </a>
+      <nav class="main-nav" aria-label="Ana menü">
+        <a href="#urunler">Ürünler</a>
+        <a href="#hakkinda">Slamtec hakkında</a>
+        <a href="#iletisim">İletişim</a>
+      </nav>
+      <a class="header-cta" href="https://www.robotsepeti.com/arama?q=slamtec" target="_blank" rel="noopener noreferrer">RobotSepeti'ne git <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-label="Menüyü aç" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Öne çıkan Slamtec ürünleri">
+      <div class="hero-stage" id="hero-stage">
+        <div class="hero-slide is-active" data-slide="0" aria-hidden="false">
+          <img src="assets/images/hero-aurora.webp" alt="Slamtec Aurora haritalama sensörü" fetchpriority="high">
+        </div>
+        <div class="hero-slide" data-slide="1" aria-hidden="true">
+          <img src="assets/images/hero-e3.webp" alt="Slamtec LPX-E3 endüstriyel alan izleme lidarı" loading="lazy">
+        </div>
+        <div class="hero-slide" data-slide="2" aria-hidden="true">
+          <img src="assets/images/hero-slamkit.webp" alt="Slamtec SLAMKit haritalama ve lokalizasyon çözümü" loading="lazy">
+        </div>
+        <div class="hero-controls container">
+          <span class="hero-index" id="hero-index">01 / 03</span>
+          <div class="hero-arrows">
+            <button id="hero-prev" type="button" aria-label="Önceki görsel">←</button>
+            <button id="hero-next" type="button" aria-label="Sonraki görsel">→</button>
+          </div>
+        </div>
+      </div>
+      <div class="hero-caption container">
+        <div>
+          <span class="eyebrow"><span class="eyebrow-line"></span> RobotSepeti × Slamtec</span>
+          <h1>Çevreyi algılayan teknolojiler,<br><em>projenizle buluşuyor.</em></h1>
+          <p>RobotSepeti'nde satışa sunulan Slamtec LiDAR, haritalama ve SLAM çözümlerini tek bir yerde keşfedin.</p>
+        </div>
+        <a class="primary-button" href="#urunler">Ürünleri incele <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Ürün aileleri">
+      <div class="container trust-inner">
+        <div><strong>360°</strong><span>LiDAR tarama</span></div>
+        <div><strong>3D</strong><span>Haritalama ve algılama</span></div>
+        <div><strong>SLAM</strong><span>Yerelleştirme çözümleri</span></div>
+        <div><strong>PDF</strong><span>Teknik belgeler</span></div>
+      </div>
+    </section>
+
+    <section id="urunler" class="products-section container" aria-labelledby="products-heading">
+      <div class="section-heading" id="product-intro">
+        <div>
+          <span class="eyebrow"><span class="eyebrow-line"></span> Ürün koleksiyonu</span>
+          <h2 id="products-heading">Slamtec ürünlerini keşfedin<span class="heading-dot">.</span></h2>
+          <p>RobotSepeti'nde listelenen 16 model. İhtiyacınız olan teknolojiyi seçin; açıklama, teknik değerler ve belgeleri bir arada görün.</p>
+        </div>
+        <div class="product-count"><strong>16</strong><span>ürün</span></div>
+      </div>
+      <div id="catalog-view">
+        <div class="filter-row" role="group" aria-label="Ürün kategorisi">
+          <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">Tüm ürünler <span>16</span></button>
+          <button class="filter" type="button" data-filter="lidar" aria-pressed="false">RPLIDAR</button>
+          <button class="filter" type="button" data-filter="mapping" aria-pressed="false">Haritalama &amp; SLAM</button>
+          <button class="filter" type="button" data-filter="industrial" aria-pressed="false">Endüstriyel LiDAR</button>
+        </div>
+        <div id="product-grid" class="product-grid"></div>
+      </div>
+      <article id="product-detail" class="product-detail" hidden aria-live="polite"></article>
+    </section>
+
+    <section id="hakkinda" class="about-section">
+      <div class="container about-grid">
+        <div class="about-kicker">SLAMTEC <span>×</span> ROBOTSEPETİ</div>
+        <div>
+          <span class="eyebrow"><span class="eyebrow-line"></span> Marka ve çözüm</span>
+          <h2>Algılamadan otonom harekete.</h2>
+          <p>Slamtec; LiDAR tarayıcılar, haritalama sensörleri ve robotlar için yerelleştirme yazılımları geliştiriyor. RobotSepeti'ndeki seçili ürünler; eğitim ve Ar-Ge projelerinden mobil robotlara, depo ve endüstriyel alan uygulamalarına kadar farklı gereksinimlere hitap ediyor.</p>
+          <a href="https://www.slamtec.com/en" target="_blank" rel="noopener noreferrer">Slamtec'in sitesini ziyaret et <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="iletisim" class="contact-section container">
+      <div>
+        <span class="eyebrow"><span class="eyebrow-line"></span> Projeniz için</span>
+        <h2>Hangi Slamtec ürünü size uygun?</h2>
+        <p>Model seçimi, ürün uygunluğu veya kurumsal alım için RobotSepeti ekibine ulaşın.</p>
+      </div>
+      <div class="contact-actions">
+        <a class="primary-button" href="mailto:kurumsal@robotsepeti.com?subject=Slamtec%20%C3%BCr%C3%BCn%20dan%C4%B1%C5%9Fmanl%C4%B1%C4%9F%C4%B1">E-posta gönder <span aria-hidden="true">↗</span></a>
+        <a class="outline-button" href="tel:+902126976212">+90 212 697 62 12</a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brands"><img src="assets/images/robotsepeti-logo.png" alt="RobotSepeti"><span>×</span><img src="assets/images/slamtec-logo.png" alt="Slamtec"></div>
+      <span>Ürün bilgileri RobotSepeti ve Slamtec kaynaklarından derlenmiştir.</span>
+      <a href="#top">Yukarı dön ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
