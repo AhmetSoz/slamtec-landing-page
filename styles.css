@@ -135,6 +135,21 @@ h1 em{font-style:normal;color:var(--orange)}
 .selection-note{margin-top:26px;border-left:3px solid var(--orange);background:#fff8f3;padding:18px 20px;border-radius:0 8px 8px 0}
 .selection-note strong{font-size:13px;color:#993f0e}
 .selection-note p{margin:7px 0 0;font-size:13px;line-height:1.7;color:#64574f}
+.product-video{margin-top:76px;padding:36px;border:1px solid #dce5ee;border-radius:18px;background:linear-gradient(145deg,#f6f9fc,#fff);box-shadow:0 12px 40px rgba(28,46,68,.045)}
+.product-video-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:23px}
+.product-video-head h3{font-size:clamp(24px,2.7vw,34px);line-height:1.18;letter-spacing:-.04em;margin:13px 0 9px}
+.product-video-head p{margin:0;max-width:730px;color:#586a80;font-size:14px;line-height:1.7}
+.video-length{flex:none;border:1px solid #d8e3ed;border-radius:30px;background:#fff;padding:8px 13px;font-size:11px;font-weight:800;color:#4c6178}
+.product-video-stage{position:relative;aspect-ratio:16/9;min-height:200px;overflow:hidden;border-radius:12px;background:#101a2b;background-image:linear-gradient(90deg,rgba(6,17,31,.44),rgba(6,17,31,.08)),var(--video-poster);background-size:cover;background-position:center}
+.product-video-stage::before{content:'▶';position:absolute;top:50%;left:50%;display:grid;place-items:center;width:64px;height:64px;border:1px solid #ffffffa8;border-radius:50%;background:#ffffffdf;color:#111a2b;font-size:23px;transform:translate(-50%,-50%);transition:opacity .25s,transform .25s}
+.product-video-stage.is-playing::before{opacity:0;transform:translate(-50%,-50%) scale(.8)}
+.product-video-stage iframe{display:block;width:100%;height:100%;position:absolute;inset:0;border:0;background:#101a2b}
+.video-stage-label{position:absolute;left:19px;top:18px;z-index:1;padding:8px 11px;border:1px solid #ffffff80;border-radius:5px;background:#0c1728b8;color:#fff;font-size:10px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;pointer-events:none}
+.product-video-foot{display:flex;align-items:center;gap:18px;margin-top:17px;color:#748399;font-size:12px}
+.video-toggle{border:0;border-radius:7px;background:var(--ink);color:#fff;padding:11px 15px;font:inherit;font-size:12px;font-weight:800;cursor:pointer;transition:background .2s,transform .2s}
+.video-toggle:hover{background:#314c69;transform:translateY(-2px)}
+.product-video-foot a{margin-left:auto;color:#285c7d;font-weight:800;text-decoration:underline;text-underline-offset:3px}
+.product-video-foot a:hover{color:var(--orange)}
 .manufacturer-story{margin-top:76px;padding-top:55px;border-top:1px solid #dce5ee}
 .manufacturer-story-heading{display:flex;justify-content:space-between;align-items:end;gap:28px;margin-bottom:27px}
 .manufacturer-story-heading h3{font-size:clamp(25px,2.8vw,36px);line-height:1.18;letter-spacing:-.04em;margin:15px 0 10px}
@@ -179,6 +194,8 @@ h1 em{font-style:normal;color:var(--orange)}
 @keyframes catalog-in{from{opacity:0;transform:translateY(18px) scale(.985)}to{opacity:1;transform:none}}
 @media(max-width:780px){.manufacturer-story{margin-top:52px;padding-top:40px}.manufacturer-figure figcaption{padding:19px 20px 22px}.manufacturer-figure figcaption strong{font-size:17px}}
 @media(max-width:530px){.manufacturer-story-heading p{font-size:13px}.manufacturer-story-list{gap:18px}.manufacturer-figure figcaption{gap:12px}.manufacturer-figure figcaption p{font-size:12px}.image-expand{right:10px;bottom:10px;padding:7px 9px;font-size:10px}}
+@media(max-width:780px){.product-video{margin-top:52px;padding:23px}.product-video-head{align-items:start}.video-length{display:none}}
+@media(max-width:530px){.product-video{padding:16px;border-radius:13px}.product-video-head h3{font-size:23px}.product-video-head p{font-size:12px}.product-video-stage{border-radius:8px}.product-video-foot{flex-wrap:wrap;gap:10px}.product-video-foot span{font-size:11px}.product-video-foot a{width:100%;margin:2px 0 0}}
 .about-section{background:#f3f7fb;padding:90px 0}
 .about-grid{display:grid;grid-template-columns:32% 1fr;gap:75px;align-items:center}
 .about-kicker{font:800 clamp(32px,4vw,59px)/1.05 Manrope,sans-serif;letter-spacing:-.07em;color:#cbd5e1;max-width:250px;word-break:break-word}

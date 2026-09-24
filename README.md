@@ -19,3 +19,5 @@ Her ürün detayında Slamtec'in ürün anlatımından seçilen teknik görselle
 `scripts/gallery-sources.json` görsellerin kaynak URL'lerini kaydeder. `scripts/collect-gallery.ps1` ve `scripts/download-gallery.ps1` bu kaynakları güncellemek için kullanılır.
 
 `scripts/manufacturer-visuals.json` üretici anlatım görsellerinin kaynaklarını kaydeder. `manufacturer-stories.js` bu görsellerin Türkçe açıklamalarını ve ürün eşleşmelerini tutar.
+
+`product-videos.js` SLAMTEC'in resmi YouTube kanalından ürünle eşleşen yedi videonun kısa zaman aralıklarını tutar. Videolar resmi YouTube oynatıcısıyla gömülür; dosyaları projeye kopyalanmaz. Bölüm ekrana geldiğinde sessiz döngü başlar, ekrandan çıkınca durur. Hareket azaltma veya veri tasarrufu ayarında kullanıcı başlatır. Her bölümün altında orijinal videonun bağlantısı vardır. Eşleşmesi ve görüntü niteliği uygun bulunmayan modellerde video alanı gösterilmez.
