@@ -252,29 +252,26 @@ let videoObserver;
 
 function setVideoPlayback(stage, play) {
   if (!stage) return;
-  const button = stage.closest('.product-video')?.querySelector('[data-video-toggle]');
-  if (play && !stage.querySelector('iframe')) {
-    const id = stage.dataset.videoId;
-    const params = new URLSearchParams({
-      autoplay: '1', mute: '1', controls: '0', playsinline: '1',
-      loop: '1', playlist: id, start: stage.dataset.videoStart,
-      end: stage.dataset.videoEnd, rel: '0'
-    });
-    const iframe = document.createElement('iframe');
-    iframe.src = `https://www.youtube-nocookie.com/embed/${id}?${params}`;
-    iframe.title = stage.dataset.videoTitle;
-    iframe.allow = 'autoplay; encrypted-media; picture-in-picture';
-    iframe.referrerPolicy = 'strict-origin-when-cross-origin';
-    iframe.allowFullscreen = true;
-    stage.append(iframe);
+  if (play && !stage.querySelector('video, img')) {
+    const media = document.createElement(stage.dataset.mediaType === 'gif' ? 'img' : 'video');
+    if (media instanceof HTMLVideoElement) {
+      media.muted = true;
+      media.defaultMuted = true;
+      media.autoplay = true;
+      media.loop = true;
+      media.playsInline = true;
+      media.preload = 'metadata';
+      media.setAttribute('aria-label', stage.dataset.mediaTitle);
+    } else {
+      media.alt = stage.dataset.mediaTitle;
+    }
+    media.src = stage.dataset.mediaSrc;
+    stage.append(media);
+    if (media instanceof HTMLVideoElement) media.play().catch(() => {});
   } else if (!play) {
-    stage.querySelector('iframe')?.remove();
+    stage.querySelector('video, img')?.remove();
   }
   stage.classList.toggle('is-playing', play);
-  if (button) {
-    button.textContent = play ? 'Videoyu durdur' : 'Kısa kesiti oynat';
-    button.setAttribute('aria-pressed', String(play));
-  }
 }
 
 function renderCards() {
@@ -336,10 +333,10 @@ function renderDetail(product) {
         <div class="selection-note"><strong>Model seçimi için not</strong><p>${escapeHtml(product.note)}</p></div>
       </div>
     </div>
-    ${product.video ? `<section class="product-video" aria-labelledby="product-video-title">
-      <div class="product-video-head"><div><span class="eyebrow"><span class="eyebrow-line"></span> SLAMTEC video arşivi</span><h3 id="product-video-title">${escapeHtml(product.video.title)}</h3><p>${escapeHtml(product.video.caption)}</p></div><span class="video-length">${product.video.end - product.video.start} sn seçilmiş kesit</span></div>
-      <div class="product-video-stage" data-video-id="${escapeHtml(product.video.id)}" data-video-start="${product.video.start}" data-video-end="${product.video.end}" data-video-title="${escapeHtml(product.video.title)}" style="--video-poster:url('https://i.ytimg.com/vi/${escapeHtml(product.video.id)}/hqdefault.jpg')"><span class="video-stage-label">Üretici videosu</span></div>
-      <div class="product-video-foot"><button class="video-toggle" type="button" data-video-toggle aria-pressed="false">Kısa kesiti oynat</button><span>Ses kapalı · Döngü</span><a href="https://www.youtube.com/watch?v=${escapeHtml(product.video.id)}" target="_blank" rel="noopener noreferrer">Videonun tamamı YouTube'da ↗</a></div>
+    ${product.video ? `<section class="product-video ${product.video.type === 'gif' ? 'is-gif' : ''}" aria-labelledby="product-video-title">
+      <div class="product-video-head"><div><span class="eyebrow"><span class="eyebrow-line"></span> Üretici gösterimi</span><h3 id="product-video-title">${escapeHtml(product.video.title)}</h3><p>${escapeHtml(product.video.caption)}</p></div></div>
+      <div class="product-video-stage" data-media-type="${escapeHtml(product.video.type)}" data-media-src="${escapeHtml(product.video.src)}" data-media-title="${escapeHtml(product.video.title)}" style="--video-poster:url('assets/images/${escapeHtml(product.image)}');--media-aspect:${escapeHtml(product.video.aspect || '16 / 9')}"><span class="video-stage-label">SLAMTEC kaynaklı</span></div>
+      <div class="product-video-foot"><span>Ses kapalı · Döngü</span><a href="${escapeHtml(product.video.source)}" target="_blank" rel="noopener noreferrer">SLAMTEC ürün sayfası ↗</a></div>
     </section>` : ''}
     ${product.manufacturerStories.length ? `<section class="manufacturer-story" aria-labelledby="manufacturer-story-title">
       <div class="manufacturer-story-heading">
@@ -373,7 +370,7 @@ function renderDetail(product) {
   const videoStage = detail.querySelector('.product-video-stage');
   if (videoStage && !reducedMotion && !navigator.connection?.saveData && 'IntersectionObserver' in window) {
     videoObserver = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting && videoStage.dataset.userPaused !== 'true') setVideoPlayback(videoStage, true);
+      if (entry.isIntersecting) setVideoPlayback(videoStage, true);
       else setVideoPlayback(videoStage, false);
     }, { threshold: 0.45 });
     videoObserver.observe(videoStage);
@@ -424,12 +421,6 @@ renderCards();
 route();
 window.addEventListener('hashchange', () => route({ scroll: true, focus: true }));
 detail.addEventListener('click', (event) => {
-  if (event.target.closest('[data-video-toggle]')) {
-    const stage = detail.querySelector('.product-video-stage');
-    const play = !stage.querySelector('iframe');
-    stage.dataset.userPaused = String(!play);
-    setVideoPlayback(stage, play);
-  }
   const storyImage = event.target.closest('[data-story-image]');
   if (storyImage) {
     const dialog = detail.querySelector('#image-dialog');

@@ -1,39 +1,34 @@
-// Hand-picked excerpts from SLAMTEC's official YouTube channel.
-// Times are seconds from the original upload; the full source stays on YouTube.
+// Short, looping motion assets served by SLAMTEC on its own product pages.
+// These use the manufacturer's original files without a YouTube player overlay.
 const productVideos = {
   'aurora-s': {
-    id: 'zus1jLVdJEo', start: 2, end: 17,
-    title: 'Aurora S ile 3D nokta bulutu ve dijital ikiz',
-    caption: 'Görsel taramadan üretilen 3D nokta bulutu ve sahne rekonstrüksiyonu.'
+    type: 'video', src: 'assets/videos/aurora-s-mapping.mp4',
+    source: 'https://www.slamtec.com/en/aurora-s',
+    title: 'Aurora S ile yoğun 3D haritalama',
+    caption: 'Aurora S ürün sayfasındaki PhotoReal Mapping gösterimi. Yoğun, dokulu 3D harita üretimini gösterir.'
   },
   aurora: {
-    id: 'gLvg7tFjHk0', start: 6, end: 19,
-    title: 'Aurora gerçek zamanlı konum çıktısı',
-    caption: 'Aurora arayüzünde standart ve IMU destekli poz çıktısının yan yana gösterimi.'
+    type: 'video', src: 'assets/videos/aurora-pointcloud.mp4',
+    source: 'https://www.slamtec.com/en/aurora',
+    title: 'Aurora ile 3D nokta bulutu',
+    caption: 'Aurora ürün sayfasındaki kapalı otopark haritalama örneğinin 3D nokta bulutu çıktısı.'
   },
   'lpx-t1': {
-    id: '4PAtDK5SvX4', start: 20, end: 34,
-    title: 'LPX-T1 bağlantı ve kurulum görüntüsü',
-    caption: 'LPX-T1 gövdesi ve ağ kablosu bağlantısının üretici çekimi.'
+    type: 'gif', aspect: '640 / 272', src: 'assets/videos/lpx-t1-scan.gif',
+    source: 'https://www.slamtec.com/en/t1',
+    title: 'LPX-T1 tarama verisi',
+    caption: 'Üreticinin LPX-T1 sayfasındaki hareketli tarama örneği; 60.000 örnek/sn kapasitesini anlatan bölümden.'
   },
   slamkit: {
-    id: 'ouquqLTRR3M', start: 479, end: 495,
+    type: 'gif', aspect: '750 / 568', src: 'assets/videos/slamkit-map.gif',
+    source: 'https://www.slamtec.com/en/slamkit',
     title: 'SLAMKit ile harita oluşturma',
-    caption: 'RoboStudio ekranında robot hareket ettirilirken oluşan 2D harita.'
-  },
-  'lpx-e3': {
-    id: 'YRYKBJpp1i4', start: 32, end: 46,
-    title: 'LPX-E3 ailesi alan izleme kurulumu',
-    caption: 'LPX-E3 ailesi cihazı ve ScanDesigner yazılımı. Görüntü, E3P1 varyantının teknik değerlerini göstermez.'
-  },
-  s3: {
-    id: 'bAgAAQynd9k', start: 4, end: 17,
-    title: 'RPLIDAR S3 ürün görüntüsü',
-    caption: 'S3 tarayıcının gövdesi ve fiziksel tasarımı.'
+    caption: 'Üreticinin SLAMKit sayfasında gösterdiği büyük alan haritalama çıktısı.'
   },
   a3: {
-    id: 'u6n9tqIqEbg', start: 16, end: 30,
-    title: 'RPLIDAR A3 etkileşim uygulaması',
-    caption: 'A3 ile 360° tarama verisinin çok noktalı etkileşimde kullanım örneği.'
+    type: 'gif', aspect: '618 / 486', src: 'assets/videos/a3-scan.gif',
+    source: 'https://www.slamtec.com/en/lidar/a3',
+    title: 'RPLIDAR A3 tarama örneği',
+    caption: 'Üreticinin A3 sayfasındaki 2D tarama animasyonu; 16.000 örnek/sn tarama bölümünden.'
   }
 };
