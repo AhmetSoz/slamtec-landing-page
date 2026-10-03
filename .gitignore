@@ -4,3 +4,5 @@ node_modules/
 *.tar
 *.tar.gz
 dist/
+scripts/import-tools/
+scripts/source-html/

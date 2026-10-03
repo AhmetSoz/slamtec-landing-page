@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="640px" height="493px" viewBox="0 0 640 493" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>phone-aurora-section3-txt</title>
+    <g id="phone-aurora-section3-txt" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="SourceHanSansSC-Regular, Source Han Sans SC" font-weight="normal">
+        <g id="aurora-section3-txt-en" transform="translate(75.663090, 58.709957)" fill="#FFFFFF">
+            <text id="External-Interfaces" transform="translate(27.006878, 9.727407) rotate(2.000000) translate(-27.006878, -9.727407) " font-size="9" line-spacing="9">
+                <tspan x="9.57537754" y="10.7274069">External</tspan>
+                <tspan x="6.00687754" y="19.7274069">Interfaces</tspan>
+            </text>
+            <text id="Computing-Core" transform="translate(118.670931, 12.828804) rotate(2.000000) translate(-118.670931, -12.828804) " font-size="9">
+                <tspan x="84.1709308" y="16.3288039">Computing Core</tspan>
+            </text>
+            <text id="Binocular-Camera" transform="translate(209.480202, 42.255654) rotate(2.000000) translate(-209.480202, -42.255654) " font-size="9" line-spacing="11">
+                <tspan x="188.980202" y="41.2556545">Binocular</tspan>
+                <tspan x="193.007702" y="52.2556545">Camera</tspan>
+            </text>
+            <text id="LiDAR" transform="translate(208.684333, 121.061015) rotate(2.000000) translate(-208.684333, -121.061015) " font-size="9">
+                <tspan x="196.184333" y="124.561015">LiDAR</tspan>
+            </text>
+            <text id="Barometer" transform="translate(90.162314, 129.822457) rotate(2.000000) translate(-90.162314, -129.822457) " font-size="8">
+                <tspan x="70.162314" y="132.822457">Barometer</tspan>
+            </text>
+            <text id="6DOF-IMU" transform="translate(146.676413, 132.514708) rotate(2.000000) translate(-146.676413, -132.514708) " font-size="8" line-spacing="19">
+                <tspan x="128.332413" y="132.014708">6DOF IMU</tspan>
+            </text>
+            <text id="External-Expandabili" transform="translate(23.464973, 98.128142) rotate(2.000000) translate(-23.464973, -98.128142) " font-size="7" line-spacing="9">
+                <tspan x="9.98447255" y="97.1281419">External</tspan>
+                <tspan x="0.964972554" y="106.128142">Expandability</tspan>
+            </text>
+            <text id="1000M-Ethernet" transform="translate(25.658964, 29.014404) rotate(2.000000) translate(-25.658964, -29.014404) " font-size="7">
+                <tspan x="0.158963572" y="32.0144039">1000M Ethernet</tspan>
+            </text>
+            <text id="CPU" transform="translate(92.170233, 60.368763) rotate(2.000000) translate(-92.170233, -60.368763) " font-size="7">
+                <tspan x="85.1702333" y="63.3687632">CPU</tspan>
+            </text>
+            <text id="NPU-AI-Accelerator" transform="translate(145.981116, 63.203305) rotate(2.000000) translate(-145.981116, -63.203305) " font-size="7" line-spacing="9">
+                <tspan x="134.610616" y="62.2033053">NPU AI</tspan>
+                <tspan x="127.481116" y="71.2033053">Accelerator</tspan>
+            </text>
+            <text id="GPS/RTK" transform="translate(24.165360, 117.647959) rotate(2.000000) translate(-24.165360, -117.647959) " font-size="7">
+                <tspan x="9.16535989" y="120.647959">GPS/RTK</tspan>
+            </text>
+            <text id="Odometer" transform="translate(27.164142, 135.717758) rotate(2.000000) translate(-27.164142, -135.717758) " font-size="7">
+                <tspan x="10.1641415" y="138.717758">Odometer</tspan>
+            </text>
+            <text id="WIFI" transform="translate(26.669929, 47.386213) rotate(2.000000) translate(-26.669929, -47.386213) " font-size="7">
+                <tspan x="19.1699287" y="50.3862129">WIFI</tspan>
+            </text>
+            <text id="USB-Type-C" transform="translate(25.162923, 65.787557) rotate(2.000000) translate(-25.162923, -65.787557) " font-size="7">
+                <tspan x="6.1629232" y="68.7875572">USB Type C</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,707 @@
+<!-- prettier-ignore -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+      <meta name="baidu-site-verification" content="codeva-IbvEaH8vna" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="https://image.slamtec.com/images/favicon-slamware.ico" type="image/vnd.microsoft.icon" />
+    <link rel="icon" href="https://image.slamtec.com/images/favicon-slamware.ico" type="image/vnd.microsoft.icon" />
+    <link rel="canonical" href="https://www.slamtec.com/"/>
+    <meta name="description" content="SLAMTEC思岚科技是全球首家提供消费级产品领域的高性能机器人定位导航解决方案及相关核心传感器的领导品牌，产品包括激光雷达、机器人自主定位导航系统与通用型商用机器人平台。">
+    <meta name="author" content="Tony Huang">
+    <meta name="keywords" content="SLAM,SLAM导航品牌,SLAM定位导航,SLAM技术公司,室内定位导航,机器人定位导航,定位导航,激光雷达,国内激光雷达,激光雷达品牌,激光雷达公司,服务机器人,机器人底盘,服务机器人底盘,机器人运动底盘,SLAMTEC思岚科技">
+    <meta name="format-detection" content="telephone=no">
+    <title>&#x673A;&#x5668;&#x4EBA;&#x81EA;&#x4E3B;&#x5B9A;&#x4F4D;&#x5BFC;&#x822A;&#x65B9;&#x6848; | &#x6FC0;&#x5149;&#x96F7;&#x8FBE;/SLAM&#x6280;&#x672F; | &#x601D;&#x5C9A;&#x79D1;&#x6280;</title>
+    
+    
+        <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" asp-file-version="true" />
+        <link href="/lib/bootstrap-table/dist/bootstrap-table.min.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="/style/css/main.css?time=1772694346757">
+        <script type="text/javascript" src="/lib/jquery/dist/jquery.min.js"></script>
+    
+
+    
+
+   
+    
+</head>
+<body>
+    
+<div class="header">
+      <!-- carousel -->
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="3" class=""></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="4" class=""></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="5" class=""></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="6" class=""></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="7" class=""></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="8" class=""></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="9" class=""></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="10" class=""></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="11" class=""></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <!-- Controls -->
+            <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <a href="https://www.slamtec.com/cn/poseidon">
+                            <img key="home-splash-poseidon" lang="cn" scheme="pc" class="pc-index-banner" alt="Poseidon" width="2560" height="903" class="pc-index-banner" alt="Poseidon" width="2560" height="903" src="https://bucket-download.slamtec.com/122a5d422694b0e4ed61e0deac1e44cf798b37e5/poseidon-banner-pc-cn.webp" />
+                            <img key="home-splash-poseidon" lang="cn" scheme="pc" class="ipad-index-banner" alt="Poseidon" width="2560" height="903" class="ipad-index-banner" alt="Poseidon" width="2560" height="903" src="https://bucket-download.slamtec.com/122a5d422694b0e4ed61e0deac1e44cf798b37e5/poseidon-banner-pc-cn.webp" />
+                            <img key="home-splash-poseidon" lang="cn" scheme="phone" class="phone-index-banner" alt="Poseidon" width="1080" height="670" class="phone-index-banner" alt="Poseidon" width="1080" height="670" src="https://bucket-download.slamtec.com/2142e4f6cd71fbb7ec18f9acb98ac5308d090620/poseidon-banner-mobile-cn.webp" />
+                        </a>
+                    </div>
+                    <div class="item ">
+                        <a href="https://www.slamtec.com/cn/aurora-s">
+                            <img key="home-splash-Aurora-S" lang="cn" scheme="pc" class="pc-index-banner" alt="Aurora S" width="2560" height="903" class="pc-index-banner" alt="Aurora S" width="2560" height="903" src="https://bucket-download.slamtec.com/1b17a96cb2aca067f51d85bd219fb248a4ed6a5f/AuroraS-homepage-PC-cn.webp" />
+                            <img key="home-splash-Aurora-S" lang="cn" scheme="pc" class="ipad-index-banner" alt="Aurora S" width="2560" height="903" class="ipad-index-banner" alt="Aurora S" width="2560" height="903" src="https://bucket-download.slamtec.com/1b17a96cb2aca067f51d85bd219fb248a4ed6a5f/AuroraS-homepage-PC-cn.webp" />
+                            <img key="home-splash-Aurora-S" lang="cn" scheme="phone" class="phone-index-banner" alt="Aurora S" width="1080" height="670" class="phone-index-banner" alt="Aurora S" width="1080" height="670" src="https://bucket-download.slamtec.com/5d82dbaafb4201bf0124104055131c2024ef7d1e/AuroraS-homepage-mobile-cn.webp" />
+                        </a>
+                    </div>
+                    <div class="item ">
+                        <a href="https://www.slamtec.com/cn/48v-hermes">
+                            <img key="home-splash-48v-hermes" lang="cn" scheme="pc" class="pc-index-banner" alt="48V Hermes" width="2560" height="903" class="pc-index-banner" alt="48V Hermes" width="2560" height="903" src="https://bucket-download.slamtec.com/9414b3645549d2032c2c2f42799e648eb9ceaaaf/48v-hermes-cn-pc_webp.webp" />
+                            <img key="home-splash-48v-hermes" lang="cn" scheme="pc" class="ipad-index-banner" alt="48V Hermes" width="2560" height="903" class="ipad-index-banner" alt="48V Hermes" width="2560" height="903" src="https://bucket-download.slamtec.com/9414b3645549d2032c2c2f42799e648eb9ceaaaf/48v-hermes-cn-pc_webp.webp" />
+                            <img key="home-splash-48v-hermes" lang="cn" scheme="phone" class="phone-index-banner" alt="48V Hermes" width="1080" height="670" class="phone-index-banner" alt="48V Hermes" width="1080" height="670" src="https://bucket-download.slamtec.com/233f9e021bdc790efddcd5a58367d9f7f5d70229/mobile-48v Hermes-CN_webp.webp" />
+                        </a>
+                    </div>
+                    <div class="item ">
+                        <a href="/cn">
+                            <img key="U1-banner" lang="cn" scheme="pc" class="pc-index-banner" alt="Rplidar U1" width="2560" height="903" class="pc-index-banner" alt="Rplidar U1" width="2560" height="903" src="https://bucket-download.slamtec.com/cadc698afcfecaae86453d1a1eafa9946870810f/U1-PC-CHN_webp.webp" />
+                            <img key="U1-banner" lang="cn" scheme="pc" class="ipad-index-banner" alt="Rplidar U1" width="2560" height="903" class="ipad-index-banner" alt="Rplidar U1" width="2560" height="903" src="https://bucket-download.slamtec.com/cadc698afcfecaae86453d1a1eafa9946870810f/U1-PC-CHN_webp.webp" />
+                            <img key="U1-banner" lang="cn" scheme="phone" class="phone-index-banner" alt="Rplidar U1" width="1080" height="670" class="phone-index-banner" alt="Rplidar U1" width="1080" height="670" src="https://bucket-download.slamtec.com/244c2b2ef50966377a3d1344777f9078483b897f/U1-mobile-CN_webp.webp" />
+                        </a>
+                    </div>
+                    <div class="item ">
+                        <a href="https://www.slamtec.com/cn/phoebus">
+                            <img key="home-splash-Phoebus" lang="cn" scheme="pc" class="pc-index-banner" alt="Phoebus" width="2560" height="903" class="pc-index-banner" alt="Phoebus" width="2560" height="903" src="https://bucket-download.slamtec.com/309fad327172dd4ff39cd3c7d1c129e99ac71483/phoebus-CN-pc_webp.webp" />
+                            <img key="home-splash-Phoebus" lang="cn" scheme="pc" class="ipad-index-banner" alt="Phoebus" width="2560" height="903" class="ipad-index-banner" alt="Phoebus" width="2560" height="903" src="https://bucket-download.slamtec.com/309fad327172dd4ff39cd3c7d1c129e99ac71483/phoebus-CN-pc_webp.webp" />
+                            <img key="home-splash-Phoebus" lang="cn" scheme="phone" class="phone-index-banner" alt="Phoebus" width="1080" height="670" class="phone-index-banner" alt="Phoebus" width="1080" height="670" src="https://bucket-download.slamtec.com/fda07be81ac5b65bb3502dd49b27d5ca089a5386/phoebus-mobile-cn_webp.webp" />
+                        </a>
+                    </div>
+                    <div class="item ">
+                        <a href="https://www.slamtec.com/cn/aurora">
+                            <img key="home-splash-aurora" lang="cn" scheme="pc" class="pc-index-banner" alt="Aurora" width="2560" height="903" class="pc-index-banner" alt="Aurora" width="2560" height="903" src="https://bucket-download.slamtec.com/ebca348c8b86c1cf2d2f87279215cf66eaa0e876/PC&#x7AEF;-banner-20241014-CN_webp.webp" />
+                            <img key="home-splash-aurora" lang="cn" scheme="pc" class="ipad-index-banner" alt="Aurora" width="2560" height="903" class="ipad-index-banner" alt="Aurora" width="2560" height="903" src="https://bucket-download.slamtec.com/ebca348c8b86c1cf2d2f87279215cf66eaa0e876/PC&#x7AEF;-banner-20241014-CN_webp.webp" />
+                            <img key="home-splash-aurora" lang="cn" scheme="phone" class="phone-index-banner" alt="Aurora" width="1080" height="670" class="phone-index-banner" alt="Aurora" width="1080" height="670" src="https://bucket-download.slamtec.com/ea7c708ee818aad3769e66a45f91d17f46af7dba/aurora-banner-cn-mobile_webp.webp" />
+                        </a>
+                    </div>
+                    <div class="item ">
+                        <a href="https://www.slamtec.com/cn/apollo2">
+                            <img key="home-splash-apollo2.0" lang="cn" scheme="pc" class="pc-index-banner" alt="Apollo2.0" width="2560" height="903" class="pc-index-banner" alt="Apollo2.0" width="2560" height="903" src="https://bucket-download.slamtec.com/c2738e820d4490ec572cb0a0baed5f1ba4f2f929/Apollo-PC-banner01-CN_webp.webp" />
+                            <img key="home-splash-apollo2.0" lang="cn" scheme="pc" class="ipad-index-banner" alt="Apollo2.0" width="2560" height="903" class="ipad-index-banner" alt="Apollo2.0" width="2560" height="903" src="https://bucket-download.slamtec.com/c2738e820d4490ec572cb0a0baed5f1ba4f2f929/Apollo-PC-banner01-CN_webp.webp" />
+                            <img key="home-splash-apollo2.0" lang="cn" scheme="phone" class="phone-index-banner" alt="Apollo2.0" width="1080" height="670" class="phone-index-banner" alt="Apollo2.0" width="1080" height="670" src="https://bucket-download.slamtec.com/c0f719d6eae1abceb4067091d28451b576aa59e4/Apollo-mobile-banner-CN_webp.webp" />
+                        </a>
+                    </div>
+                    <div class="item ">
+                        <a href="https://www.slamtec.com/cn/e3">
+                            <img key="home-splash-E3" lang="cn" scheme="pc" class="pc-index-banner" alt="LPX-E3" width="2560" height="903" class="pc-index-banner" alt="LPX-E3" width="2560" height="903" src="https://bucket-download.slamtec.com/e5a5c0f048592995eb8ce19841de4befa04b3821/E3-banner-CN-pc_webp.webp" />
+                            <img key="home-splash-E3" lang="cn" scheme="pc" class="ipad-index-banner" alt="LPX-E3" width="2560" height="903" class="ipad-index-banner" alt="LPX-E3" width="2560" height="903" src="https://bucket-download.slamtec.com/e5a5c0f048592995eb8ce19841de4befa04b3821/E3-banner-CN-pc_webp.webp" />
+                            <img key="home-splash-E3" lang="cn" scheme="phone" class="phone-index-banner" alt="LPX-E3" width="1080" height="670" class="phone-index-banner" alt="LPX-E3" width="1080" height="670" src="https://bucket-download.slamtec.com/067ee87a2271cf658ac73b4675797f556b671c5a/e3-banner-mobile-CN_webp.webp" />
+                        </a>
+                    </div>
+                    <div class="item ">
+                        <a href="https://www.slamtec.com/cn/slamkit">
+                            <img key="home-splash-slamkit" lang="cn" scheme="pc" class="pc-index-banner" alt="SLAMKit" width="2560" height="903" class="pc-index-banner" alt="SLAMKit" width="2560" height="903" src="https://bucket-download.slamtec.com/da45abbd96eb95aca182be1ddf1da55918851078/SLAMKit-pc-banner-CN_webp.webp" />
+                            <img key="home-splash-slamkit" lang="cn" scheme="pc" class="ipad-index-banner" alt="SLAMKit" width="2560" height="903" class="ipad-index-banner" alt="SLAMKit" width="2560" height="903" src="https://bucket-download.slamtec.com/da45abbd96eb95aca182be1ddf1da55918851078/SLAMKit-pc-banner-CN_webp.webp" />
+                            <img key="home-splash-slamkit" lang="cn" scheme="phone" class="phone-index-banner" alt="SLAMKit" width="1080" height="670" class="phone-index-banner" alt="SLAMKit" width="1080" height="670" src="https://bucket-download.slamtec.com/fb4a4a599ad7d87a89b7f0384af2f07b2711b209/SLAMKit-phone-banner-CN_webp.webp" />
+                        </a>
+                    </div>
+                    <div class="item ">
+                        <a href="https://www.slamtec.com/cn/c1">
+                            <img key="home-splash-rplidar-c1" lang="cn" scheme="pc" class="pc-index-banner" alt="RPLIDAR C1" width="2560" height="903" class="pc-index-banner" alt="RPLIDAR C1" width="2560" height="903" src="https://bucket-download.slamtec.com/2ab532a74d9e260df0fa6f92ca5becd0973766ac/C1-banner-CN-pc_webp.webp" />
+                            <img key="home-splash-rplidar-c1" lang="cn" scheme="pc" class="ipad-index-banner" alt="RPLIDAR C1" width="2560" height="903" class="ipad-index-banner" alt="RPLIDAR C1" width="2560" height="903" src="https://bucket-download.slamtec.com/2ab532a74d9e260df0fa6f92ca5becd0973766ac/C1-banner-CN-pc_webp.webp" />
+                            <img key="home-splash-rplidar-c1" lang="cn" scheme="phone" class="phone-index-banner" alt="RPLIDAR C1" width="1080" height="670" class="phone-index-banner" alt="RPLIDAR C1" width="1080" height="670" src="https://bucket-download.slamtec.com/10ec3ed18936f8cccfcbfae3f61c21140f3abe4f/C1-banner-CN-mobile_webp.webp" />
+                        </a>
+                    </div>
+                    <div class="item ">
+                        <a href="https://www.slamtec.com/cn/s3">
+                            <img key="home-splash-rplidar-s3" lang="cn" scheme="pc" class="pc-index-banner" alt="RPLIDAR S3" width="2560" height="903" class="pc-index-banner" alt="RPLIDAR S3" width="2560" height="903" src="https://bucket-download.slamtec.com/5040e392de6612a453fe6ad5837ed8bdfaafb62d/home-splash-S3-cn-pc_webp.webp" />
+                            <img key="home-splash-rplidar-s3" lang="cn" scheme="pc" class="ipad-index-banner" alt="RPLIDAR S3" width="2560" height="903" class="ipad-index-banner" alt="RPLIDAR S3" width="2560" height="903" src="https://bucket-download.slamtec.com/5040e392de6612a453fe6ad5837ed8bdfaafb62d/home-splash-S3-cn-pc_webp.webp" />
+                            <img key="home-splash-rplidar-s3" lang="cn" scheme="phone" class="phone-index-banner" alt="RPLIDAR S3" width="1080" height="670" class="phone-index-banner" alt="RPLIDAR S3" width="1080" height="670" src="https://bucket-download.slamtec.com/f30da1c8355029958053148721bbf8dd7fff0c21/home-splash-S3-mobile-cn_webp.webp" />
+                        </a>
+                    </div>
+                    <div class="item ">
+                        <a href="https://www.slamtec.com/cn/athena2">
+                            <img key="home-splash-athena2.0" lang="cn" scheme="pc" class="pc-index-banner" alt="Athena2.0" width="2560" height="903" class="pc-index-banner" alt="Athena2.0" width="2560" height="903" src="https://bucket-download.slamtec.com/a03e1b16b5ef7c2754b92aa14d22a5a0f40e0ff0/home-splash-athena2.0-cn-pc_webp.webp" />
+                            <img key="home-splash-athena2.0" lang="cn" scheme="pc" class="ipad-index-banner" alt="Athena2.0" width="2560" height="903" class="ipad-index-banner" alt="Athena2.0" width="2560" height="903" src="https://bucket-download.slamtec.com/a03e1b16b5ef7c2754b92aa14d22a5a0f40e0ff0/home-splash-athena2.0-cn-pc_webp.webp" />
+                            <img key="home-splash-athena2.0" lang="cn" scheme="phone" class="phone-index-banner" alt="Athena2.0" width="1080" height="670" class="phone-index-banner" alt="Athena2.0" width="1080" height="670" src="https://bucket-download.slamtec.com/040b74192152183f0296cd292b53a90875beba86/home-splash-athena2.0-cn-phone_webp.webp" />
+                        </a>
+                    </div>
+            </div>
+      </div>
+      <div class="phone-number">
+        <img src="/images/phone-number-021.png" alt="17621250496">
+      </div>
+   
+    
+
+    <!-- header navigation -->
+    
+<div class="header-nav">
+    <div class="container clear">
+
+            <div class="header-logo fl">
+                <a href="/">
+                    <img src="/images/header-logo.png" alt="&#x9875;&#x5934;logo" width="222" height="69" />
+                </a>
+            </div>
+            <div class="header-nav-ul fr cn">
+                <ul class="clear">
+                    <li><a class="bg-blue" href="/">&#x4E3B;&#x9875;</a></li>
+                    <li class="nav-a">
+                      <a class="" href="/unknown/products">
+                        &#x4EA7;&#x54C1;
+                      </a>
+                      <div class="sub-navs">
+                        <div class="sub-navs-left">
+                          <ul>
+                            <li class="cur"><a href="/unknown/lidar">&#x6FC0;&#x5149;&#x96F7;&#x8FBE;</a></li>
+                            <li><a href="/unknown/robot-platform">&#x673A;&#x5668;&#x4EBA;&#x5E95;&#x76D8;</a></li>
+                            <li><a href="/unknown/3d-localization-mapping-solution">3D&#x5B9A;&#x4F4D;&#x5EFA;&#x56FE;&#x89E3;&#x51B3;&#x65B9;&#x6848;</a></li>
+                            <li><a href="/unknown/2d-localization-mapping-solution">2D&#x5B9A;&#x4F4D;&#x5EFA;&#x56FE;&#x89E3;&#x51B3;&#x65B9;&#x6848;</a></li>
+                            <li><a href="/unknown/robostudio">&#x5F00;&#x53D1;&#x8F6F;&#x4EF6;</a></li>
+                          </ul>
+                        </div>
+                        <div class="sub-navs-right">
+                          <div class="tabs active">
+                            <ul>
+                              <li>
+                                <a class="sub-level2" href="/cn/lidar/industrial-lidar">LPX&#x5DE5;&#x4E1A;&#x7CFB;&#x5217;&#x96F7;&#x8FBE;</a>
+                                <div class="sub-level3">
+                                  <a href="/unknown/e3">LPX-E3</a>
+                                  <a href="/unknown/t1">LPX-T1</a>
+                                </div>
+                              </li>
+                              <li><a class="sub-level2" href="/cn/lidar/tof-lidar">TOF&#x6D4B;&#x8DDD;&#x6FC0;&#x5149;&#x96F7;&#x8FBE;</a>
+                                <div class="sub-level3">
+                                  <a href="/unknown/c1">RPLIDAR C1</a>
+                                  <a href="/unknown/s3">RPLIDAR S3</a>
+                                  <a href="/unknown/s2">RPLIDAR S2</a>
+                                </div>
+                              </li>
+                              <li><a class="sub-level2" href="/cn/lidar/triangulation-lidar">&#x4E09;&#x89D2;&#x6D4B;&#x8DDD;&#x6FC0;&#x5149;&#x96F7;&#x8FBE;</a>
+                                <div class="sub-level3">
+                                  <a href="/unknown/lidar/a3">RPLIDAR A3</a>
+                                  <a href="/unknown/lidar/a2">RPLIDAR A2</a>
+                                  <a href="/unknown/lidar/a1">RPLIDAR A1</a>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="tabs">
+                            <ul>
+                              <li><a class="sub-level2" href="/cn/robot-platform/embodied-intelligence">&#x5177;&#x8EAB;&#x667A;&#x80FD;&#x673A;&#x5668;&#x4EBA;&#x5E95;&#x76D8;</a>
+                                <div class="sub-level3">
+                                  <a href="/unknown/poseidon">Poseidon</a>
+                                  <a href="/unknown/48v-hermes">48V Hermes</a>
+                                </div>
+                              </li>
+                              <li><a class="sub-level2" href="/cn/robot-platform/industrial">&#x5DE5;&#x4E1A;&#x673A;&#x5668;&#x4EBA;&#x5E95;&#x76D8;</a>
+                                <div class="sub-level3">
+                                  <a href="/unknown/phoebus">Phoebus</a>
+                                </div>
+                              </li>
+                              <li><a class="sub-level2" href="/cn/robot-platform/commercial">&#x5546;&#x7528;&#x673A;&#x5668;&#x4EBA;&#x5E95;&#x76D8;</a>
+                                <div class="sub-level3">
+                                  <a href="/unknown/apollo2">Apollo2.0</a>
+                                  <a href="/unknown/athena2">Athena2.0</a> 
+                                  <a href="/unknown/hermes">Hermes</a>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="tabs">
+                            <ul>
+                              <li>
+                                <div class="sub-level3 sub-level3-only">
+                                  <a href="/unknown/aurora-s">Aurora S</a>
+                                  <a href="/unknown/aurora">Aurora</a>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="tabs">
+                            <ul>
+                              <li>
+                                <div class="sub-level3 sub-level3-only">
+                                  <a href="/unknown/lidar/mapper">Mapper</a>
+                                  <a href="/unknown/slamkit">SLAMKit</a>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="tabs">
+                            <ul>
+                              <li>
+                                <div class="sub-level3 sub-level3-only">
+                                  <a href="/unknown/robostudio">Robo Studio</a>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <!--                       <li><a class="" href="/unknown/Solution">&#x89E3;&#x51B3;&#x65B9;&#x6848;</a></li>
+ -->
+                    <li><a class="" href="/unknown/home/cases">&#x5E94;&#x7528;&#x6848;&#x4F8B;</a></li>
+                    <li><a class="" href="/unknown/news">&#x65B0;&#x95FB;&#x52A8;&#x6001;</a></li>     
+                    <li><a class="" href="/unknown/home/buy">&#x8D2D;&#x4E70;&#x6E20;&#x9053;</a></li> 
+                    <li><a class="" href="/unknown/support">&#x4E0B;&#x8F7D;&#x4E0E;&#x652F;&#x6301;</a></li>
+                    <li><a class="" href="/unknown/home/about">&#x5173;&#x4E8E;&#x6211;&#x4EEC;</a></li>
+                    <!-- <li><a asp-controller="home" asp-action="partner" class="">&#x751F;&#x6001;&#x5408;&#x4F5C;</a></li> -->
+                    <li><a class="" href="/unknown/contactus">&#x8054;&#x7CFB;&#x6211;&#x4EEC;</a></li>
+                    <li class="language">
+                        <a href="javascript:;">
+                            &#x4E2D;&#x6587;
+                            <img src="/images/triangle.png" width="12" height="6" alt="&#x4E2D;&#x6587;" />
+                        </a>
+                        <div class="lang-change">
+                              <span><a href="javascript:;" class="menu-lang-en" style="display: inline-block;">English</a></span>
+                              <span><a href="javascript:;" class="menu-lang-ko" style="display: inline-block;">한국어</a></span>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="icon-nav fr" id="icon">
+                <button type="button" class="btn btn-default" aria-label="Justify">
+                    <span aria-hidden="true">
+                        <img src="/images/phone-nav-icon.png" height="15" width="26" alt="&#x624B;&#x673A;&#x7AEF;&#x5BFC;&#x822A;&#x680F;" />
+                    </span>
+                </button>
+            </div>
+    </div>
+</div>
+
+<!-- 手机端导航 -->
+<div class="post-nav" id="phone-nav">
+  <div class="close" id="close">
+    <button type="button" class="btn btn-default close-btn" aria-label="Justify">
+      <span class="glyphicon glyphicon-remove" aria-hidden="true">
+      </span>
+    </button>
+  </div>
+  <div class="phone-nav-content">
+    <a class="bg-blue" href="/">&#x4E3B;&#x9875;</a>
+    <div class="phone-pro ">
+      <a href="/unknown/products">&#x4EA7;&#x54C1;</a>
+      <img src="/images/triangle.png" width="12" height="6" alt="&#x4EA7;&#x54C1;" />
+    </div>
+    <div class="phone-pro-list clear ">
+      <ul>
+        <li>
+          <a class="" href="/unknown/lidar">&#x6FC0;&#x5149;&#x96F7;&#x8FBE;</a>
+          <ul>
+            <li>
+              <a class="" href="/cn/lidar/industrial-lidar">LPX&#x5DE5;&#x4E1A;&#x7CFB;&#x5217;&#x96F7;&#x8FBE;</a>
+              <div>
+                <a class="" href="/unknown/e3">LPX-E3</a>
+                <a class="" href="/unknown/t1">LPX-T1</a>
+              </div>
+            </li>
+            <li>
+              <a class="" href="/cn/lidar/tof-lidar">TOF&#x6D4B;&#x8DDD;&#x6FC0;&#x5149;&#x96F7;&#x8FBE;</a>
+              <div>
+                <a class="" href="/unknown/c1">RPLIDAR C1</a>
+                <a class="" href="/unknown/s3">RPLIDAR S3</a>
+                <a class="" href="/unknown/s2">RPLIDAR S2</a>
+              </div>
+            </li>
+            <li>
+              <a class="" href="/cn/lidar/triangulation-lidar">&#x4E09;&#x89D2;&#x6D4B;&#x8DDD;&#x6FC0;&#x5149;&#x96F7;&#x8FBE;</a>
+              <div>
+                <a class="" href="/unknown/lidar/a3">RPLIDAR A3</a>
+                <a class="" href="/unknown/lidar/a2">RPLIDAR A2</a>
+                <a class="" href="/unknown/lidar/a1">RPLIDAR A1</a>
+              </div>
+            </li>
+          </ul>
+        </li> 
+        <li>
+          <a class="" href="/unknown/robot-platform">&#x673A;&#x5668;&#x4EBA;&#x5E95;&#x76D8;</a>
+          <ul>
+            <li><a class="" href="/cn/robot-platform/embodied-intelligence">&#x5177;&#x8EAB;&#x667A;&#x80FD;&#x673A;&#x5668;&#x4EBA;&#x5E95;&#x76D8;</a>
+              <div>
+                <a class="" href="/unknown/poseidon">Poseidon</a>
+                <a class="" href="/unknown/48v-hermes">48V Hermes</a>
+              </div>
+            </li>
+            <li><a class="" href="/cn/robot-platform/industrial">&#x5DE5;&#x4E1A;&#x673A;&#x5668;&#x4EBA;&#x5E95;&#x76D8;</a>
+              <div>
+                <a class="" href="/unknown/phoebus">Phoebus</a>
+              </div>
+            </li>
+            <li>
+              <a class="" href="/cn/robot-platform/commercial">&#x5546;&#x7528;&#x673A;&#x5668;&#x4EBA;&#x5E95;&#x76D8;</a>
+              <div>
+                <a class="" href="/unknown/apollo2">Apollo2.0</a>
+                <a class="" href="/unknown/athena2">Athena2.0</a>
+                <a class="" href="/unknown/hermes">Hermes</a>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="" href="/unknown/3d-localization-mapping-solution">3D&#x5B9A;&#x4F4D;&#x5EFA;&#x56FE;&#x89E3;&#x51B3;&#x65B9;&#x6848;</a>
+          <ul>
+            <li>
+              <a class="" href="/unknown/aurora-s">Aurora S</a>
+            </li>
+            <li>
+              <a class="" href="/unknown/aurora">Aurora</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="" href="/unknown/2d-localization-mapping-solution">2D&#x5B9A;&#x4F4D;&#x5EFA;&#x56FE;&#x89E3;&#x51B3;&#x65B9;&#x6848;</a>
+          <ul>
+            <li>
+              <a class="" href="/unknown/lidar/mapper">Mapper</a>
+            </li>
+            <li>
+              <a class="" href="/unknown/slamkit">SLAMKit</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="" href="/unknown/robostudio">&#x5F00;&#x53D1;&#x8F6F;&#x4EF6;</a>
+        </li>
+      </ul>
+    </div>
+    <a class="" href="/unknown/home/cases">&#x5E94;&#x7528;&#x6848;&#x4F8B;</a>
+    <a class="" href="/unknown/news">&#x65B0;&#x95FB;&#x52A8;&#x6001;</a>
+    <a class="" href="/unknown/home/buy">&#x8D2D;&#x4E70;&#x6E20;&#x9053;</a>
+    <a class="" href="/unknown/support">&#x4E0B;&#x8F7D;&#x4E0E;&#x652F;&#x6301;</a>
+    <a class="" href="/unknown/home/about">&#x5173;&#x4E8E;&#x6211;&#x4EEC;</a>
+    <!-- <a asp-controller="home" asp-action="partner" class="">&#x751F;&#x6001;&#x5408;&#x4F5C;</a> -->
+    <a class="" href="/unknown/contactus">&#x8054;&#x7CFB;&#x6211;&#x4EEC;</a>
+  </div>
+  <div>
+          <ul class="languagebox">
+              <li><span>&#x4E2D;&#x6587;</span></li>
+              <li><a href="javascript:;" class="menu-lang-en">Eng</a></li>
+              <li><a href="javascript:;" class="menu-lang-ko">한국어</a></li>
+          </ul>
+  </div>
+</div>
+
+
+</div>
+
+<!-- header end -->
+<!-- phone navigation -->
+<div class="phone-header-bottom-box">
+    <div class="container">
+        <div class="phone-header-icon-box clear">
+            <div class="phone-header-icon1 fl">
+                <a href="/unknown/products">
+                    <div class="icon-pic">
+                        <i class="slamtecfont icon-chanpin"></i>
+                        <!-- <img src="https://image.slamtec.com/images/index-phone-icon1.png" height="39" width="44" /> -->
+                    </div>
+                    <div class="icon-txt">
+                        &#x4EA7;&#x54C1;
+                    </div>
+                </a>
+            </div>
+            <div class="phone-header-icon1 fl">
+                <a href="/unknown/home/about">
+                    <div class="icon-pic">
+                        <i class="slamtecfont icon-women1"></i>
+                        <!-- <img src="https://image.slamtec.com/images/index-phone-icon2.png" height="45" width="65" /> -->
+                    </div>
+                    <div class="icon-txt">
+                        &#x5173;&#x4E8E;&#x6211;&#x4EEC;
+                    </div>
+                </a>
+            </div>
+            <div class="phone-header-icon1 fl">
+                  <a href="/unknown/contactus">
+                    <div class="icon-pic">
+                        <i class="slamtecfont icon-unie636"></i>
+                        <!-- <img src="https://image.slamtec.com/images/index-phone-icon3.png" height="47" width="55" /> -->
+                    </div>
+                    <div class="icon-txt">
+                        &#x8054;&#x7CFB;&#x6211;&#x4EEC;
+                    </div>
+                </a>
+            </div>
+            <div class="phone-header-icon1 fl">
+                <a href="/unknown/home/buy">
+                    <div class="icon-pic">
+                        <i class="slamtecfont icon-iconfontgoumaihongbao"></i>
+                        <!-- <img src="https://image.slamtec.com/images/index-phone-icon4.png" height="48" width="49" /> -->
+                    </div>
+                    <div class="icon-txt">
+                        &#x8D2D;&#x4E70;&#x6E20;&#x9053;
+                    </div>
+                </a>
+            </div>
+            <div class="phone-header-icon1 fl">
+                <a href="/unknown/support">
+                    <div class="icon-pic">
+                        <i class="slamtecfont icon-xiazai"></i>
+                        <!-- <img src="https://image.slamtec.com/images/index-phone-icon5.png" height="51" width="52" /> -->
+                    </div>
+                    <div class="icon-txt">
+                        &#x4E0B;&#x8F7D;&#x4E0E;&#x652F;&#x6301;
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- main sections -->
+<div class="center">
+    <div class="container">
+        <div class="row main-center-section" id="pic">
+                <div class="main-section1 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="main-section1-con">
+                        <h3 class="main-section-title1">Aurora S 全集成AI空间感知系统</h3>
+                        <p class="main-section-title2">深度融合视觉、惯性导航与思岚自研AI-VSLAM技术</p>
+                        <div class="center-pic">
+                            <a href="https://www.slamtec.com/cn/aurora-s">
+                                <img key="home-main-auroras" lang="cn" scheme="pc" alt="Aurora S &#x5168;&#x96C6;&#x6210;AI&#x7A7A;&#x95F4;&#x611F;&#x77E5;&#x7CFB;&#x7EDF;" width="400" height="300" alt="Aurora S &#x5168;&#x96C6;&#x6210;AI&#x7A7A;&#x95F4;&#x611F;&#x77E5;&#x7CFB;&#x7EDF;" width="400" height="300" src="https://bucket-download.slamtec.com/03c503f5e4a9165d1e9b4faa4745a03d883e939f/home-main-auroras-new_webp.webp" />
+                            </a>
+                        </div>
+                   </div> 
+                </div>
+                <div class="main-section1 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="main-section1-con">
+                        <h3 class="main-section-title1">RPLIDAR S3 SL-Dtof激光雷达</h3>
+                        <p class="main-section-title2">40m测距半径、32K采样频率、0.1125°、室内外均可使用</p>
+                        <div class="center-pic">
+                            <a href="https://www.slamtec.com/cn/s3">
+                                <img key="home-main-s3" lang="cn" scheme="pc" alt="RPLIDAR S3 SL-Dtof&#x6FC0;&#x5149;&#x96F7;&#x8FBE;" width="400" height="300" alt="RPLIDAR S3 SL-Dtof&#x6FC0;&#x5149;&#x96F7;&#x8FBE;" width="400" height="300" src="https://bucket-download.slamtec.com/813f467348177527ee64644a5e927ed1fbf57ed9/home-main-s3.png" />
+                            </a>
+                        </div>
+                   </div> 
+                </div>
+                <div class="main-section1 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="main-section1-con">
+                        <h3 class="main-section-title1">RPLIDAR A2 360°激光测距雷达</h3>
+                        <p class="main-section-title2">16m/12m 测量半径，4cm 超薄外观，机器人建图导航</p>
+                        <div class="center-pic">
+                            <a href="https://www.slamtec.com/cn/lidar/a2">
+                                <img key="home-main-a2" lang="cn" scheme="pc" alt="RPLIDAR A2 360&#xB0;&#x6FC0;&#x5149;&#x6D4B;&#x8DDD;&#x96F7;&#x8FBE;" width="400" height="300" alt="RPLIDAR A2 360&#xB0;&#x6FC0;&#x5149;&#x6D4B;&#x8DDD;&#x96F7;&#x8FBE;" width="400" height="300" src="https://bucket-download.slamtec.com/5fd99b4347ed107a030629eea6d04df789879264/home-main-a2-new_webp.webp" />
+                            </a>
+                        </div>
+                   </div> 
+                </div>
+                <div class="main-section1 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="main-section1-con">
+                        <h3 class="main-section-title1">Poseidon 全向移动机器人底盘</h3>
+                        <p class="main-section-title2">四轮独立转向，全向移动灵活避障，适用于具身智能和人形机器人</p>
+                        <div class="center-pic">
+                            <a href="https://www.slamtec.com/cn/poseidon">
+                                <img key="home-main-poseidon" lang="cn" scheme="pc" alt="Poseidon &#x5168;&#x5411;&#x79FB;&#x52A8;&#x673A;&#x5668;&#x4EBA;&#x5E95;&#x76D8;" width="400" height="300" alt="Poseidon &#x5168;&#x5411;&#x79FB;&#x52A8;&#x673A;&#x5668;&#x4EBA;&#x5E95;&#x76D8;" width="400" height="300" src="https://bucket-download.slamtec.com/7b817813c7ef1d5609543a1d9121cdc634892093/poseidon80percent.png" />
+                            </a>
+                        </div>
+                   </div> 
+                </div>
+                <div class="main-section1 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="main-section1-con">
+                        <h3 class="main-section-title1">48V Hermes 具身智能机器人通用底盘</h3>
+                        <p class="main-section-title2">搭载48V30AH超大容量电池，双雷达配置+深度视觉SLAM</p>
+                        <div class="center-pic">
+                            <a href="https://www.slamtec.com/cn/48v-hermes">
+                                <img key="home-main-48vhermes" lang="cn" scheme="pc" alt="48V Hermes &#x5177;&#x8EAB;&#x667A;&#x80FD;&#x673A;&#x5668;&#x4EBA;&#x901A;&#x7528;&#x5E95;&#x76D8;" width="400" height="300" alt="48V Hermes &#x5177;&#x8EAB;&#x667A;&#x80FD;&#x673A;&#x5668;&#x4EBA;&#x901A;&#x7528;&#x5E95;&#x76D8;" width="400" height="300" src="https://bucket-download.slamtec.com/04f064f0ae91d437ff588c1ee342165e54430028/home-main-48vhermes_webp.webp" />
+                            </a>
+                        </div>
+                   </div> 
+                </div>
+                <div class="main-section1 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="main-section1-con">
+                        <h3 class="main-section-title1">Phoebus P350 开放AI工业级机器人底盘</h3>
+                        <p class="main-section-title2">300KG载重力，60CM极致通过性，激光视觉融合导航+柔性化部署</p>
+                        <div class="center-pic">
+                            <a href="https://www.slamtec.com/cn/phoebus">
+                                <img key="home-main-phoebus" lang="cn" scheme="pc" alt="Phoebus P350 &#x5F00;&#x653E;AI&#x5DE5;&#x4E1A;&#x7EA7;&#x673A;&#x5668;&#x4EBA;&#x5E95;&#x76D8;" width="400" height="300" alt="Phoebus P350 &#x5F00;&#x653E;AI&#x5DE5;&#x4E1A;&#x7EA7;&#x673A;&#x5668;&#x4EBA;&#x5E95;&#x76D8;" width="400" height="300" src="https://bucket-download.slamtec.com/a3ef89025449a395d8f3b960918ae801d2da2004/home-main-phoebus_webp.webp" />
+                            </a>
+                        </div>
+                   </div> 
+                </div>
+        </div>
+    </div>
+</div>
+<div class="home-link">
+    <div class="home-link-tit">
+        <h1>&#x5408;&#x4F5C;&#x4F19;&#x4F34;</h1>
+    </div>
+    <ul class="home-link-body">
+        <li><img src="https://image.slamtec.com/images/linkimg-1.webp" width="1400" height="251" alt="&#x5408;&#x4F5C;&#x4F19;&#x4F34;"></li>
+    </ul>
+</div>
+
+
+
+<!-- end of middle section -->
+<!-- prettier-ignore -->
+
+    <div class="footer">
+        <div class="footer-top">
+            <div class="container clear">
+                <div class="footer-list clear fl">
+                    <div class="footer-list-container clear">
+                        <div class="footer-list1 fl">
+                            <h5>&#x8D2D;&#x4E70;&#x6E20;&#x9053;</h5>
+                              <p><a href="https://shop152221712.taobao.com/" rel="nofollow" target="_blank">&#x5B98;&#x65B9;&#x6DD8;&#x5B9D;</a></p>
+                                     <p><a href="/unknown/home/buy">&#x9500;&#x552E;&#x4EE3;&#x8868;</a></p>
+                        </div>
+                        <div class="footer-list2 fl">
+                            <h5>&#x5173;&#x4E8E;&#x6211;&#x4EEC;</h5>
+                            <p><a href="/unknown/home/about">&#x5173;&#x4E8E;&#x6211;&#x4EEC;</a></p>
+                            <p><a href="/unknown/support">&#x4E0B;&#x8F7D;&#x4E0E;&#x652F;&#x6301;</a></p>
+                            <p><a href="/unknown/contactus">&#x8054;&#x7CFB;&#x6211;&#x4EEC;</a></p>
+                        </div>
+                        <div class="footer-list2 footer-contactus fl">
+                            <h5>&#x8054;&#x7CFB;&#x6211;&#x4EEC;</h5>
+                            <p>&#x7535;&#x8BDD;：021-68620565</p>
+                            <p>&#x9500;&#x552E;：<a href="mailto:sales@slamtec.com">sales@slamtec.com</a></p>
+                            <p>
+                              <dl>
+                                <dt>&#x4E0A;&#x6D77;：</dt>
+                                <dd>
+                                  <p>&#x4E0A;&#x6D77;&#x5E02;&#x6D66;&#x4E1C;&#x65B0;&#x533A;&#x9F99;&#x4E1C;&#x5927;&#x9053;3158&#x5F04;6&#x53F7;3&#x5E62;&#x51EF;&#x9F99;&#x79D1;&#x6280;&#x5927;&#x53A6;6&#x697C;601&#x5BA4;</p>
+                                  <p>&#x4E0A;&#x6D77;&#x5E02;&#x6768;&#x6D66;&#x533A;&#x8FBD;&#x9633;&#x8DEF;188&#x53F7;K&#x5EA7;5&#x697C;</p>
+                                </dd>
+                              </dl>
+                            </p>
+                        </div>
+                        <div class="footer-list3 fl">
+                            <h5>&#x5173;&#x6CE8;&#x6211;&#x4EEC;</h5>
+                          <ol class="foot-pc-link">
+                              <li><a href="javascript:" class="showcode"><img src="https://image.slamtec.com/images/icon-foot-weixin.png" width="30" height="30" alt="&#x5FAE;&#x4FE1;&#x56FE;&#x6807;"/>
+                              <div><img src="https://image.slamtec.com/images/erweima.png" width="120" height="120" alt="&#x516C;&#x4F17;&#x53F7;&#x4E8C;&#x7EF4;&#x7801;"></div>
+                              </a></li>
+                              <li><a href="http://weibo.com/slamtec" rel="nofollow" target="_blank"><img src="https://image.slamtec.com/images/icon-foot-weibo.png" width="30" height="30" alt="&#x5FAE;&#x535A;&#x56FE;&#x6807;"/></a></li>
+                              <li><a href="javascript:" class="showcode dycode"><img src="https://image.slamtec.com/images/icon-foot-douyin.png" width="30" height="30" alt="&#x6296;&#x97F3;&#x56FE;&#x6807;"/>
+                              <div><img src="https://image.slamtec.com/images/douyincode.png" width="120" height="120" alt="&#x6296;&#x97F3;&#x4E8C;&#x7EF4;&#x7801;"></div>
+                              </a></li>
+                           </ol> 
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-lianxifangshi clear fr">
+                  <div class="erweima">
+                      <img src="https://image.slamtec.com/images/erweima.png" width="120" height="120" alt="&#x516C;&#x4F17;&#x53F7;&#x4E8C;&#x7EF4;&#x7801;"/>
+                      <p>&#x601D;&#x5C9A;&#x79D1;&#x6280;&#x5B98;&#x65B9;&#x5FAE;&#x4FE1;</p>
+                  </div>
+                  <div class="footer-phone clear fl">
+                      <p><i class="slamtecfont icon-dianhua2"></i>&#x670D;&#x52A1;&#x70ED;&#x7EBF; (&#x5468;&#x4E00;&#x81F3;&#x5468;&#x4E94; 09:00-18:00)</p>
+                      <p class="phone-number1">&#x552E;&#x524D;&#x54A8;&#x8BE2;：</p>
+                      <p class="phone-number1"><span>(+86) 021-68620565</span></p>
+                      <p class="phone-number1">&#x5E02;&#x573A;&#x5408;&#x4F5C;：<span>(+86) 021-68581569</span></p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <p>Copyright  2016-2026 Shanghai Slamtec Co., Ltd. <a href="https://beian.miit.gov.cn/">沪ICP备14023268号-1</a></p>
+        </div>
+    </div>
+
+<!-- prettier-ignore -->
+
+<div class="phone-footer">
+  <div class="phone-footer-top">
+    <div class="container clear">
+      <div class="phone-ewm fl">
+        <ul class="footer-focus">
+          <li>
+            <img
+              src="https://image.slamtec.com/images/weixin.png"
+              height="72"
+              width="72"
+              alt="&#x5FAE;&#x4FE1;&#x56FE;&#x6807;" />
+          </li>
+          <li>
+            <img
+              src="https://image.slamtec.com/images/weibo.png"
+              height="72"
+              width="72"
+              alt="&#x5FAE;&#x535A;&#x56FE;&#x6807;" />
+          </li>
+        </ul>
+      </div>
+      <div class="phone-footer-r fr">
+        <div class="footer-phone">
+          <p>
+            <i class="slamtecfont icon-dianhua2"></i>
+            &#x670D;&#x52A1;&#x70ED;&#x7EBF; (&#x5468;&#x4E00;&#x81F3;&#x5468;&#x4E94; 09:00-18:00)
+          </p>
+          <div class="mobile-foot-phone">
+            <p>&#x552E;&#x524D;&#x54A8;&#x8BE2;:</p>
+            <p>
+              <span>(+86)</span>
+              021-68620565
+            </p>
+          </div>
+          <div class="mobile-foot-phone">
+            <p>&#x5E02;&#x573A;&#x5408;&#x4F5C;:</p>
+            <p>
+              <span>(+86)</span>
+              021-68581569
+            </p>
+          </div>
+          <p class="footer-mail">
+            &#x9500;&#x552E;：
+            <a href="mailto:sales@slamtec.com">sales@slamtec.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="phone-footer-bottom">
+    Copyright 2016-2026 Shanghai Slamtec Co., Ltd.
+    <a href="https://beian.miit.gov.cn/">沪ICP备14023268号-1</a>
+  </div>
+</div>
+
+
+
+    <!-- back to top -->
+    <div class="to-top">
+      <span>top</span>
+      <img src="https://image.slamtec.com/images/phone-top-jiantou.png" height="21" width="35" />
+    </div>
+
+    
+    
+        <script type="text/javascript" src="/lib/jquery/dist/jquery.min.js"></script>
+        <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="/js/site.js?v=v_RUSJDPiW13MlR3n0cYulhHXJALAjcZALvJy9sY3WY"></script>
+
+        <script src="/lib/silan/main.js?time=1586250979782"></script>
+    
+<script>
+  // 百度统计
+  var _hmt = _hmt || []
+  ;(function () {
+    var hm = document.createElement('script')
+    hm.src = 'https://hm.baidu.com/hm.js?09bf10a1fa4948feb3c1ac09d3b94890'
+    var s = document.getElementsByTagName('script')[0]
+    s.parentNode.insertBefore(hm, s)
+  })()
+</script>
+      <div class="to-contact-phone">
+        <div><a href="tel:17621250496" target="_blank"><img src="/images/icon-tel.png" width="75" height="80" alt="FaceTime Icon" /></a></div>
+      </div>
+  
+    
+    <script type="text/javascript">
+
+    </script>
+
+    
+</body>
+</html>

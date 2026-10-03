@@ -37,6 +37,12 @@ for (const [model, variants] of Object.entries(heroes)) {
   }
 }
 if (urls.length !== 16) errors.push(`Expected 16 RobotSepeti products, found ${urls.length}`);
+const designAssets = JSON.parse(fs.readFileSync(path.join(root,'scripts','official-design-assets.json'),'utf8'));
+for(const {file} of designAssets){
+  const target=path.join(root,file);
+  if(!fs.existsSync(target)||fs.statSync(target).size===0)errors.push(`Missing official design media: ${file}`);
+}
+console.log(`Checked ${designAssets.length} official design media files`);
 
 (async () => {
   for (let i = 0; i < urls.length; i += 4) {
