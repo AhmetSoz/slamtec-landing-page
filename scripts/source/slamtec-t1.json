@@ -1,0 +1,988 @@
+{
+ "page": "/en/t1",
+ "title": "LPX-T1 Long-Range Lidar for AGVs | Industrial | SLAMTEC",
+ "sections": [
+  {
+   "si": 0,
+   "cls": "t1-section",
+   "h": 894,
+   "w": 1901,
+   "texts": [],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/t1/pc/t1-banner-en.webp",
+     "alt": "LPX-T1 Banner",
+     "nw": 1920,
+     "nh": 903,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 1,
+   "cls": "t1-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "P",
+     "cls": "t1-txt-left",
+     "t": "LPX-T1 is the first-generation high-performance laser LiDAR developed by SLAMTEC. With a range of 40 meters and a sampling frequency of up to 60,000 times per second, it offers excellent resistance to environmental light up to 80,000 lux. With a scanning angle of 270 degrees, it generates real-time point cloud maps, providing precise environmental perception and navigation capabilities. Specifically designed for AGV scenarios, it is suitable for applications in service robots, lightweight autonomous driving, and more. LPX-T1 is the ideal choice for solving robot localization and map-building.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 4.2,
+      "y": 36.8,
+      "w": 30.2,
+      "h": 26.4
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/t1/pc/t1-section0-cn.webp",
+     "alt": "LPX-T1 introduction background",
+     "nw": 1920,
+     "nh": 900,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 2,
+   "cls": "t1-section",
+   "h": 887,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "t1-tit",
+     "t": "40 meters medium and long distance detection capability",
+     "fs": 32,
+     "fw": "500",
+     "c": "rgb(84, 62, 154)",
+     "box": {
+      "x": 0,
+      "y": 13.3,
+      "w": 100,
+      "h": 4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "t1-txt",
+     "t": "The LPX-T1 is capable of reliable detection within a range of 40 meters, enabling identification and tracking of long-distance targets. It provides robots with a wider sensing range and longer reaction time, enhancing the safety and adaptability of the system. It is suitable for various scenarios such as warehouses, factories, distribution stations, hotels, restaurants, shopping malls, and office buildings.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(3, 3, 5)",
+     "box": {
+      "x": 21.4,
+      "y": 21.1,
+      "w": 59.9,
+      "h": 8.8
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/t1/pc/t1-section1-cn.webp",
+     "alt": "LPX-T1 40 meters long-range detection capability",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 3,
+   "cls": "t1-section",
+   "h": 808,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "t1-tit",
+     "t": "60,000 times/second high-speed sampling capabilities",
+     "fs": 32,
+     "fw": "500",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 13.3,
+      "w": 100,
+      "h": 4.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "t1-txt",
+     "t": "LPX-T1 has improved the internal optical design and algorithm system, and has a laser ranging sampling capability of up to 60,000 times per second to meet the needs of high-speed movement. It can update environmental data in real time, provide support for rapid decision-making and adjustment, and keep the robot stable and accurate in the case of fast movement.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 21.4,
+      "y": 21.1,
+      "w": 59.9,
+      "h": 9.7
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/t1/pc/t1-section2-cn.gif",
+     "alt": "LPX-T1 high-speed sampling capability of 60,000 times per second",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 4,
+   "cls": "t1-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "t1-tit",
+     "t": "Super fine object detection ability",
+     "fs": 32,
+     "fw": "500",
+     "c": "rgb(84, 62, 154)",
+     "box": {
+      "x": 0,
+      "y": 13.3,
+      "w": 100,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "t1-txt",
+     "t": "Small object detection is one of the crucial functions in AGV scenarios. LPX-T1 has an angular resolution of up to 0.12°, which can accurately capture and identify subtle object details, ensuring accurate detection of small-sized targets. Whether it is an obstacle in a warehouse, an obstacle in a narrow passage, or a small object in a complex environment, the LPX-T1 can achieve efficient detection and identification with excellent accuracy, providing AGV with reliable navigation and obstacle avoidance capabilities.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(3, 3, 5)",
+     "box": {
+      "x": 21.4,
+      "y": 21.1,
+      "w": 59.9,
+      "h": 11.7
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/t1/pc/t1-section3-en.webp",
+     "alt": "LPX-T1 has the ability to detect small objects",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 5,
+   "cls": "t1-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "t1-tit",
+     "t": "80,000Lux anti-interference ability of ambient light",
+     "fs": 32,
+     "fw": "500",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 13.3,
+      "w": 100,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "t1-txt",
+     "t": "With advanced anti-interference technology, LPX-T1 can effectively deal with the interference of ambient light and sunlight. Whether it is a complex indoor environment or a scene with strong outdoor light, it can operate stably and provide reliable environmental awareness.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 21.4,
+      "y": 21.1,
+      "w": 59.9,
+      "h": 5.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/t1/pc/t1-section4-en.webp",
+     "alt": "80klux sunlight resistance",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 6,
+   "cls": "t1-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "t1-tit",
+     "t": "Support Various Development Platforms",
+     "fs": 32,
+     "fw": "500",
+     "c": "rgb(84, 62, 154)",
+     "box": {
+      "x": 0,
+      "y": 13.3,
+      "w": 100,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "t1-txt",
+     "t": "In order to improve user development efficiency, SLAMTEC has developed the development software RobotStudio. RobotStudio provides users with professional LiDAR debugging tools. At the same time, SLAMTEC also provides users with SDK development kits that can run on x86 windows, x86 Linux, arm Linux and other platforms to match Various development applications.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(3, 3, 5)",
+     "box": {
+      "x": 21.4,
+      "y": 21.1,
+      "w": 59.9,
+      "h": 8.8
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/t1/pc/t1-section6-en.webp",
+     "alt": "Supports various development platforms",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 7,
+   "cls": "t1-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "t1-tit",
+     "t": "CLASS 1 Laser Safety Standard",
+     "fs": 32,
+     "fw": "500",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 13.3,
+      "w": 100,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "t1-txt",
+     "t": "Using a modulated pulse type low-power infrared laser emitting light source, RPlidar A1 meets the Class 1 laser safety standard and is safe for human eye.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 21.4,
+      "y": 31.7,
+      "w": 59.9,
+      "h": 5.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/t1/pc/s2-section10-cn.webp",
+     "alt": "Class 1 laser safety standards",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/t1/pc/s2-section10-img-cn.webp",
+     "alt": "Class 1 laser icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 45,
+      "y": 20.7,
+      "w": 10,
+      "h": 6.8
+     },
+     "pcls": "pic"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 8,
+   "cls": "t1-section",
+   "h": 1045,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "t1-tit",
+     "t": "Wide range of applications",
+     "fs": 32,
+     "fw": "500",
+     "c": "rgb(0, 0, 0)",
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 17.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "t1-txt",
+     "t": "The features and performance of the LPX-T1 make it suitable for a variety of flexible and diverse application scenarios. It can be widely used in industrial vehicles (AGV), service robots, lightweight autonomous driving (unmanned vehicles in parks) and other fields. Whether it is warehousing logistics, smart manufacturing or autonomous driving systems, LPX-T1 can provide accurate and reliable environment perception and navigation support for different applications.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(0, 0, 0)",
+     "box": {
+      "x": 20.1,
+      "y": 17.9,
+      "w": 59.9,
+      "h": 15.4
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/t1/pc/t1-section7-01.webp",
+     "alt": "Applied to obstacle avoidance and navigation of service robots",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 7.3,
+      "y": 33.4,
+      "w": 20.9,
+      "h": 26.1
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/t1/pc/t1-section7-02.webp",
+     "alt": "Applied to AGV obstacle detection and avoidance",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 28.6,
+      "y": 33.4,
+      "w": 20.9,
+      "h": 26.1
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/t1/pc/t1-section7-03.webp",
+     "alt": "Applied to parking lot monitoring",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 50,
+      "y": 33.4,
+      "w": 20.9,
+      "h": 26.1
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/t1/pc/t1-section7-04.webp",
+     "alt": "Applied to low-speed unmanned vehicle environmental perception and autonomous movement",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 71.4,
+      "y": 33.4,
+      "w": 20.9,
+      "h": 26.1
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/t1/pc/t1-section7-05.webp",
+     "alt": "Applied to multi-touch and large-screen interaction",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 7.3,
+      "y": 60.4,
+      "w": 20.9,
+      "h": 26.1
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/t1/pc/t1-section7-06.webp",
+     "alt": "Applied to UAV mapping and obstacle avoidance",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 28.6,
+      "y": 60.4,
+      "w": 20.9,
+      "h": 26.1
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/t1/pc/t1-section7-07.webp",
+     "alt": "Applied to ROS car/education car mapping and obstacle avoidance",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 50,
+      "y": 60.4,
+      "w": 20.9,
+      "h": 26.1
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/t1/pc/t1-section7-08.webp",
+     "alt": "Applied to environment scanning and 3D reconstruction",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 71.4,
+      "y": 60.4,
+      "w": 21.4,
+      "h": 26.7
+     },
+     "pcls": ""
+    }
+   ],
+   "vids": [],
+   "bgs": [
+    "https://image.slamtec.com/images/s2/pc/s2-section11-cn.jpg"
+   ]
+  },
+  {
+   "si": 9,
+   "cls": "section fp-auto-height",
+   "h": 444,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Buy",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 11.6,
+      "y": 12.4,
+      "w": 4.7,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "official Alibaba",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 19.6,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Sales",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 25,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "About Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 17.9,
+      "y": 12.4,
+      "w": 4.6,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "About Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 19.6,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Support",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 25,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 30.3,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Privacy Policy",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 35.7,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 24,
+      "y": 12.4,
+      "w": 12.8,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Tel：021-68620565",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 19.6,
+      "w": 8.9,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Sales：sales@slamtec.com",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 25,
+      "w": 8.9,
+      "h": 10.7
+     }
+    },
+    {
+     "tag": "DT",
+     "cls": "",
+     "t": "Shanghai：",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 35.7,
+      "w": 3.8,
+      "h": 40.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Room 601, 6th Floor, Kailong Technology Building, Building 3, No. 6, Lane 3158, Longdong Avenue, Pudong New District, Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 35.7,
+      "w": 8.9,
+      "h": 27
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "5F, Building K, Poly Green Square, 188 Liaoyang Rd., Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 62.7,
+      "w": 8.9,
+      "h": 13.5
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Focus Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 38.4,
+      "y": 12.4,
+      "w": 7.3,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Hotline (Mon-Fri, 9am - 6pm, Beijing Time)",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 72.4,
+      "y": 12.4,
+      "w": 16,
+      "h": 8.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "Pre-sale consultation：",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 20.6,
+      "w": 16,
+      "h": 9.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "(+86) 021-68620565",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 29.9,
+      "w": 16,
+      "h": 11
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "BD：\n(+86) 021-68581569",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 40.8,
+      "w": 16,
+      "h": 16.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Copyright 2016-2026 Shanghai Slamtec Co., Ltd. 沪ICP备14023268号-1",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 10,
+      "y": 84.2,
+      "w": 80,
+      "h": 4.6
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "/images/icon-foot-linkedin.png",
+     "alt": "LinkedIn icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 38.4,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-youtube.png",
+     "alt": "YouTube icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 40.3,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-facebook.png",
+     "alt": "Facebook icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 42.2,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-twitter.png",
+     "alt": "Twitter icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 44.1,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/erweima.png",
+     "alt": "Official Account QR code",
+     "nw": 146,
+     "nh": 146,
+     "box": {
+      "x": 0,
+      "y": -1854,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "erweima"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  }
+ ],
+ "spec": {
+  "tables": [
+   [
+    [
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   [
+    [
+     "Product Name",
+     "T1M4"
+    ],
+    [
+     "Recommended applications",
+     "AGV,service robot, drone, surveying andmapping",
+     "Weight",
+     "264g"
+    ],
+    [
+     "Angular Range",
+     "270°",
+     "Dimensions",
+     "60 mm x 73 mm x 85 mm"
+    ],
+    [
+     "Sample Frequency",
+     "20-40Hz (typical 20Hz)",
+     "Shell Color",
+     "Mountain Lake Blue"
+    ],
+    [
+     "Distance Range",
+     "0.05-40m 70% Reflectivity 0.05-15m 10% Reflectivity",
+     "Electrical Connections",
+     "4-pin, M12 plug1X Ethernet Interface"
+    ],
+    [
+     "Sample Rate",
+     "60Khz",
+     "1X Power Input Interface 5-pin, M12 plug"
+    ],
+    [
+     "Angle Resolution",
+     "0.12°",
+     "Supply Voltage",
+     "9~28VDC"
+    ],
+    [
+     "Range Accuracy",
+     "±30mm",
+     "Power Consumption",
+     "Typ.4 W"
+    ],
+    [
+     "Ranging Resolution",
+     "8mm",
+     "Electromagnetic Compatibility(EMC)",
+     "EN 55032:2015/EN 55035:2017"
+    ],
+    [
+     "Anti-AmbientLight Ability",
+     "80,000lux",
+     "Anti-vibration Ability",
+     "IEC60068-2-6"
+    ],
+    [
+     "Light Source",
+     "infrared (905nm)",
+     "Impact Resistance",
+     "IEC60068-2-27"
+    ],
+    [
+     "Proof Level",
+     "Class 1",
+     "Temperature Range",
+     "-20°C~50°C"
+    ]
+   ]
+  ],
+  "text": "",
+  "url": "/en/t1/spec"
+ }
+}

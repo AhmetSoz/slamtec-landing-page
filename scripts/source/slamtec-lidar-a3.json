@@ -1,0 +1,953 @@
+{
+ "page": "/en/lidar/a3",
+ "title": "RPLIDAR-A3 360° Lidar Sensor | Robot Navigation | SLAMTEC",
+ "sections": [
+  {
+   "si": 0,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a3/pc/bg_1_en.webp",
+     "alt": "RPLIDAR A3 banner",
+     "nw": 1700,
+     "nh": 797,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 1,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H3",
+     "cls": "",
+     "t": "Ranging 16000 Times per Second",
+     "fs": 36,
+     "fw": "500",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 4,
+      "w": 100,
+      "h": 8.1
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "The sample rate of LIDAR directly decides whether the robot can build map quickly and accurately.\nRPLIDAR A3 improves the internal optical design and algorithm system to make the sample rate up\nto 16000 times, which is much better than most competitors.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 12.1,
+      "w": 100,
+      "h": 9.1
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Comparison under different working conditions",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 91.3,
+      "w": 100,
+      "h": 5.6
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a3/pc/bg_2.webp",
+     "alt": "RPLIDAR A3 Frequency Background",
+     "nw": 1920,
+     "nh": 900,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/a3/pc/ani_rplidara3_scan.gif",
+     "alt": "RPLIDAR A3 Scanning Demo",
+     "nw": 618,
+     "nh": 486,
+     "box": {
+      "x": 32.5,
+      "y": 32.6,
+      "w": 35,
+      "h": 58.7
+     },
+     "pcls": "a3-text2"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 2,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H3",
+     "cls": "",
+     "t": "25 Meters Range Radius",
+     "fs": 36,
+     "fw": "500",
+     "c": "rgb(84, 62, 154)",
+     "box": {
+      "x": 0,
+      "y": 17.2,
+      "w": 100,
+      "h": 5.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "With algorithm optimization, the ranging radius of RPLIDAR A3 has been increased to 25 meters,\nwhich means more environment outline information is to be collected",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(82, 79, 78)",
+     "box": {
+      "x": 0,
+      "y": 22.8,
+      "w": 100,
+      "h": 6.1
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a3/pc/bg_3.webp",
+     "alt": "RPLIDAR A3 25m ranging radius",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 3,
+   "cls": "section",
+   "h": 890,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H3",
+     "cls": "",
+     "t": "Indoor and Outdoor Availability",
+     "fs": 36,
+     "fw": "500",
+     "c": "rgb(84, 62, 154)",
+     "box": {
+      "x": 0,
+      "y": 11.1,
+      "w": 100,
+      "h": 5.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "PLIDRA A3 supports to work under two modes alternatively:enhanced modeandoutdoor mode.\nIn enhanced mode, RPLIDAR A3 works with the maximum ranging radius and sampling rate to realize\nan optimistic mapping performance in indoor environments.\nWhile in outdoor mode, RPLIDAR A3 works with a more reliable resistance to daylight interference.\nIt keeps its stable performance when detecting white and black objects.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(82, 79, 78)",
+     "box": {
+      "x": 0,
+      "y": 16.7,
+      "w": 100,
+      "h": 15.2
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a3/pc/bg_4.webp",
+     "alt": "RPLIDAR A3 can be used indoors and outdoors",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 4,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H3",
+     "cls": "",
+     "t": "360 Degree Omnidirectional Laser Range Scanning",
+     "fs": 36,
+     "fw": "500",
+     "c": "rgb(82, 79, 78)",
+     "box": {
+      "x": 0,
+      "y": 11.1,
+      "w": 100,
+      "h": 5.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "The ranging core of RPLIDAR A3 runs clockwise to perform a 360 degree omnidirectional\nlaser range scanning for its surrounding environment and then generate an outline map\nfor the environment.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(82, 79, 78)",
+     "box": {
+      "x": 0,
+      "y": 16.7,
+      "w": 100,
+      "h": 9.1
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a3/pc/bg_5.webp",
+     "alt": "RPLIDAR A3 360-degree scanning",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 5,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H3",
+     "cls": "",
+     "t": "4 Centimeters Ultra-thin",
+     "fs": 36,
+     "fw": "500",
+     "c": "rgb(82, 79, 78)",
+     "box": {
+      "x": 44.4,
+      "y": 41.1,
+      "w": 27.9,
+      "h": 5.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "With the carefully designed parts and internal mechanical system,\nthe RPLIDAR A3 keeps its exceptional performance within its 4-cm\nthick compact size. It is ideal for all kinds of service robots.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(82, 79, 78)",
+     "box": {
+      "x": 44.4,
+      "y": 46.7,
+      "w": 27.9,
+      "h": 9.1
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a3/pc/bg_6.webp",
+     "alt": "RPLIDAR A3 4cm ultra-thin",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 6,
+   "cls": "section",
+   "h": 900,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H3",
+     "cls": "",
+     "t": "Brushless Motor, Low Noise, New Non-contact Drive",
+     "fs": 36,
+     "fw": "500",
+     "c": "rgb(82, 79, 78)",
+     "box": {
+      "x": 0,
+      "y": 16.7,
+      "w": 100,
+      "h": 5.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Compared with the traditional belt drive mode, RPLIDAR A3 uses the\nself-designed brushless motor to reduce the mechanical friction in running.\nTherefore, the RPLIDAR A3 can run smoothly without any noise.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(82, 79, 78)",
+     "box": {
+      "x": 0,
+      "y": 22.2,
+      "w": 100,
+      "h": 9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a3/pc/bg_7.webp",
+     "alt": "Brushless motor, low noise",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 7,
+   "cls": "section",
+   "h": 889,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "RPLIDAR A3 adopts laser triangulation ranging principle, and with high-speed RPVision ranging engine,\nit measures distance data 16000 times per second and keeps its excellent performance in a long distance.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(82, 79, 78)",
+     "box": {
+      "x": 0,
+      "y": 47,
+      "w": 100,
+      "h": 6.1
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a3/pc/bg_8_en.webp",
+     "alt": "High-speed visual ranging engine",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 8,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H3",
+     "cls": "",
+     "t": "OPTMAG Original Design, 5 Years Ultra-long Life",
+     "fs": 36,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 10.6,
+      "w": 100,
+      "h": 5.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Most traditional non-solid LIDARs use slip ring to transfer power and data information, however, they only have thousands of\nhours of life due to mechanical wearing out. SLAMTEC has integrated the wireless power and optical communication technology\nto self-design the OPTMAG technology, which breakouts the life limitation of traditional LIDAR system.It fixes the electrical\nconnection failure caused by the physical wearing out so as to prolong the life to 5 years and even more.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 16.1,
+      "w": 100,
+      "h": 12.1
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a3/pc/bg_9_en.webp",
+     "alt": "Optical-magnetic fusion 5-year lifespan",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 9,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "The RPLIDAR A3 system adopts the low power infrared laser\nlight as its light source, and drives it by using modulated pulse. The laser emits\nlight in a very short time frame which can ensure its safety to human and\npets. It has already reached Class 1 Safety Standard.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 41,
+      "y": 27.3,
+      "w": 32.9,
+      "h": 12.1
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a3/pc/bg_10_en.webp",
+     "alt": "Laser safety standard class 1",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 10,
+   "cls": "section fp-auto-height",
+   "h": 444,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Buy",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 11.6,
+      "y": 12.4,
+      "w": 4.7,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "official Alibaba",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 19.6,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Sales",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 25,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "About Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 17.9,
+      "y": 12.4,
+      "w": 4.6,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "About Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 19.6,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Support",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 25,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 30.3,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Privacy Policy",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 35.7,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 24,
+      "y": 12.4,
+      "w": 12.8,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Tel：021-68620565",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 19.6,
+      "w": 8.9,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Sales：sales@slamtec.com",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 25,
+      "w": 8.9,
+      "h": 10.7
+     }
+    },
+    {
+     "tag": "DT",
+     "cls": "",
+     "t": "Shanghai：",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 35.7,
+      "w": 3.8,
+      "h": 40.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Room 601, 6th Floor, Kailong Technology Building, Building 3, No. 6, Lane 3158, Longdong Avenue, Pudong New District, Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 35.7,
+      "w": 8.9,
+      "h": 27
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "5F, Building K, Poly Green Square, 188 Liaoyang Rd., Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 62.7,
+      "w": 8.9,
+      "h": 13.5
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Focus Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 38.4,
+      "y": 12.4,
+      "w": 7.3,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Hotline (Mon-Fri, 9am - 6pm, Beijing Time)",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 72.4,
+      "y": 12.4,
+      "w": 16,
+      "h": 8.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "Pre-sale consultation：",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 20.6,
+      "w": 16,
+      "h": 9.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "(+86) 021-68620565",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 29.9,
+      "w": 16,
+      "h": 11
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "BD：\n(+86) 021-68581569",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 40.8,
+      "w": 16,
+      "h": 16.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Copyright 2016-2026 Shanghai Slamtec Co., Ltd. 沪ICP备14023268号-1",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 10,
+      "y": 84.2,
+      "w": 80,
+      "h": 4.6
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "/images/icon-foot-linkedin.png",
+     "alt": "LinkedIn icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 38.4,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-youtube.png",
+     "alt": "YouTube icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 40.3,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-facebook.png",
+     "alt": "Facebook icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 42.2,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-twitter.png",
+     "alt": "Twitter icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 44.1,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/erweima.png",
+     "alt": "Official Account QR code",
+     "nw": 146,
+     "nh": 146,
+     "box": {
+      "x": 0,
+      "y": -2040.6,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "erweima"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  }
+ ],
+ "spec": {
+  "tables": [
+   [
+    [
+     "Item",
+     "Enhanced Mode",
+     "Outdoor Mode"
+    ],
+    [
+     "Application Scenarios",
+     "Extreme performance Ideal for indoor environments with maximum ranging distance and sampling frequency.",
+     "Extreme reliability Ideal for both outdoor and indoor environments with reliable resistance to daylight."
+    ],
+    [
+     "Distance Range",
+     "White object: 25 meters",
+     "White object: 20 meters"
+    ],
+    [
+     "Dark object: 10 meters",
+     "Dark object: TBD"
+    ],
+    [
+     "Minimum Operating ranging",
+     "0.2m",
+     "0.2m"
+    ],
+    [
+     "Sample Rate",
+     "16000 times per second",
+     "10000 times per second"
+    ],
+    [
+     "Scan Rate",
+     "Typical value: 10Hz (adjustable between 5Hz-15Hz)"
+    ],
+    [
+     "Angular Resolution",
+     "0.225°",
+     "0.225°"
+    ],
+    [
+     "Communication Interface",
+     "TTL UART"
+    ],
+    [
+     "Communication Speed",
+     "256000bps"
+    ],
+    [
+     "Compatibility",
+     "Support former SDK protocols"
+    ],
+    [
+     "System Voltage",
+     "5V"
+    ],
+    [
+     "System Current",
+     "450mA-600mA"
+    ],
+    [
+     "Power Consumption",
+     "2.25W-3W"
+    ],
+    [
+     "Output",
+     "UART Serial (3.3 voltage level)"
+    ],
+    [
+     "Temperature Range",
+     "0℃-40℃"
+    ],
+    [
+     "Angular Range",
+     "360°"
+    ],
+    [
+     "Range Resolution",
+     "≤1% of the range（≤12m) ≤2% of the range（12m～25m)"
+    ],
+    [
+     "Accuracy",
+     "1% of the range（≤3 m） 2% of the range（3-5 m） 2.5% of the range（5-25m）"
+    ]
+   ]
+  ],
+  "text": "",
+  "url": "/en/lidar/a3spec"
+ }
+}

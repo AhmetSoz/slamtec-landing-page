@@ -1,0 +1,1217 @@
+{
+ "page": "/en/s3",
+ "title": "RPLIDAR S3 Ultra-Compact & High-Perf dToF Lidar | SLAMTEC",
+ "sections": [
+  {
+   "si": 0,
+   "cls": "s3-section",
+   "h": 894,
+   "w": 1901,
+   "texts": [],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-banner-en.webp",
+     "alt": "RPLIDAR S3 banner",
+     "nw": 1920,
+     "nh": 903,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 1,
+   "cls": "s3-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "P",
+     "cls": "s3-txt",
+     "t": "SLAMTEC self-developed SL-TOF distance measurement technology improves environmental light immunity and measurement accuracy.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(3, 3, 5)",
+     "box": {
+      "x": 21.4,
+      "y": 42.8,
+      "w": 61.5,
+      "h": 2.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "s3-txt03",
+     "t": "S3 High laser scanning resolutions",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(0, 177, 244)",
+     "box": {
+      "x": 16.6,
+      "y": 58.4,
+      "w": 31.6,
+      "h": 1.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "s3-txt04",
+     "t": "S3 Low measurement noise",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(0, 177, 244)",
+     "box": {
+      "x": 51.6,
+      "y": 58.4,
+      "w": 31.6,
+      "h": 1.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "s3-txt05 en",
+     "t": "Traditional DTof\nlaser scanning resolutions",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(122, 122, 122)",
+     "box": {
+      "x": 16.6,
+      "y": 74.2,
+      "w": 31.6,
+      "h": 3.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "s3-txt06 en",
+     "t": "Traditional DTof\nLow measurement noise",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(122, 122, 122)",
+     "box": {
+      "x": 51.6,
+      "y": 74.2,
+      "w": 31.6,
+      "h": 3.6
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-section0-en.webp",
+     "alt": "SLAMTEC's self-developed ranging technology performs excellently",
+     "nw": 1920,
+     "nh": 900,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 2,
+   "cls": "s3-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "s3-tit",
+     "t": "A stable and fixed 40-meter measurement radius",
+     "fs": 32,
+     "fw": "500",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 13.3,
+      "w": 100,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "s3-txt",
+     "t": "Even at 70% reflectance, RPlidar S3 can ensure an accurate distance measurement of about 40m, meeting the requirements for medium to long-range scanning.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 21.4,
+      "y": 21.1,
+      "w": 61.5,
+      "h": 5.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "s3-txt01",
+     "t": "*Examples of objects with different reflectivity",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(3, 3, 5)",
+     "box": {
+      "x": 74.8,
+      "y": 91.9,
+      "w": 14.7,
+      "h": 2.3
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-section1-cn.webp",
+     "alt": "Schematic diagram of RPLIDAR S3 ranging radius under different reflectivities",
+     "nw": 1920,
+     "nh": 900,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 3,
+   "cls": "s3-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "s3-tit",
+     "t": "Low reflectivity at 15 meters measurement radius",
+     "fs": 32,
+     "fw": "500",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 13.3,
+      "w": 100,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "s3-txt",
+     "t": "RPlidar S3 performs equally well in measuring distances when facing low-reflectivity objects such as black color doors and anti-reflective coating objects. It can measure up to a distance of 15 meters with a 10% reflectivity.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 21.4,
+      "y": 21.1,
+      "w": 61.5,
+      "h": 4.4
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-section2-en.webp",
+     "alt": "RPLIDAR S3 performs excellently in ranging under low reflectivity conditions",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 4,
+   "cls": "s3-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "s3-tit",
+     "t": "32,000 times/second High-Speed Sampling Capabilities",
+     "fs": 32,
+     "fw": "500",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 13.3,
+      "w": 100,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "s3-txt",
+     "t": "RPlidar S3 demonstrates exceptional capabilities in real-time perception, precise positioning, and target detection. Its high-speed sampling frequency allows it to capture a greater amount of point cloud data, enabling faster and more accurate mapping.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 21.4,
+      "y": 21.1,
+      "w": 61.5,
+      "h": 5.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-section3-cn.webp",
+     "alt": "High-speed sampling capability of 32,000 times/second to obtain point cloud data",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 5,
+   "cls": "s3-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "s3-tit",
+     "t": "80,000Lux anti-interference ability of ambient light",
+     "fs": 32,
+     "fw": "500",
+     "c": "rgb(0, 177, 244)",
+     "box": {
+      "x": 0,
+      "y": 13.3,
+      "w": 100,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "s3-txt",
+     "t": "Thanks to hardware optimization, the RPlidar S3 effectively reduced light interference and provides accurate laser ranging data, regardless of challenging conditions such as indoor strong lighting or direct sunlight outdoors.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(3, 3, 5)",
+     "box": {
+      "x": 21.4,
+      "y": 21.1,
+      "w": 61.5,
+      "h": 5.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-section4-cn.webp",
+     "alt": "RPLIDAR S3 80KLux ambient light interference resistance",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 6,
+   "cls": "s3-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "s3-tit",
+     "t": "Smaller size, better performance",
+     "fs": 32,
+     "fw": "500",
+     "c": "rgb(0, 177, 244)",
+     "box": {
+      "x": 0,
+      "y": 13.3,
+      "w": 100,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "s3-txt",
+     "t": "RPlidar S3 is compact and sleek, with a total height of only 4cm, making it the smallest LiDAR product by SLAMTEC. It is cost-effective while overcoming the limitations of space and catering to various application scenarios.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(3, 3, 5)",
+     "box": {
+      "x": 21.4,
+      "y": 21.1,
+      "w": 61.5,
+      "h": 5.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-section5-cn.webp",
+     "alt": "RPLIDAR S3 compared to other products",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 7,
+   "cls": "s3-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "s3-tit",
+     "t": "Compatible with the SLAMTEC ecosystem",
+     "fs": 32,
+     "fw": "500",
+     "c": "rgb(0, 177, 244)",
+     "box": {
+      "x": 0,
+      "y": 13.3,
+      "w": 100,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "s3-txt",
+     "t": "RPlidar S3 is highly compatible with SLAMTEC’s software, firmware, and hardware interfaces. It also provides a seamless transition in terms of size with SLAMTEC’s existing products, ensuring smooth integration.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(3, 3, 5)",
+     "box": {
+      "x": 21.4,
+      "y": 21.1,
+      "w": 61.5,
+      "h": 5.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-section6-cn.webp",
+     "alt": "RPLIDAR series products are compatible with each other",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 8,
+   "cls": "s3-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "s3-tit",
+     "t": "Support Various Development Platforms",
+     "fs": 32,
+     "fw": "500",
+     "c": "rgb(0, 177, 244)",
+     "box": {
+      "x": 0,
+      "y": 13.3,
+      "w": 100,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "s3-txt",
+     "t": "SLAMTEC provides users with SDK development kits that can run on x86 Windows, x86 Linux, arm Linux, and other platforms to match various development applications.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 21.4,
+      "y": 21.1,
+      "w": 61.5,
+      "h": 5.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-section7-cn.webp",
+     "alt": "RPLIDAR S3 supported development platforms",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 9,
+   "cls": "s3-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "P",
+     "cls": "s3-txt",
+     "t": "RPLIDAR S3 adopts the low power infrared laser light as its light source, and drives it by modulated pulse. It reaches Class 1 Laser Safety Standard which can ensure its safety to human eyes.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 21.4,
+      "y": 31.7,
+      "w": 61.5,
+      "h": 5.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-section10-cn.webp",
+     "alt": "Class 1 laser safety standards",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-section10-img-cn.webp",
+     "alt": "Class 1 laser icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 45,
+      "y": 20.7,
+      "w": 10,
+      "h": 6.8
+     },
+     "pcls": "pic"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 10,
+   "cls": "s3-section",
+   "h": 1039,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "s3-tit",
+     "t": "Application Scenarios",
+     "fs": 32,
+     "fw": "500",
+     "c": "rgb(0, 0, 0)",
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 18
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Robot navigation and obstacle avoidance",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 7.3,
+      "y": 44.3,
+      "w": 20.9,
+      "h": 5.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Obstacle detecting and avoiding of AGV",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 28.6,
+      "y": 44.3,
+      "w": 20.9,
+      "h": 5.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Parking lot monitoring",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 50,
+      "y": 44.3,
+      "w": 20.9,
+      "h": 5.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Environment perception and autonomous movement of low-speed unmanned vehicles",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 71.4,
+      "y": 44.3,
+      "w": 20.9,
+      "h": 7.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Multi-point touching and man-mechine interaction",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 7.3,
+      "y": 79.3,
+      "w": 20.9,
+      "h": 5.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "UAV mapping and obstacle avoidance",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 28.6,
+      "y": 79.3,
+      "w": 20.9,
+      "h": 5.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "ROS trolley/education trolley for map building and obstacle avoidance",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 50,
+      "y": 79.3,
+      "w": 20.9,
+      "h": 7.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Environment scanning and 3D rebuilding",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 71.4,
+      "y": 79.3,
+      "w": 20.9,
+      "h": 5.8
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-section9-01.webp",
+     "alt": "Applied to obstacle avoidance and navigation of service robots",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 7.3,
+      "y": 18,
+      "w": 20.9,
+      "h": 26.3
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-section9-02.webp",
+     "alt": "Applied to AGV obstacle detection and avoidance",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 28.6,
+      "y": 18,
+      "w": 20.9,
+      "h": 26.3
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-section9-03.webp",
+     "alt": "Applied to parking lot monitoring",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 50,
+      "y": 18,
+      "w": 20.9,
+      "h": 26.3
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-section9-04.webp",
+     "alt": "Applied to low-speed unmanned vehicle environmental perception and autonomous movement",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 71.4,
+      "y": 18,
+      "w": 20.9,
+      "h": 26.3
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-section9-05.webp",
+     "alt": "Applied to multi-touch and large-screen interaction",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 7.3,
+      "y": 53,
+      "w": 20.9,
+      "h": 26.3
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-section9-06.webp",
+     "alt": "Applied to UAV mapping and obstacle avoidance",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 28.6,
+      "y": 53,
+      "w": 20.9,
+      "h": 26.3
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-section9-07.webp",
+     "alt": "Applied to ROS car/education car mapping and obstacle avoidance",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 50,
+      "y": 53,
+      "w": 20.9,
+      "h": 26.3
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/s3/pc/s3-section9-08.webp",
+     "alt": "Applied to environment scanning and 3D reconstruction",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 71.4,
+      "y": 53,
+      "w": 20.9,
+      "h": 26.3
+     },
+     "pcls": ""
+    }
+   ],
+   "vids": [],
+   "bgs": [
+    "https://image.slamtec.com/images/s2/pc/s2-section11-cn.jpg"
+   ]
+  },
+  {
+   "si": 11,
+   "cls": "section fp-auto-height",
+   "h": 444,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Buy",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 11.6,
+      "y": 12.4,
+      "w": 4.7,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "official Alibaba",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 19.6,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Sales",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 25,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "About Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 17.9,
+      "y": 12.4,
+      "w": 4.6,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "About Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 19.6,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Support",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 25,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 30.3,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Privacy Policy",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 35.7,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 24,
+      "y": 12.4,
+      "w": 12.8,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Tel：021-68620565",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 19.6,
+      "w": 8.9,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Sales：sales@slamtec.com",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 25,
+      "w": 8.9,
+      "h": 10.7
+     }
+    },
+    {
+     "tag": "DT",
+     "cls": "",
+     "t": "Shanghai：",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 35.7,
+      "w": 3.8,
+      "h": 40.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Room 601, 6th Floor, Kailong Technology Building, Building 3, No. 6, Lane 3158, Longdong Avenue, Pudong New District, Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 35.7,
+      "w": 8.9,
+      "h": 27
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "5F, Building K, Poly Green Square, 188 Liaoyang Rd., Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 62.7,
+      "w": 8.9,
+      "h": 13.5
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Focus Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 38.4,
+      "y": 12.4,
+      "w": 7.3,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Hotline (Mon-Fri, 9am - 6pm, Beijing Time)",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 72.4,
+      "y": 12.4,
+      "w": 16,
+      "h": 8.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "Pre-sale consultation：",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 20.6,
+      "w": 16,
+      "h": 9.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "(+86) 021-68620565",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 29.9,
+      "w": 16,
+      "h": 11
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "BD：\n(+86) 021-68581569",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 40.8,
+      "w": 16,
+      "h": 16.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Copyright 2016-2026 Shanghai Slamtec Co., Ltd. 沪ICP备14023268号-1",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 10,
+      "y": 84.2,
+      "w": 80,
+      "h": 4.6
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "/images/icon-foot-linkedin.png",
+     "alt": "LinkedIn icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 38.4,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-youtube.png",
+     "alt": "YouTube icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 40.3,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-facebook.png",
+     "alt": "Facebook icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 42.2,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-twitter.png",
+     "alt": "Twitter icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 44.1,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/erweima.png",
+     "alt": "Official Account QR code",
+     "nw": 146,
+     "nh": 146,
+     "box": {
+      "x": 0,
+      "y": -2273.8,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "erweima"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  }
+ ],
+ "spec": {
+  "tables": [
+   [
+    [
+     "Applications Scenarios",
+     "Ideal for both outdoor and indoor environments with resistance to lighting (>80k lux)"
+    ],
+    [
+     "Distance Range",
+     "0.05 - 40m (70% Reflectivity)"
+    ],
+    [
+     "0.05 - 15m (10% Reflectivity)"
+    ],
+    [
+     "0.05 - 5m (2% Reflectivity)"
+    ],
+    [
+     "Blind Range",
+     "0.05m"
+    ],
+    [
+     "Sample Rate",
+     "32KHz times/second"
+    ],
+    [
+     "Sample Frequency",
+     "Typical: 10Hz (10Hz - 20Hz)"
+    ],
+    [
+     "Angle Resolution",
+     "Typical: 0.1125° (0.1125° - 0.225°)"
+    ],
+    [
+     "Communication Interface",
+     "TTL UART"
+    ],
+    [
+     "Communication Speed",
+     "1M"
+    ],
+    [
+     "Ranging Resolution",
+     "10mm"
+    ],
+    [
+     "Range Accuracy",
+     "±30mm"
+    ]
+   ]
+  ],
+  "text": "",
+  "url": "/en/s3/spec"
+ }
+}

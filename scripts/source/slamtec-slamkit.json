@@ -1,0 +1,2377 @@
+{
+ "page": "/en/slamkit",
+ "title": "SLAMKit: Reliable SLAM Solution for Developers | SLAMTEC",
+ "sections": [
+  {
+   "si": 0,
+   "cls": "slamkit-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "P",
+     "cls": "ani  fadeInUp animated",
+     "t": "Robot",
+     "fs": 42,
+     "fw": "700",
+     "c": "rgb(71, 96, 255)",
+     "box": {
+      "x": 35.2,
+      "y": 59.7,
+      "w": 14,
+      "h": 6.7
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "slamkit-btn-box",
+     "t": "Learn More",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 0,
+      "y": 74.8,
+      "w": 100,
+      "h": 6.3
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-banner-en.webp",
+     "alt": "SLAMKit banner",
+     "nw": 1920,
+     "nh": 900,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 1,
+   "cls": "slamkit-section",
+   "h": 339,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "slamkit-tit",
+     "t": "Industry Leading Scalability and Stability",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 9.6,
+      "w": 100,
+      "h": 11.3
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "2000 + hours",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 11.6,
+      "y": 36.5,
+      "w": 12.3,
+      "h": 31.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Unsupervised Operations",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 11.6,
+      "y": 63.4,
+      "w": 12.3,
+      "h": 6
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "30000 + units",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 31.7,
+      "y": 36.5,
+      "w": 14.1,
+      "h": 31.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Empowered Robots",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 31.7,
+      "y": 63.4,
+      "w": 14.1,
+      "h": 6
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "1000 + companies",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 53.6,
+      "y": 36.5,
+      "w": 14.6,
+      "h": 31.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Enterprise Users",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 53.6,
+      "y": 63.4,
+      "w": 14.6,
+      "h": 6
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "3000 + cases",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 76.1,
+      "y": 36.5,
+      "w": 12.3,
+      "h": 31.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Deployed Projects",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 76.1,
+      "y": 63.4,
+      "w": 12.3,
+      "h": 6
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-section2-cn.webp",
+     "alt": "Case Data Background",
+     "nw": 1920,
+     "nh": 342,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 2,
+   "cls": "slamkit-section",
+   "h": 834,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "P",
+     "cls": "slamkit-txt en",
+     "t": "SLAMKit is the industry's first commercial solution to independently provide mapping and localization functionality, empowering the mobile robotics field with industry-leading scalability and stability. It can be embedded in a robot's controller through software licensing, enabling the robot to map and localize autonomously. Customers can customize robot applications easily through standardized software interfaces.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(0, 0, 0)",
+     "box": {
+      "x": 57,
+      "y": 40.3,
+      "w": 35.4,
+      "h": 15.1
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-section3-en.webp",
+     "alt": "SLAMKit structure on robot platform",
+     "nw": 1920,
+     "nh": 842,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 3,
+   "cls": "slamkit-section",
+   "h": 596,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "slamkit-tit",
+     "t": "Outstanding performance excels in various scenarios",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 9.6,
+      "w": 100,
+      "h": 6.4
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "500000m 2 -1200000m 2",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 13.5,
+      "y": 26.2,
+      "w": 51.6,
+      "h": 15.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Large-scale scene mapping construction",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 13.5,
+      "y": 39.5,
+      "w": 51.6,
+      "h": 3.4
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "1 cm",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 65.7,
+      "y": 26.2,
+      "w": 20.8,
+      "h": 15.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "1cm High-precision map resolution",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 65.7,
+      "y": 39.5,
+      "w": 20.8,
+      "h": 3.4
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "±5 mm , ±1°",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 13.5,
+      "y": 59.5,
+      "w": 38.5,
+      "h": 15.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Real-time localization error (typical value)",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 13.5,
+      "y": 72.8,
+      "w": 38.5,
+      "h": 3.4
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "50% + change in map",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 52.6,
+      "y": 59.5,
+      "w": 33.9,
+      "h": 15.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Localization stability",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 52.6,
+      "y": 72.8,
+      "w": 33.9,
+      "h": 3.4
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-section4-cn.webp",
+     "alt": "Key parameters background",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 4,
+   "cls": "slamkit-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "slamkit-tit",
+     "t": "Empowering Each Robot with Fundamental Mapping and Localization Capabilities",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 9.6,
+      "w": 100,
+      "h": 4.3
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "",
+     "t": "Real-time Localization",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 31.1,
+      "y": 19.7,
+      "w": 12.6,
+      "h": 6.5
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "",
+     "t": "Online Mapping",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 43.7,
+      "y": 19.8,
+      "w": 9.7,
+      "h": 6.2
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "",
+     "t": "Complete Toolchain Support",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 53.4,
+      "y": 19.8,
+      "w": 15.5,
+      "h": 6.2
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Robust Localization in Complex Environments",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 51.6,
+      "y": 39.3,
+      "w": 35,
+      "h": 2.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "For applications with dynamic environments, high similarity, and sparse features, it possesses outstanding robust localization capability.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(204, 204, 204)",
+     "box": {
+      "x": 51.6,
+      "y": 41.5,
+      "w": 35,
+      "h": 5.6
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Multi-source Fusion Localization System",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 51.6,
+      "y": 50.2,
+      "w": 35,
+      "h": 2.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "A unique framework that supports to integrate and dynamically combinate multiple localization sources, and to switch the localization modes for different working conditions.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(204, 204, 204)",
+     "box": {
+      "x": 51.6,
+      "y": 52.4,
+      "w": 35,
+      "h": 5.6
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Multiple Auxiliary Localization Techniques",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 51.6,
+      "y": 61.1,
+      "w": 35,
+      "h": 2.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Adopting various prior knowledge, such as sensor enhancement techniques, artificial landmark-assisted techniques, artificial feature-assisted techniques, and dynamic map updating techniques, to enhance the adaptability of localization to universal and high-precision localization requirements in special applications.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(204, 204, 204)",
+     "box": {
+      "x": 51.6,
+      "y": 63.3,
+      "w": 35,
+      "h": 7.6
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Optimal Computation Resource Management",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 51.6,
+      "y": 74.1,
+      "w": 35,
+      "h": 2.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Through optimizing software architecture and algorithms, the computational resource consumption of SLAMKit in operation is reduced to 50% compared to similar software in the industry, thereby reducing hardware requirements for clients.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(204, 204, 204)",
+     "box": {
+      "x": 51.6,
+      "y": 76.3,
+      "w": 35,
+      "h": 7.6
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Robust Mapping for Large-Scale Environment",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Easily supports large-scale maps up to 500000㎡-1200000㎡",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(204, 204, 204)",
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Support SharpEdge™ Map Optimization Technology",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Utilizes SharpEdge™ map optimization technology to create high-precision maps with an accuracy of 1.5cm, eliminating the need for secondary optimization and refinement.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(204, 204, 204)",
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Support Automatic and Auxiliary Loop Closure",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Employs both autonomous and auxiliary loop closure detection and adjustment strategies to achieve higher success rates in mapping",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(204, 204, 204)",
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Dynamic Parameter Adjustment Support",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Provides interfaces to adjust parameters during the mapping process to ensure the map quality.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(204, 204, 204)",
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Comprehensive SDK Development Kit",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Provides C++, Java SDK, ROS, Restful API, and other SDK toolkits to empower customers for swift and easy development.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(204, 204, 204)",
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Map Toolset",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Offers a rich set of tools including offline mapping, multi-map stitching, multi-layer map fusion, and map element editing, to streamline the deployment process and increase cost-effectiveness.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(204, 204, 204)",
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Real-time Monitoring Tools",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Empowers real-time and remote connectivity for robots through cloud services, visual interactive tools, and communication networks, allowing customers to monitor the operational status of robots anytime, anywhere.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(204, 204, 204)",
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-section5-1-cn.webp",
+     "alt": "SLAMKit is used for real-time localization on robots",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "slamkit-section5-fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-section5-2-cn.webp",
+     "alt": "Background of core functions of online mapping",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "slamkit-section5-fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-section5-3-cn.webp",
+     "alt": "Platforms supported by SLAMKit",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "slamkit-section5-fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-1.webp",
+     "alt": "Robust Localization in Complex Environments Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 50,
+      "y": 39.3,
+      "w": 1.1,
+      "h": 2.2
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-2.webp",
+     "alt": "Multi-source Fusion Localization System Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 50,
+      "y": 50.2,
+      "w": 1.1,
+      "h": 2.2
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-3.webp",
+     "alt": "Multiple Auxiliary Localization Techniques Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 50,
+      "y": 61.1,
+      "w": 1.1,
+      "h": 2.2
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-4.webp",
+     "alt": "Optimal Computation Resource Management Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 50,
+      "y": 74.1,
+      "w": 1.1,
+      "h": 2.2
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-map.gif",
+     "alt": "SLAMKit map building example",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "slamkit-section5-flex-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-5.webp",
+     "alt": "Robust Mapping for Large-Scale Environment Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-6.webp",
+     "alt": "Support SharpEdge™ Map Optimization Technology Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-7.webp",
+     "alt": "Support Automatic and Auxiliary Loop Closure Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-8.webp",
+     "alt": "Dynamic Parameter Adjustment Support Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-9.webp",
+     "alt": "Comprehensive SDK Development Kit Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-10.webp",
+     "alt": "Map Toolset Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-11.webp",
+     "alt": "Real-time Monitoring Tools Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": -313.7,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "slamkit-icon"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 5,
+   "cls": "slamkit-section slamkit-section5-tab-con-2-extra",
+   "h": 0,
+   "w": 0,
+   "texts": [
+    {
+     "tag": "DIV",
+     "cls": "slamkit-section5-txt1",
+     "t": "Large-scale scene mapping construction",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": null,
+      "y": 0,
+      "w": null,
+      "h": 0
+     }
+    },
+    {
+     "tag": "H3",
+     "cls": "",
+     "t": "SLAMTEC SharpEdge mapping",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(71, 96, 255)",
+     "box": {
+      "x": null,
+      "y": 0,
+      "w": null,
+      "h": 0
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "with complete details and no need for secondary retouching",
+     "fs": 12,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": null,
+      "y": 0,
+      "w": null,
+      "h": 0
+     }
+    },
+    {
+     "tag": "H3",
+     "cls": "",
+     "t": "Client’s Self-developed SLAM mapping",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(71, 96, 255)",
+     "box": {
+      "x": null,
+      "y": 0,
+      "w": null,
+      "h": 0
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "corner burrs, uneven",
+     "fs": 12,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": null,
+      "y": 0,
+      "w": null,
+      "h": 0
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-section5-2-1-cn.webp",
+     "alt": "Slamkit Online Map Building Example",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": null,
+      "y": 0,
+      "w": null,
+      "h": 0
+     },
+     "pcls": "slamkit-section slamkit-section5-tab-con"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 6,
+   "cls": "slamkit-section",
+   "h": 990,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "slamkit-tit slamkit-fc",
+     "t": "Providing Diversified Services Throughout the Product Lifecycle",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(0, 0, 0)",
+     "box": {
+      "x": 0,
+      "y": 3.5,
+      "w": 100,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "slamkit-txt slamkit-fc en",
+     "t": "SLAMKit is a comprehensive collection of features and services that offers customers mapping, localization, and a complete toolchain through software licensing. In addition, SLAMKit provides diversified support services throughout the product lifecycle, accelerating the implementation of customers' products.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(0, 0, 0)",
+     "box": {
+      "x": 19.3,
+      "y": 12.2,
+      "w": 61.5,
+      "h": 6.5
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "slamkit-section6-tab-nav-l",
+     "t": "Development",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 33.9,
+      "y": 28.2,
+      "w": 8.6,
+      "h": 5.9
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "",
+     "t": "Deployment",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 42.5,
+      "y": 28.4,
+      "w": 8.1,
+      "h": 5.6
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "",
+     "t": "Operations and Maintenance",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 50.5,
+      "y": 28.4,
+      "w": 15.6,
+      "h": 5.6
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Support for Common Controller Hardware and Systems",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 51.6,
+      "y": 46.5,
+      "w": 35,
+      "h": 2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "con1",
+     "t": "SLAMKit can run on mainstream embedded platforms based on Intel and ARM architectures and is compatible with commonly used Ubuntu systems.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 51.6,
+      "y": 48.5,
+      "w": 35,
+      "h": 5
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Rapid Development of Client Applications",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 51.6,
+      "y": 56.3,
+      "w": 35,
+      "h": 2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "con1",
+     "t": "SLAMKit abstracts a rich set of software interfaces, which are used to derive various SDK toolkits, including C++, Java, Restful API, and ROS, and provides comprehensive documentation and sample code.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 51.6,
+      "y": 58.3,
+      "w": 35,
+      "h": 5
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Scene-specific Parameter Configuration",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 51.6,
+      "y": 66.2,
+      "w": 35,
+      "h": 2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "con1",
+     "t": "SLAMKit adapts to SLAM problems in various scenarios such as household, cleaning, industrial, delivery, and inspection. It ensures the stability of robot operation through diversified parameter configurations.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 51.6,
+      "y": 68.2,
+      "w": 35,
+      "h": 5
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Standardized Performance Evaluation Methods",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 51.6,
+      "y": 76,
+      "w": 35,
+      "h": 2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "con1",
+     "t": "SLAMKit provides standardized performance testing and evaluation methods, as well as performance standards that meet operational requirements. It assists customers in validating personalized robot products.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 51.6,
+      "y": 78,
+      "w": 35,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Shorten Deployment Time",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "SLAMKit is equipped with a visual interactive tool called Robostudio, which allows customers to monitor the robot's operation in real-time and provides a diverse set of deployment tools to help customers shorten deployment time.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(204, 204, 204)",
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Quick and Easy Onboarding",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Years of accumulated experience in scenario-based deployment, along with one-on-one deployment tutorials, help novice customers quickly familiarize themselves with the robot deployment process.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(204, 204, 204)",
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Traceable Historical Data",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "SLAMKit provides cloud-based deployment services, which assist customers in saving historical data while implementing partial element editing.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(204, 204, 204)",
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Quick Resolution of On-Site Issues",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "SLAMKit is equipped with a comprehensive runtime data recording system and an offline data playback system, ensuring quick response and resolution of on-site issues for customers.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(204, 204, 204)",
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Streamlined and Cost-Effective Operations",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "SLAMKit provides cloud-based maintenance services, allowing remote connection to the robot for abnormal recovery.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(204, 204, 204)",
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "Focusing on Critical Scenarios",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Provide dedicated support for customers to deploy robots in majorl scenarios.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(204, 204, 204)",
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-section6-1-cn.webp",
+     "alt": "SLAMKit Service - Development Section Background",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "slamkit-section6-fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-section6-2-cn.webp",
+     "alt": "SLAMKit Service - Deployment Section Background",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "slamkit-section6-fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-section6-3-cn.webp",
+     "alt": "SLAMKit Service - Operations Section Background",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "slamkit-section6-fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-dev.gif",
+     "alt": "SLAMKit different development environments",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 13.4,
+      "y": 46.3,
+      "w": 33,
+      "h": 41.5
+     },
+     "pcls": "slamkit-section6-flex-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-12.webp",
+     "alt": "Support for Common Controller Hardware and Systems Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 50,
+      "y": 46.5,
+      "w": 1.1,
+      "h": 1.7
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-13.webp",
+     "alt": "Rapid Development of Client Applications Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 50,
+      "y": 56.3,
+      "w": 1.1,
+      "h": 2.1
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-14.webp",
+     "alt": "Scene-specific Parameter Configuration Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 50,
+      "y": 66.2,
+      "w": 1.1,
+      "h": 1.9
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-15.webp",
+     "alt": "Standardized Performance Evaluation Methods Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 50,
+      "y": 76,
+      "w": 1.1,
+      "h": 2
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-16.webp",
+     "alt": "Shorten Deployment Time Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-17.webp",
+     "alt": "Quick and Easy Onboarding Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-18.webp",
+     "alt": "Traceable Historical Data Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-19.webp",
+     "alt": "Quick Resolution of On-Site Issues Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-20.webp",
+     "alt": "Streamlined and Cost-Effective Operations Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "slamkit-icon"
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-icon-21.webp",
+     "alt": "Focusing on Critical Scenarios Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": -372.3,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "slamkit-icon"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 7,
+   "cls": "slamkit-section",
+   "h": 2269,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "slamkit-tit",
+     "t": "Delivering Exceptional Experiences for Customers from Every Field",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 4.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "slamkit-txt en",
+     "t": "We have successfully integrated SLAMKit into our customers' systems and business scenarios through software licensing. This integration enables efficient, reliable, and stable SLAM localization and mapping capabilities, helping our customers to reduce cost, increase efficiency, and maximize productivity in their respective fields.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 19.3,
+      "y": 5.7,
+      "w": 61.5,
+      "h": 2.9
+     }
+    },
+    {
+     "tag": "H3",
+     "cls": "",
+     "t": "Commercial Cleaning Robot",
+     "fs": 24,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 13.5,
+      "y": 12.5,
+      "w": 35.9,
+      "h": 1.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "slamkit-section7-1 en",
+     "t": "A commercial cleaning robot client utilized SLAMKit™ software licensing to accelerate product deployment by 50%, gaining a competitive edge in the market.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 13.5,
+      "y": 14.7,
+      "w": 35.9,
+      "h": 1.5
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "",
+     "t": "Commercial Cleaning Robot\nA commercial cleaning robot client utilized SLAMKit™ software licensing to accelerate product deployment by 50%, gaining a competitive edge in the market.\n50 %\nDeployment Time\nGenerally, commercial cleaning scenarios are much more complex than residential ones, and majors challenges are large areas, dynamic environmental changes, and different kinds of floors. SLAMKit helps us to quickly deploy our products in complex and expansive places such as airports, office buildings, and subway stations. Thanks to SLAMKit, we have reduced our product's original 180-day development cycle by 50%, and got a competitive advantage in the market.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 13.5,
+      "y": 10.8,
+      "w": 35.9,
+      "h": 43.7
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "slamkit-section7-3 en",
+     "t": "Deployment Time",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 13.5,
+      "y": 22.1,
+      "w": 35.9,
+      "h": 0.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "slamkit-section7-4 en",
+     "t": "Generally, commercial cleaning scenarios are much more complex than residential ones, and majors challenges are large areas, dynamic environmental changes, and different kinds of floors. SLAMKit helps us to quickly deploy our products in complex and expansive places such as airports, office buildings, and subway stations. Thanks to SLAMKit, we have reduced our product's original 180-day development cycle by 50%, and got a competitive advantage in the market.",
+     "fs": 13,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 13.5,
+      "y": 46.8,
+      "w": 35.9,
+      "h": 4.1
+     }
+    },
+    {
+     "tag": "H3",
+     "cls": "",
+     "t": "Inspection Robot",
+     "fs": 24,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 50.6,
+      "y": 12.5,
+      "w": 35.9,
+      "h": 1.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "slamkit-section7-1 en",
+     "t": "An inspection robot client has significantly reduced their response time for restocking goods by 40%",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 50.6,
+      "y": 14.7,
+      "w": 35.9,
+      "h": 1.5
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "",
+     "t": "Inspection Robot\nAn inspection robot client has significantly reduced their response time for restocking goods by 40%\n40 %\nRestocking Time\nBy using SLAMKit software licensing, our product has achieved high-precision localization in dynamic environments, ensuring efficient and accurate stock counting. The stock operation center can get restocking alerts in real-time .The response time for restocking has reduced 40%, leading to an increase in the number of goods sold on the same day. Additionally, I love SLAMTEC's SDK so much, since it makes developing so simple and easy!",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 50.6,
+      "y": 10.8,
+      "w": 35.9,
+      "h": 43.7
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "slamkit-section7-3 en",
+     "t": "Restocking Time",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 50.6,
+      "y": 22.1,
+      "w": 35.9,
+      "h": 0.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "slamkit-section7-4 en",
+     "t": "By using SLAMKit software licensing, our product has achieved high-precision localization in dynamic environments, ensuring efficient and accurate stock counting. The stock operation center can get restocking alerts in real-time .The response time for restocking has reduced 40%, leading to an increase in the number of goods sold on the same day. Additionally, I love SLAMTEC's SDK so much, since it makes developing so simple and easy!",
+     "fs": 13,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 50.6,
+      "y": 46.8,
+      "w": 35.9,
+      "h": 3.4
+     }
+    },
+    {
+     "tag": "H3",
+     "cls": "",
+     "t": "AGV",
+     "fs": 24,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 13.5,
+      "y": 57.1,
+      "w": 35.9,
+      "h": 1.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "slamkit-section7-1 en",
+     "t": "An AGV client through the SLAMKit™ software licensing, has successfully withstood the challenges of multiple working conditions and scheduling, achieving a task completion rate of 99%.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 13.5,
+      "y": 59.3,
+      "w": 35.9,
+      "h": 2.2
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "",
+     "t": "AGV\nAn AGV client through the SLAMKit™ software licensing, has successfully withstood the challenges of multiple working conditions and scheduling, achieving a task completion rate of 99%.\n99 %\nTask Completion Rate\nSLAMTEC's software licensing product allows our AGV robots to perform exceptionally well when facing multiple working conditions and dynamic scheduling, and reach a 99% task success rate. Moreover, there is no need to change our existing operating system, significantly reducing time and cost to develop, deploy and maintain our products.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 13.5,
+      "y": 55.4,
+      "w": 35.9,
+      "h": 43.7
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "slamkit-section7-3",
+     "t": "Task Completion Rate",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 13.5,
+      "y": 66.7,
+      "w": 35.9,
+      "h": 0.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "slamkit-section7-4 en",
+     "t": "SLAMTEC's software licensing product allows our AGV robots to perform exceptionally well when facing multiple working conditions and dynamic scheduling, and reach a 99% task success rate. Moreover, there is no need to change our existing operating system, significantly reducing time and cost to develop, deploy and maintain our products.",
+     "fs": 13,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 13.5,
+      "y": 91.4,
+      "w": 35.9,
+      "h": 2.7
+     }
+    },
+    {
+     "tag": "H3",
+     "cls": "",
+     "t": "Food Delivery Robot",
+     "fs": 24,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 50.6,
+      "y": 57.1,
+      "w": 35.9,
+      "h": 1.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "slamkit-section7-1 en",
+     "t": "A food delivery robot client, with the help of the SLAMKit™ software authorization, has reduced customer complaints and improved the stability of robot operations by 200%.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 50.6,
+      "y": 59.3,
+      "w": 35.9,
+      "h": 2.2
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "",
+     "t": "Food Delivery Robot\nA food delivery robot client, with the help of the SLAMKit™ software authorization, has reduced customer complaints and improved the stability of robot operations by 200%.\n200 %\nRobot Stability\nPreviously, our robot could only operate stably for up to one month. However, after implementing SLAMTEC’s software licensing product, it can now operate autonomously for up to three months without manual intervention, greatly reducing customer complaints. Additionally, SLAMTEC’s support and response speed are impressive, enabling efficient problem-solving.",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 50.6,
+      "y": 55.4,
+      "w": 35.9,
+      "h": 43.7
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "slamkit-section7-3 en",
+     "t": "Robot Stability",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 50.6,
+      "y": 66.7,
+      "w": 35.9,
+      "h": 0.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "slamkit-section7-4 en",
+     "t": "Previously, our robot could only operate stably for up to one month. However, after implementing SLAMTEC’s software licensing product, it can now operate autonomously for up to three months without manual intervention, greatly reducing customer complaints. Additionally, SLAMTEC’s support and response speed are impressive, enabling efficient problem-solving.",
+     "fs": 13,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 50.6,
+      "y": 91.4,
+      "w": 35.9,
+      "h": 3.4
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-section7-1-cn.webp",
+     "alt": "Application in commercial cleaning robots",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 13.5,
+      "y": 10.8,
+      "w": 35.9,
+      "h": 43.7
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-section7-2-cn.webp",
+     "alt": "Application in inspection robots",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 50.6,
+      "y": 10.8,
+      "w": 35.9,
+      "h": 43.7
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-section7-3-cn.webp",
+     "alt": "Applications in AGVs",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 13.5,
+      "y": 55.4,
+      "w": 35.9,
+      "h": 43.7
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/slamkit/pc/slamkit-section7-4-cn.webp",
+     "alt": "Applications in food delivery robots",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 50.6,
+      "y": 55.4,
+      "w": 35.9,
+      "h": 43.7
+     },
+     "pcls": ""
+    }
+   ],
+   "vids": [],
+   "bgs": [
+    "https://www.slamtec.com/images/slamkit/pc/slamkit-section7-cn.webp"
+   ]
+  },
+  {
+   "si": 8,
+   "cls": "section fp-auto-height",
+   "h": 444,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Buy",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 11.6,
+      "y": 12.4,
+      "w": 4.7,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "official Alibaba",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 19.6,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Sales",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 25,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "About Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 17.9,
+      "y": 12.4,
+      "w": 4.6,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "About Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 19.6,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Support",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 25,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 30.3,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Privacy Policy",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 35.7,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 24,
+      "y": 12.4,
+      "w": 12.8,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Tel：021-68620565",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 19.6,
+      "w": 8.9,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Sales：sales@slamtec.com",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 25,
+      "w": 8.9,
+      "h": 10.7
+     }
+    },
+    {
+     "tag": "DT",
+     "cls": "",
+     "t": "Shanghai：",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 35.7,
+      "w": 3.8,
+      "h": 40.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Room 601, 6th Floor, Kailong Technology Building, Building 3, No. 6, Lane 3158, Longdong Avenue, Pudong New District, Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 35.7,
+      "w": 8.9,
+      "h": 27
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "5F, Building K, Poly Green Square, 188 Liaoyang Rd., Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 62.7,
+      "w": 8.9,
+      "h": 13.5
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Focus Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 38.4,
+      "y": 12.4,
+      "w": 7.3,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Hotline (Mon-Fri, 9am - 6pm, Beijing Time)",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 72.4,
+      "y": 12.4,
+      "w": 16,
+      "h": 8.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "Pre-sale consultation：",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 20.6,
+      "w": 16,
+      "h": 9.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "(+86) 021-68620565",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 29.9,
+      "w": 16,
+      "h": 11
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "BD：\n(+86) 021-68581569",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 40.8,
+      "w": 16,
+      "h": 16.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Copyright 2016-2026 Shanghai Slamtec Co., Ltd. 沪ICP备14023268号-1",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 10,
+      "y": 84.2,
+      "w": 80,
+      "h": 4.6
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "/images/icon-foot-linkedin.png",
+     "alt": "LinkedIn icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 38.4,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-youtube.png",
+     "alt": "YouTube icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 40.3,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-facebook.png",
+     "alt": "Facebook icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 42.2,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-twitter.png",
+     "alt": "Twitter icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 44.1,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/erweima.png",
+     "alt": "Official Account QR code",
+     "nw": 146,
+     "nh": 146,
+     "box": {
+      "x": 0,
+      "y": -1565.5,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "erweima"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  }
+ ],
+ "spec": {
+  "tables": [
+   [
+    [
+     "Max mapping area",
+     "500000m 2 ~ 1200000m 2"
+    ],
+    [
+     "Map resolution",
+     "1cm、2.5cm、5cm（Optional）"
+    ],
+    [
+     "Real-time localization deviation（typ）",
+     "± 5mm,± 1°"
+    ],
+    [
+     "localization stability",
+     "Our robot can function well even with a 50% change in map"
+    ],
+    [
+     "Maximum distance range",
+     "50m（typical value, specific depending on radar selection）"
+    ],
+    [
+     "Sample frequency",
+     "10 ~ 20Hz"
+    ],
+    [
+     "Localization output frequency",
+     "20 ~ 100Hz"
+    ]
+   ]
+  ],
+  "text": "",
+  "url": "/en/slamkit/spec"
+ }
+}

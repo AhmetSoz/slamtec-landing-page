@@ -1,0 +1,2444 @@
+{
+ "page": "/en/aurora",
+ "title": "Aurora All-in-One SLAM Solution | SLAMTEC",
+ "sections": [
+  {
+   "si": 0,
+   "cls": "aurora-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-banner-en.webp",
+     "alt": "Aurora banner",
+     "nw": 1920,
+     "nh": 900,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 1,
+   "cls": "aurora-section",
+   "h": 896,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "P",
+     "cls": "aurora-txt-w aos-init",
+     "t": "Building on over a decade of technological expertise, SLAMTEC has innovatively integrated LiDAR, vision, IMU, and deep learning to create the Aurora—a cutting-edge, all-in-one localization and mapping sensor. This sensor operates independently, providing high-precision 3D mapping and six degrees of freedom (6DOF) positioning both indoors and outdoors, right out of the box. With its unprecedented large-scale sensing range, Aurora provide precise spatial awareness, empowering smart devices to navigate complex environments with ease.",
+     "fs": 20,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 10.9,
+      "y": -2.5,
+      "w": 78.1,
+      "h": 13.4
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 8.6
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section1-std-en.mp4",
+     "poster": "",
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 99.4
+     }
+    }
+   ],
+   "bgs": []
+  },
+  {
+   "si": 2,
+   "cls": "aurora-section",
+   "h": 671,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "LiDAR + Binocular Vision + IMU",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 21.8,
+      "y": 42.8,
+      "w": 13.4,
+      "h": 8.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "3D 6DOF\n(Omnidirectional Localization Capability)",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 35.7,
+      "y": 42.8,
+      "w": 14.3,
+      "h": 16.1
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Millimeter-level resolution accuracy, centimeter-level Localization accuracy",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 50,
+      "y": 42.8,
+      "w": 14.3,
+      "h": 16.1
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "AI Deep Learning",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 67.8,
+      "y": 42.8,
+      "w": 7.4,
+      "h": 8.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Supports External Expansion\n(GPS/RTK, Odometry, etc.)",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 22.4,
+      "y": 81.3,
+      "w": 12.2,
+      "h": 12.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Large Mapping Area\n(>1,000,000 m²)",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 38.6,
+      "y": 81.3,
+      "w": 8.5,
+      "h": 12.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Compact Size\n(Palm-Sized, 500g Weight)",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 51.5,
+      "y": 81.3,
+      "w": 11.3,
+      "h": 12.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Ready to Use\n(No External Dependencies Required)",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 64.3,
+      "y": 81.3,
+      "w": 14.3,
+      "h": 16.1
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 0,
+      "y": 14.9,
+      "w": 100,
+      "h": 11.5
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section2-01.webp",
+     "alt": "Lidar + Binocular Vision + IMU Icon",
+     "nw": 140,
+     "nh": 140,
+     "box": {
+      "x": 26.7,
+      "y": 32.4,
+      "w": 3.7,
+      "h": 10.4
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section2-02.webp",
+     "alt": "3D 6DOF Icon",
+     "nw": 140,
+     "nh": 140,
+     "box": {
+      "x": 41,
+      "y": 32.4,
+      "w": 3.7,
+      "h": 10.4
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section2-03-en.webp",
+     "alt": "Millimeter-level Resolution Icon",
+     "nw": 420,
+     "nh": 140,
+     "box": {
+      "x": 51.6,
+      "y": 32.4,
+      "w": 11,
+      "h": 10.4
+     },
+     "pcls": "cus-w"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section2-04.webp",
+     "alt": "AI Deep Learning Icon",
+     "nw": 140,
+     "nh": 140,
+     "box": {
+      "x": 69.6,
+      "y": 32.4,
+      "w": 3.7,
+      "h": 10.4
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section2-05-en.webp",
+     "alt": "Supports External Expansion Icon",
+     "nw": 420,
+     "nh": 140,
+     "box": {
+      "x": 23,
+      "y": 70.9,
+      "w": 11,
+      "h": 10.4
+     },
+     "pcls": "cus-w"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section2-06.webp",
+     "alt": "Large Mapping Area Icon",
+     "nw": 420,
+     "nh": 140,
+     "box": {
+      "x": 37.3,
+      "y": 70.9,
+      "w": 11,
+      "h": 10.4
+     },
+     "pcls": "cus-w"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section2-07.webp",
+     "alt": "Compact Design Icon",
+     "nw": 140,
+     "nh": 140,
+     "box": {
+      "x": 55.3,
+      "y": 70.9,
+      "w": 3.7,
+      "h": 10.4
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section2-08.webp",
+     "alt": "Ready to Use Immediately After Powering On Icon",
+     "nw": 140,
+     "nh": 140,
+     "box": {
+      "x": 69.6,
+      "y": 70.9,
+      "w": 3.7,
+      "h": 10.4
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 0,
+      "y": 103.4,
+      "w": 100,
+      "h": 11.5
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 3,
+   "cls": "aurora-section",
+   "h": 906,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "aurora-tit aos-init",
+     "t": "LIDAR、 vision and AI—seamlessly integrated for the first time.",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": -2.5,
+      "w": 58.3,
+      "h": 4.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "aurora-txt aos-init",
+     "t": "In the fields of autonomous driving and robotics, LiDAR and vision technologies have traditionally operated in isolation, often at odds with each other. However, we’ve taken a different approach, successfully merging the two to achieve technological harmony. SLAMTEC Aurora integrates 2D LiDAR, Binocular vision, 6DOF IMU, and an AI processor into one compact module, ready to use right out of the box.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": 27.1,
+      "w": 58.3,
+      "h": 9.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 8.5
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section3-txt-en.svg",
+     "alt": "Aurora's internal structure outline diagram",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 26,
+      "w": 100,
+      "h": 74
+     },
+     "pcls": "aurora-absolute"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section3-bg.webp",
+     "alt": "Aurora's internal structure outline diagram",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 26,
+      "w": 100,
+      "h": 74
+     },
+     "pcls": "fullpage-img aurora-relative"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 4,
+   "cls": "aurora-section",
+   "h": 1116,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "aurora-tit aos-init",
+     "t": "AI + SLAM, Powered by Deep Learning to Tackle Tough Challenges",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": -4.9,
+      "w": 58.3,
+      "h": 3.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "aurora-txt aos-init",
+     "t": "The first product-grade navigation and localization system in the industry to integrate deep neural networks, offering performance that surpasses traditional SLAM systems.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": 19.2,
+      "w": 58.3,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H2",
+     "cls": "aurora-tit aurora-tit-linear2 aos-init",
+     "t": "SLAMTEC's Self-Developed Deep Learning System, Accurately Identifies Features",
+     "fs": 26,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": -79.2,
+      "y": 26.6,
+      "w": 58.3,
+      "h": 2.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "aurora-txt aos-init",
+     "t": "All this is thanks to SLAMTEC's self-developed deep learning model. Aurora can accurately extract concise features from complex environments, build a map framework with smooth lines and clear edges, and capture the subtle textures of buildings, road markings, and subtle changes in terrain, clearly displaying these details on the map.",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": -79.2,
+      "y": 32.1,
+      "w": 58.3,
+      "h": 8.1
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Traditional Feature Extraction Effect",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": -86.5,
+      "y": 87.3,
+      "w": 35.9,
+      "h": 7.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Aurora Deep Learning Solution",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": -49.5,
+      "y": 87.3,
+      "w": 35.9,
+      "h": 7.3
+     }
+    },
+    {
+     "tag": "H2",
+     "cls": "aurora-tit aurora-tit-linear2 aos-init",
+     "t": "Unfazed by Wind and Grass, Delivering Outstanding Performance",
+     "fs": 26,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": 26.6,
+      "w": 58.3,
+      "h": 2.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "aurora-txt aos-init",
+     "t": "Facing the undulating grassland environment, traditional solutions often get stuck or even “fly away”, Aurora can effectively eliminate interference in the grassland environment, keenly perceive every subtle feature in the environment, and continuously output high-quality positioning and mapping data.",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": 32.1,
+      "w": 58.3,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Traditional Solution Loses Positioning",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 13.5,
+      "y": 84.6,
+      "w": 35.9,
+      "h": 7.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Aurora Solution Stays Stable",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 50.5,
+      "y": 84.6,
+      "w": 35.9,
+      "h": 7.3
+     }
+    },
+    {
+     "tag": "H2",
+     "cls": "aurora-tit aurora-tit-linear2 aos-init",
+     "t": "High-Speed Motion No Panic, Showing Extraordinary Stability",
+     "fs": 26,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 120.8,
+      "y": 26.6,
+      "w": 58.3,
+      "h": 2.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "aurora-txt aos-init",
+     "t": "Thanks to the high spatial positioning capabilities of deep learning, Aurora can always capture millisecond-level positions even in the face of high-speed rotation or unexpected acceleration, maintaining stability as always.",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 120.8,
+      "y": 32.1,
+      "w": 58.3,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H2",
+     "cls": "aurora-tit aurora-tit-linear2 aos-init",
+     "t": "SLAMTEC's Self-Developed Deep Learning System, Accurately Identifies Features",
+     "fs": 26,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 220.8,
+      "y": 26.6,
+      "w": 58.3,
+      "h": 2.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "aurora-txt aos-init",
+     "t": "All this is thanks to SLAMTEC's self-developed deep learning model. Aurora can accurately extract concise features from complex environments, build a map framework with smooth lines and clear edges, and capture the subtle textures of buildings, road markings, and subtle changes in terrain, clearly displaying these details on the map.",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 220.8,
+      "y": 32.1,
+      "w": 58.3,
+      "h": 8.1
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Traditional Feature Extraction Effect",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 213.5,
+      "y": 87.3,
+      "w": 35.9,
+      "h": 7.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Aurora Deep Learning Solution",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 250.5,
+      "y": 87.3,
+      "w": 35.9,
+      "h": 7.3
+     }
+    },
+    {
+     "tag": "H2",
+     "cls": "aurora-tit aurora-tit-linear2 aos-init",
+     "t": "Unfazed by Wind and Grass, Delivering Outstanding Performance",
+     "fs": 26,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 320.8,
+      "y": 26.6,
+      "w": 58.3,
+      "h": 2.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "aurora-txt aos-init",
+     "t": "Facing the undulating grassland environment, traditional solutions often get stuck or even “fly away”, Aurora can effectively eliminate interference in the grassland environment, keenly perceive every subtle feature in the environment, and continuously output high-quality positioning and mapping data.",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 320.8,
+      "y": 32.1,
+      "w": 58.3,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Traditional Solution Loses Positioning",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 313.5,
+      "y": 84.6,
+      "w": 35.9,
+      "h": 7.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Aurora Solution Stays Stable",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 350.5,
+      "y": 84.6,
+      "w": 35.9,
+      "h": 7.3
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": -100,
+      "y": 19.7,
+      "w": 100,
+      "h": 6.9
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 0,
+      "y": 19.7,
+      "w": 100,
+      "h": 6.9
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 100,
+      "y": 19.7,
+      "w": 100,
+      "h": 6.9
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 200,
+      "y": 19.7,
+      "w": 100,
+      "h": 6.9
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 300,
+      "y": 19.7,
+      "w": 100,
+      "h": 6.9
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section4-3-orb.mp4",
+     "poster": "",
+     "box": {
+      "x": -86.5,
+      "y": 46.9,
+      "w": 35.9,
+      "h": 39.9
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section4-3-dnn.mp4",
+     "poster": "",
+     "box": {
+      "x": -49.5,
+      "y": 46.9,
+      "w": 35.9,
+      "h": 39.9
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section4-1-tradition.mp4",
+     "poster": "",
+     "box": {
+      "x": 13.5,
+      "y": 44.2,
+      "w": 35.9,
+      "h": 39.9
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section4-1-dnn.mp4",
+     "poster": "",
+     "box": {
+      "x": 50.5,
+      "y": 44.2,
+      "w": 35.9,
+      "h": 39.9
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section4-2.mp4",
+     "poster": "",
+     "box": {
+      "x": 100,
+      "y": 19.7,
+      "w": 100,
+      "h": 79.8
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section4-3-orb.mp4",
+     "poster": "",
+     "box": {
+      "x": 213.5,
+      "y": 46.9,
+      "w": 35.9,
+      "h": 39.9
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section4-3-dnn.mp4",
+     "poster": "",
+     "box": {
+      "x": 250.5,
+      "y": 46.9,
+      "w": 35.9,
+      "h": 39.9
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section4-1-tradition.mp4",
+     "poster": "",
+     "box": {
+      "x": 313.5,
+      "y": 44.2,
+      "w": 35.9,
+      "h": 39.9
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section4-1-dnn.mp4",
+     "poster": "",
+     "box": {
+      "x": 350.5,
+      "y": 44.2,
+      "w": 35.9,
+      "h": 39.9
+     }
+    }
+   ],
+   "bgs": []
+  },
+  {
+   "si": 5,
+   "cls": "aurora-section-main",
+   "h": 3817,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "aurora-tit aos-init",
+     "t": "Embracing the 3D Era, Flexible Handheld Ready to Work",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": -0.6,
+      "w": 58.3,
+      "h": 1
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "aurora-txt aos-init",
+     "t": "SLAMTEC Aurora provides complete 3D, 6 degrees of freedom spatial positioning capabilities, with no external dependencies, ready to work as soon as it's powered.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": 6.4,
+      "w": 58.3,
+      "h": 1.6
+     }
+    },
+    {
+     "tag": "H2",
+     "cls": "aurora-tit aos-init",
+     "t": "Born for Embodied Intelligence, Indoor and Outdoor Handling with Ease",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": 24.9,
+      "w": 58.3,
+      "h": 1
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "aurora-txt aos-init",
+     "t": "In the era of embodied intelligence, SLAMTEC Aurora is a great partner for humanoid robots and multi-legged machine dogs. It handles various complex environments and terrains both indoors and outdoors with ease.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": 31.9,
+      "w": 58.3,
+      "h": 1.6
+     }
+    },
+    {
+     "tag": "H2",
+     "cls": "aurora-tit aos-init",
+     "t": "Fearless in the Dark, Challenging High Speeds",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": 50.4,
+      "w": 58.3,
+      "h": 1
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "aurora-txt aos-init",
+     "t": "The support of deep learning allows SLAMTEC Aurora to maintain stable mapping and positioning even in high-speed motion environments, and it continues to perform excellently even in the dark.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": 57.4,
+      "w": 58.3,
+      "h": 1.6
+     }
+    },
+    {
+     "tag": "H2",
+     "cls": "aurora-tit aos-init",
+     "t": "120 Square Kilometers, 47.7 km, Unprecedented Performance Experience",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": 75.9,
+      "w": 58.3,
+      "h": 2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "aurora-txt aos-init",
+     "t": "The inner ring road of Shanghai is 47.7 km long and encloses an area of 120 square kilometers. SLAMTEC Aurora can achieve complete mapping and closure.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": 84,
+      "w": 58.3,
+      "h": 1.6
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 2
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 0,
+      "y": 23.5,
+      "w": 100,
+      "h": 2
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 0,
+      "y": 25.5,
+      "w": 100,
+      "h": 2
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 0,
+      "y": 49,
+      "w": 100,
+      "h": 2
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 0,
+      "y": 51,
+      "w": 100,
+      "h": 2
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 0,
+      "y": 74.5,
+      "w": 100,
+      "h": 2
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 0,
+      "y": 76.5,
+      "w": 100,
+      "h": 2
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section5-1.mp4",
+     "poster": "",
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 23.3
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section5-2.mp4",
+     "poster": "",
+     "box": {
+      "x": 0,
+      "y": 25.5,
+      "w": 100,
+      "h": 23.3
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section5-3.mp4",
+     "poster": "",
+     "box": {
+      "x": 0,
+      "y": 51,
+      "w": 100,
+      "h": 23.3
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section5-4.mp4",
+     "poster": "",
+     "box": {
+      "x": 0,
+      "y": 76.5,
+      "w": 100,
+      "h": 23.3
+     }
+    }
+   ],
+   "bgs": []
+  },
+  {
+   "si": 6,
+   "cls": "aurora-section",
+   "h": 843,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "aurora-tit aos-init",
+     "t": "Synchronized 2D High-Precision Map Output",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": -2.7,
+      "w": 58.3,
+      "h": 4.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "aurora-txt aos-init",
+     "t": "Using onboard LiDAR, Aurora synchronizes the output of high-precision top-down 2D laser grid maps, facilitating the rapid migration of existing navigation algorithms to 3D environments.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": 29.1,
+      "w": 58.3,
+      "h": 7.1
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Outdoor Mapping - 2D Laser Output",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": -86.5,
+      "y": 86.7,
+      "w": 35.9,
+      "h": 9.7
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Outdoor Mapping - 3D Point Cloud Output",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": -49.5,
+      "y": 86.7,
+      "w": 35.9,
+      "h": 9.7
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Garage Mapping - 2D Laser Output",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 13.5,
+      "y": 86.7,
+      "w": 35.9,
+      "h": 9.7
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Garage Mapping - 3D Point Cloud Output",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 50.5,
+      "y": 86.7,
+      "w": 35.9,
+      "h": 9.7
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Outdoor Mapping - 2D Laser Output",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 113.5,
+      "y": 86.7,
+      "w": 35.9,
+      "h": 9.7
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Outdoor Mapping - 3D Point Cloud Output",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 150.5,
+      "y": 86.7,
+      "w": 35.9,
+      "h": 9.7
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Garage Mapping - 2D Laser Output",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 213.5,
+      "y": 86.7,
+      "w": 35.9,
+      "h": 9.7
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Garage Mapping - 3D Point Cloud Output",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 250.5,
+      "y": 86.7,
+      "w": 35.9,
+      "h": 9.7
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 9.2
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section6-2-2d.mp4",
+     "poster": "",
+     "box": {
+      "x": -86.5,
+      "y": 33.3,
+      "w": 35.9,
+      "h": 52.8
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section6-2-3d.mp4",
+     "poster": "",
+     "box": {
+      "x": -49.5,
+      "y": 33.3,
+      "w": 35.9,
+      "h": 52.8
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section6-1-2d.mp4",
+     "poster": "",
+     "box": {
+      "x": 13.5,
+      "y": 33.3,
+      "w": 35.9,
+      "h": 52.8
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section6-1-3d.mp4",
+     "poster": "",
+     "box": {
+      "x": 50.5,
+      "y": 33.3,
+      "w": 35.9,
+      "h": 52.8
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section6-2-2d.mp4",
+     "poster": "",
+     "box": {
+      "x": 113.5,
+      "y": 33.3,
+      "w": 35.9,
+      "h": 52.8
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section6-2-3d.mp4",
+     "poster": "",
+     "box": {
+      "x": 150.5,
+      "y": 33.3,
+      "w": 35.9,
+      "h": 52.8
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section6-1-2d.mp4",
+     "poster": "",
+     "box": {
+      "x": 213.5,
+      "y": 33.3,
+      "w": 35.9,
+      "h": 52.8
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/mp4/aurora-section6-1-3d.mp4",
+     "poster": "",
+     "box": {
+      "x": 250.5,
+      "y": 33.3,
+      "w": 35.9,
+      "h": 52.8
+     }
+    }
+   ],
+   "bgs": []
+  },
+  {
+   "si": 7,
+   "cls": "aurora-section",
+   "h": 990,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "aurora-tit aos-init",
+     "t": "Compact and Sleek, Easy to Integrate",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": -2.3,
+      "w": 58.3,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "aurora-txt aos-init",
+     "t": "SLAMTEC Aurora’s compact design is a perfect match for embodied intelligence. It’s small and sleek, taking up minimal space while delivering powerful performance. Whether integrated into small robots or large systems, it easily adapts, becoming the ideal partner for embodied intelligence solutions.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": 24.8,
+      "w": 58.3,
+      "h": 9.1
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 7.8
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section7-cn.webp",
+     "alt": "Aurora integrates with different devices",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 31.4,
+      "w": 100,
+      "h": 68.6
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 8,
+   "cls": "aurora-section",
+   "h": 913,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "aurora-tit aos-init",
+     "t": "Three Simple Steps, Easy to Use",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": -2.5,
+      "w": 58.3,
+      "h": 4.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "aurora-txt aos-init",
+     "t": "SLAMTEC Aurora is incredibly easy to operate, requiring just three steps to integrate into humanoid robots: Step 1, install; Step 2, power on; Step 3, start collecting data. Offering professional-grade performance at a consumer-friendly price, it leads the way in the new era of embodied intelligence. With exceptional value for money, Aurora delivers a whole new experience in localization and mapping, empowering tech products for the age of embodied intelligence.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": 26.9,
+      "w": 58.3,
+      "h": 13.1
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Installation",
+     "fs": 18,
+     "fw": "600",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 19.8,
+      "y": 40.2,
+      "w": 5,
+      "h": 4.7
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Powering on",
+     "fs": 18,
+     "fw": "600",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 44.8,
+      "y": 40.4,
+      "w": 5.7,
+      "h": 4.7
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Data collection",
+     "fs": 18,
+     "fw": "600",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 69.7,
+      "y": 40.2,
+      "w": 6.7,
+      "h": 4.7
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 8.5
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section8-01.webp",
+     "alt": "Aurora Installation Steps - Part 1: Installation Diagram",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 15.6,
+      "y": 37.3,
+      "w": 19,
+      "h": 54.2
+     },
+     "pcls": "aos-init"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section8-02.webp",
+     "alt": "Aurora Operation Step 2: Power-on Diagram",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 40.5,
+      "y": 37.5,
+      "w": 19,
+      "h": 54.1
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section8-03.webp",
+     "alt": "Aurora Operation Step 3: Information Collection Diagram",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 65.4,
+      "y": 37.3,
+      "w": 19,
+      "h": 54.2
+     },
+     "pcls": "aos-init"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 0,
+      "y": 91.5,
+      "w": 100,
+      "h": 8.5
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 9,
+   "cls": "aurora-section",
+   "h": 693,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Supports map loading and reuse",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 23.2,
+      "y": 21.9,
+      "w": 10.6,
+      "h": 7.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Breakpoint resume mapping",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 38.2,
+      "y": 21.9,
+      "w": 9.2,
+      "h": 7.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Hardware time synchronization",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 52.1,
+      "y": 21.9,
+      "w": 10.1,
+      "h": 7.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Low power consumption (7W)",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 66.6,
+      "y": 21.9,
+      "w": 9.7,
+      "h": 7.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Built-in barometer\n(provides altitude information)",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 23.7,
+      "y": 50,
+      "w": 9.7,
+      "h": 10.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Multiple communication interfaces\n(built-in Wi-Fi, Gigabit Ethernet, USB Type-C)",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 35.7,
+      "y": 50,
+      "w": 14.3,
+      "h": 13.1
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Extensive SDKs and tools\n(C++/ Android/ROS+RoboStudio)",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 51.7,
+      "y": 50,
+      "w": 10.9,
+      "h": 10.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Multi-platform support",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 67.9,
+      "y": 50,
+      "w": 7.1,
+      "h": 7.3
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section9-bg01.webp",
+     "alt": "More features of Aurora: Upper background",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 21.3
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section9-01.webp",
+     "alt": "Supports map loading reuse icon",
+     "nw": 152,
+     "nh": 140,
+     "box": {
+      "x": 26.7,
+      "y": 12.6,
+      "w": 3.7,
+      "h": 9.3
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section9-02.webp",
+     "alt": "Supports resumed work icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 41,
+      "y": 12.6,
+      "w": 3.7,
+      "h": 9.3
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section9-03.webp",
+     "alt": "Hardware time synchronization mechanism icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 55.3,
+      "y": 12.6,
+      "w": 3.7,
+      "h": 9.3
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section9-04.webp",
+     "alt": "Low power consumption icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 69.6,
+      "y": 12.6,
+      "w": 3.7,
+      "h": 9.3
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section9-05.webp",
+     "alt": "Built-in barometer icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 26.7,
+      "y": 40.7,
+      "w": 3.7,
+      "h": 9.3
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section9-06.webp",
+     "alt": "Multiple communication interfaces icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 41,
+      "y": 40.7,
+      "w": 3.7,
+      "h": 9.3
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section9-07.webp",
+     "alt": "Rich SDK interfaces and tools icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 55.3,
+      "y": 40.7,
+      "w": 3.7,
+      "h": 9.3
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section9-08.webp",
+     "alt": "Multi-platform support icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 69.6,
+      "y": 40.7,
+      "w": 3.7,
+      "h": 9.3
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section9-bg02.webp",
+     "alt": "More features of Aurora: Lower background",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 83.3,
+      "w": 100,
+      "h": 16.7
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 10,
+   "cls": "aurora-section",
+   "h": 860,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "aurora-tit aos-init",
+     "t": "Application Scenarios",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.8,
+      "y": -2.6,
+      "w": 58.3,
+      "h": 13.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Humanoid Robots",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 21.7,
+      "y": 49,
+      "w": 7.6,
+      "h": 5.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Low-Speed Outdoor Vehicles",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 43.9,
+      "y": 49,
+      "w": 12.3,
+      "h": 5.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Lawn Mowers",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 71.6,
+      "y": 49,
+      "w": 5.8,
+      "h": 5.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Environmental Mapping",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 20.5,
+      "y": 82.1,
+      "w": 9.9,
+      "h": 5.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "High-Precision GPS-Free Localization",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 42,
+      "y": 82.1,
+      "w": 15.9,
+      "h": 5.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Construction and Engineering",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 68.3,
+      "y": 82.1,
+      "w": 12.5,
+      "h": 5.3
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section-top.webp",
+     "alt": "Spacing between page sections",
+     "nw": 1920,
+     "nh": 78,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 9
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section10-01.webp",
+     "alt": "Applications in humanoid robots",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 13.5,
+      "y": 23.1,
+      "w": 23.8,
+      "h": 25.9
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section10-02.webp",
+     "alt": "Applicable to outdoor low-speed scenarios",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 38.1,
+      "y": 23.1,
+      "w": 23.8,
+      "h": 25.9
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section10-03.webp",
+     "alt": "Applications in lawnmowers",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 62.7,
+      "y": 23.1,
+      "w": 23.8,
+      "h": 25.9
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section10-04.webp",
+     "alt": "Application in environmental surveying",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 13.5,
+      "y": 56.2,
+      "w": 23.8,
+      "h": 25.9
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section10-05.webp",
+     "alt": "Application in high-precision positioning without GPS",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 38.1,
+      "y": 56.2,
+      "w": 23.8,
+      "h": 25.9
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/aurora/pc/aurora-section10-06.webp",
+     "alt": "Applied to construction engineering",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 62.7,
+      "y": 56.2,
+      "w": 23.8,
+      "h": 25.9
+     },
+     "pcls": ""
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 11,
+   "cls": "section fp-auto-height",
+   "h": 444,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Buy",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 11.6,
+      "y": 12.4,
+      "w": 4.7,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "official Alibaba",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 19.6,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Sales",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 25,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "About Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 17.9,
+      "y": 12.4,
+      "w": 4.6,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "About Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 19.6,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Support",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 25,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 30.3,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Privacy Policy",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 35.7,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 24,
+      "y": 12.4,
+      "w": 12.8,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Tel：021-68620565",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 19.6,
+      "w": 8.9,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Sales：sales@slamtec.com",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 25,
+      "w": 8.9,
+      "h": 10.7
+     }
+    },
+    {
+     "tag": "DT",
+     "cls": "",
+     "t": "Shanghai：",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 35.7,
+      "w": 3.8,
+      "h": 40.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Room 601, 6th Floor, Kailong Technology Building, Building 3, No. 6, Lane 3158, Longdong Avenue, Pudong New District, Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 35.7,
+      "w": 8.9,
+      "h": 27
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "5F, Building K, Poly Green Square, 188 Liaoyang Rd., Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 62.7,
+      "w": 8.9,
+      "h": 13.5
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Focus Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 38.4,
+      "y": 12.4,
+      "w": 7.3,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Hotline (Mon-Fri, 9am - 6pm, Beijing Time)",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 72.4,
+      "y": 12.4,
+      "w": 16,
+      "h": 8.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "Pre-sale consultation：",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 20.6,
+      "w": 16,
+      "h": 9.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "(+86) 021-68620565",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 29.9,
+      "w": 16,
+      "h": 11
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "BD：\n(+86) 021-68581569",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 40.8,
+      "w": 16,
+      "h": 16.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Copyright 2016-2026 Shanghai Slamtec Co., Ltd. 沪ICP备14023268号-1",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 10,
+      "y": 84.2,
+      "w": 80,
+      "h": 4.6
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "/images/icon-foot-linkedin.png",
+     "alt": "LinkedIn icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 38.4,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-youtube.png",
+     "alt": "YouTube icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 40.3,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-facebook.png",
+     "alt": "Facebook icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 42.2,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-twitter.png",
+     "alt": "Twitter icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 44.1,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/erweima.png",
+     "alt": "Official Account QR code",
+     "nw": 146,
+     "nh": 146,
+     "box": {
+      "x": 0,
+      "y": -2870,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "erweima"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  }
+ ],
+ "spec": {
+  "tables": [
+   [
+    [
+     "Core Specifications",
+     "Specific Metrics"
+    ],
+    [
+     "2D Map Resolution",
+     "2cm/5cm/10cm optional"
+    ],
+    [
+     "Maximum Mapping Area",
+     ">1,000,000㎡"
+    ],
+    [
+     "Relocation",
+     "Supports global relocation"
+    ],
+    [
+     "Map Continuation",
+     "Supported"
+    ],
+    [
+     "Map Loading and Saving",
+     "Supported"
+    ],
+    [
+     "Mapping and Positioning Mode",
+     "Multi-source fusion of LiDAR, vision, and IMU"
+    ],
+    [
+     "Multi-Sensor Synchronization",
+     "Hardware time synchronization"
+    ],
+    [
+     "LiDAR Measurement Distance",
+     "40m Maximum range of 40m"
+    ],
+    [
+     "Camera Specifications",
+     "Binocular fisheye global camera, supports HDR, FOV 180°, 6cm baseline"
+    ],
+    [
+     "Camera Frame Rate",
+     "Typical 15Hz, customizable to 10/30Hz"
+    ],
+    [
+     "Maximum Tilt Angle",
+     "No requirement (for optimal 2D mapping, a tilt angle of less than 30° is recommended)"
+    ]
+   ]
+  ],
+  "text": "",
+  "url": "/en/aurora/spec"
+ }
+}

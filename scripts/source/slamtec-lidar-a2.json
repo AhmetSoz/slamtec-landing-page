@@ -1,0 +1,1474 @@
+{
+ "page": "/en/lidar/a2",
+ "title": "RPLIDAR A2 LiDAR | Robot Mapping and Navigation | SLAMTEC",
+ "sections": [
+  {
+   "si": 0,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a2/a2-overview/summary-section1-en.webp",
+     "alt": "RPLIDAR A2 banner",
+     "nw": 1920,
+     "nh": 900,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 1,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "TD",
+     "cls": "tit",
+     "t": "Appearance",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 28.4,
+      "y": 17.8,
+      "w": 10.8,
+      "h": 16.4
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "tit",
+     "t": "Model",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 28.4,
+      "y": 34.2,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "",
+     "t": "A2M7",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 39.2,
+      "y": 34.2,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "",
+     "t": "A2M8",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 50,
+      "y": 34.2,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "",
+     "t": "A2M12",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 60.8,
+      "y": 34.2,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "tit",
+     "t": "Measuring Range",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 28.4,
+      "y": 41.1,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "",
+     "t": "0.2m - 16m",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 39.2,
+      "y": 41.1,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "",
+     "t": "0.2m - 12m",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 50,
+      "y": 41.1,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "",
+     "t": "0.2m - 12m",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 60.8,
+      "y": 41.1,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "tit",
+     "t": "Sampling Frequency",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 28.4,
+      "y": 48,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "",
+     "t": "16K",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 39.2,
+      "y": 48,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "",
+     "t": "8K",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 50,
+      "y": 48,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "",
+     "t": "16K",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 60.8,
+      "y": 48,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "tit",
+     "t": "Rotational Speed",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 28.4,
+      "y": 54.8,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "",
+     "t": "10Hz(5Hz-15Hz)",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 39.2,
+      "y": 54.8,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "",
+     "t": "10Hz(5Hz-15Hz)",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 50,
+      "y": 54.8,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "",
+     "t": "10Hz(5Hz-15Hz)",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 60.8,
+      "y": 54.8,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "tit",
+     "t": "Angular Resolution",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 28.4,
+      "y": 61.7,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "",
+     "t": "0.225°",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 39.2,
+      "y": 61.7,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "",
+     "t": "0.45°",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 50,
+      "y": 61.7,
+      "w": 10.8,
+      "h": 6.9
+     }
+    },
+    {
+     "tag": "TD",
+     "cls": "",
+     "t": "0.225°",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 60.8,
+      "y": 61.7,
+      "w": 10.8,
+      "h": 6.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a2/a2-overview/summary-section2-1.webp",
+     "alt": "A2 Model Comparison Black Background",
+     "nw": 1920,
+     "nh": 900,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/a2/a2-overview/a2m7.webp",
+     "alt": "A2M7 Appearance",
+     "nw": 400,
+     "nh": 351,
+     "box": {
+      "x": 40.8,
+      "y": 17.8,
+      "w": 7.5,
+      "h": 14.1
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/a2/a2-overview/a2m8.webp",
+     "alt": "A2M8 Appearance",
+     "nw": 400,
+     "nh": 351,
+     "box": {
+      "x": 51.6,
+      "y": 17.8,
+      "w": 7.5,
+      "h": 14.1
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/a2/a2-overview/a2m7.webp",
+     "alt": "A2M12 Appearance",
+     "nw": 400,
+     "nh": 351,
+     "box": {
+      "x": 62.4,
+      "y": 17.8,
+      "w": 7.5,
+      "h": 14.1
+     },
+     "pcls": ""
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 2,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "P",
+     "cls": "a2-txt",
+     "t": "The core of RPLIDAR A2 runs clockwise to perform a 360 degree omnidirectional laser range scanning\nfor its surrounding environment and then generate an outline map for the environment.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 10.9,
+      "y": 15.6,
+      "w": 78.1,
+      "h": 5.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a2/a2-overview/summary-section2.webp",
+     "alt": "RPLIDAR A2 operating principle diagram",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 3,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "a2-tit",
+     "t": "4cm Ultra-thin",
+     "fs": 24,
+     "fw": "700",
+     "c": "rgb(0, 0, 0)",
+     "box": {
+      "x": 10.9,
+      "y": 7.8,
+      "w": 78.1,
+      "h": 3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "a2-txt",
+     "t": "With the custom special parts and the carefully designed internal mechanical system, the RPLIDAR A2 keeps its\nexcellent performance while cut the thickness to only 4cm. It is ideal for all kinds of service robot.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(0, 0, 0)",
+     "box": {
+      "x": 10.9,
+      "y": 15.6,
+      "w": 78.1,
+      "h": 5.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a2/a2-overview/summary-section3.webp",
+     "alt": "RPLIDAR A2 4cm ultra-thin appearance",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 4,
+   "cls": "section",
+   "h": 931,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "P",
+     "cls": "a2-txt",
+     "t": "The sample rate of LIDAR directly decides whether the robot can map quickly and accurately.\nRPLIDAR improves the internal optical design and algorithm system to make the sample rate up to 8000 times,which is the highest in the current economical LIDAR industry.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 5,
+      "y": 14.3,
+      "w": 90,
+      "h": 5.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Comparison under different conditions",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 0,
+      "y": 30.1,
+      "w": 100,
+      "h": 2.8
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "10Hz 8000 Points",
+     "fs": 26,
+     "fw": "500",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 20,
+      "y": 47.4,
+      "w": 19.3,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "vs",
+     "t": "vs",
+     "fs": 20,
+     "fw": "400",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 39.3,
+      "y": 47.4,
+      "w": 1.1,
+      "h": 38.3
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "10Hz 4000 Points",
+     "fs": 26,
+     "fw": "500",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 40.4,
+      "y": 47.4,
+      "w": 19.3,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "vs",
+     "t": "vs",
+     "fs": 20,
+     "fw": "400",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 59.6,
+      "y": 47.4,
+      "w": 1.1,
+      "h": 38.3
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "10Hz 16000 Points",
+     "fs": 26,
+     "fw": "500",
+     "c": "rgb(46, 188, 255)",
+     "box": {
+      "x": 60.7,
+      "y": 47.4,
+      "w": 19.3,
+      "h": 5.4
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a2/a2-overview/a2-txt-bg.webp",
+     "alt": "Comparison of Different Operating Modes - Text Background",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 35,
+      "y": 32.9,
+      "w": 30,
+      "h": 4.3
+     },
+     "pcls": "a2-tit"
+    },
+    {
+     "src": "https://image.slamtec.com/images/a2/a2-overview/8k.gif",
+     "alt": "10Hz 8000-point Operating Mode",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 20,
+      "y": 52.8,
+      "w": 19.3,
+      "h": 32.9
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/a2/a2-overview/4k.gif",
+     "alt": "10Hz 4000-point Operating Mode",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 40.4,
+      "y": 52.8,
+      "w": 19.3,
+      "h": 32.9
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/a2/a2-overview/16k.gif",
+     "alt": "10Hz 16000-point Operating Mode",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 60.7,
+      "y": 52.8,
+      "w": 19.3,
+      "h": 32.9
+     },
+     "pcls": ""
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 5,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "a2-tit",
+     "t": "360 degree laser range scanning",
+     "fs": 24,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 7.8,
+      "w": 100,
+      "h": 3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "a2-txt",
+     "t": "The core of RPLIDAR A2 runs clockwise to perform a 360 degree omnidirectional laser range scanning\nfor its surrounding environment and then generate an outline map for the environment.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 10.9,
+      "y": 15.6,
+      "w": 78.1,
+      "h": 5.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a2/a2-overview/summary-section5.webp",
+     "alt": "RPLIDAR A2 360-degree laser scanning diagram",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 6,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "a2-tit",
+     "t": "Low Noise, Brushless Motor New Non-contact Drive",
+     "fs": 24,
+     "fw": "700",
+     "c": "rgb(0, 0, 0)",
+     "box": {
+      "x": 0,
+      "y": 7.8,
+      "w": 100,
+      "h": 3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "a2-txt",
+     "t": "Compared with the traditional belt drive mode, RPLIDAR A2 uses the self-designed brushless motor\nto reduce the mechanical friction in running. Therefore, the RPLIDAR A2 can run smoothly without any noise.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(0, 0, 0)",
+     "box": {
+      "x": 10.9,
+      "y": 15.6,
+      "w": 78.1,
+      "h": 5.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a2/a2-overview/summary-section6.webp",
+     "alt": "The RPLIDAR A2 uses a brushless motor structure",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 7,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "a2-tit",
+     "t": "16m/12m Range Radius",
+     "fs": 24,
+     "fw": "700",
+     "c": "rgb(0, 0, 0)",
+     "box": {
+      "x": 0,
+      "y": 7.8,
+      "w": 100,
+      "h": 3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "a2-txt",
+     "t": "With algorithm optimization, RPLIDAR improves the range radius 16 meters,\nwhich will provide more data due to a larger environmental outline map.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(0, 0, 0)",
+     "box": {
+      "x": 10.9,
+      "y": 15.6,
+      "w": 78.1,
+      "h": 5.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a2/a2-overview/summary-section7.webp",
+     "alt": "The RPLIDAR A2 has a measurement radius of up to 16 meters",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 8,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "a2-tit",
+     "t": "OPTMAG Original Design",
+     "fs": 24,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 7.8,
+      "w": 100,
+      "h": 3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "a2-txt",
+     "t": "Most traditional non-solid LIDARs use slip ring to transfer power and data information, however, they only\nhave thousands of hours of life due to mechanical wearing out. Slamtec has integrated the wireless power\nand optical communication technology to self-design the OPTMAG technology, which breakouts the life limitation\nof traditional LIDAR system. It fixes the electrical connection failure caused by the\nphysical wearing out so as to prolong the life-span.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 10.9,
+      "y": 15.6,
+      "w": 78.1,
+      "h": 14.6
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "section4-left",
+     "t": "Wireless power",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 35,
+      "y": 87.1,
+      "w": 6.5,
+      "h": 2.9
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "section4-right",
+     "t": "Optical comm",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 59.2,
+      "y": 87.1,
+      "w": 5.8,
+      "h": 2.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a2/a2-overview/summary-section8.webp",
+     "alt": "Optical-magnetic fusion, wireless power supply, and optical communication",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 9,
+   "cls": "section",
+   "h": 888,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "P",
+     "cls": "a2-txt",
+     "t": "The RPLIDAR A2 system adopts the low power infrared laser light as its light source, and drives it by using modulated pulse. The laser emits light in a very short time frame which can ensure its safety to human and pets. It has already reached Class 1 Safety Standard.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 42,
+      "y": 26,
+      "w": 30,
+      "h": 11.8
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a2/a2-overview/summary-section9-en.webp",
+     "alt": "The RPLIDAR A2 laser safety standard is Class 1",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 10,
+   "cls": "section",
+   "h": 890,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "P",
+     "cls": "a2-txt",
+     "t": "RPLIDAR A2 adopts laser triangulation ranging principle, and with high-speed RPVision3.0 range engine,\nit measures distance data 8000 times per second and also has a excellent performance in a long distance.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(0, 0, 0)",
+     "box": {
+      "x": 0,
+      "y": 47,
+      "w": 100,
+      "h": 5.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a2/a2-overview/summary-section10-en.webp",
+     "alt": "The RPLIDAR A2 utilizes laser triangulation ranging technology",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 11,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "a2-tit",
+     "t": "Five years ultra-long life",
+     "fs": 36,
+     "fw": "700",
+     "c": "rgb(74, 74, 74)",
+     "box": {
+      "x": 0,
+      "y": 7.8,
+      "w": 100,
+      "h": 4.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "a2-txt",
+     "t": "With brushless motor and OPTMAG technology, the RPLIDAR will work for 5 years(24 hours every day).",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(74, 74, 74)",
+     "box": {
+      "x": 10.9,
+      "y": 18,
+      "w": 78.1,
+      "h": 2.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a2/a2-overview/summary-section11-en.webp",
+     "alt": "The RPLIDAR A2 has a lifespan of five years",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 12,
+   "cls": "section fp-auto-height",
+   "h": 444,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Buy",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 11.6,
+      "y": 12.4,
+      "w": 4.7,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "official Alibaba",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 19.6,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Sales",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 25,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "About Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 17.9,
+      "y": 12.4,
+      "w": 4.6,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "About Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 19.6,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Support",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 25,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 30.3,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Privacy Policy",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 35.7,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 24,
+      "y": 12.4,
+      "w": 12.8,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Tel：021-68620565",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 19.6,
+      "w": 8.9,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Sales：sales@slamtec.com",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 25,
+      "w": 8.9,
+      "h": 10.7
+     }
+    },
+    {
+     "tag": "DT",
+     "cls": "",
+     "t": "Shanghai：",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 35.7,
+      "w": 3.8,
+      "h": 40.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Room 601, 6th Floor, Kailong Technology Building, Building 3, No. 6, Lane 3158, Longdong Avenue, Pudong New District, Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 35.7,
+      "w": 8.9,
+      "h": 27
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "5F, Building K, Poly Green Square, 188 Liaoyang Rd., Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 62.7,
+      "w": 8.9,
+      "h": 13.5
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Focus Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 38.4,
+      "y": 12.4,
+      "w": 7.3,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Hotline (Mon-Fri, 9am - 6pm, Beijing Time)",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 72.4,
+      "y": 12.4,
+      "w": 16,
+      "h": 8.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "Pre-sale consultation：",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 20.6,
+      "w": 16,
+      "h": 9.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "(+86) 021-68620565",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 29.9,
+      "w": 16,
+      "h": 11
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "BD：\n(+86) 021-68581569",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 40.8,
+      "w": 16,
+      "h": 16.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Copyright 2016-2026 Shanghai Slamtec Co., Ltd. 沪ICP备14023268号-1",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 10,
+      "y": 84.2,
+      "w": 80,
+      "h": 4.6
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "/images/icon-foot-linkedin.png",
+     "alt": "LinkedIn icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 38.4,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-youtube.png",
+     "alt": "YouTube icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 40.3,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-facebook.png",
+     "alt": "Facebook icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 42.2,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-twitter.png",
+     "alt": "Twitter icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 44.1,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/erweima.png",
+     "alt": "Official Account QR code",
+     "nw": 146,
+     "nh": 146,
+     "box": {
+      "x": 0,
+      "y": -2448.8,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "erweima"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  }
+ ],
+ "spec": {
+  "tables": [
+   [
+    [
+     "Recommended applications",
+     "Consumer robot, Commercial robot,Multi-point touch"
+    ],
+    [
+     "Appearance",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Model",
+     "A2M7",
+     "A2M8",
+     "A2M12"
+    ],
+    [
+     "Measuring Range",
+     "0.2m - 16m",
+     "0.2m - 12m",
+     "0.2m - 12m"
+    ],
+    [
+     "Sampling Frequency",
+     "16K",
+     "8K",
+     "16K"
+    ],
+    [
+     "Rotational Speed",
+     "10Hz（5Hz-15Hz）",
+     "10Hz（5Hz-15Hz）",
+     "10Hz（5Hz-15Hz）"
+    ],
+    [
+     "Angular Resolution",
+     "0.225°",
+     "0.45°",
+     "0.225°"
+    ],
+    [
+     "Scan Field Flatness",
+     "±1.5°"
+    ],
+    [
+     "Proof Level",
+     "Class 1"
+    ],
+    [
+     "System Voltage",
+     "5V"
+    ],
+    [
+     "System Current",
+     "450mA - 600mA"
+    ],
+    [
+     "Power Consumption",
+     "2.25W-3W"
+    ],
+    [
+     "Output",
+     "UART Serial",
+     "UART Serial",
+     "UART Serial"
+    ],
+    [
+     "(256000bps)",
+     "(115200bps)",
+     "(256000bps)"
+    ],
+    [
+     "Temperature Range",
+     "0℃-40℃"
+    ],
+    [
+     "Angular Range",
+     "360°"
+    ],
+    [
+     "Range Resolution",
+     "≤1% of the range（≤12m）"
+    ],
+    [
+     "≤2% of the range（12m～16m）"
+    ],
+    [
+     "Accuracy",
+     "1% of the range（≤3 m）"
+    ],
+    [
+     "2% of the range（3-5 m）"
+    ],
+    [
+     "2.5% of the range（5-25m）"
+    ]
+   ]
+  ],
+  "text": "",
+  "url": "/en/lidar/a2spec"
+ }
+}

@@ -1,0 +1,1567 @@
+{
+ "page": "/en/e3",
+ "title": "LPX-E3 Industrial Area Monitoring Lidar|Mini&Hi-Res|SLAMTEC",
+ "sections": [
+  {
+   "si": 0,
+   "cls": "e3-section",
+   "h": 802,
+   "w": 1901,
+   "texts": [],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-banner-en.webp",
+     "alt": "LPX-E3 Banner",
+     "nw": 1920,
+     "nh": 810,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 1,
+   "cls": "e3-section",
+   "h": 904,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "e3-tit",
+     "t": "E3 series, 360° industrial field monitoring LiDAR",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 12.5,
+      "y": 9.4,
+      "w": 75,
+      "h": 4.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "e3-txt",
+     "t": "In response to the stringent requirements of the industrial sector, SLAMTEC has enhanced its software algorithms, upgraded hardware structures, and launched the LPX-E3 series of field monitoring Lidars, aimed at field monitoring applications, fully empowering the industrial sector.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 12.5,
+      "y": 17,
+      "w": 75,
+      "h": 6.6
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "40m",
+     "fs": 64,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 28.1,
+      "y": 36,
+      "w": 4.4,
+      "h": 10.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Monitoring radius",
+     "fs": 20,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 26.3,
+      "y": 46.3,
+      "w": 8.1,
+      "h": 3.2
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "360°",
+     "fs": 64,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 42.8,
+      "y": 36,
+      "w": 7,
+      "h": 10.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "All-round Monitoring",
+     "fs": 20,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 41.6,
+      "y": 46.3,
+      "w": 9.4,
+      "h": 3.2
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "≥80Klux",
+     "fs": 64,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 59.5,
+      "y": 36,
+      "w": 12.9,
+      "h": 10.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Sunlight resistance",
+     "fs": 20,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 61.5,
+      "y": 46.3,
+      "w": 8.9,
+      "h": 3.2
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "0.1125°",
+     "fs": 64,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 28.3,
+      "y": 60.5,
+      "w": 11.5,
+      "h": 10.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "High resolution",
+     "fs": 20,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 30.6,
+      "y": 70.8,
+      "w": 7,
+      "h": 3.2
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "Integrated field monitoring system",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 46.4,
+      "y": 59.5,
+      "w": 14.6,
+      "h": 15.4
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "64",
+     "fs": 64,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 67.8,
+      "y": 60.5,
+      "w": 3.7,
+      "h": 10.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Field sets",
+     "fs": 20,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 67.4,
+      "y": 70.8,
+      "w": 4.5,
+      "h": 3.2
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section-top.webp",
+     "alt": "LPX-E3 Page separator image",
+     "nw": 1920,
+     "nh": 86,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 9.4
+     },
+     "pcls": "e3-section-top"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 2,
+   "cls": "e3-section e3-bg-black",
+   "h": 950,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "e3-tit",
+     "t": "Integrated real-time field monitoring system with multiple output formats",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 12.5,
+      "y": 9,
+      "w": 75,
+      "h": 4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "e3-txt",
+     "t": "The LPX-E3 is equipped with an integrated field monitoring application, allowing intrusion monitoring of pre-configured monitoring areas. It can be directly connected to existing PLC and other devices without relying on external computing systems for secondary development.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.5,
+      "y": 16.2,
+      "w": 75,
+      "h": 6.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "e3-txt01",
+     "t": "*Field monitoring does not apply to the E3T and E3E series.The number of field sets is specific to each model.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 80.8,
+      "w": 100,
+      "h": 19.2
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section-top.webp",
+     "alt": "LPX-E3 Page separator image",
+     "nw": 1920,
+     "nh": 86,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 9
+     },
+     "pcls": "e3-section-top"
+    },
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section2-en.webp",
+     "alt": "Regional monitoring lidar principle flow chart",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 30.4,
+      "w": 100,
+      "h": 50.5
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 3,
+   "cls": "e3-section",
+   "h": 1340,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "e3-tit",
+     "t": "Industrial Standard, High Reliability",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 12.5,
+      "y": 40.1,
+      "w": 75,
+      "h": 2.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "e3-txt",
+     "t": "The LPX-E3 incorporates the state-of-the-art SL-DToF laser ranging core technology from SLAMTEC, meeting the stringent standards of industrial applications. It combines outstanding performance such as high precision, low reflectivity, and sunlight resistance, ensuring stable and reliable operation in industrial environments.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 12.5,
+      "y": 45.2,
+      "w": 75,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Field intrusion monitoring",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 16.9,
+      "y": 86.7,
+      "w": 9.1,
+      "h": 2.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Production line counting",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 36.2,
+      "y": 86.7,
+      "w": 8.7,
+      "h": 2.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Passageway monitoring",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 55.3,
+      "y": 86.6,
+      "w": 8.4,
+      "h": 2.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Obstacle avoidance for AGV, AMR, Robots",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 71.1,
+      "y": 86.6,
+      "w": 14.8,
+      "h": 2.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section3-cn.webp",
+     "alt": "Industrial Standard, High Reliability",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 33.7
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section-top.webp",
+     "alt": "LPX-E3 Page separator image",
+     "nw": 1920,
+     "nh": 86,
+     "box": {
+      "x": 0,
+      "y": 33.7,
+      "w": 100,
+      "h": 6.4
+     },
+     "pcls": "e3-section-top"
+    },
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section3-1.webp",
+     "alt": "Field intrusion monitoring",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 12.5,
+      "y": 55.2,
+      "w": 18,
+      "h": 31.5
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section3-2.webp",
+     "alt": "Production line counting",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 31.5,
+      "y": 55.2,
+      "w": 18,
+      "h": 31.5
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section3-3.webp",
+     "alt": "Passageway monitoring",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 50.5,
+      "y": 55.2,
+      "w": 18,
+      "h": 31.4
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section3-4.webp",
+     "alt": "Obstacle avoidance for AGV, AMR, Robots",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 69.5,
+      "y": 55.2,
+      "w": 18,
+      "h": 31.4
+     },
+     "pcls": ""
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 4,
+   "cls": "e3-section",
+   "h": 951,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "e3-tit",
+     "t": "64 Monitoring Field Sets to cater to various requirements",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 12.5,
+      "y": 9,
+      "w": 75,
+      "h": 4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "e3-txt",
+     "t": "The LPX-E3 features three simultaneous monitoring fields and can store up to 64 monitoring field sets. It allows switching monitoring fields according to different scene requirements.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.5,
+      "y": 16.1,
+      "w": 75,
+      "h": 6.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "e3-txt03",
+     "t": "*Field monitoring does not apply to the E3T and E3E series.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 80.8,
+      "w": 100,
+      "h": 19.2
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section-top.webp",
+     "alt": "LPX-E3 Page separator image",
+     "nw": 1920,
+     "nh": 86,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 9
+     },
+     "pcls": "e3-section-top"
+    },
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section4-1-en.webp",
+     "alt": "Monitoring area and area group diagram",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 14.3,
+      "y": 30.3,
+      "w": 33.4,
+      "h": 46.7
+     },
+     "pcls": "e3-txt01"
+    },
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section4-2-en.webp",
+     "alt": "Screenshot of the monitoring software interface",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 50.8,
+      "y": 30.3,
+      "w": 34.9,
+      "h": 50.5
+     },
+     "pcls": "e3-txt02"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 5,
+   "cls": "e3-section",
+   "h": 769,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "e3-tit",
+     "t": "Exclusive ScanDesigner Configuration Software, Professional and User-friendly",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 12.5,
+      "y": 11.1,
+      "w": 75,
+      "h": 5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "e3-txt",
+     "t": "The LPX-E3 offers exclusive ScanDesigner configuration software, enabling easy customization with features such as freehand field shape drawing, layer association, and configuration updates based on LiDAR installation positions.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 12.5,
+      "y": 20,
+      "w": 75,
+      "h": 7.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Free graphic editing and dragging",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 12.5,
+      "y": 84.9,
+      "w": 23.9,
+      "h": 5.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Flexible Lidar placement adjustment",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 38,
+      "y": 84.9,
+      "w": 23.9,
+      "h": 5.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Innovative associated masked mode",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 63.6,
+      "y": 84.9,
+      "w": 23.9,
+      "h": 5.3
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section-top.webp",
+     "alt": "LPX-E3 Page separator image",
+     "nw": 1920,
+     "nh": 86,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 11.1
+     },
+     "pcls": "e3-section-top"
+    },
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section5-1-en.webp",
+     "alt": "Free graphics editing and drag-and-drop",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 12.5,
+      "y": 37.5,
+      "w": 23.9,
+      "h": 47.4
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section5-2-en.webp",
+     "alt": "Flexible lidar placement",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 38,
+      "y": 37.5,
+      "w": 23.9,
+      "h": 47.4
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section5-3-en.webp",
+     "alt": "Innovative correlation mask mode",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 63.6,
+      "y": 37.5,
+      "w": 23.9,
+      "h": 47.4
+     },
+     "pcls": ""
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 6,
+   "cls": "e3-section",
+   "h": 943,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "e3-tit",
+     "t": "Precise Detection of Objects with Low Reflectivity of 2%",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 12.5,
+      "y": 9,
+      "w": 75,
+      "h": 4.1
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "e3-txt",
+     "t": "The LPX-E3 employs the third-generation SL-dTOF technology from SLAMTEC, delivering excellent monitoring performance for detecting small objects and objects with extremely low reflectivity of 2%.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.5,
+      "y": 16.3,
+      "w": 75,
+      "h": 6.4
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section-top.webp",
+     "alt": "LPX-E3 Page separator image",
+     "nw": 1920,
+     "nh": 86,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 9
+     },
+     "pcls": "e3-section-top"
+    },
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section6-1.webp",
+     "alt": "2% accurate detection of low-reflectivity objects (photos taken with real objects)",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 18,
+      "y": 30.6,
+      "w": 30.5,
+      "h": 61.4
+     },
+     "pcls": "e3-txt01"
+    },
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section6-2.webp",
+     "alt": "2% accurate detection of low-reflectivity objects (software interface)",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 51.6,
+      "y": 30.6,
+      "w": 30.5,
+      "h": 61.4
+     },
+     "pcls": "e3-txt02"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 7,
+   "cls": "e3-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "e3-tit",
+     "t": "80,000Lux Anti-interference Ability of Ambient Light",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 12.5,
+      "y": 9.6,
+      "w": 75,
+      "h": 4.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "e3-txt",
+     "t": "The LPX-E3 can withstand outdoor sunlight of up to 80Klux, empowering outdoor field monitoring and robot movement.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 12.5,
+      "y": 17.2,
+      "w": 75,
+      "h": 3.4
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section7-cn.webp",
+     "alt": "80klux sunlight resistance",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section-top.webp",
+     "alt": "LPX-E3 Page separator image",
+     "nw": 1920,
+     "nh": 86,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 9.6
+     },
+     "pcls": "e3-section-top"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 8,
+   "cls": "e3-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "e3-tit",
+     "t": "Compact size, Easier integration",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 12.5,
+      "y": 9.6,
+      "w": 75,
+      "h": 4.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "e3-txt",
+     "t": "While maintaining powerful performance, the LPX-E3 possesses a sleek and compact design, making it convenient for embedding into various industrial applications.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.5,
+      "y": 17.2,
+      "w": 75,
+      "h": 3.4
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section8-cn.webp",
+     "alt": "Compact size and easy to integrate",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    },
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section-top.webp",
+     "alt": "LPX-E3 Page separator image",
+     "nw": 1920,
+     "nh": 86,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 9.6
+     },
+     "pcls": "e3-section-top"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 9,
+   "cls": "e3-section",
+   "h": 1297,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "e3-tit",
+     "t": "10 Years of R&D Research, Your Preferred Partner",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(0, 183, 236)",
+     "box": {
+      "x": 12.5,
+      "y": 6.6,
+      "w": 75,
+      "h": 3
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "10",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 15.9,
+      "y": 20.7,
+      "w": 21.5,
+      "h": 3.1
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "e3-txt01",
+     "t": "10\n10 years of specialized development experience in LiDAR technology",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 15.9,
+      "y": 20.7,
+      "w": 21.5,
+      "h": 6.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Preferred partner",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 61.9,
+      "y": 18.9,
+      "w": 25.6,
+      "h": 1.8
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "70%",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 61.9,
+      "y": 43.2,
+      "w": 25.6,
+      "h": 2.5
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "e3-txt03",
+     "t": "70%\nThe preferred choice our customers",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 61.9,
+      "y": 43.2,
+      "w": 25.6,
+      "h": 4.3
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "326",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 15.9,
+      "y": 60.3,
+      "w": 24.5,
+      "h": 2.5
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "e3-txt04",
+     "t": "326\nEmpowering market\ncompetitiveness with 326 patents",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 15.9,
+      "y": 60.3,
+      "w": 24.5,
+      "h": 5.7
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "profession",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 15.9,
+      "y": 79.2,
+      "w": 14.6,
+      "h": 2.2
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "e3-txt05",
+     "t": "profession\nProfessional pre-sales and after-sales technical support",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 15.9,
+      "y": 79.2,
+      "w": 14.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "DIV",
+     "cls": "",
+     "t": "4000+㎡",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 44.6,
+      "y": 59.1,
+      "w": 42.9,
+      "h": 2.5
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "e3-txt06",
+     "t": "4000+㎡\nSelf-owned factory spanning 4000+\nsquare meters, ensuring\nreliable delivery",
+     "fs": 14,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 44.6,
+      "y": 59.1,
+      "w": 42.9,
+      "h": 7.1
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section-top.webp",
+     "alt": "LPX-E3 Page separator image",
+     "nw": 1920,
+     "nh": 86,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 6.6
+     },
+     "pcls": "e3-section-top"
+    },
+    {
+     "src": "https://image.slamtec.com/images/e3/pc/e3-section9-cn.webp",
+     "alt": "10 years of LiDAR R&D experience",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 12.5,
+      "y": 15.7,
+      "w": 75,
+      "h": 76.7
+     },
+     "pcls": "e3-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 10,
+   "cls": "",
+   "h": 444,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Buy",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 11.6,
+      "y": 12.4,
+      "w": 4.7,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "official Alibaba",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 19.6,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Sales",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 25,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "About Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 17.9,
+      "y": 12.4,
+      "w": 4.6,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "About Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 19.6,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Support",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 25,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 30.3,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Privacy Policy",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 35.7,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 24,
+      "y": 12.4,
+      "w": 12.8,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Tel：021-68620565",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 19.6,
+      "w": 8.9,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Sales：sales@slamtec.com",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 25,
+      "w": 8.9,
+      "h": 10.7
+     }
+    },
+    {
+     "tag": "DT",
+     "cls": "",
+     "t": "Shanghai：",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 35.7,
+      "w": 3.8,
+      "h": 40.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Room 601, 6th Floor, Kailong Technology Building, Building 3, No. 6, Lane 3158, Longdong Avenue, Pudong New District, Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 35.7,
+      "w": 8.9,
+      "h": 27
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "5F, Building K, Poly Green Square, 188 Liaoyang Rd., Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 62.7,
+      "w": 8.9,
+      "h": 13.5
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Focus Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 38.4,
+      "y": 12.4,
+      "w": 7.3,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Hotline (Mon-Fri, 9am - 6pm, Beijing Time)",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 72.4,
+      "y": 12.4,
+      "w": 16,
+      "h": 8.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "Pre-sale consultation：",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 20.6,
+      "w": 16,
+      "h": 9.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "(+86) 021-68620565",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 29.9,
+      "w": 16,
+      "h": 11
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "BD：\n(+86) 021-68581569",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 40.8,
+      "w": 16,
+      "h": 16.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Copyright 2016-2026 Shanghai Slamtec Co., Ltd. 沪ICP备14023268号-1",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 10,
+      "y": 84.2,
+      "w": 80,
+      "h": 4.6
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "/images/icon-foot-linkedin.png",
+     "alt": "LinkedIn icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 38.4,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-youtube.png",
+     "alt": "YouTube icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 40.3,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-facebook.png",
+     "alt": "Facebook icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 42.2,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-twitter.png",
+     "alt": "Twitter icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 44.1,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/erweima.png",
+     "alt": "Official Account QR code",
+     "nw": 146,
+     "nh": 146,
+     "box": {
+      "x": 0,
+      "y": -2225,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "erweima"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  }
+ ],
+ "spec": {
+  "tables": [
+   [
+    [
+     "Series",
+     "LPX-E3 Series"
+    ],
+    [
+     "Model",
+     "E3P1",
+     "E3P2"
+    ],
+    [
+     "Scanning Radius",
+     "0.05 - 25m (Recognition(≥70% Reflectivity)) 0.05 - 10m (Warning(≥10% Reflectivity)) 0.05 - 4m (Alarming(≥2% Reflectivity))",
+     "0.05 - 40m (Measurement(≥70% Reflectivity)) 0.05 - 40m (Recognition(≥70% Reflectivity)) 0.05 - 15m (Warning(≥10% Reflectivity)) 0.05 - 5m (Alarming(≥2% Reflectivity))"
+    ],
+    [
+     "Blind Range",
+     "0.05m"
+    ],
+    [
+     "Sampling Rate",
+     "20Hz",
+     "10/15/20Hz"
+    ],
+    [
+     "Angular Resolution",
+     "0.225° @ 20Hz",
+     "0.1125° @ 10Hz 0.17° @ 15Hz 0.225° @ 20Hz(Typical)"
+    ],
+    [
+     "Field Monitoring Data Output",
+     "IO"
+    ],
+    [
+     "Number of Field Sets",
+     "64 Field Sets @ 20Hz",
+     "64 Field Sets @ 20Hz(Typical)"
+    ],
+    [
+     "48 Field Sets @ 15Hz"
+    ],
+    [
+     "32 Field Sets @ 10Hz"
+    ],
+    [
+     "Simultaneous Field Sets Monitoring",
+     "1(incl. 3 ﬁelds)"
+    ],
+    [
+     "Communication Interface",
+     "USB Type-C"
+    ],
+    [
+     "Point Cloud Outputs",
+     "NIL"
+    ],
+    [
+     "Range Resolution",
+     "10mm"
+    ],
+    [
+     "Measurement Accuracy",
+     "± 30mm"
+    ],
+    [
+     "Operating Temperature",
+     "0℃~50℃"
+    ]
+   ]
+  ],
+  "text": "",
+  "url": "/en/e3/spec"
+ }
+}

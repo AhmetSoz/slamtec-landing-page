@@ -1,0 +1,875 @@
+{
+ "page": "/en/lidar/a1",
+ "title": "RPLIDAR-A1 Cost-Effective 360° Lidar Sensor | SLAMTEC",
+ "sections": [
+  {
+   "si": 0,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a1/a1-overview/summary-section1-en.webp",
+     "alt": "RPLIDAR A1 banner",
+     "nw": 1920,
+     "nh": 900,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 1,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "P",
+     "cls": "a1-txt",
+     "t": "RPLIDAR A1 is based on laser triangulation ranging principle and uses high-speed vision acquisition and processing hardware developed by Slamtec.\nThe system measures distance data in more than 8000 times per second.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 10.9,
+      "y": 15.6,
+      "w": 78.1,
+      "h": 5.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a1/a1-overview/summary-section2.webp",
+     "alt": "RPLIDAR A1 laser triangulation technology diagram",
+     "nw": 1920,
+     "nh": 900,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 2,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "a1-tit",
+     "t": "360 Degree Omnidirectional Laser Range Scanning",
+     "fs": 24,
+     "fw": "700",
+     "c": "rgb(0, 0, 0)",
+     "box": {
+      "x": 0,
+      "y": 7.8,
+      "w": 100,
+      "h": 3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "a1-txt",
+     "t": "The core of RPLIDAR A1 runs clockwise to perform a 360 degree omnidirectional laser range scanning for\nits surrounding environment and then generate an outline map for the environment.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(0, 0, 0)",
+     "box": {
+      "x": 10.9,
+      "y": 15.6,
+      "w": 78.1,
+      "h": 5.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a1/a1-overview/summary-section3.webp",
+     "alt": "RPLIDAR A1 360-degree laser scanning",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 3,
+   "cls": "section",
+   "h": 904,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "P",
+     "cls": "a1-txt",
+     "t": "The sample rate of LIDAR directly decides whether the robot can map quickly and accurately.\nRPLIDAR improves the internal optical design and algorithm system to make the sample rate up to 8000 times,which is the highest in the current economical LIDAR industry.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(0, 0, 0)",
+     "box": {
+      "x": 5,
+      "y": 10.5,
+      "w": 90,
+      "h": 5.8
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "a1-tit",
+     "t": "Comparison under different conditions",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(0, 0, 0)",
+     "box": {
+      "x": 0,
+      "y": 16.3,
+      "w": 100,
+      "h": 23.2
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "10Hz 8000 Points",
+     "fs": 26,
+     "fw": "500",
+     "c": "rgb(74, 74, 74)",
+     "box": {
+      "x": 11,
+      "y": 39.5,
+      "w": 25.3,
+      "h": 5.5
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "vs",
+     "t": "vs",
+     "fs": 20,
+     "fw": "400",
+     "c": "rgb(74, 74, 74)",
+     "box": {
+      "x": 36.3,
+      "y": 39.5,
+      "w": 1.1,
+      "h": 50
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "10Hz 4000 Points",
+     "fs": 26,
+     "fw": "500",
+     "c": "rgb(74, 74, 74)",
+     "box": {
+      "x": 37.4,
+      "y": 39.5,
+      "w": 25.3,
+      "h": 5.5
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "vs",
+     "t": "vs",
+     "fs": 20,
+     "fw": "400",
+     "c": "rgb(74, 74, 74)",
+     "box": {
+      "x": 62.6,
+      "y": 39.5,
+      "w": 1.1,
+      "h": 50
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "t": "5Hz 2000 Points",
+     "fs": 26,
+     "fw": "500",
+     "c": "rgb(74, 74, 74)",
+     "box": {
+      "x": 63.7,
+      "y": 39.5,
+      "w": 25.3,
+      "h": 5.5
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a1/a1-overview/8k.gif",
+     "alt": "10Hz 8000-point operating mode diagram",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 11,
+      "y": 45,
+      "w": 25.3,
+      "h": 44.5
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/a1/a1-overview/4k.gif",
+     "alt": "10Hz 4000-point operating mode diagram",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 37.4,
+      "y": 45,
+      "w": 25.3,
+      "h": 44.5
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/a1/a1-overview/2k.gif",
+     "alt": "5Hz 2000-point operating mode diagram",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 63.7,
+      "y": 45,
+      "w": 25.3,
+      "h": 44.5
+     },
+     "pcls": ""
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 4,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "a1-tit",
+     "t": "OPTMAG Original Design",
+     "fs": 24,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 7.8,
+      "w": 100,
+      "h": 3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "a1-txt",
+     "t": "Most traditional non-solid LIDARs use slip ring to transfer power and data information, however, they only\nhave thounds of hours of life due to mechanical wearing out. Slamtec has integrated the wireless power\nand optical communication technology to self-design the OPTMAG technology, which breakouts the life limitation\nof traditional LIDAR system. It fixes the electrical connecttion failure caused by the physical wearing out so as to prolong the life-span.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 10.9,
+      "y": 15.6,
+      "w": 78.1,
+      "h": 11.7
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a1/a1-overview/summary-section4.webp",
+     "alt": "Optical-magnetic fusion, wireless power supply, and optical communication",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 5,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "a1-tit",
+     "t": "Configurable Scan Rate from 2-10Hz",
+     "fs": 24,
+     "fw": "700",
+     "c": "rgb(40, 126, 198)",
+     "box": {
+      "x": 0,
+      "y": 7.8,
+      "w": 100,
+      "h": 3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "a1-txt",
+     "t": "Users can adjust the scan rate by alternating the motor PWM signal",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(74, 74, 74)",
+     "box": {
+      "x": 10.9,
+      "y": 15.6,
+      "w": 78.1,
+      "h": 2.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a1/a1-overview/summary-section5.webp",
+     "alt": "RPLIDAR A1 Configurable Scanning Frequency Range",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 6,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a1/a1-overview/summary-section6-en.webp",
+     "alt": "RPLIDAR A1 Key Parameters",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 7,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "a1-tit",
+     "t": "Plug and Play",
+     "fs": 24,
+     "fw": "700",
+     "c": "rgb(40, 126, 198)",
+     "box": {
+      "x": 0,
+      "y": 7.8,
+      "w": 100,
+      "h": 3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "a1-txt",
+     "t": "Just connecting the RPLIDAR and a computer via a micro USB cable,\nusers can use the RPLIDAR without any coding job",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(74, 74, 74)",
+     "box": {
+      "x": 10.9,
+      "y": 15.6,
+      "w": 78.1,
+      "h": 5.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/a1/a1-overview/summary-section7-en.webp",
+     "alt": "RPLIDAR A1 Plug-and-Play",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 8,
+   "cls": "section fp-auto-height",
+   "h": 444,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Buy",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 11.6,
+      "y": 12.4,
+      "w": 4.7,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "official Alibaba",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 19.6,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Sales",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 25,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "About Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 17.9,
+      "y": 12.4,
+      "w": 4.6,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "About Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 19.6,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Support",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 25,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 30.3,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Privacy Policy",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 35.7,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 24,
+      "y": 12.4,
+      "w": 12.8,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Tel：021-68620565",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 19.6,
+      "w": 8.9,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Sales：sales@slamtec.com",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 25,
+      "w": 8.9,
+      "h": 10.7
+     }
+    },
+    {
+     "tag": "DT",
+     "cls": "",
+     "t": "Shanghai：",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 35.7,
+      "w": 3.8,
+      "h": 40.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Room 601, 6th Floor, Kailong Technology Building, Building 3, No. 6, Lane 3158, Longdong Avenue, Pudong New District, Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 35.7,
+      "w": 8.9,
+      "h": 27
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "5F, Building K, Poly Green Square, 188 Liaoyang Rd., Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 62.7,
+      "w": 8.9,
+      "h": 13.5
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Focus Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 38.4,
+      "y": 12.4,
+      "w": 7.3,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Hotline (Mon-Fri, 9am - 6pm, Beijing Time)",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 72.4,
+      "y": 12.4,
+      "w": 16,
+      "h": 8.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "Pre-sale consultation：",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 20.6,
+      "w": 16,
+      "h": 9.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "(+86) 021-68620565",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 29.9,
+      "w": 16,
+      "h": 11
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "BD：\n(+86) 021-68581569",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 40.8,
+      "w": 16,
+      "h": 16.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Copyright 2016-2026 Shanghai Slamtec Co., Ltd. 沪ICP备14023268号-1",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 10,
+      "y": 84.2,
+      "w": 80,
+      "h": 4.6
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "/images/icon-foot-linkedin.png",
+     "alt": "LinkedIn icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 38.4,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-youtube.png",
+     "alt": "YouTube icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 40.3,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-facebook.png",
+     "alt": "Facebook icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 42.2,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-twitter.png",
+     "alt": "Twitter icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 44.1,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/erweima.png",
+     "alt": "Official Account QR code",
+     "nw": 146,
+     "nh": 146,
+     "box": {
+      "x": 0,
+      "y": -1640.4,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "erweima"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  }
+ ],
+ "spec": {
+  "tables": [
+   [
+    [
+     "Recommended applications",
+     "Vacuum robot,Home robot"
+    ],
+    [
+     "Measuring Range",
+     "0.15m - 12m"
+    ],
+    [
+     "Sampling Frequency",
+     "8K"
+    ],
+    [
+     "Rotational Speed",
+     "5.5Hz"
+    ],
+    [
+     "Angular Resolution",
+     "≤1°"
+    ],
+    [
+     "Dimensions",
+     "96.8 x 70.3 x 55mm"
+    ],
+    [
+     "System Voltage",
+     "5V"
+    ],
+    [
+     "System Current",
+     "100mA"
+    ],
+    [
+     "Power Consumption",
+     "0.5W"
+    ],
+    [
+     "Output",
+     "UART Serial (3.3 voltage level)"
+    ],
+    [
+     "Temperature Range",
+     "0℃-40℃"
+    ],
+    [
+     "Angular Range",
+     "360°"
+    ],
+    [
+     "Range Resolution",
+     "≤1% of the range（≤12m) ≤2% of the range（12m～16m)"
+    ],
+    [
+     "Accuracy",
+     "1% of the range（≤3 m） 2% of the range（3-5 m） 2.5% of the range（5-25m）"
+    ]
+   ]
+  ],
+  "text": "",
+  "url": "/en/lidar/a1spec"
+ }
+}

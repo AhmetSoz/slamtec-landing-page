@@ -1,0 +1,940 @@
+{
+ "page": "/en/lidar/mapper",
+ "title": "Mapper Mapping Lidar | High-Precision & Industrial | SLAMTEC",
+ "sections": [
+  {
+   "si": 0,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/mapper/pc/summary-section1-en.webp",
+     "alt": "Mapper banner",
+     "nw": 1920,
+     "nh": 900,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 1,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "P",
+     "cls": "mapper-txt",
+     "t": "Slamtec Mapper, a new laser range scanner category integrating map building and real time\nlocalization and navigation, contains the SLAMTEC third generation high-performance SLAM engine and laser\nrange scanner. Plug and play, without any external dependence. It is suitable to be applied\nin application fields like robot localization and navigation, environment surveying and mapping and etc.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(82, 79, 78)",
+     "box": {
+      "x": 1.1,
+      "y": 7.8,
+      "w": 97.9,
+      "h": 11.7
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/mapper/pc/summary-section2-cn.webp",
+     "alt": "Mapper size and mapping effect",
+     "nw": 1920,
+     "nh": 900,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 2,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "",
+     "t": "Large Scenarios and High-quality Mapping",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(48, 92, 165)",
+     "box": {
+      "x": 0,
+      "y": 5.6,
+      "w": 100,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Slamtec Mapper adopts SLAMTEC third generation high-performance SLAM graph optimization\nengine and SharpEdge™ mapping technology to realize a high accurate thousand-square-meter map\nbuilding and real time localization, and it can actively detect the closed loop and correct map.\nThe mapper is an ideal choice for users to realize mapping and re-localization in various\ncomplicated scenarios and output map and localization data that meets users' expectations.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(82, 79, 78)",
+     "box": {
+      "x": 1.1,
+      "y": 11.7,
+      "w": 97.9,
+      "h": 14.6
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/mapper/pc/summary-section4-en.webp",
+     "alt": "Mapper handheld mapping effect",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 3,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "",
+     "t": "Plug and play,\nwithout any external dependence",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(48, 92, 165)",
+     "box": {
+      "x": 0,
+      "y": 5.6,
+      "w": 100,
+      "h": 7.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Slamtec Mapper just needs a USB power cable to work well,\nwithout any additional support or accessories.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(82, 79, 78)",
+     "box": {
+      "x": 1.1,
+      "y": 15.7,
+      "w": 97.9,
+      "h": 5.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/mapper/pc/summary-section5-cn.webp",
+     "alt": "Mapper can be used immediately after connecting to a computer and being powered on",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 4,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "",
+     "t": "Tilting Compensation and Fast Moving",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(48, 92, 165)",
+     "box": {
+      "x": 0,
+      "y": 5.6,
+      "w": 100,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "With built-in inertial navigation system with nine degrees of freedom,\nSlamtec Mapper can work properly in tilting and shaky hand-held mode\nand ensure an excellent map data quality. In addition,\nit supports to move fast with a maximum speed of 2m/s.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(82, 79, 78)",
+     "box": {
+      "x": 1.1,
+      "y": 11.7,
+      "w": 97.9,
+      "h": 11.7
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/mapper/pc/summary-section6-cn.webp",
+     "alt": "Diagram of Mapper movement and shaking",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 5,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "",
+     "t": "Indoor and Outdoor Availability",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 5.6,
+      "w": 100,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Whether in complicated indoor environment or outdoor environment with direct daylight,\nSlamtec Mapper shows a good performance in mapping and localization\nin those complicated scenarios.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 1.1,
+      "y": 11.7,
+      "w": 97.9,
+      "h": 8.8
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/mapper/pc/summary-section7-cn.webp",
+     "alt": "Mapper can be applied to complex environments with strong indoor and outdoor lighting",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 6,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "",
+     "t": "Fully Compatible with ROS, Easy Data Analysis",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 5.6,
+      "w": 100,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Slamtec Mapper provides completed cross-platform SDK and tools both on\nphone and PC side for users to evaluate, develop and use.\nThrough matched ROS driver,you can integrate the generated map and localization\ndata into ROS environment seamlessly.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 1.1,
+      "y": 11.7,
+      "w": 97.9,
+      "h": 11.7
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/mapper/pc/summary-section8-cn.webp",
+     "alt": "Mapper supports the development and use of various platforms",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 7,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "",
+     "t": "More Than A Mapper",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(48, 92, 165)",
+     "box": {
+      "x": 0,
+      "y": 5.6,
+      "w": 100,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Slamtec Mapper is not only a mapper for mapping and localization,\nyou can also use it directly as a laser range scanner. Via SDK or ROS node,\nyou can easily put the data of the laser range scanner into the user's current system.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(82, 79, 78)",
+     "box": {
+      "x": 1.1,
+      "y": 11.7,
+      "w": 97.9,
+      "h": 8.8
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/mapper/pc/summary-section9-cn.webp",
+     "alt": "Mapper mapping and distance measurement functions demonstration",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 8,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "",
+     "t": "Built-in WIFI, Ethernet port, Easy communication",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(48, 92, 165)",
+     "box": {
+      "x": 0,
+      "y": 5.6,
+      "w": 100,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "With built-in access point and station mode WiFi as well as 100M Ethernet port,\nyou can get the real time map and localization data generated\nby Slamtec Mapper through designed mobile application.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(82, 79, 78)",
+     "box": {
+      "x": 1.1,
+      "y": 11.7,
+      "w": 97.9,
+      "h": 8.8
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/mapper/pc/summary-section10-en.webp",
+     "alt": "Mapper interface structure diagram",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 9,
+   "cls": "section",
+   "h": 891,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "",
+     "t": "Mapper，Learn More",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 0,
+      "y": 5.6,
+      "w": 100,
+      "h": 3.9
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/mapper/pc/summary-section11-en.webp",
+     "alt": "More features of Mapper icon combinations",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 10,
+   "cls": "section fp-auto-height",
+   "h": 444,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Buy",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 11.6,
+      "y": 12.4,
+      "w": 4.7,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "official Alibaba",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 19.6,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Sales",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 25,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "About Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 17.9,
+      "y": 12.4,
+      "w": 4.6,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "About Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 19.6,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Support",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 25,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 30.3,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Privacy Policy",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 35.7,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 24,
+      "y": 12.4,
+      "w": 12.8,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Tel：021-68620565",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 19.6,
+      "w": 8.9,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Sales：sales@slamtec.com",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 25,
+      "w": 8.9,
+      "h": 10.7
+     }
+    },
+    {
+     "tag": "DT",
+     "cls": "",
+     "t": "Shanghai：",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 35.7,
+      "w": 3.8,
+      "h": 40.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Room 601, 6th Floor, Kailong Technology Building, Building 3, No. 6, Lane 3158, Longdong Avenue, Pudong New District, Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 35.7,
+      "w": 8.9,
+      "h": 27
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "5F, Building K, Poly Green Square, 188 Liaoyang Rd., Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 62.7,
+      "w": 8.9,
+      "h": 13.5
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Focus Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 38.4,
+      "y": 12.4,
+      "w": 7.3,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Hotline (Mon-Fri, 9am - 6pm, Beijing Time)",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 72.4,
+      "y": 12.4,
+      "w": 16,
+      "h": 8.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "Pre-sale consultation：",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 20.6,
+      "w": 16,
+      "h": 9.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "(+86) 021-68620565",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 29.9,
+      "w": 16,
+      "h": 11
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "BD：\n(+86) 021-68581569",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 40.8,
+      "w": 16,
+      "h": 16.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Copyright 2016-2026 Shanghai Slamtec Co., Ltd. 沪ICP备14023268号-1",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 10,
+      "y": 84.2,
+      "w": 80,
+      "h": 4.6
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "/images/icon-foot-linkedin.png",
+     "alt": "LinkedIn icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 38.4,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-youtube.png",
+     "alt": "YouTube icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 40.3,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-facebook.png",
+     "alt": "Facebook icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 42.2,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-twitter.png",
+     "alt": "Twitter icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 44.1,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/erweima.png",
+     "alt": "Official Account QR code",
+     "nw": 146,
+     "nh": 146,
+     "box": {
+      "x": 0,
+      "y": -2039,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "erweima"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  }
+ ],
+ "spec": {
+  "tables": [
+   [
+    [
+     "Model",
+     "M2M3"
+    ],
+    [
+     "Recommended applications",
+     "Commercial robot, Outdoor robot, Environment surveying, Handheld mapping"
+    ],
+    [
+     "Measuring Range",
+     "0.1m - 40m"
+    ],
+    [
+     "Sampling Frequency",
+     "32K"
+    ],
+    [
+     "Rotational Speed",
+     "10Hz"
+    ],
+    [
+     "Angular Resolution",
+     "0.36°"
+    ],
+    [
+     "Motor",
+     "Brushless"
+    ],
+    [
+     "Dimensions",
+     "77.1 x 57 x 65.5mm"
+    ],
+    [
+     "Weight",
+     "163g"
+    ],
+    [
+     "System Voltage",
+     "5V"
+    ],
+    [
+     "System Current",
+     "650mA - 1300mA"
+    ],
+    [
+     "Power Consumption",
+     "3.25W-6.5W"
+    ],
+    [
+     "Output",
+     "Ethernet (802.3/802.3u ) WiFi(802.11a/b/g/n/ac )"
+    ],
+    [
+     "Temperature Range",
+     "-5℃-45℃"
+    ],
+    [
+     "Angular Range",
+     "360°"
+    ],
+    [
+     "Range Resolution",
+     "1cm"
+    ],
+    [
+     "Accuracy",
+     "≤3cm"
+    ],
+    [
+     "Maximum Moving Speed",
+     "2m/s"
+    ],
+    [
+     "Frequency Of Data Refresh",
+     "10Hz"
+    ],
+    [
+     "Maximum Area",
+     "300m x 300m"
+    ],
+    [
+     "Mapping resolution",
+     "0.05m"
+    ],
+    [
+     "Accuracy",
+     "< 0.02m"
+    ],
+    [
+     "Graph Optimizing Working Time",
+     "About 1 hr"
+    ],
+    [
+     "Maximum Inclination Angle",
+     "±3°"
+    ]
+   ]
+  ],
+  "text": "",
+  "url": "/en/lidar/mapperspec"
+ }
+}

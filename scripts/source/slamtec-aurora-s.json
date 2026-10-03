@@ -1,0 +1,1816 @@
+{
+ "page": "/en/aurora-s",
+ "title": "Aurora S | Fully integrated AI spatial perception system | SLAMTEC",
+ "sections": [
+  {
+   "si": 0,
+   "cls": "auroras-section",
+   "h": 891,
+   "w": 1901,
+   "texts": [],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-banner-en.webp",
+     "alt": "Aurora S banner",
+     "nw": 1920,
+     "nh": 900,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 1,
+   "cls": "auroras-section",
+   "h": 421,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "LI",
+     "cls": "aos-init",
+     "t": "Built-in computing algorithms with direct output of mapping and localization result",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 15.1,
+      "y": 23.3,
+      "w": 9.1,
+      "h": 20
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "aos-init",
+     "t": "Self-developed AI-VSLAM engine designed to meet demanding requirements",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 30.3,
+      "y": 23.3,
+      "w": 9.1,
+      "h": 20
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "aos-init",
+     "t": "180° fisheye colour camera",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 45.4,
+      "y": 22.3,
+      "w": 9.1,
+      "h": 17.1
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "aos-init",
+     "t": "120° Ultra-wide angle stereo depth vision (end-to-end deep learning solution)",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 60.6,
+      "y": 23.3,
+      "w": 9.1,
+      "h": 20
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "aos-init",
+     "t": "Pixel-level semantic recognition of over hundred of objects",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 75.8,
+      "y": 23.3,
+      "w": 9.1,
+      "h": 20
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "aos-init",
+     "t": "Multi-modal fusion for semantic mapping",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 15.1,
+      "y": 55.7,
+      "w": 9.1,
+      "h": 17.1
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "aos-init",
+     "t": "One-click dense 3D reconstruction, support 3DGS solutions",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 30.3,
+      "y": 56.7,
+      "w": 9.1,
+      "h": 20
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "aos-init",
+     "t": "Seamless integration with VLA/VLN training systems for embodied AI",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 45.4,
+      "y": 56.7,
+      "w": 9.1,
+      "h": 20
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "aos-init",
+     "t": "Open platform supporting various SDKs including C++, ROS1/ROS2, and Python",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 60.6,
+      "y": 56.7,
+      "w": 9.1,
+      "h": 20
+     }
+    },
+    {
+     "tag": "LI",
+     "cls": "aos-init",
+     "t": "Compact\nfully integrated design",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 75.8,
+      "y": 56.7,
+      "w": 9.1,
+      "h": 20
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section1-icon1.svg",
+     "alt": "Built-in Computing Power Icon",
+     "nw": 150,
+     "nh": 150,
+     "box": {
+      "x": 18.6,
+      "y": 25.4,
+      "w": 2.2,
+      "h": 8.5
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section1-icon2.svg",
+     "alt": "AI-VSLAM Icon",
+     "nw": 150,
+     "nh": 150,
+     "box": {
+      "x": 33.9,
+      "y": 25.4,
+      "w": 1.9,
+      "h": 8.5
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section1-icon3.svg",
+     "alt": "Fisheye Camera Icon",
+     "nw": 150,
+     "nh": 150,
+     "box": {
+      "x": 49.2,
+      "y": 24.5,
+      "w": 1.6,
+      "h": 8.5
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section1-icon4.svg",
+     "alt": "Ultra Wide-angle Icon",
+     "nw": 150,
+     "nh": 150,
+     "box": {
+      "x": 63.8,
+      "y": 25.4,
+      "w": 2.8,
+      "h": 9.3
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section1-icon5.svg",
+     "alt": "Pixel-level Icon",
+     "nw": 150,
+     "nh": 150,
+     "box": {
+      "x": 79.2,
+      "y": 25.4,
+      "w": 2.2,
+      "h": 8.5
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section1-icon6.svg",
+     "alt": "Modal Fusion Icon",
+     "nw": 150,
+     "nh": 150,
+     "box": {
+      "x": 18.6,
+      "y": 57.8,
+      "w": 2.2,
+      "h": 8.5
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section1-icon7.svg",
+     "alt": "3D Reconstruction Icon",
+     "nw": 150,
+     "nh": 150,
+     "box": {
+      "x": 33.7,
+      "y": 58.8,
+      "w": 2.2,
+      "h": 8.5
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section1-icon8.svg",
+     "alt": "Embodied Intelligence Icon",
+     "nw": 150,
+     "nh": 150,
+     "box": {
+      "x": 48.9,
+      "y": 58.8,
+      "w": 2.2,
+      "h": 8.5
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section1-icon9.svg",
+     "alt": "Open Platform Icon",
+     "nw": 150,
+     "nh": 150,
+     "box": {
+      "x": 64.1,
+      "y": 58.8,
+      "w": 2.2,
+      "h": 8.5
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section1-icon10.svg",
+     "alt": "Compact Size Icon",
+     "nw": 150,
+     "nh": 150,
+     "box": {
+      "x": 79.2,
+      "y": 58.8,
+      "w": 2.2,
+      "h": 8.5
+     },
+     "pcls": ""
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 2,
+   "cls": "auroras-section",
+   "h": 1259,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "P",
+     "cls": "auroras-txt aos-init",
+     "t": "Aurora S is the new-generation fully integrated AI spatial perception system from SLAMTEC's Insight Series. By deeply integrating vision, inertial navigation, and SLAMTEC's self-developed AI-VSLAM technology, it provides robots and intelligent agents with out-of-the-box high-precision 3D perception, mapping, and semantic understanding. This greatly lowers integration and development barriers, accelerates the deployment of intelligent applications, and serves as a dedicated perception system for the era of embodied intelligence.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": -6.4,
+      "w": 75.8,
+      "h": 9.5
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/volume-off.svg",
+     "alt": "volume off",
+     "nw": 250,
+     "nh": 200,
+     "box": {
+      "x": 0,
+      "y": -115,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "audio-toggle-btn"
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/volume-on.svg",
+     "alt": "volume on",
+     "nw": 200,
+     "nh": 200,
+     "box": {
+      "x": 1.8,
+      "y": 79.4,
+      "w": 1.7,
+      "h": 2.5
+     },
+     "pcls": "audio-toggle-btn"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 3,
+   "cls": "auroras-section",
+   "h": 892,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "auroras-tit aos-init",
+     "t": "Built-in Intelligence , Beyond a Sensor",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": -0.7,
+      "w": 75.8,
+      "h": 4.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "auroras-txt aos-init",
+     "t": "Aurora S integrates AI-VSLAM for full-scene 3D mapping and localization, stereo depth estimation, semantic recognition, and dedicated compute hardware. It delivers real-time, high-quality spatial perception outputs—mapping, localization, and more—directly to the user, without the need for additional compute resources or in-house algorithm development.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": 28.3,
+      "w": 75.8,
+      "h": 6.7
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section3-en.webp",
+     "alt": "Aurora S Block Diagram",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 4,
+   "cls": "auroras-section",
+   "h": 2322,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "auroras-tit aos-init",
+     "t": "PhotoReal Mapping : Redefining SLAM for the Embodied AI Era",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": -0.2,
+      "w": 75.8,
+      "h": 1.7
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "auroras-txt aos-init",
+     "t": "Unlike traditional SLAM systems that output only sparse point clouds, Aurora S employs built-in deep learning multimodal perception to generate dense, richly textured maps with precise localization. Its semantic recognition engine enhances geometric maps with real-time semantic labeling, ushering spatial navigation into the multimodal perception era—purpose-built for embodied intelligence.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": 10.9,
+      "w": 75.8,
+      "h": 3.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Traditional SLAM System",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": 94.4,
+      "w": 34.7,
+      "h": 1.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Dense Textured Map by Aurora",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 53.2,
+      "y": 94.4,
+      "w": 34.7,
+      "h": 1.6
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section4-03.webp",
+     "alt": "Real Mountain Range Map",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 22.2,
+      "y": 10.5,
+      "w": 55.7,
+      "h": 23
+     },
+     "pcls": "fullpage-img aos-init"
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section4-01.webp",
+     "alt": "Traditional SLAM System Demo",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 12.1,
+      "y": 76.2,
+      "w": 34.6,
+      "h": 18.1
+     },
+     "pcls": "gradient-card-content"
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section4-02.webp",
+     "alt": "Aurora built dense texture map",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 53.3,
+      "y": 76.2,
+      "w": 34.6,
+      "h": 18.1
+     },
+     "pcls": "gradient-card-content"
+    }
+   ],
+   "vids": [
+    {
+     "src": "https://image.slamtec.com/images/auroras/mp4/auroras-section4.mp4",
+     "poster": "",
+     "box": {
+      "x": 0,
+      "y": 33.5,
+      "w": 100,
+      "h": 38.4
+     }
+    }
+   ],
+   "bgs": []
+  },
+  {
+   "si": 5,
+   "cls": "auroras-section",
+   "h": 896,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "auroras-tit aos-init",
+     "t": "Real-Time Loop Closure & Relocalization",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": -87.9,
+      "y": -0.6,
+      "w": 75.8,
+      "h": 4.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "auroras-txt aos-init",
+     "t": "Built-in AI-VSLAM enables online loop detection and error correction, delivering precise, reliable mapping without external compute.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": -87.9,
+      "y": 28.2,
+      "w": 75.8,
+      "h": 3.3
+     }
+    },
+    {
+     "tag": "H2",
+     "cls": "auroras-tit aos-init",
+     "t": "Next-Generation AI-VSLAM : Built for Extreme Challenges",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": -0.6,
+      "w": 75.8,
+      "h": 4.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "auroras-txt aos-init",
+     "t": "Aurora S integrates SLAMTEC's self-developed AI-VSLAM system, replacing traditional rule-based methods with deep learning. From uneven open fields to vast outdoor spaces spanning millions of square meters, and even highly complex indoor environments, Aurora S has proven its stability and reliability under the toughest conditions.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": 28.3,
+      "w": 75.8,
+      "h": 6.7
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Unordered feature points with traditional extraction",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": 84.2,
+      "w": 35.9,
+      "h": 4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Aurora Deep Learning Solution",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 52,
+      "y": 84.2,
+      "w": 35.9,
+      "h": 4
+     }
+    },
+    {
+     "tag": "H2",
+     "cls": "auroras-tit aos-init",
+     "t": "Unshaken by Swaying Grass , Delivering Outstanding Performance",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 112.1,
+      "y": -0.6,
+      "w": 75.8,
+      "h": 4.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "auroras-txt aos-init",
+     "t": "In uneven, grassy environments where traditional solutions often struggle or even lose tracking, Aurora excels. It effectively filters out environmental disturbances, keenly captures subtle features in the scene, and continuously delivers high-quality localization and mapping data.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 112.1,
+      "y": 28.3,
+      "w": 75.8,
+      "h": 6.7
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Traditional Solution: Localization Gap",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 112.1,
+      "y": 85.4,
+      "w": 35.9,
+      "h": 4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Aurora Solution: Stable Localization",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 152,
+      "y": 85.4,
+      "w": 35.9,
+      "h": 4
+     }
+    },
+    {
+     "tag": "H2",
+     "cls": "auroras-tit aos-init",
+     "t": "Real-Time Loop Closure & Relocalization",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 212.1,
+      "y": -0.6,
+      "w": 75.8,
+      "h": 4.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "auroras-txt aos-init",
+     "t": "Built-in AI-VSLAM enables online loop detection and error correction, delivering precise, reliable mapping without external compute.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 212.1,
+      "y": 28.2,
+      "w": 75.8,
+      "h": 3.3
+     }
+    },
+    {
+     "tag": "H2",
+     "cls": "auroras-tit aos-init",
+     "t": "Next-Generation AI-VSLAM : Built for Extreme Challenges",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 312.1,
+      "y": -0.6,
+      "w": 75.8,
+      "h": 4.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "auroras-txt aos-init",
+     "t": "Aurora S integrates SLAMTEC's self-developed AI-VSLAM system, replacing traditional rule-based methods with deep learning. From uneven open fields to vast outdoor spaces spanning millions of square meters, and even highly complex indoor environments, Aurora S has proven its stability and reliability under the toughest conditions.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 312.1,
+      "y": 28.3,
+      "w": 75.8,
+      "h": 6.7
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Unordered feature points with traditional extraction",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 312.1,
+      "y": 84.2,
+      "w": 35.9,
+      "h": 4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Aurora Deep Learning Solution",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 352,
+      "y": 84.2,
+      "w": 35.9,
+      "h": 4
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/auroras/gif/auroras-section5-01.gif",
+     "alt": "Traditional Feature Extraction Effect",
+     "nw": 690,
+     "nh": 450,
+     "box": {
+      "x": 12.1,
+      "y": 34.5,
+      "w": 35.8,
+      "h": 49.6
+     },
+     "pcls": "gradient-card-content"
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/gif/auroras-section5-02.gif",
+     "alt": "Aurora Deep Learning Solution",
+     "nw": 690,
+     "nh": 450,
+     "box": {
+      "x": 52,
+      "y": 34.5,
+      "w": 35.8,
+      "h": 49.6
+     },
+     "pcls": "gradient-card-content"
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/gif/auroras-section5-03.gif",
+     "alt": "Traditional Method Position Loss",
+     "nw": 400,
+     "nh": 267,
+     "box": {
+      "x": 112.1,
+      "y": 34.5,
+      "w": 35.8,
+      "h": 50.7
+     },
+     "pcls": "gradient-card-content"
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/gif/auroras-section5-04.gif",
+     "alt": "Aurora Method Stable Localization",
+     "nw": 400,
+     "nh": 267,
+     "box": {
+      "x": 152,
+      "y": 34.5,
+      "w": 35.8,
+      "h": 50.7
+     },
+     "pcls": "gradient-card-content"
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/gif/auroras-section5-01.gif",
+     "alt": "Traditional Feature Extraction Effect",
+     "nw": 690,
+     "nh": 450,
+     "box": {
+      "x": 312.1,
+      "y": 34.5,
+      "w": 35.8,
+      "h": 49.6
+     },
+     "pcls": "gradient-card-content"
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/gif/auroras-section5-02.gif",
+     "alt": "Aurora Deep Learning Solution",
+     "nw": 690,
+     "nh": 450,
+     "box": {
+      "x": 352,
+      "y": 34.5,
+      "w": 35.8,
+      "h": 49.6
+     },
+     "pcls": "gradient-card-content"
+    }
+   ],
+   "vids": [
+    {
+     "src": "https://image.slamtec.com/images/auroras/mp4/auroras-section5.mp4",
+     "poster": "",
+     "box": {
+      "x": -100,
+      "y": 0,
+      "w": 100,
+      "h": 99.4
+     }
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/mp4/auroras-section5.mp4",
+     "poster": "",
+     "box": {
+      "x": 200,
+      "y": 0,
+      "w": 100,
+      "h": 99.4
+     }
+    }
+   ],
+   "bgs": []
+  },
+  {
+   "si": 6,
+   "cls": "auroras-section",
+   "h": 896,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "auroras-tit aos-init",
+     "t": "Dense Depth Perception Without Extra Sensors",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": -4.7,
+      "w": 75.8,
+      "h": 4.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "auroras-txt aos-init",
+     "t": "Aurora S integrates a binocular dense depth sensing system that delivers wide-angle point clouds (120° HFOV) at 15 fps. Powered by an end-to-end deep learning pipeline, it maintains stable performance even in weak-texture or high-glare environments, with strict pixel-level alignment to RGB imagery. Users can directly leverage this data for real-time obstacle detection and 3D scene reconstruction—without additional sensors.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": 24.1,
+      "w": 75.8,
+      "h": 10
+     }
+    }
+   ],
+   "imgs": [],
+   "vids": [
+    {
+     "src": "https://image.slamtec.com/images/auroras/mp4/auroras-section6.mp4",
+     "poster": "",
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 99.4
+     }
+    }
+   ],
+   "bgs": []
+  },
+  {
+   "si": 7,
+   "cls": "auroras-section",
+   "h": 896,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "auroras-tit aos-init",
+     "t": "From Spatial Localization to Spatial Intelligence",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": -4.7,
+      "w": 75.8,
+      "h": 4.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "auroras-txt aos-init",
+     "t": "Aurora S integrates a high-performance real-time semantic segmentation and object recognition engine, delivering pixel-level results. It supports recognition of 18 outdoor scene categories and over 80 indoor object types, providing foundational support for VLN and VLA. The system also allows customized recognition tasks, integrates depth data to generate semantic maps, and advances spatial intelligence.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": 24.1,
+      "w": 75.8,
+      "h": 10
+     }
+    }
+   ],
+   "imgs": [],
+   "vids": [
+    {
+     "src": "https://image.slamtec.com/images/auroras/mp4/auroras-section7.mp4",
+     "poster": "",
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 99.4
+     }
+    }
+   ],
+   "bgs": []
+  },
+  {
+   "si": 8,
+   "cls": "auroras-section",
+   "h": 892,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "auroras-tit aos-init",
+     "t": "Plug-and-Play , No External Dependencies",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": -0.7,
+      "w": 75.8,
+      "h": 4.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "auroras-txt",
+     "t": "Rich interfaces and expandability, supporting DC 9–24V power supply or USB Type-C PD3.0",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": 89.9,
+      "w": 75.8,
+      "h": 3.4
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section8.webp",
+     "alt": "Aurora S Interface Structure",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+     },
+     "pcls": "fullpage-img"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 9,
+   "cls": "auroras-section",
+   "h": 708,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "auroras-tit aos-init",
+     "t": "Open and Flexible Platform\nSupport Various SDKs and platforms",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": -0.7,
+      "w": 75.8,
+      "h": 10.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "C++",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 26.9,
+      "y": 65.1,
+      "w": 1.7,
+      "h": 5.1
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Python",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 41.2,
+      "y": 65.1,
+      "w": 2.8,
+      "h": 5.1
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "macOS",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 55.9,
+      "y": 65.1,
+      "w": 2.9,
+      "h": 5.1
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "ROS1/ROS2",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 69.7,
+      "y": 65.1,
+      "w": 5.1,
+      "h": 5.1
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section9-01.webp",
+     "alt": "C++ Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 23.7,
+      "y": 46.3,
+      "w": 8,
+      "h": 18.8
+     },
+     "pcls": "aos-init"
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section9-02.webp",
+     "alt": "Python Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 38.6,
+      "y": 46.3,
+      "w": 8,
+      "h": 18.8
+     },
+     "pcls": "aos-init"
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section9-03.webp",
+     "alt": "macOS Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 53.4,
+      "y": 46.3,
+      "w": 8,
+      "h": 18.8
+     },
+     "pcls": "aos-init"
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section9-04.webp",
+     "alt": "ROS Icon",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 68.3,
+      "y": 46.3,
+      "w": 8,
+      "h": 18.8
+     },
+     "pcls": "aos-init"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 10,
+   "cls": "auroras-section",
+   "h": 896,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "auroras-tit aos-init",
+     "t": "Aurora provides the Remote UI visualization tool and Remote SDK, enabling fast implementation of advanced functions such as dense mapping, semantic mapping, and 3DGs reconstruction.",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": -0.6,
+      "w": 75.8,
+      "h": 4.8
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "auroras-txt",
+     "t": "Use Aurora for fast 3DGs map reconstruction",
+     "fs": 18,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": 87.7,
+      "w": 75.8,
+      "h": 3.3
+     }
+    }
+   ],
+   "imgs": [],
+   "vids": [
+    {
+     "src": "https://image.slamtec.com/images/auroras/mp4/auroras-section10.mp4",
+     "poster": "",
+     "box": {
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 99.4
+     }
+    }
+   ],
+   "bgs": []
+  },
+  {
+   "si": 11,
+   "cls": "auroras-section",
+   "h": 837,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H2",
+     "cls": "auroras-tit aos-init",
+     "t": "Use Case Scenarios",
+     "fs": 32,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 12.1,
+      "y": -0.6,
+      "w": 75.8,
+      "h": 10.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Humanoid robots",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 6,
+      "y": 75.3,
+      "w": 21.4,
+      "h": 6.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Quadruped robots",
+     "fs": 18,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 28.3,
+      "y": 75.3,
+      "w": 21.4,
+      "h": 6.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Outdoor Robotics\nLawn mowers, smart agriculture, yard inspection",
+     "fs": 15,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 55.7,
+      "y": 35,
+      "w": 16.1,
+      "h": 7.1
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Industrial Automation\nAGV, AMR",
+     "fs": 15,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 72.6,
+      "y": 35,
+      "w": 16.1,
+      "h": 7.1
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Digital Twin\n3D scene reconstruction, VLN/VLA training data collection",
+     "fs": 15,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 55.7,
+      "y": 90.5,
+      "w": 16.1,
+      "h": 7.7
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Low-Speed Autonomous Driving\nCampus logistics, inspection robots",
+     "fs": 15,
+     "fw": "700",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 72.6,
+      "y": 91.1,
+      "w": 16.1,
+      "h": 7.1
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section11-1.webp",
+     "alt": "Applied to Humanoid Robots",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 6,
+      "y": 21.9,
+      "w": 21.4,
+      "h": 59.8
+     },
+     "pcls": "auroras-section11-li aos-init"
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section11-2.webp",
+     "alt": "Applied to Quadruped Robots",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 28.3,
+      "y": 21.9,
+      "w": 21.4,
+      "h": 59.8
+     },
+     "pcls": "auroras-section11-li aos-init"
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section11-3.webp",
+     "alt": "Applied to Outdoor Robots",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 55.7,
+      "y": 10,
+      "w": 16.1,
+      "h": 32.2
+     },
+     "pcls": "auroras-section11-li"
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section11-4.webp",
+     "alt": "Applied to Industrial Automation",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 72.6,
+      "y": 10,
+      "w": 16.1,
+      "h": 32.2
+     },
+     "pcls": "auroras-section11-li"
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section11-5.webp",
+     "alt": "Applied to Digital Twin",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 55.7,
+      "y": 66,
+      "w": 16.1,
+      "h": 32.2
+     },
+     "pcls": "auroras-section11-li"
+    },
+    {
+     "src": "https://image.slamtec.com/images/auroras/pc/auroras-section11-6.webp",
+     "alt": "Applied to Low-speed Autonomous Driving",
+     "nw": 0,
+     "nh": 0,
+     "box": {
+      "x": 72.6,
+      "y": 66,
+      "w": 16.1,
+      "h": 32.2
+     },
+     "pcls": "auroras-section11-li"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  },
+  {
+   "si": 12,
+   "cls": "section fp-auto-height",
+   "h": 444,
+   "w": 1901,
+   "texts": [
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Buy",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 11.6,
+      "y": 12.4,
+      "w": 4.7,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "official Alibaba",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 19.6,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Sales",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 11.6,
+      "y": 25,
+      "w": 4.7,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "About Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 17.9,
+      "y": 12.4,
+      "w": 4.6,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "About Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 19.6,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Support",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 25,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 30.3,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Privacy Policy",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(51, 51, 51)",
+     "box": {
+      "x": 17.9,
+      "y": 35.7,
+      "w": 4.6,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Contact Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 24,
+      "y": 12.4,
+      "w": 12.8,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Tel：021-68620565",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 19.6,
+      "w": 8.9,
+      "h": 5.4
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Sales：sales@slamtec.com",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 25,
+      "w": 8.9,
+      "h": 10.7
+     }
+    },
+    {
+     "tag": "DT",
+     "cls": "",
+     "t": "Shanghai：",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 24,
+      "y": 35.7,
+      "w": 3.8,
+      "h": 40.6
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Room 601, 6th Floor, Kailong Technology Building, Building 3, No. 6, Lane 3158, Longdong Avenue, Pudong New District, Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 35.7,
+      "w": 8.9,
+      "h": 27
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "5F, Building K, Poly Green Square, 188 Liaoyang Rd., Shanghai",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 27.9,
+      "y": 62.7,
+      "w": 8.9,
+      "h": 13.5
+     }
+    },
+    {
+     "tag": "H5",
+     "cls": "",
+     "t": "Focus Us",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 38.4,
+      "y": 12.4,
+      "w": 7.3,
+      "h": 4.5
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Hotline (Mon-Fri, 9am - 6pm, Beijing Time)",
+     "fs": 16,
+     "fw": "400",
+     "c": "rgb(255, 255, 255)",
+     "box": {
+      "x": 72.4,
+      "y": 12.4,
+      "w": 16,
+      "h": 8.2
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "Pre-sale consultation：",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 20.6,
+      "w": 16,
+      "h": 9.3
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "(+86) 021-68620565",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 29.9,
+      "w": 16,
+      "h": 11
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "phone-number1",
+     "t": "BD：\n(+86) 021-68581569",
+     "fs": 24,
+     "fw": "400",
+     "c": "rgb(191, 191, 191)",
+     "box": {
+      "x": 72.4,
+      "y": 40.8,
+      "w": 16,
+      "h": 16.9
+     }
+    },
+    {
+     "tag": "P",
+     "cls": "",
+     "t": "Copyright 2016-2026 Shanghai Slamtec Co., Ltd. 沪ICP备14023268号-1",
+     "fs": 14,
+     "fw": "400",
+     "c": "rgb(102, 102, 102)",
+     "box": {
+      "x": 10,
+      "y": 84.2,
+      "w": 80,
+      "h": 4.6
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "/images/icon-foot-linkedin.png",
+     "alt": "LinkedIn icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 38.4,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-youtube.png",
+     "alt": "YouTube icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 40.3,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-facebook.png",
+     "alt": "Facebook icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 42.2,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "/images/icon-foot-twitter.png",
+     "alt": "Twitter icon",
+     "nw": 30,
+     "nh": 30,
+     "box": {
+      "x": 44.1,
+      "y": 19.6,
+      "w": 1.6,
+      "h": 6.8
+     },
+     "pcls": ""
+    },
+    {
+     "src": "https://image.slamtec.com/images/erweima.png",
+     "alt": "Official Account QR code",
+     "nw": 146,
+     "nh": 146,
+     "box": {
+      "x": 0,
+      "y": -2692.1,
+      "w": 0,
+      "h": 0
+     },
+     "pcls": "erweima"
+    }
+   ],
+   "vids": [],
+   "bgs": []
+  }
+ ],
+ "spec": {
+  "tables": [
+   [
+    [
+     "Key Specifications",
+     "Details"
+    ],
+    [
+     "Max. Mapping Area",
+     ">1,000,000㎡"
+    ],
+    [
+     "Relocation",
+     "Support entire relocation, accuracy ±5cm"
+    ],
+    [
+     "Map Management",
+     "Support mapping continuation, loading and saving"
+    ],
+    [
+     "Mapping & Localization Mode",
+     "AI deep-learning VSLAM (primary), optional LiDAR fusion"
+    ],
+    [
+     "Multi-sensor Synchronization",
+     "Hardware-level time synchronization"
+    ],
+    [
+     "Camera Specifications",
+     "Stereo fisheye, 60mm baseline, FOV 180°, Global Shutter, RGB"
+    ],
+    [
+     "Camera Frame Rate",
+     "Typical 15Hz，customisable 10/30Hz"
+    ],
+    [
+     "Dense Depth Camera Capability",
+     "End-to-end deep learning; >90% detection rate; works in strong light and weak texture environments"
+    ],
+    [
+     "AI Object Recognition & Segmentation",
+     "Support 18 outdoor scenarios + 80 indoor scenarios, customizable upon request"
+    ],
+    [
+     "Power Consumption",
+     "10W (Typical, excluding LiDAR)"
+    ],
+    [
+     "Operating Temperature",
+     "-20℃~50℃"
+    ],
+    [
+     "Startup Temperature",
+     "≥0℃"
+    ],
+    [
+     "Storage Temperature",
+     "-20℃~60℃"
+    ]
+   ]
+  ],
+  "text": "",
+  "url": "/en/aurora-s/spec"
+ }
+}
