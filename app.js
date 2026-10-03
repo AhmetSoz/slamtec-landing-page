@@ -454,6 +454,10 @@ function route({ scroll = false, focus = false } = {}) {
 renderCards();
 route();
 window.addEventListener('hashchange', () => route({ scroll: true, focus: true }));
+document.querySelector('.floating-top').addEventListener('click', () => {
+  const top = detail.hidden ? 0 : productsSection.getBoundingClientRect().top + window.scrollY - document.querySelector('.site-header').offsetHeight;
+  window.scrollTo({ top: Math.max(0, top), behavior: reducedMotion ? 'auto' : 'smooth' });
+});
 detail.addEventListener('click', (event) => {
   if (event.target.closest('#detail-back')) location.hash = 'urunler';
   if (event.target.closest('[data-scroll-docs]')) detail.querySelector('#belgeler')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
