@@ -239,6 +239,7 @@ for (const product of products) {
 }
 
 const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
+const imageSize = (file) => mediaDimensions[file] ? `width="${mediaDimensions[file][0]}" height="${mediaDimensions[file][1]}"` : '';
 const grid = document.getElementById('product-grid');
 const catalog = document.getElementById('catalog-view');
 const detail = document.getElementById('product-detail');
@@ -269,8 +270,10 @@ function setVideoPlayback(stage, play) {
     media.src = stage.dataset.mediaSrc;
     stage.append(media);
     if (media instanceof HTMLVideoElement) media.play().catch(() => {});
-  } else if (!play) {
-    stage.querySelector('video, img')?.remove();
+  } else if (play) {
+    stage.querySelector('video')?.play().catch(() => {});
+  } else {
+    stage.querySelector('video')?.pause();
   }
   stage.classList.toggle('is-playing', play);
 }
@@ -352,14 +355,14 @@ function renderDetail(product) {
       <div class="story-section-intro container"><span class="eyebrow"><span class="eyebrow-line"></span> Üretici görselleri</span><h3 id="manufacturer-story-title">${escapeHtml(product.name)} nasıl çalışır?</h3><p>Teknik şemalar ve uygulama çıktıları aşağıda kendi akışı içinde gösterilir. Aileye ait görsellerde model farkları açıklamalarda belirtilir.</p></div>
       ${product.manufacturerStories.map((story, index) => `<section class="story-chapter ${story.compact ? 'is-compact' : ''}">
         <div class="story-chapter-copy container"><span class="chapter-number">${String(index + 1).padStart(2, '0')} / ${String(product.manufacturerStories.length).padStart(2, '0')}</span><h4>${escapeHtml(story.title)}</h4><p>${escapeHtml(story.caption)}</p></div>
-        <div class="story-chapter-media"><img src="assets/images/official/${escapeHtml(story.file)}" alt="${escapeHtml(story.title)}" loading="lazy" decoding="async"></div>
+        <div class="story-chapter-media"><img src="assets/images/official/${escapeHtml(story.file)}" ${imageSize(`assets/images/official/${story.file}`)} alt="${escapeHtml(story.title)}" loading="lazy" decoding="async"></div>
       </section>`).join('')}
     </section>` : ''}
     ${product.extraMedia.length ? `<section class="extra-media" aria-labelledby="extra-media-title">
       <div class="story-section-intro container"><span class="eyebrow"><span class="eyebrow-line"></span> Görsel anlatım</span><h3 id="extra-media-title">${escapeHtml(product.name)} uygulama ve teknik görselleri</h3><p>Üreticinin bu modele veya ürün ailesine ait görsel ve kısa videoları, aşağı kaydırdıkça sırayla açılır.</p></div>
       ${product.extraMedia.map((media, index) => `<section class="story-chapter extra-chapter ${media.kind === 'video' ? 'is-video' : ''} ${media.compact || media.path.endsWith('.gif') ? 'is-compact' : ''}">
         <div class="story-chapter-copy container"><span class="chapter-number">${String(index + 1).padStart(2, '0')} / ${String(product.extraMedia.length).padStart(2, '0')}</span><h4>${escapeHtml(media.title)}</h4></div>
-        <div class="story-chapter-media">${media.kind === 'video' ? `<video data-chapter-src="assets/media/${escapeHtml(media.path)}" poster="assets/images/${escapeHtml(product.image)}" aria-label="${escapeHtml(media.title)}" muted loop playsinline preload="none"></video>` : `<img src="assets/media/${escapeHtml(media.path)}" alt="${escapeHtml(media.title)}" loading="lazy" decoding="async">`}</div>
+        <div class="story-chapter-media">${media.kind === 'video' ? `<video data-chapter-src="assets/media/${escapeHtml(media.path)}" poster="assets/images/${escapeHtml(product.image)}" aria-label="${escapeHtml(media.title)}" muted loop playsinline preload="none"></video>` : `<img src="assets/media/${escapeHtml(media.path)}" ${imageSize(`assets/media/${media.path}`)} alt="${escapeHtml(media.title)}" loading="lazy" decoding="async">`}</div>
       </section>`).join('')}
     </section>` : ''}
     <div class="docs-panel" id="belgeler">
