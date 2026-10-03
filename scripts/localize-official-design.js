@@ -259,6 +259,84 @@ const paragraphs=[
  ['Using a modulated pulse','Modüle edilmiş düşük güçlü kızılötesi lazer Class 1 lazer sınıfındadır.'],
  ['The features and performance','AGV, servis robotu ve endüstriyel platformlarda çevre taraması için kullanılır.']
 ];
+const labels={
+ 'Compact':'Kompakt', 'fully integrated design':'bütünleşik donanım',
+ 'LiDAR + Binocular Vision + IMU':'LiDAR + stereo kamera + IMU',
+ '(Omnidirectional Localization Capability)':'(Çok yönlü konumlama)',
+ 'Millimeter-level resolution accuracy, centimeter-level Localization accuracy':'Milimetre düzeyinde çözünürlük, santimetre düzeyinde konumlama',
+ 'AI Deep Learning':'Derin öğrenme', 'Supports External Expansion':'Harici sensör desteği',
+ '(GPS/RTK, Odometry, etc.)':'(GPS/RTK, odometri vb.)', 'Large Mapping Area':'Geniş alan haritalama',
+ '(Palm-Sized, 500g Weight)':'(Avuç içi boyutunda, 500 g)',
+ '(No External Dependencies Required)':'(Cihaz üzerinde işlem)',
+ 'Traditional Solution Loses Positioning':'Geleneksel sistemde konum takibi',
+ 'Aurora Solution Stays Stable':'Aurora ile konum takibi',
+ 'Traditional Feature Extraction Effect':'Geleneksel özellik çıkarımı',
+ 'Garage Mapping - 2D Laser Output':'Otopark haritası · 2D lazer çıktısı',
+ 'Garage Mapping - 3D Point Cloud Output':'Otopark haritası · 3D nokta bulutu',
+ 'Outdoor Mapping - 2D Laser Output':'Dış ortam haritası · 2D lazer çıktısı',
+ 'Outdoor Mapping - 3D Point Cloud Output':'Dış ortam haritası · 3D nokta bulutu',
+ 'Supports map loading and reuse':'Harita yükleme ve yeniden kullanım',
+ 'Breakpoint resume mapping':'Haritalamaya kaldığı yerden devam',
+ 'Hardware time synchronization':'Donanım zaman eşlemesi',
+ 'Low power consumption (7W)':'7 W güç tüketimi', 'Built-in barometer':'Yerleşik barometre',
+ '(provides altitude information)':'(Yükseklik bilgisi sağlar)',
+ 'Multiple communication interfaces':'Birden çok veri arayüzü',
+ '(built-in Wi-Fi, Gigabit Ethernet, USB Type-C)':'(Wi-Fi, Gigabit Ethernet, USB Type-C)',
+ 'Extensive SDKs and tools':'SDK ve geliştirme araçları',
+ '(C++/ Android/ROS+RoboStudio)':'(C++, Android, ROS ve RoboStudio)',
+ 'Multi-platform support':'Çoklu platform desteği',
+ 'Low-Speed Outdoor Vehicles':'Düşük hızlı dış ortam araçları',
+ 'Environmental Mapping':'Çevre haritalama',
+ 'High-Precision GPS-Free Localization':'GPS olmadan konumlama',
+ 'Construction and Engineering':'İnşaat ve mühendislik',
+ 'Monitoring radius':'İzleme yarıçapı', 'All-round Monitoring':'360° alan izleme',
+ 'Sunlight resistance':'Ortam ışığı dayanımı',
+ 'Integrated field monitoring system':'Yerleşik alan izleme sistemi',
+ 'Field intrusion monitoring':'Alan ihlali izleme', 'Production line counting':'Üretim hattında sayım',
+ 'Passageway monitoring':'Geçiş alanı izleme',
+ 'Obstacle avoidance for AGV, AMR, Robots':'AGV, AMR ve robotlarda engel algılama',
+ 'Free graphic editing and dragging':'Alan şekillerini düzenleme ve sürükleme',
+ 'Flexible Lidar placement adjustment':'LiDAR yerleşimini ayarlama',
+ 'Innovative associated masked mode':'İlişkili maskeleme modu',
+ '10 years of specialized development experience in LiDAR technology':'LiDAR teknolojisinde 10 yıllık geliştirme deneyimi',
+ 'Preferred partner':'Üretici desteği', 'The preferred choice our customers':'Uygulama ve entegrasyon deneyimi',
+ 'Empowering market':'Teknoloji geliştirme', 'competitiveness with 326 patents':'326 patentlik üretici portföyü',
+ 'Professional pre-sales and after-sales technical support':'Satış öncesi ve sonrası teknik destek',
+ 'Self-owned factory spanning 4000+':'4.000 m² üzeri üretim tesisi',
+ 'square meters, ensuring':'Üretim ve kalite kontrolü', 'reliable delivery':'Ürün tedariki',
+ 'RPLIDAR is the designed sensor for applying SLAM algorithm':'SLAM uygulamaları için 2D LiDAR sensörü',
+ 'Sampling Frequency':'Örnekleme hızı', 'Rotational Speed':'Dönüş hızı',
+ 'Angular Resolution':'Açısal çözünürlük',
+ 'Comparison under different conditions':'Farklı tarama hızlarında nokta yoğunluğu',
+ 'Comparison under different working conditions':'Farklı çalışma koşullarında tarama',
+ 'Rotational Speed（Typical value）':'Dönüş hızı (tipik)',
+ 'Angular Resolution（Typical value）':'Açısal çözünürlük (tipik)',
+ 'High detection rate of Specular Reflection':'Yansıtıcı yüzeylerde algılama örneği',
+ 'Detection Distance of black object(10% reflection) : 10m':'Siyah nesne ölçümü (%10 yansıtıcılık): 10 m',
+ 'Parking lot monitoring':'Otopark alanı izleme',
+ 'S2E （S2E supports full range and intensity signal output at 32K sampling frequency.）':'S2E: 32.000 örnek/sn hızında mesafe ve yoğunluk verisi',
+ 'network ports communication':'Ethernet bağlantısı',
+ 'S3 High laser scanning resolutions':'S3 ile yüksek tarama çözünürlüğü',
+ 'S3 Low measurement noise':'S3 ile düşük ölçüm gürültüsü',
+ 'Traditional DTof':'Geleneksel dToF', 'laser scanning resolutions':'Tarama çözünürlüğü',
+ 'Low measurement noise':'Düşük ölçüm gürültüsü',
+ '*Examples of objects with different reflectivity':'*Farklı yansıtıcılıktaki nesnelere ait örnekler',
+ 'Detection Distance of black object :15m(10% reflection)':'Siyah nesne ölçümü: 15 m (%10 yansıtıcılık)',
+ 'Unsupervised Operations':'Otonom işletim', 'Empowered Robots':'Entegre edilen robot',
+ 'Enterprise Users':'Kurumsal kullanıcı', 'Deployed Projects':'Saha projesi',
+ 'Large-scale scene mapping construction':'Geniş alan haritalama',
+ '1cm High-precision map resolution':'1 cm harita çözünürlüğü',
+ 'Real-time localization error (typical value)':'Gerçek zamanlı konumlama hatası (tipik)',
+ 'Localization stability':'Konumlama kararlılığı', 'Real-time Localization':'Gerçek zamanlı konumlama',
+ 'Complete Toolchain Support':'Geliştirme araçları',
+ 'Easily supports large-scale maps up to 500000㎡-1200000㎡':'500.000–1.200.000 m² harita alanı desteği',
+ 'Provides interfaces to adjust parameters during the mapping process to ensure the map quality.':'Haritalama sırasında işlem parametreleri arayüz üzerinden ayarlanabilir.',
+ 'with complete details and no need for secondary retouching':'Harita ayrıntılarının otomatik işlenmesi',
+ 'corner burrs, uneven':'Köşe ve kenar düzensizlikleri',
+ 'Operations and Maintenance':'İşletim ve bakım',
+ 'Provide dedicated support for customers to deploy robots in majorl scenarios.':'Saha kurulumu ve robot entegrasyonu için üretici araçları.',
+ 'Task Completion Rate':'Görev tamamlama oranı'
+};
 const unhandled=[];
 for(const [key,page] of Object.entries(pages)) {
  const $=cheerio.load(page.html);
@@ -266,11 +344,11 @@ for(const [key,page] of Object.entries(pages)) {
  $('p').each((i,e)=>{
    if($(e).find('img,video').length)return;
    const text=normalize($(e).text());
-   const replacement=short[text]||paragraphs.find(([prefix])=>text.startsWith(prefix))?.[1];
+   const replacement=short[text]||labels[text]||paragraphs.find(([prefix])=>text.startsWith(prefix))?.[1];
    if(replacement)$(e).text(replacement);
    else if(text.length>95 && !/[çğıöşüÇĞİÖŞÜ]/.test(text))unhandled.push(`${key}: ${text.slice(0,100)}`);
  });
- $('*').contents().each((i,e)=>{if(e.type==='text'){const t=normalize(e.data);if(short[t])e.data=short[t];}});
+ $('*').contents().each((i,e)=>{if(e.type==='text'){const t=normalize(e.data);const replacement=short[t]||labels[t]||titles[t];if(replacement)e.data=replacement;}});
  page.html=$('body').html();
 }
 fs.writeFileSync(file,`// SLAMTEC product layouts with Turkish editorial copy.\nconst officialDesign = ${JSON.stringify(pages)};\n`);
