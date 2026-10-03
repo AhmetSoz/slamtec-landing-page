@@ -233,6 +233,8 @@ for (const product of products) {
   if (!productEditorial[product.id]) throw new Error(`Eksik ürün içeriği: ${product.id}`);
   Object.assign(product, productEditorial[product.id]);
   product.manufacturerStories = manufacturerStories[product.id] || [];
+  product.extraMedia = extraMedia[product.id] || [];
+  product.hero = productHero[product.id] || null;
   product.video = productVideos[product.id] || null;
 }
 
@@ -245,10 +247,9 @@ const productsSection = document.getElementById('urunler');
 let activeFilter = 'all';
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 let routeRevision = 0;
-let galleryRevision = 0;
 let filterTimer;
-let revealObserver;
 let videoObserver;
+let chapterVideoObserver;
 
 function setVideoPlayback(stage, play) {
   if (!stage) return;
@@ -292,18 +293,28 @@ function renderCards() {
 }
 
 function renderDetail(product) {
-  revealObserver?.disconnect();
   videoObserver?.disconnect();
-  const gallery = [product.image, ...product.gallery];
+  chapterVideoObserver?.disconnect();
   const specs = new Map([...product.specs, ...product.extraSpecs].map(([label, value]) => [label, value]));
   detail.innerHTML = `
-    <button class="detail-back" type="button" id="detail-back"><span aria-hidden="true">←</span> Tüm ürünlere dön</button>
-    <div class="detail-overview">
+    <div class="detail-nav">
+      <div class="detail-nav-inner container">
+        <button class="detail-back" type="button" id="detail-back"><span aria-hidden="true">←</span> Tüm ürünler</button>
+        <strong class="detail-nav-name">${escapeHtml(product.name)}</strong>
+        <nav class="detail-nav-links" aria-label="Ürün içeriği">
+          <button type="button" data-scroll-target="detail-overview">Genel bakış</button>
+          <button type="button" data-scroll-target="detail-specs">Özellikler</button>
+          <button type="button" data-scroll-target="belgeler">Belgeler</button>
+          <a href="${escapeHtml(product.url)}" target="_blank" rel="noopener noreferrer">RobotSepeti'nde incele ↗</a>
+        </nav>
+      </div>
+    </div>
+    <section class="detail-hero ${product.hero ? 'has-official-art' : 'is-fallback'}" aria-label="${escapeHtml(product.name)} ürün tanıtımı">
+      ${product.hero ? `<picture>${product.hero.mobile ? `<source media="(max-width: 640px)" srcset="assets/media/${escapeHtml(product.hero.mobile)}">` : ''}<img src="assets/media/${escapeHtml(product.hero.desktop)}" alt="${escapeHtml(product.name)} üretici tanıtım görseli" fetchpriority="high"></picture>` : `<div class="detail-hero-fallback container"><div><span>${escapeHtml(product.family)}</span><h2>${escapeHtml(product.name)}</h2><p>${escapeHtml(product.summary)}</p></div><img src="assets/images/${escapeHtml(product.image)}" alt="${escapeHtml(product.name)} sensörü"></div>`}
+    </section>
+    <div class="detail-overview container" id="detail-overview">
       <div class="detail-media">
         <div class="detail-image"><img id="detail-main-image" src="assets/images/${escapeHtml(product.image)}" alt="${escapeHtml(product.name)} ürün görseli 1"></div>
-        <div class="gallery-thumbs" role="group" aria-label="${escapeHtml(product.name)} ürün görselleri">
-          ${gallery.map((photo, index) => `<button class="gallery-thumb ${index === 0 ? 'is-active' : ''}" type="button" data-gallery-image="${escapeHtml(photo)}" data-gallery-index="${index + 1}" aria-label="${escapeHtml(product.name)} görsel ${index + 1}" aria-pressed="${index === 0}"><img src="assets/images/${escapeHtml(photo)}" alt="" loading="lazy"></button>`).join('')}
-        </div>
       </div>
       <div class="detail-intro">
         <span class="eyebrow"><span class="eyebrow-line"></span> ${escapeHtml(product.family)}</span>
@@ -315,10 +326,9 @@ function renderDetail(product) {
           <a class="primary-button" href="${escapeHtml(product.url)}" target="_blank" rel="noopener noreferrer">RobotSepeti'nde incele <span aria-hidden="true">↗</span></a>
           <button class="outline-button" type="button" data-scroll-docs>Teknik belgeler ↓</button>
         </div>
-        <a class="manufacturer-link" href="${escapeHtml(product.official)}" target="_blank" rel="noopener noreferrer">Slamtec teknik sayfası <span aria-hidden="true">↗</span></a>
       </div>
     </div>
-    <div class="detail-content">
+    <div class="detail-content container" id="detail-specs">
       <div class="detail-copy">
         <h3>Modelin çalışma biçimi ve kullanım amacı</h3>
         ${[...product.paragraphs, ...product.detail].map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}
@@ -336,37 +346,29 @@ function renderDetail(product) {
     ${product.video ? `<section class="product-video ${product.video.type === 'gif' ? 'is-gif' : ''}" aria-labelledby="product-video-title">
       <div class="product-video-head"><div><span class="eyebrow"><span class="eyebrow-line"></span> Üretici gösterimi</span><h3 id="product-video-title">${escapeHtml(product.video.title)}</h3><p>${escapeHtml(product.video.caption)}</p></div></div>
       <div class="product-video-stage" data-media-type="${escapeHtml(product.video.type)}" data-media-src="${escapeHtml(product.video.src)}" data-media-title="${escapeHtml(product.video.title)}" style="--video-poster:url('assets/images/${escapeHtml(product.image)}');--media-aspect:${escapeHtml(product.video.aspect || '16 / 9')}"><span class="video-stage-label">SLAMTEC kaynaklı</span></div>
-      <div class="product-video-foot"><span>Ses kapalı · Döngü</span><a href="${escapeHtml(product.video.source)}" target="_blank" rel="noopener noreferrer">SLAMTEC ürün sayfası ↗</a></div>
+      <div class="product-video-foot"><span>Ses kapalı · Döngü · Üretici ürün gösterimi</span></div>
     </section>` : ''}
     ${product.manufacturerStories.length ? `<section class="manufacturer-story" aria-labelledby="manufacturer-story-title">
-      <div class="manufacturer-story-heading">
-        <div><span class="eyebrow"><span class="eyebrow-line"></span> Üretici görselleri</span><h3 id="manufacturer-story-title">${escapeHtml(product.name)} nasıl çalışır?</h3><p>Slamtec'in ürün anlatımından seçilen şemalar ve uygulama örnekleri. Aileye ait görsellerde model farkları açıklamalarda belirtilir.</p></div>
-      </div>
-      <div class="manufacturer-story-list">${product.manufacturerStories.map((story, index) => `<figure class="manufacturer-figure ${story.compact ? 'is-compact' : ''}">
-        <button class="manufacturer-image" type="button" data-story-image="${escapeHtml(story.file)}" data-story-alt="${escapeHtml(story.title)}" aria-label="${escapeHtml(story.title)} görselini büyüt"><img src="assets/images/official/${escapeHtml(story.file)}" alt="${escapeHtml(story.title)}" loading="lazy" decoding="async"><span class="image-expand" aria-hidden="true">Büyüt ↗</span></button>
-        <figcaption><span class="figure-index">${String(index + 1).padStart(2, '0')}</span><div><strong>${escapeHtml(story.title)}</strong><p>${escapeHtml(story.caption)}</p><a href="${escapeHtml(story.source)}" target="_blank" rel="noopener noreferrer">Slamtec kaynağı ↗</a></div></figcaption>
-      </figure>`).join('')}</div>
+      <div class="story-section-intro container"><span class="eyebrow"><span class="eyebrow-line"></span> Üretici görselleri</span><h3 id="manufacturer-story-title">${escapeHtml(product.name)} nasıl çalışır?</h3><p>Teknik şemalar ve uygulama çıktıları aşağıda kendi akışı içinde gösterilir. Aileye ait görsellerde model farkları açıklamalarda belirtilir.</p></div>
+      ${product.manufacturerStories.map((story, index) => `<section class="story-chapter ${story.compact ? 'is-compact' : ''}">
+        <div class="story-chapter-copy container"><span class="chapter-number">${String(index + 1).padStart(2, '0')} / ${String(product.manufacturerStories.length).padStart(2, '0')}</span><h4>${escapeHtml(story.title)}</h4><p>${escapeHtml(story.caption)}</p></div>
+        <div class="story-chapter-media"><img src="assets/images/official/${escapeHtml(story.file)}" alt="${escapeHtml(story.title)}" loading="lazy" decoding="async"></div>
+      </section>`).join('')}
+    </section>` : ''}
+    ${product.extraMedia.length ? `<section class="extra-media" aria-labelledby="extra-media-title">
+      <div class="story-section-intro container"><span class="eyebrow"><span class="eyebrow-line"></span> Görsel anlatım</span><h3 id="extra-media-title">${escapeHtml(product.name)} uygulama ve teknik görselleri</h3><p>Üreticinin bu modele veya ürün ailesine ait görsel ve kısa videoları, aşağı kaydırdıkça sırayla açılır.</p></div>
+      ${product.extraMedia.map((media, index) => `<section class="story-chapter extra-chapter ${media.kind === 'video' ? 'is-video' : ''} ${media.compact || media.path.endsWith('.gif') ? 'is-compact' : ''}">
+        <div class="story-chapter-copy container"><span class="chapter-number">${String(index + 1).padStart(2, '0')} / ${String(product.extraMedia.length).padStart(2, '0')}</span><h4>${escapeHtml(media.title)}</h4></div>
+        <div class="story-chapter-media">${media.kind === 'video' ? `<video data-chapter-src="assets/media/${escapeHtml(media.path)}" poster="assets/images/${escapeHtml(product.image)}" aria-label="${escapeHtml(media.title)}" muted loop playsinline preload="none"></video>` : `<img src="assets/media/${escapeHtml(media.path)}" alt="${escapeHtml(media.title)}" loading="lazy" decoding="async">`}</div>
+      </section>`).join('')}
     </section>` : ''}
     <div class="docs-panel" id="belgeler">
       <div><span class="eyebrow"><span class="eyebrow-line"></span> Slamtec Support</span><h3>Teknik belgeler</h3></div>
       <div class="docs-list">${product.docs.map((document) => `<a class="doc-link" href="${escapeHtml(document.url)}" download><span>${escapeHtml(document.name)}</span><span aria-hidden="true">↓</span></a>`).join('')}</div>
-      <p class="docs-note">Belgeler doğrudan PDF olarak indirilir. Güncel sürümler Slamtec Support sayfasındadır.</p>
+      <p class="docs-note">PDF dosyaları bu sayfadan doğrudan indirilir. Model ve donanım revizyonunu belgenin başlığından kontrol edin.</p>
     </div>
-    <div class="source-links"><span>Bilgi kaynakları</span><a href="${escapeHtml(product.url)}" target="_blank" rel="noopener noreferrer">RobotSepeti ürün sayfası ↗</a><a href="${escapeHtml(product.official)}" target="_blank" rel="noopener noreferrer">Slamtec teknik sayfası ↗</a></div>
-    <dialog class="image-dialog" id="image-dialog" aria-label="Üretici görseli"><button class="image-dialog-close" type="button" data-close-story aria-label="Görseli kapat">✕</button><img alt=""></dialog>`;
-  if (!reducedMotion && 'IntersectionObserver' in window) {
-    revealObserver = new IntersectionObserver((entries, observer) => {
-      for (const entry of entries) {
-        if (!entry.isIntersecting) continue;
-        entry.target.classList.add('is-visible');
-        observer.unobserve(entry.target);
-      }
-    }, { threshold: 0.08, rootMargin: '0px 0px 35px 0px' });
-    detail.querySelectorAll('.manufacturer-story-heading, .manufacturer-figure').forEach((element) => {
-      element.classList.add('will-reveal');
-      revealObserver.observe(element);
-    });
-  }
+    <div class="source-links"><span>Satış ve stok bilgisi</span><a href="${escapeHtml(product.url)}" target="_blank" rel="noopener noreferrer">RobotSepeti ürün sayfası ↗</a></div>
+    `;
   const videoStage = detail.querySelector('.product-video-stage');
   if (videoStage && !reducedMotion && !navigator.connection?.saveData && 'IntersectionObserver' in window) {
     videoObserver = new IntersectionObserver(([entry]) => {
@@ -375,10 +377,24 @@ function renderDetail(product) {
     }, { threshold: 0.45 });
     videoObserver.observe(videoStage);
   }
+  if ('IntersectionObserver' in window && !navigator.connection?.saveData) {
+    chapterVideoObserver = new IntersectionObserver((entries) => {
+      for (const entry of entries) {
+        const media = entry.target;
+        if (entry.isIntersecting && !reducedMotion) {
+          if (!media.src) media.src = media.dataset.chapterSrc;
+          media.play().catch(() => {});
+        } else media.pause();
+      }
+    }, { threshold: 0.25, rootMargin: '100px 0px' });
+    detail.querySelectorAll('video[data-chapter-src]').forEach((media) => chapterVideoObserver.observe(media));
+  }
 }
 
 function showCatalog() {
   videoObserver?.disconnect();
+  chapterVideoObserver?.disconnect();
+  productsSection.classList.remove('is-detail');
   detail.innerHTML = '';
   detail.hidden = true;
   catalog.hidden = false;
@@ -394,6 +410,7 @@ function route({ scroll = false, focus = false } = {}) {
     if (revision !== routeRevision) return;
     if (product) {
       renderDetail(product);
+      productsSection.classList.add('is-detail');
       detail.hidden = false;
       catalog.hidden = true;
       intro.hidden = true;
@@ -421,38 +438,10 @@ renderCards();
 route();
 window.addEventListener('hashchange', () => route({ scroll: true, focus: true }));
 detail.addEventListener('click', (event) => {
-  const storyImage = event.target.closest('[data-story-image]');
-  if (storyImage) {
-    const dialog = detail.querySelector('#image-dialog');
-    dialog.querySelector('img').src = `assets/images/official/${storyImage.dataset.storyImage}`;
-    dialog.querySelector('img').alt = storyImage.dataset.storyAlt;
-    dialog.showModal();
-    dialog.querySelector('[data-close-story]').focus();
-  }
-  if (event.target.closest('[data-close-story]')) detail.querySelector('#image-dialog')?.close();
-  if (event.target.id === 'image-dialog') event.target.close();
   if (event.target.closest('#detail-back')) location.hash = 'urunler';
   if (event.target.closest('[data-scroll-docs]')) detail.querySelector('#belgeler')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  const thumb = event.target.closest('[data-gallery-image]');
-  if (thumb) {
-    const mainImage = detail.querySelector('#detail-main-image');
-    const revision = ++galleryRevision;
-    const updateImage = () => {
-      if (revision !== galleryRevision) return;
-      mainImage.src = `assets/images/${thumb.dataset.galleryImage}`;
-      mainImage.alt = `${detail.querySelector('#detail-heading').textContent} ürün görseli ${thumb.dataset.galleryIndex}`;
-      detail.querySelectorAll('.gallery-thumb').forEach((item) => {
-        const active = item === thumb;
-        item.classList.toggle('is-active', active);
-        item.setAttribute('aria-pressed', String(active));
-      });
-    };
-    if (reducedMotion) updateImage();
-    else mainImage.animate([{ opacity: 1, transform: 'scale(1)' }, { opacity: 0, transform: 'scale(.985)' }], { duration: 130, easing: 'ease-in' }).finished.then(() => {
-      updateImage();
-      mainImage.animate([{ opacity: 0, transform: 'scale(1.015)' }, { opacity: 1, transform: 'scale(1)' }], { duration: 220, easing: 'ease-out' });
-    }).catch(() => {});
-  }
+  const scrollButton = event.target.closest('[data-scroll-target]');
+  if (scrollButton) detail.querySelector(`#${scrollButton.dataset.scrollTarget}`)?.scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth', block: 'start' });
 });
 document.querySelectorAll('.filter').forEach((button) => button.addEventListener('click', () => {
   activeFilter = button.dataset.filter;
