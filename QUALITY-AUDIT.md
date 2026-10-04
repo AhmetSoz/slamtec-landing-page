@@ -1,5 +1,16 @@
 # Son kontrol — 4 Ekim 2026
 
+## Yazım ve metin denetimi — 4 Ekim 2026
+
+- İki sitenin başlıkları, ürün açıklamaları, teknik etiketleri, düğmeleri, görsel açıklamaları, footer metinleri, e-posta taslakları ve arama motoru metinleri incelendi.
+- Marka yazımları RobotSepeti, SLAMTEC ve UFACTORY olarak birleştirildi. Lite6, RoboStudio, RPLIDAR, LiDAR, ROS 1 ve ROS 2 adları tutarlı hale getirildi.
+- Başlıklarda cümle düzeni; Ar-Ge, resmî, dâhil/dâhilî, tezgâh, arayüz, eş zamanlama ve çevrim dışı yazımları uygulandı. Eksik cümleler tamamlandı ve hatalı noktalama düzeltildi.
+- Ondalık virgül, ölçü birimi boşluğu, sayı aralığı ve yüzde işareti düzenlendi. UFACTORY sayı animasyonu da Türkçe sayı biçimini korur.
+- SLAMTEC'in 11 masaüstü/mobil ürün şablonundaki kalan İngilizce tablo başlıkları ve erişilebilir görsel/video açıklamaları Türkçeleştirildi. Üreticinin görsel dosyaları ve PDF içerikleri değiştirilmedi.
+- 16 SLAMTEC ve 14 UFACTORY ürününün metinleri 320 px telefon ve 768 px tablet genişliğinde yeniden kontrol edildi; sayfa veya metin taşması bulunmadı. Temsilci masaüstü görünümü de kontrol edildi.
+- Kaynak karşılaştırmasıyla satış adreslerinin, belge/medya yollarının ve ürün rotalarının korunduğu doğrulandı. SLAMTEC şablonlarında metin dışındaki etiketler ve nitelikler aynı kaldı.
+- SLAMTEC üretim çıktısı, JavaScript sözdizimi ve içerik/bağlantı kontrolü başarılı. UFACTORY üretim derlemesi başarılı; lint 0 hata ve mevcut 6 görsel performans önerisiyle tamamlandı.
+
 ## Kapsam ve sonuçlar
 
 - SLAMTEC: 16 ürün; masaüstü ve 390 px telefon görünümü. Ürün anlatımları, görünür bölüm başlıkları, tablo hücreleri, galeriler, karusel seçimleri, PDF alanları ve katalog dönüşü incelendi.

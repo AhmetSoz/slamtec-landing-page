@@ -4,27 +4,27 @@ const pdf = (name, file) => ({ name, url: `assets/docs/${file}`, local: true });
 // PDF labels and model matches follow Slamtec Support and Slamtec Wiki.
 const products = [
   {
-    id: 'aurora-s', name: 'Aurora S', fullName: 'SLAMTEC Aurora S Deep Learning vSLAM Kompakt Haritalama ve Algılama Sensörü',
-    family: '3D Haritalama', category: 'mapping', image: 'aurora-s.jpg',
+    id: 'aurora-s', name: 'Aurora S', fullName: 'SLAMTEC Aurora S derin öğrenme tabanlı vSLAM haritalama ve algılama sensörü',
+    family: '3D haritalama', category: 'mapping', image: 'aurora-s.jpg',
     url: 'https://www.robotsepeti.com/slamtec-aurora-s-deep-learning-vslam-lidar-kompakt-haritalama-ve-algilama-sensoru',
     summary: 'Stereo kameralar ve IMU ile 3D harita, derinlik ve 6DoF poz üreten gömülü AI-VSLAM sensörü; LiDAR füzyonu opsiyonel.',
     paragraphs: [
-      'Aurora S, Slamtec’in görsel algılama, ataletsel ölçüm birimi (IMU) ve derin öğrenme tabanlı vSLAM teknolojisini bir araya getiren kompakt sensörüdür. İç ve dış mekânda 3D haritalama, çevre algılama ve altı serbestlik dereceli konumlandırma için tasarlanmıştır.',
+      'Aurora S, SLAMTEC’in görsel algılama, ataletsel ölçüm birimi (IMU) ve derin öğrenme tabanlı vSLAM teknolojisini bir araya getiren kompakt sensörüdür. İç ve dış mekânda 3D haritalama, çevre algılama ve altı serbestlik dereceli konumlandırma için tasarlanmıştır.',
       'Çift balık gözü kamera, yerleşik işlem birimi ve isteğe bağlı LiDAR füzyonu sayesinde gerçek zamanlı nokta bulutu, derinlik haritası ve nesne segmentasyonu çıktıları sağlar. Gömülü zekâ, dijital ikiz, endüstriyel otomasyon ve düşük hızlı otonom sürüş projelerinde değerlendirilebilir.'
     ],
     features: ['AI destekli vSLAM ve 6DoF konumlandırma', '180° balık gözü görüntüleme ve stereo derinlik algısı', 'ROS, C++ ve Python SDK desteği'],
-    specs: [['Algılama', 'Stereo görüntü + IMU; LiDAR opsiyonel'], ['Haritalama alanı', '>1.000.000 m²'], ['Konumlandırma', '6DoF, yeniden konumlandırma desteği'], ['Güç', '9–24 V DC veya USB Type-C PD 3.0']],
+    specs: [['Algılama', 'Stereo görüntü + IMU; LiDAR opsiyonel'], ['Haritalama alanı', '> 1.000.000 m²'], ['Konumlandırma', '6DoF, yeniden konumlandırma desteği'], ['Güç', '9–24 V DC veya USB Type-C PD 3.0']],
     chips: ['3D haritalama', 'AI-VSLAM', '6DoF'],
     docs: [pdf('Aurora S teknik föyü', 'aurora-s-datasheet.pdf'), pdf('Aurora S kullanım kılavuzu', 'aurora-s-manual.pdf')]
   },
   {
-    id: 'aurora', name: 'Aurora', fullName: 'Slamtec AURORA All in One Yerelleştirme ve 3D Haritalama Multi Source Lidar Sensör',
-    family: '3D Haritalama', category: 'mapping', image: 'aurora.webp',
+    id: 'aurora', name: 'Aurora', fullName: 'SLAMTEC Aurora çok kaynaklı konumlandırma ve 3D haritalama sensörü',
+    family: '3D haritalama', category: 'mapping', image: 'aurora.webp',
     url: 'https://www.robotsepeti.com/slamtec-aurora-all-in-one-yerellestirme-ve-haritalama-multi-source-lidar-sensor',
     summary: 'Yerleşik LiDAR, binoküler kamera ve IMU verilerini birleştirerek 3D harita ve 6DoF konum üretir.',
     paragraphs: [
-      'Aurora; LiDAR, görüntü, IMU ve öğrenme tabanlı algoritmaları tek bir gövdede birleştiren yerelleştirme ve haritalama sensörüdür. Harici sensöre bağımlı kalmadan üç boyutlu ortam haritaları ve 6DoF konum verisi üretebilir.',
-      'RobotSepeti ürün açıklamasında Robostudio arayüzü ve SDK araçlarının geliştirme sürecine sağladığı destek öne çıkıyor. GPS/RTK ve odometri gibi ek kaynaklarla genişletilebilen çoklu veri füzyonu, mobil robot ve araştırma uygulamalarına uyum sağlar.'
+      'Aurora, LiDAR, görüntü, IMU ve öğrenme tabanlı algoritmaları tek bir gövdede birleştiren yerelleştirme ve haritalama sensörüdür. Harici sensöre bağımlı kalmadan üç boyutlu ortam haritaları ve 6DoF konum verisi üretebilir.',
+      'RobotSepeti ürün açıklamasında RoboStudio arayüzü ve SDK araçlarının geliştirme sürecine sağladığı destek öne çıkıyor. GPS/RTK ve odometri gibi ek kaynaklarla genişletilebilen çoklu veri füzyonu, mobil robot ve araştırma uygulamalarına uyum sağlar.'
     ],
     features: ['LiDAR + binoküler görüş + IMU füzyonu', 'İç ve dış mekânda 3D haritalama', 'RoboStudio ve SDK ile geliştirme desteği'],
     specs: [['Algılama', 'LiDAR + binoküler görüş + IMU'], ['Konumlandırma', '6DoF'], ['Kullanım', 'İç ve dış mekân'], ['Ek veri', 'GPS/RTK ve odometri genişletmesi']],
@@ -32,7 +32,7 @@ const products = [
     docs: [pdf('Aurora teknik föyü', 'aurora-datasheet.pdf'), pdf('Aurora kullanım kılavuzu', 'aurora-manual.pdf')]
   },
   {
-    id: 'lpx-t1', name: 'LPX-T1', fullName: 'Slamtec RPLIDAR LPX-T1 (LPX-T1M4) 2D TOF 270° Lidar Lazer Tarayıcı',
+    id: 'lpx-t1', name: 'LPX-T1', fullName: 'SLAMTEC LPX-T1 (LPX-T1M4) 270° 2D ToF LiDAR lazer tarayıcı',
     family: 'Endüstriyel LiDAR', category: 'industrial', image: 'lpx-t1.webp',
     url: 'https://www.robotsepeti.com/slamtec-rplidar-lpx-t1-t1m4-2d-tof-270-lidar-lazer-tarayici',
     summary: 'AGV ve servis robotları için 270° tarama, 40 m azami menzil ve 60 kHz ölçüm; Ethernet bağlantılı.',
@@ -42,54 +42,54 @@ const products = [
     ],
     features: ['270° tarama açısı', 'İç ve dış mekânda orta ve uzun menzil algısı', 'AGV ve servis robotu entegrasyonu'],
     specs: [['Menzil', '0,05–40 m'], ['Tarama açısı', '270°'], ['Örnekleme', '60.000 örnek/sn'], ['Tarama frekansı', '20–40 Hz'], ['Açısal çözünürlük', '0,12°']],
-    chips: ['40 m', '270°', '60K'],
+    chips: ['40 m', '270°', '60 kHz'],
     docs: [pdf('LPX-T1 teknik föyü', 't1-datasheet.pdf'), pdf('LPX-T1 kullanım kılavuzu', 't1-manual.pdf')]
   },
   {
-    id: 'slamkit', name: 'SLAMKit', fullName: 'SLAMKit Mobil Robotlar için SLAM Kiti (Lisans Kartı + Lisanslı Yazılım)',
-    family: 'Haritalama & SLAM', category: 'mapping', image: 'slamkit.jpg',
+    id: 'slamkit', name: 'SLAMKit', fullName: 'SLAMKit mobil robotlar için SLAM yazılımı (lisans kartı + lisanslı yazılım)',
+    family: 'Haritalama ve SLAM', category: 'mapping', image: 'slamkit.jpg',
     url: 'https://www.robotsepeti.com/slamkit-mobil-robotlar-icin-slam-kiti',
     summary: 'Robot kontrolcüsüne haritalama ve konumlandırma ekleyen lisans kartı ve yazılım; LiDAR ayrı seçilir.',
     paragraphs: [
       'SLAMKit, farklı mobil robot platformlarının harita oluşturması ve gerçek zamanlı konumunu belirlemesi için geliştirilen bir yazılım lisanslama çözümüdür. Robot kontrol kartına gömülü çalışır ve geniş alanların yüksek çözünürlüklü haritalanmasını destekler.',
-      'RobotSepeti’nde sunulan pakette lisans modülü ile lisanslı Slamware yazılımı bulunur. RPLIDAR ayrı satın alınır. RoboStudio ve SDK araçları, otonom yerelleştirme ve navigasyon geliştirme sürecini hızlandırır.'
+      'RobotSepeti’nde sunulan pakette lisans modülü ile lisanslı SLAMWARE yazılımı bulunur. RPLIDAR ayrı satın alınır. RoboStudio ve SDK araçları, otonom yerelleştirme ve navigasyon geliştirme sürecini hızlandırır.'
     ],
-    features: ['Haritalama ve gerçek zamanlı lokalizasyon', 'Lisans modülü + Slamware yazılımı', 'RoboStudio ve SDK ekosistemi'],
+    features: ['Haritalama ve gerçek zamanlı lokalizasyon', 'Lisans modülü + SLAMWARE yazılımı', 'RoboStudio ve SDK ekosistemi'],
     specs: [['Ürün tipi', 'Lisans modülü + lisanslı yazılım'], ['LiDAR', 'Ayrı satın alınır'], ['Haritalama', 'Büyük alan ve yüksek çözünürlük'], ['Geliştirme', 'C++, Java, REST ve ROS araçları']],
     chips: ['SLAM', 'Lisans', 'SDK'],
     docs: [pdf('SLAMKit teknik föyü', 'slamkit-datasheet.pdf'), pdf('SLAMKit kullanım kılavuzu', 'slamkit-manual.pdf')]
   },
   {
-    id: 'lpx-e3', name: 'LPX-E3P1', fullName: 'Slamtec LPX-E3P1 360° 2D Endüstriyel Alan İzleme Lidarı',
+    id: 'lpx-e3', name: 'LPX-E3P1', fullName: 'SLAMTEC LPX-E3P1 360° 2D endüstriyel alan izleme LiDAR sensörü',
     family: 'Endüstriyel LiDAR', category: 'industrial', image: 'lpx-e3.jpg',
     url: 'https://www.robotsepeti.com/slamtec-lpx-e3p1-360-endustriyel-alan-izleme-lidari',
-    summary: '360° alan izleme için 64 yapılandırılabilir set ve IO çıkışı; E3P1 nokta bulutu üretmez.',
+    summary: '360° alan izleme için 64 yapılandırılabilir set ve I/O çıkışı; E3P1 nokta bulutu üretmez.',
     paragraphs: [
       'LPX-E3P1, endüstriyel alan izleme için tasarlanmış 360° 2D LiDAR çözümüdür. RobotSepeti açıklamasında 64 yapılandırılabilir alan seti ve her sette eş zamanlı izlenebilen üç alan öne çıkıyor.',
-      '20 Hz tarama ve 0,225° açısal çözünürlük; montaj hattı parça sayımı, alan ihlali ve geçiş denetimi gibi uygulamalarda kullanılır. Bölgeler yapılandırma yazılımında tanımlanır ve ihlal bilgisi IO çıkışından alınır.'
+      '20 Hz tarama ve 0,225° açısal çözünürlük; montaj hattı parça sayımı, alan ihlali ve geçiş denetimi gibi uygulamalarda kullanılır. Bölgeler yapılandırma yazılımında tanımlanır ve ihlal bilgisi I/O çıkışından alınır.'
     ],
-    features: ['64 yapılandırılabilir alan seti', 'Aynı anda üç bölge izleme', 'PLC bağlantısı için IO çıkışı'],
-    specs: [['İzleme menzili', '0,05–25 m (%70 yansıtıcılık)'], ['Tarama açısı', '360°'], ['Tarama frekansı', '20 Hz'], ['Açısal çözünürlük', '0,225°'], ['Çıkış', 'IO; nokta bulutu yok']],
+    features: ['64 yapılandırılabilir alan seti', 'Aynı anda üç bölge izleme', 'PLC bağlantısı için I/O çıkışı'],
+    specs: [['İzleme menzili', '0,05–25 m (%70 yansıtıcılık)'], ['Tarama açısı', '360°'], ['Tarama frekansı', '20 Hz'], ['Açısal çözünürlük', '0,225°'], ['Çıkış', 'I/O; nokta bulutu yok']],
     chips: ['25 m', '360°', '64 alan'],
     docs: [pdf('LPX-E3 teknik föyü', 'e3-datasheet.pdf'), pdf('Alan izleme kılavuzu', 'e3-manual.pdf')]
   },
   {
-    id: 's2l', name: 'RPLIDAR S2L', fullName: 'Slamtec RPLIDAR S2M1-R2L (S2L) 360° DTOF Hassas Lidar',
-    family: 'RPLIDAR S Serisi', category: 'lidar', image: 's2l.jpg',
+    id: 's2l', name: 'RPLIDAR S2L', fullName: 'SLAMTEC RPLIDAR S2M1-R2L (S2L) 360° dToF LiDAR',
+    family: 'RPLIDAR S serisi', category: 'lidar', image: 's2l.jpg',
     url: 'https://www.robotsepeti.com/slamtec-rplidar-s2m1-l18-360-dtof-hassas-lidar-18m-32k-uart-5v-ip65',
     summary: '18 m menzilli, UART bağlantılı ve IP65 korumalı 360° dToF LiDAR.',
     paragraphs: [
-      'S2L, Slamtec’in doğrudan uçuş süresi (dToF) ölçüm kullanan S2 ailesinin 18 metre menzilli modelidir. Saat yönünde dönerek 360° 2D nokta bulutu verisi üretir; mobil ve ticari robotların haritalama ve engel algılama işlerinde kullanılabilir.',
+      'S2L, SLAMTEC’in doğrudan uçuş süresi (dToF) ölçüm kullanan S2 ailesinin 18 metre menzilli modelidir. Saat yönünde dönerek 360° 2D nokta bulutu verisi üretir; mobil ve ticari robotların haritalama ve engel algılama işlerinde kullanılabilir.',
       '32 kHz ölçüm, 10 Hz dönüş, gün ışığına dayanım ve IP65 koruma sınıfı dış ortam koşullarında güvenilir algılamaya yardımcı olur. UART arayüzü ve 5 V besleme, gömülü sistem entegrasyonuna uygundur.'
     ],
     features: ['IP65 gövde ve gün ışığına dayanım', 'UART arayüzü', '32 kHz örnekleme'],
     specs: [['Menzil', '0,05–18 m'], ['Tarama açısı', '360°'], ['Örnekleme', '32.000 örnek/sn'], ['Bağlantı', 'UART'], ['Besleme', '5 V']],
-    chips: ['18 m', '32K', 'IP65'],
+    chips: ['18 m', '32 kHz', 'IP65'],
     docs: [pdf('S2L teknik föyü', 's2l-datasheet.pdf'), pdf('S2 serisi kullanım kılavuzu', 's2-series-manual.pdf')]
   },
   {
-    id: 's2', name: 'RPLIDAR S2', fullName: 'Slamtec RPLIDAR S2M1-R2 (S2) 360° DTOF Hassas Lidar',
-    family: 'RPLIDAR S Serisi', category: 'lidar', image: 's2.jpg',
+    id: 's2', name: 'RPLIDAR S2', fullName: 'SLAMTEC RPLIDAR S2M1-R2 (S2) 360° dToF LiDAR',
+    family: 'RPLIDAR S serisi', category: 'lidar', image: 's2.jpg',
     url: 'https://www.robotsepeti.com/slamtec-rplidar-s2-360-dtof-lazer-hassas-lidar-sensor-30m-32k-ip65',
     summary: '30 m menzil, UART veri çıkışı ve IP65 koruma ile iç ve dış mekân robot algısı.',
     paragraphs: [
@@ -98,26 +98,26 @@ const products = [
     ],
     features: ['30 m dToF ölçüm menzili', 'Gün ışığına dayanıklı IP65 yapı', 'UART-TTL bağlantı'],
     specs: [['Menzil', '0,05–30 m'], ['Tarama açısı', '360°'], ['Örnekleme', '32.000 örnek/sn'], ['Bağlantı', 'UART'], ['Besleme', '5 V']],
-    chips: ['30 m', '32K', 'IP65'],
+    chips: ['30 m', '32 kHz', 'IP65'],
     docs: [pdf('S2 teknik föyü', 's2-datasheet.pdf'), pdf('S2 serisi kullanım kılavuzu', 's2-series-manual.pdf')]
   },
   {
-    id: 's1', name: 'RPLIDAR S1', fullName: 'Slamtec RPLIDAR S1 (S1M1-R2) TOF Uzun Menzilli Lidar Sensör',
-    family: 'RPLIDAR S Serisi', category: 'lidar', image: 's1.jpg',
+    id: 's1', name: 'RPLIDAR S1', fullName: 'SLAMTEC RPLIDAR S1 (S1M1-R2) uzun menzilli ToF LiDAR sensörü',
+    family: 'RPLIDAR S serisi', category: 'lidar', image: 's1.jpg',
     url: 'https://www.robotsepeti.com/slamtec-rplidar-s1-360-tof-lazer-uzun-menzilli-lidar-sensor-40m-5-15hz',
     summary: '40 metreye ulaşan ToF menziliyle dış ortam haritalama ve robot lokalizasyonu.',
     paragraphs: [
       'RPLIDAR S1, 40 metreye kadar 360° 2D tarama gerçekleştiren uzun menzilli ToF sensörüdür. Üretilen nokta bulutu; haritalama, yerelleştirme, çevre modelleme ve otonom robot navigasyonunda değerlendirilebilir.',
-      'Slamtec’in S1 serisi özellikle uzak, açık ya da koyu renkli nesneleri ve doğrudan gün ışığı altındaki çevreyi algılamak üzere geliştirilmiştir. Koruyucu gövdesi sayesinde endüstriyel ve dış ortam projelerine uygundur.'
+      'SLAMTEC’in S1 serisi özellikle uzak, açık ya da koyu renkli nesneleri ve doğrudan gün ışığı altındaki çevreyi algılamak üzere geliştirilmiştir. Koruyucu gövdesi sayesinde endüstriyel ve dış ortam projelerine uygundur.'
     ],
     features: ['40 m uzun menzil', 'Dış ortamda gün ışığına dayanım', 'ROS ve SDK ile entegrasyon'],
     specs: [['Menzil', '40 m’ye kadar'], ['Tarama açısı', '360°'], ['Örnekleme', '9.200 örnek/sn'], ['Tarama frekansı', '8–15 Hz'], ['Açısal çözünürlük', '0,391° (10 Hz)']],
-    chips: ['40 m', '9.2K', 'ToF'],
+    chips: ['40 m', '9,2 kHz', 'ToF'],
     docs: [pdf('S1 teknik föyü', 's1-datasheet.pdf'), pdf('S1 kullanım kılavuzu', 's1-manual.pdf')]
   },
   {
-    id: 'a3', name: 'RPLIDAR A3', fullName: 'Slamtec RPLIDAR A3M1 360° Lidar Sensör',
-    family: 'RPLIDAR A Serisi', category: 'lidar', image: 'a3.jpg',
+    id: 'a3', name: 'RPLIDAR A3', fullName: 'SLAMTEC RPLIDAR A3M1 360° LiDAR sensörü',
+    family: 'RPLIDAR A serisi', category: 'lidar', image: 'a3.jpg',
     url: 'https://www.robotsepeti.com/slamtec-rplidar-a3m1-360-lidar-lazer-tarayici-sensor-015-25m-10-20hz',
     summary: '25 m menzilli, 16 kHz örneklemeli ve iç/dış ortam modlu 360° LiDAR.',
     paragraphs: [
@@ -126,12 +126,12 @@ const products = [
     ],
     features: ['İç ve dış mekân çalışma modları', 'ROS ve SLAMWARE desteği', '16 kHz örnekleme'],
     specs: [['Menzil', '0,2–25 m (gelişmiş mod)'], ['Tarama açısı', '360°'], ['Örnekleme', '16.000/sn (gelişmiş); 10.000/sn (dış ortam)'], ['Tarama frekansı', '5–15 Hz'], ['Açısal çözünürlük', '0,225°']],
-    chips: ['25 m', '16K', '360°'],
+    chips: ['25 m', '16 kHz', '360°'],
     docs: [pdf('A3M1 teknik föyü', 'a3-datasheet.pdf'), pdf('A3M1 geliştirme kiti kılavuzu', 'a3-manual.pdf')]
   },
   {
-    id: 'a2m12', name: 'RPLIDAR A2M12', fullName: 'Slamtec RPLIDAR A2M12 360° Lidar Sensör',
-    family: 'RPLIDAR A Serisi', category: 'lidar', image: 'a2m12.jpg',
+    id: 'a2m12', name: 'RPLIDAR A2M12', fullName: 'SLAMTEC RPLIDAR A2M12 360° LiDAR sensörü',
+    family: 'RPLIDAR A serisi', category: 'lidar', image: 'a2m12.jpg',
     url: 'https://www.robotsepeti.com/slamtec-rplidar-a2m12-360-lidar-lazer-tarayici-sensor-015-12m',
     summary: 'İnce gövdede 12 m tarama menzili ve 16 kHz örnekleme sunan LiDAR.',
     paragraphs: [
@@ -140,12 +140,12 @@ const products = [
     ],
     features: ['İnce profil ve robot içine kolay yerleşim', 'ROS ve SLAMWARE desteği', '16 kHz ölçüm'],
     specs: [['Menzil', '0,2–12 m'], ['Tarama açısı', '360°'], ['Örnekleme', '16.000 örnek/sn'], ['Tarama frekansı', '5–15 Hz'], ['Açısal çözünürlük', '0,225°']],
-    chips: ['12 m', '16K', '360°'],
+    chips: ['12 m', '16 kHz', '360°'],
     docs: [pdf('A2M12 teknik föyü', 'a2m12-datasheet.pdf'), pdf('A2 serisi geliştirme kiti kılavuzu', 'a2-series-manual.pdf')]
   },
   {
-    id: 'a1', name: 'RPLIDAR A1', fullName: 'RPLIDAR A1M8-R6 360° Lidar Lazer Tarayıcı Sensör',
-    family: 'RPLIDAR A Serisi', category: 'lidar', image: 'a1.jpg',
+    id: 'a1', name: 'RPLIDAR A1', fullName: 'RPLIDAR A1M8-R6 360° LiDAR lazer tarayıcı sensörü',
+    family: 'RPLIDAR A serisi', category: 'lidar', image: 'a1.jpg',
     url: 'https://www.robotsepeti.com/slamtec-rplidar-a1-360-omnidirectional-lidar-22342',
     summary: 'Haritalama, lokalizasyon ve eğitim projeleri için ekonomik 360° LiDAR.',
     paragraphs: [
@@ -154,12 +154,12 @@ const products = [
     ],
     features: ['Giriş seviyesi 360° tarama', 'UART veri çıkışı', 'ROS desteği'],
     specs: [['Menzil', '0,15–12 m'], ['Tarama açısı', '360°'], ['Örnekleme', '8.000 örnek/sn'], ['Tarama frekansı', '5,5–10 Hz'], ['Ölçüm yöntemi', 'Lazer üçgenleme']],
-    chips: ['12 m', '8K', '360°'],
+    chips: ['12 m', '8 kHz', '360°'],
     docs: [pdf('A1M8 teknik föyü', 'a1-datasheet.pdf'), pdf('A1M8 geliştirme kiti kılavuzu', 'a1-manual.pdf')]
   },
   {
-    id: 's3', name: 'RPLIDAR S3', fullName: 'Slamtec RPLIDAR S3 360° DTOF 2D Lidar Sensör',
-    family: 'RPLIDAR S Serisi', category: 'lidar', image: 's3.jpg',
+    id: 's3', name: 'RPLIDAR S3', fullName: 'SLAMTEC RPLIDAR S3 360° 2D dToF LiDAR sensörü',
+    family: 'RPLIDAR S serisi', category: 'lidar', image: 's3.jpg',
     url: 'https://www.robotsepeti.com/slamtec-rplidar-s3-360-dtof-2d-lidar-sensor',
     summary: 'Kompakt gövdede 40 m azami menzil, 32 kHz örnekleme ve 10–20 Hz dönüş sunan 2D ToF LiDAR.',
     paragraphs: [
@@ -168,12 +168,12 @@ const products = [
     ],
     features: ['Kompakt 2D dToF yapı', '32 kHz yoğun örnekleme', 'İç ve dış mekân algısı'],
     specs: [['Menzil', '40 m’ye kadar'], ['Tarama açısı', '360°'], ['Örnekleme', '32.000 örnek/sn'], ['Tarama frekansı', '10–20 Hz'], ['Açısal çözünürlük', '0,1125°']],
-    chips: ['40 m', '32K', '0,1125°'],
+    chips: ['40 m', '32 kHz', '0,1125°'],
     docs: [pdf('S3 teknik föyü', 's3-datasheet.pdf'), pdf('S3 kullanım kılavuzu', 's3-manual.pdf')]
   },
   {
-    id: 's2e', name: 'RPLIDAR S2E', fullName: 'Slamtec RPLIDAR S2M1-R2E (S2E) 360° DTOF Lidar',
-    family: 'RPLIDAR S Serisi', category: 'lidar', image: 's2e.jpg',
+    id: 's2e', name: 'RPLIDAR S2E', fullName: 'SLAMTEC RPLIDAR S2M1-R2E (S2E) 360° dToF LiDAR',
+    family: 'RPLIDAR S serisi', category: 'lidar', image: 's2e.jpg',
     url: 'https://www.robotsepeti.com/slamtec-rplidar-s2m1-e30-360-dtof-hassas-lidar-18m-32k-udp-5v-ip65',
     summary: 'Ethernet/UDP bağlantılı, 12 V beslemeli ve IP65 korumalı 30 m dToF LiDAR.',
     paragraphs: [
@@ -186,13 +186,13 @@ const products = [
     docs: [pdf('S2E teknik föyü', 's2e-datasheet.pdf'), pdf('S2E geliştirme kiti kılavuzu', 's2e-manual.pdf')]
   },
   {
-    id: 'm2m3', name: 'Mapper M2M3', fullName: 'Slamtec M2M3 MAPPER Yerleşik SLAM Motorlu Lidar Haritalama Sensörü',
+    id: 'm2m3', name: 'Mapper M2M3', fullName: 'SLAMTEC Mapper M2M3 yerleşik SLAM motorlu LiDAR haritalama sensörü',
     family: 'Mapper', category: 'mapping', image: 'm2m3.jpg',
     url: 'https://www.robotsepeti.com/slamtec-m2m3-mapper-yerlesik-slam-motorlu-lidar-haritalama-sensoru',
     summary: '360° LiDAR ile yerleşik SLAM motorunu birleştiren haritalama ve gerçek zamanlı konumlandırma sensörü.',
     paragraphs: [
       'Mapper M2M3, 360° lazer tarayıcıyı yerleşik SLAM motoruyla bir araya getirir. Harici hesaplama zincirini sadeleştirerek karmaşık ortamların otonom haritalanmasına ve gerçek zamanlı konum belirlemeye yardımcı olur.',
-      'RobotSepeti ürün açıklamasında SharpEdge teknolojisi ve Slamtec’in üçüncü nesil SLAM motoru vurgulanır. Depo ve bina haritalama, lojistik robotları, arama kurtarma ve Ar-Ge platformlarına entegrasyon başlıca uygulama alanlarıdır.'
+      'RobotSepeti ürün açıklamasında SharpEdge teknolojisi ve SLAMTEC’in üçüncü nesil SLAM motoru vurgulanır. Depo ve bina haritalama, lojistik robotları, arama kurtarma ve Ar-Ge platformlarına entegrasyon başlıca uygulama alanlarıdır.'
     ],
     features: ['Yerleşik SLAM motoru', 'SharpEdge harita optimizasyonu', 'Harita ve poz verisi çıkışı'],
     specs: [['Menzil', '40 m’ye kadar'], ['Tarama açısı', '360°'], ['Örnekleme', '10.000 örnek/sn'], ['Çıktı', 'LiDAR taraması, harita ve poz verisi'], ['Uygulama', 'Otonom haritalama ve lokalizasyon']],
@@ -200,31 +200,31 @@ const products = [
     docs: [pdf('M2M3 teknik föyü', 'm2m3-datasheet.pdf'), pdf('M2M3 hızlı başlangıç', 'm2m3-quickstart.pdf')]
   },
   {
-    id: 'm2m2', name: 'Mapper M2M2', fullName: 'Slamtec MAPPER M2M2 TOF Lidar Haritalama ve Lokalizasyon Sensörü',
+    id: 'm2m2', name: 'Mapper M2M2', fullName: 'SLAMTEC Mapper M2M2 ToF LiDAR haritalama ve konumlandırma sensörü',
     family: 'Mapper', category: 'mapping', image: 'm2m2.jpg',
     url: 'https://www.robotsepeti.com/slamtec-rplidar-m2m2-lidar-haritalama-ve-lokalizasyon-sensoru-40m-10hz',
-    summary: 'Entegre SLAM motoruyla tak çalıştır haritalama ve lokalizasyon çözümü.',
+    summary: 'Entegre SLAM motoruyla tak ve çalıştır haritalama ve lokalizasyon çözümü.',
     paragraphs: [
-      'Mapper M2M2, lazer menzil tarayıcı ile Slamtec SLAM motorunu aynı sistemde sunar. Harita oluşturma ve gerçek zamanlı konum/yön belirleme görevlerini ek sensör gereksinimini azaltarak yerine getirmek için geliştirilmiştir.',
+      'Mapper M2M2, lazer menzil tarayıcı ile SLAMTEC SLAM motorunu aynı sistemde sunar. Harita oluşturma ve gerçek zamanlı konum/yön belirleme görevlerini ek sensör gereksinimini azaltarak yerine getirmek için geliştirilmiştir.',
       'RobotSepeti açıklamasına göre robot konumlandırma, çevresel analiz ve elde haritalama gibi alanlara uygundur. SharpEdge haritalama teknolojisi ve harita optimizasyon motoru, kapalı çevrim düzeltmesiyle harita kalitesini artırır.'
     ],
-    features: ['Tak çalıştır SLAM çözümü', 'SharpEdge harita optimizasyonu', 'Harita ve konum verisi'],
+    features: ['Tak ve çalıştır SLAM çözümü', 'SharpEdge harita optimizasyonu', 'Harita ve konum verisi'],
     specs: [['Menzil', '40 m’ye kadar'], ['Tarama açısı', '360°'], ['Örnekleme', '9.200 örnek/sn'], ['Tarama frekansı', '8–15 Hz'], ['Kullanım', 'Robot ve elde haritalama']],
-    chips: ['40 m', '9.2K', 'SLAM'],
+    chips: ['40 m', '9,2 kHz', 'SLAM'],
     docs: [pdf('M2M2 teknik föyü', 'm2m2-datasheet.pdf'), pdf('Mapper hızlı başlangıç', 'm2m2-quickstart.pdf')]
   },
   {
-    id: 'a2m8', name: 'RPLIDAR A2M8', fullName: 'RPLiDAR A2M8 360 Derece Lidar Lazer Tarayıcı Sensör Seti',
-    family: 'RPLIDAR A Serisi', category: 'lidar', image: 'a2m8.png',
+    id: 'a2m8', name: 'RPLIDAR A2M8', fullName: 'RPLIDAR A2M8 360° LiDAR lazer tarayıcı sensör seti',
+    family: 'RPLIDAR A serisi', category: 'lidar', image: 'a2m8.png',
     url: 'https://www.robotsepeti.com/rplidar-a2m8-360-derece-lazer-tarayici-set-12-metre-menzilli',
     summary: '12 m menzil, 8 kHz örnekleme ve ince gövdeye sahip 360° LiDAR seti.',
     paragraphs: [
-      'A2M8, Slamtec’in 360° iki boyutlu lazer tarayıcı setidir. 12 metre menzil içinde ürettiği veriler haritalama, yer belirleme ve obje/çevre modelleme projelerinde kullanılabilir.',
-      'RobotSepeti açıklamasında 8 kHz örnekleme, ayarlanabilir 5–15 Hz tarama frekansı, Class 1 lazer güvenliği ve ince mekanik tasarım öne çıkar. Üretici A2M8 modelini satış dışı olarak işaretlese de ürün RobotSepeti arama sonuçlarında listelenmektedir; güncel stok ve tedarik bilgisi ürün sayfasından doğrulanmalıdır.'
+      'A2M8, SLAMTEC’in 360° iki boyutlu lazer tarayıcı setidir. 12 metre menzil içinde ürettiği veriler haritalama, yer belirleme ve obje/çevre modelleme projelerinde kullanılabilir.',
+      'RobotSepeti açıklamasında 8 kHz örnekleme, ayarlanabilir 5–15 Hz tarama frekansı, Sınıf 1 lazer güvenliği ve ince mekanik tasarım öne çıkar. Üretici A2M8 modelini satış dışı olarak işaretlese de ürün RobotSepeti arama sonuçlarında listelenmektedir; güncel stok ve tedarik bilgisi ürün sayfasından doğrulanmalıdır.'
     ],
-    features: ['İnce gövdeli 360° tarama', 'OPTMAG teknolojisi', 'Class 1 lazer güvenliği'],
+    features: ['İnce gövdeli 360° tarama', 'OPTMAG teknolojisi', 'Sınıf 1 lazer güvenliği'],
     specs: [['Menzil', '0,2–12 m'], ['Tarama açısı', '360°'], ['Örnekleme', '8.000 örnek/sn'], ['Tarama frekansı', '5–15 Hz'], ['Açısal çözünürlük', '0,45°']],
-    chips: ['12 m', '8K', '360°'],
+    chips: ['12 m', '8 kHz', '360°'],
     docs: [pdf('A2M8 teknik föyü', 'a2m8-datasheet.pdf'), pdf('A2 serisi geliştirme kiti kılavuzu', 'a2-series-manual.pdf')]
   }
 ];
@@ -330,7 +330,7 @@ function renderDetail(product) {
   const specs = new Map([...product.specs, ...product.extraSpecs].map(([label, value])=>[label,value]));
   const template = officialDesign[officialPageKeys[product.id]];
   const familyNote = ['s2l','s2','s2e','a2m12','a2m8','m2m2','m2m3'].includes(product.id);
-  const fallback = `<div class="official-legacy-hero"><div class="container"><span>RPLIDAR S Serisi</span><h2>${escapeHtml(product.name)}</h2><p>${escapeHtml(product.summary)}</p><img src="assets/images/${escapeHtml(product.image)}" alt="${escapeHtml(product.name)}"></div></div>${product.manufacturerStories.map(story=>`<section class="official-legacy-section"><div class="container"><h3>${escapeHtml(story.title)}</h3><p>${escapeHtml(story.caption)}</p></div><img src="assets/images/official/${escapeHtml(story.file)}" ${imageSize(`assets/images/official/${story.file}`)} alt="${escapeHtml(story.title)}" loading="lazy"></section>`).join('')}`;
+  const fallback = `<div class="official-legacy-hero"><div class="container"><span>RPLIDAR S serisi</span><h2>${escapeHtml(product.name)}</h2><p>${escapeHtml(product.summary)}</p><img src="assets/images/${escapeHtml(product.image)}" alt="${escapeHtml(product.name)}"></div></div>${product.manufacturerStories.map(story=>`<section class="official-legacy-section"><div class="container"><h3>${escapeHtml(story.title)}</h3><p>${escapeHtml(story.caption)}</p></div><img src="assets/images/official/${escapeHtml(story.file)}" ${imageSize(`assets/images/official/${story.file}`)} alt="${escapeHtml(story.title)}" loading="lazy"></section>`).join('')}`;
   detail.innerHTML = `
     <div class="detail-nav"><div class="detail-nav-inner container">
       <button class="detail-back" type="button" id="detail-back" aria-label="Tüm ürünler"><span aria-hidden="true">←</span><span class="detail-back-label">Tüm ürünler</span></button>
@@ -339,15 +339,15 @@ function renderDetail(product) {
         <button type="button" data-scroll-target="detail-overview">Genel bakış</button>
         <button type="button" data-scroll-target="detail-specs"><span class="desktop-label">Teknik özellikler</span><span class="mobile-label">Özellikler</span></button>
         <button type="button" data-scroll-target="belgeler">Belgeler</button>
-        <a href="${escapeHtml(product.url)}" target="_blank" rel="noopener noreferrer"><span class="desktop-label">RobotSepeti'nde incele ↗</span><span class="mobile-label">RobotSepeti ↗</span></a>
+        <a href="${escapeHtml(product.url)}" target="_blank" rel="noopener noreferrer"><span class="desktop-label">RobotSepeti’nde incele ↗</span><span class="mobile-label">RobotSepeti ↗</span></a>
       </nav>
     </div></div>
     ${familyNote ? `<div class="selected-model-strip"><strong>Seçili model: ${escapeHtml(product.name)}</strong> · ${product.chips.map(escapeHtml).join(' · ')}. Görsel anlatım ürün ailesine aittir.</div>` : ''}
     <div id="detail-overview"><div id="official-product" aria-label="${escapeHtml(product.name)} ürün anlatımı">${template ? template.html : fallback}</div></div>
     <section class="product-specification" id="detail-specs" aria-labelledby="detail-heading">
       <div class="container">
-        <div class="specification-heading"><div><span class="eyebrow">${escapeHtml(product.family)}</span><h2 id="detail-heading">${escapeHtml(product.name)} teknik özellikleri</h2><p>${escapeHtml(product.fullName)}</p></div><a class="primary-button" href="${escapeHtml(product.url)}" target="_blank" rel="noopener noreferrer">RobotSepeti'nde incele ↗</a></div>
-        ${familyNote ? `<p class="model-variant-note">Üstteki görsel anlatım ${escapeHtml(product.family)} ailesine aittir. Aşağıdaki teknik bilgiler RobotSepeti'nde satılan <strong>${escapeHtml(product.name)}</strong> modeline özeldir.</p>` : ''}
+        <div class="specification-heading"><div><span class="eyebrow">${escapeHtml(product.family)}</span><h2 id="detail-heading">${escapeHtml(product.name)} teknik özellikleri</h2><p>${escapeHtml(product.fullName)}</p></div><a class="primary-button" href="${escapeHtml(product.url)}" target="_blank" rel="noopener noreferrer">RobotSepeti’nde incele ↗</a></div>
+        ${familyNote ? `<p class="model-variant-note">Üstteki görsel anlatım ${escapeHtml(product.family)} içindir. Aşağıdaki teknik bilgiler RobotSepeti’nde satılan <strong>${escapeHtml(product.name)}</strong> modeline özeldir.</p>` : ''}
         <div class="specification-body"><div class="specification-product"><img src="assets/images/${escapeHtml(product.image)}" alt="${escapeHtml(product.name)} ürün görünümü" loading="lazy"><div class="detail-chips">${product.chips.map(chip=>`<span>${escapeHtml(chip)}</span>`).join('')}</div></div><table class="model-spec-table"><caption>${escapeHtml(product.name)} donanım ve performans bilgileri</caption><tbody>${[...specs].map(([label,value])=>`<tr><th scope="row">${escapeHtml(label)}</th><td>${escapeHtml(value)}</td></tr>`).join('')}</tbody></table></div>
         <div class="model-description"><h3>Çalışma biçimi ve kullanım</h3>${[...product.paragraphs,...product.detail].map(p=>`<p>${escapeHtml(p)}</p>`).join('')}
           ${product.features.length ? `<ul class="feature-list">${product.features.map(f=>`<li>${escapeHtml(f.replace(/^✓\s*/,''))}</li>`).join('')}</ul>` : ''}

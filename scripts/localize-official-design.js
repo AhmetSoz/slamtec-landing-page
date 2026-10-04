@@ -352,7 +352,7 @@ for(const [key,page] of Object.entries(pages)) {
    else if(text.length>95 && !/[çğıöşüÇĞİÖŞÜ]/.test(text))unhandled.push(`${key}: ${text.slice(0,100)}`);
  });
  $('*').contents().each((i,e)=>{if(e.type==='text'){const t=normalize(e.data);const replacement=short[t]||labels[t]||titles[t];if(replacement)e.data=replacement;}});
- page.html=$('body').html();
+ page.html=require('./refine-turkish-copy').refineHtml($('body').html());
 }
 fs.writeFileSync(file,`// SLAMTEC product layouts with Turkish editorial copy.\nconst officialDesign = ${JSON.stringify(pages)};\n`);
 console.log('Localized all product templates. Remaining long paragraphs:\n'+[...new Set(unhandled)].join('\n'));

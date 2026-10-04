@@ -14,7 +14,7 @@ const manufacturerStories = {
     { file: 'lpx-t1-daylight.webp', title: 'Güçlü ortam ışığında kullanım', caption: 'LPX-T1 için belirtilen 80 klux ortam ışığı dayanımını anlatan üretici görseli. Dış ortam kurulumunda hedef yansıtıcılığı ve görüş alanı ayrıca değerlendirilmelidir.', source: 'https://www.slamtec.com/en/t1' }
   ],
   slamkit: [
-    { file: 'slamkit-architecture.webp', title: 'Robot üzerindeki SLAMKit yapısı', caption: 'Lisans kartı ve SLAMWARE yazılımının robot kontrolcüsüyle ilişkisi gösterilir. Diyagramdaki RPLIDAR ayrı seçilen sensördür; RobotSepeti’ndeki kit paketine dahil değildir.', source: 'https://www.slamtec.com/en/slamkit' }
+    { file: 'slamkit-architecture.webp', title: 'Robot üzerindeki SLAMKit yapısı', caption: 'Lisans kartı ve SLAMWARE yazılımının robot kontrolcüsüyle ilişkisi gösterilir. Diyagramdaki RPLIDAR ayrı seçilen sensördür; RobotSepeti’ndeki kit paketine dâhil değildir.', source: 'https://www.slamtec.com/en/slamkit' }
   ],
   'lpx-e3': [
     { file: 'lpx-e3-field-editor.webp', title: 'Alanların yazılımda çizilmesi', caption: 'LPX ScanDesigner ekranında izlenecek bölgeler çokgen ve dairesel şekillerle tanımlanır. Bu E3P1 yapılandırma örneğidir; model nokta bulutu çıkışı vermez.', source: 'https://www.slamtec.com/en/e3' },
@@ -29,7 +29,7 @@ const manufacturerStories = {
     { file: 's2-ip65.webp', title: 'IP65 gövde tasarımı', caption: 'S2 ailesi için üreticinin koruma sınıfını anlatan görseli. Sensörün besleme ve UART bağlantısı kurulum sırasında uygun biçimde korunmalıdır.', source: 'https://www.slamtec.com/en/s2' }
   ],
   s1: [
-    { file: 's1-parking-map.jpg', title: 'Kapalı otopark haritası', caption: 'Slamtec’in S1 ile SLAMWARE kullanarak oluşturduğu 134 × 111 m otopark haritası örneği. Bu bir uygulama çıktısıdır; tek başına sensör menzil ölçümü değildir.', source: 'https://www.slamtec.com/en/news/detail/202' },
+    { file: 's1-parking-map.jpg', title: 'Kapalı otopark haritası', caption: 'SLAMTEC’in S1 ile SLAMWARE kullanarak oluşturduğu 134 × 111 m otopark haritası örneği. Bu bir uygulama çıktısıdır; tek başına sensör menzil ölçümü değildir.', source: 'https://www.slamtec.com/en/news/detail/202' },
     { file: 's1-outdoor-map.jpg', title: 'Gün ışığında saha gösterimi', caption: 'Üreticinin S1’i dış mekânda bilgisayara bağlı çalıştırdığı saha fotoğrafı. S1 teknik föyündeki menzil, hedef rengi ve ışık koşullarına göre değişir.', source: 'https://www.slamtec.com/en/news/detail/202' }
   ],
   a3: [
@@ -45,7 +45,7 @@ const manufacturerStories = {
     { file: 'a1-360-scan.webp', title: 'Dönel 2D tarama', caption: 'Sensör dönerek çevresinden mesafe örnekleri toplar. Bu veriler haritalama veya engel algılama yazılımına aktarılır.', source: 'https://www.slamtec.com/en/lidar/a1' }
   ],
   s3: [
-    { file: 's3-ranging-technology.webp', title: 'S3 ölçüm teknolojisi', caption: 'Slamtec’in S3 için hazırladığı dToF mesafe ölçümü anlatımı. 32 kHz örnekleme ile 10–20 Hz dönüş birlikte değerlendirilmelidir.', source: 'https://www.slamtec.com/en/s3' },
+    { file: 's3-ranging-technology.webp', title: 'S3 ölçüm teknolojisi', caption: 'SLAMTEC’in S3 için hazırladığı dToF mesafe ölçümü anlatımı. 32 kHz örnekleme ile 10–20 Hz dönüş birlikte değerlendirilmelidir.', source: 'https://www.slamtec.com/en/s3' },
     { file: 's3-low-reflectivity.webp', title: 'Koyu yüzeylerde menzil', caption: 'Üretici görseli, %10 yansıtıcılıkta yaklaşık 15 m algılamayı gösterir. 40 m azami değer daha yüksek yansıtıcılık koşulundadır.', source: 'https://www.slamtec.com/en/s3' }
   ],
   s2e: [
@@ -53,7 +53,7 @@ const manufacturerStories = {
     { file: 's2-ip65.webp', title: 'IP65 korumalı tasarım', caption: 'S2 ailesi gövdesinin koruma sınıfı üretici görselinde anlatılır. S2E kurulumunda Ethernet ve güç bağlantıları ayrıca korunmalıdır.', source: 'https://www.slamtec.com/en/s2' }
   ],
   m2m3: [
-    { file: 'mapper-handheld-map.webp', title: 'Mapper ile elde haritalama örneği', caption: 'Slamtec’in Mapper ailesi sayfasındaki örnek harita çıktıları. M2M3’ün yerleşik SLAM motorunun ürettiği harita ve poz verisinin kullanımını somutlaştırır.', source: 'https://www.slamtec.com/en/lidar/mapper' }
+    { file: 'mapper-handheld-map.webp', title: 'Mapper ile elde haritalama örneği', caption: 'SLAMTEC’in Mapper ailesi sayfasındaki örnek harita çıktıları. M2M3’ün yerleşik SLAM motorunun ürettiği harita ve poz verisinin kullanımını somutlaştırır.', source: 'https://www.slamtec.com/en/lidar/mapper' }
   ],
   m2m2: [
     { file: 'mapper-handheld-map.webp', title: 'Mapper ailesinden harita çıktısı', caption: 'Üreticinin Mapper ailesi için verdiği elde haritalama örnekleri. Görsel aileye aittir; M2M2’nin donanım revizyonu ve teknik değerleri kendi föyünde yer alır.', source: 'https://www.slamtec.com/en/lidar/mapper' }

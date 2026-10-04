@@ -10,14 +10,14 @@ const productEditorial = {
     ],
     scenarios: ['Görsel referanslarla 3D haritalama ve yeniden konumlandırma', 'Robot üzerinde yoğun derinlik ve nesne segmentasyonu', 'Dijital ikiz ve araştırma platformlarında mekânsal veri toplama'],
     extraSpecs: [['Kamera', 'Stereo RGB balık gözü, 180° görüş, 60 mm baz'], ['Kamera hızı', 'Tipik 15 Hz; 10/30 Hz yapılandırılabilir'], ['Güç tüketimi', 'Tipik 10 W, LiDAR hariç']],
-    note: 'LiDAR, Aurora S için isteğe bağlı füzyon bileşenidir; pakete dahil olup olmadığını RobotSepeti ürün sayfasından doğrulayın.'
+    note: 'LiDAR, Aurora S için isteğe bağlı füzyon bileşenidir; pakete dâhil olup olmadığını RobotSepeti ürün sayfasından doğrulayın.'
   },
   aurora: {
     official: 'https://www.slamtec.com/en/aurora/spec',
     gallery: ['aurora-2.webp', 'aurora-3.webp'],
     detail: [
       'Aurora, Aurora S’den farklı olarak 2D LiDAR’ı cihazın içinde taşır. Binoküler görüş ve 6DoF IMU ile birleştirilen LiDAR verisi, hem düzlem haritası hem de üç boyutlu konum bilgisinin çıkarılmasına yardımcı olur. Bu nedenle tek başına ham tarama verisi gereken işlerden çok, harita ve pozun birlikte istendiği projelere yöneliktir.',
-      'Slamtec teknik sayfasında 40 m azami LiDAR menzili, seçilebilir 2/5/10 cm 2D harita çözünürlüğü, 180° HDR balık gözü kameralar ve donanım düzeyinde sensör eşzamanlaması belirtilir. Haritalar kaydedilip yeniden yüklenebilir; sistem daha önce oluşturulmuş haritada yeniden konumlanabilir.'
+      'SLAMTEC teknik sayfasında 40 m azami LiDAR menzili, seçilebilir 2/5/10 cm 2D harita çözünürlüğü, 180° HDR balık gözü kameralar ve donanım düzeyinde sensör eş zamanlaması belirtilir. Haritalar kaydedilip yeniden yüklenebilir; sistem daha önce oluşturulmuş haritada yeniden konumlanabilir.'
     ],
     scenarios: ['İç ve dış mekân 3D haritalama', 'Mobil robotun 6DoF konum takibi', 'LiDAR ve görsel verinin birlikte gerektiği araştırma sistemleri'],
     extraSpecs: [['LiDAR menzili', '40 m’ye kadar'], ['2D harita çözünürlüğü', '2 / 5 / 10 cm seçenekleri'], ['Kamera', '180° HDR binoküler balık gözü; 6 cm baz']],
@@ -39,21 +39,21 @@ const productEditorial = {
     gallery: ['slamkit-2.jpg', 'slamkit-3.png'],
     detail: [
       'SLAMKit bir LiDAR sensörü değil, robot kontrolcüsüne entegre edilen haritalama ve lokalizasyon yazılım lisansıdır. RobotSepeti paketinde lisans kartı ile lisanslı yazılım yer alır; LiDAR ayrı seçilir. Kendi mekanik ve kontrol donanımını geliştiren ekipler, sensör verisinden harita ve robot pozu üretmek için bu çözümü kullanabilir.',
-      'Slamtec çok kaynaklı lokalizasyon, çevrim kapatma, SharpEdge harita iyileştirme ve harita yönetim araçlarını listeler. C++, Java, REST ve ROS arayüzleri geliştirme tarafını; RoboStudio ise devreye alma ve izleme tarafını destekler. Harita çözünürlüğü 1, 2,5 veya 5 cm olarak seçilebilir.'
+      'SLAMTEC çok kaynaklı lokalizasyon, çevrim kapatma, SharpEdge harita iyileştirme ve harita yönetim araçlarını listeler. C++, Java, REST ve ROS arayüzleri geliştirme tarafını; RoboStudio ise devreye alma ve izleme tarafını destekler. Harita çözünürlüğü 1, 2,5 veya 5 cm olarak seçilebilir.'
     ],
     scenarios: ['Özel AGV veya AMR platformuna SLAM yeteneği ekleme', 'Büyük alan haritalarını yönetme ve yeniden konumlandırma', 'Mevcut kontrol yazılımına SDK üzerinden poz verisi aktarma'],
     extraSpecs: [['Harita çözünürlüğü', '1 / 2,5 / 5 cm seçenekleri'], ['Poz çıkış hızı', '20–100 Hz'], ['Geliştirme', 'C++, Java, REST ve ROS']],
-    note: 'LiDAR ve robot kontrolcüsü ürün paketine dahil değildir; uyumlu donanım ve lisans kapsamı sipariş öncesi kontrol edilmelidir.'
+    note: 'LiDAR ve robot kontrolcüsü ürün paketine dâhil değildir; uyumlu donanım ve lisans kapsamı sipariş öncesi kontrol edilmelidir.'
   },
   'lpx-e3': {
     official: 'https://www.slamtec.com/en/e3/spec',
     gallery: ['lpx-e3-2.jpg', 'lpx-e3-3.jpg'],
     detail: [
-      'LPX-E3P1 bir alan izleme cihazıdır. Önceden tanımlanan bölgelerde giriş veya ihlal algılayıp IO çıkışı üretir; üreticinin E3P1 tablosunda nokta bulutu çıkışı bulunmaz. Bu ayrım, cihazı navigasyon için ham LiDAR taraması bekleyen sistemlerden ayırır.',
-      '360° izleme, 20 Hz tarama ve 64 alan seti bulunur. Her seçili sette üç alan aynı anda izlenebilir. USB Type-C yapılandırma arayüzü ile bölgeler tanımlanır; IO çıkışı PLC veya başka bir kontrol sistemine bağlanabilir. Üretici menzili hedef yansıtıcılığına göre ayırır: %70 yüzeyde 25 m, %10 yüzeyde uyarı için 10 m ve %2 yüzeyde alarm için 4 m.'
+      'LPX-E3P1 bir alan izleme cihazıdır. Önceden tanımlanan bölgelerde giriş veya ihlal algılayıp I/O çıkışı üretir; üreticinin E3P1 tablosunda nokta bulutu çıkışı bulunmaz. Bu ayrım, cihazı navigasyon için ham LiDAR taraması bekleyen sistemlerden ayırır.',
+      '360° izleme, 20 Hz tarama ve 64 alan seti bulunur. Her seçili sette üç alan aynı anda izlenebilir. USB Type-C yapılandırma arayüzü ile bölgeler tanımlanır; I/O çıkışı PLC veya başka bir kontrol sistemine bağlanabilir. Üretici menzili hedef yansıtıcılığına göre ayırır: %70 yüzeyde 25 m, %10 yüzeyde uyarı için 10 m ve %2 yüzeyde alarm için 4 m.'
     ],
     scenarios: ['Üretim hattı veya geçiş alanı ihlal izleme', 'PLC’ye alan durumu iletme', 'AGV çalışma alanında yapılandırılabilir bölge izleme'],
-    extraSpecs: [['Menzil · %70 hedef', '0,05–25 m'], ['Uyarı / alarm menzili', '10 m (%10) / 4 m (%2)'], ['Alan seti / çıkış', '64 set; her sette 3 alan / IO'], ['Nokta bulutu çıkışı', 'E3P1 için yok']],
+    extraSpecs: [['Menzil · %70 hedef', '0,05–25 m'], ['Uyarı / alarm menzili', '10 m (%10) / 4 m (%2)'], ['Alan seti / çıkış', '64 set; her sette 3 alan / I/O'], ['Nokta bulutu çıkışı', 'E3P1 için yok']],
     note: 'E3P1 alan izleme içindir. Ham nokta bulutu gerekiyorsa LPX-T1 veya uygun RPLIDAR modeli incelenmelidir.'
   },
   s2l: {
@@ -83,7 +83,7 @@ const productEditorial = {
     gallery: ['s1-2.jpg', 's1-3.jpg'],
     detail: [
       'S1, ToF ölçüm kullanan 40 m sınıfı 360° tarayıcıdır. Üretici teknik föyünde tipik 10 Hz dönüş ve 8–15 Hz ayarlanabilir tarama hızı belirtilir. 9.200 örnek/sn kapasite, dış ortamda çevre haritası ve robot lokalizasyonu geliştiren ekipler için 2D nokta verisi sağlar.',
-      'Slamtec dokümanı beyaz ve koyu yüzeylerde, uzun mesafede ve doğrudan güneş altında çalışmaya odaklandığını anlatır. 3,3 V TTL seviyeli UART veri arayüzü ve 5 V besleme gereksinimi, bağlantı kartı seçilirken dikkate alınmalıdır.'
+      'SLAMTEC dokümanı beyaz ve koyu yüzeylerde, uzun mesafede ve doğrudan güneş altında çalışmaya odaklandığını anlatır. 3,3 V TTL seviyeli UART veri arayüzü ve 5 V besleme gereksinimi, bağlantı kartı seçilirken dikkate alınmalıdır.'
     ],
     scenarios: ['Dış ortam robot haritalama', 'Geniş otopark veya depo alanlarında 2D tarama', 'Uzun menzilli çevre ve engel algılama'],
     extraSpecs: [['Tarama frekansı', 'Tipik 10 Hz; 8–15 Hz ayarlanabilir'], ['Veri arayüzü', '3,3 V TTL UART'], ['Besleme', '5 V']],
@@ -116,7 +116,7 @@ const productEditorial = {
     gallery: ['a1-2.jpg', 'a1-3.jpg'],
     detail: [
       'A1M8-R6, 360° taramayla 12 m’ye kadar 2D mesafe verisi sağlayan giriş seviyesi modeldir. Lazer üçgenleme kullandığı için öncelikle iç mekân robotları ve kontrollü aydınlatmalı prototipler için değerlendirilmelidir; dış ortam ve güçlü güneş ışığı gereksinimlerinde S serisi daha uygun olabilir.',
-      'Üretici tipik 5,5 Hz dönüş, 8 kHz örnekleme, 5 V besleme ve 3,3 V TTL seviyeli UART çıkışı belirtir. Teknik föy tarama hızının uygun motor beslemesiyle 10 Hz’ye kadar ayarlanabildiğini açıklar. Geliştirme setinde USB adaptörü bulunup bulunmadığı satılan paket içeriğine göre kontrol edilmelidir.'
+      'Üretici tipik 5,5 Hz dönüş, 8 kHz örnekleme, 5 V besleme ve 3,3 V TTL seviyeli UART çıkışı belirtir. Teknik föy tarama hızının uygun motor beslemesiyle 10 Hz’e kadar ayarlanabildiğini açıklar. Geliştirme setinde USB adaptörü bulunup bulunmadığı satılan paket içeriğine göre kontrol edilmelidir.'
     ],
     scenarios: ['Eğitim ve prototip robotları', 'İç ortam 2D haritalama', 'UART üzerinden nokta bulutu alan gömülü projeler'],
     extraSpecs: [['Dönüş hızı', 'Tipik 5,5 Hz; en çok 10 Hz'], ['Veri çıkışı', '3,3 V TTL UART'], ['Besleme', '5 V']],
@@ -149,7 +149,7 @@ const productEditorial = {
     gallery: ['m2m3-2.jpg', 'm2m3-3.jpg'],
     detail: [
       'Mapper M2M3, lazer tarayıcı ile SLAM işlemeyi tek cihazda sunar. Kullanıcı ham tarama verisine ek olarak harita ve poz bilgisini alabilir; haritalama işlemini tamamen ayrı bir bilgisayarda kurma ihtiyacını azaltır. Wi-Fi erişim noktası/istemci modları ve 100 Mbit Ethernet, telefon, PC veya robot kontrolcüsüne veri taşımayı kolaylaştırır.',
-      'RobotSepeti’nde listelenen varyant ve bu sayfada indirilen M2M3 teknik föyü 40 m menzil ve 10.000 örnek/sn belirtir. Slamtec’in güncel web tablosunda 32.000 örnek/sn görünmektedir. Bu farkı model revizyonu veya doküman sürümü açısından satıcıyla teyit etmek gerekir.'
+      'RobotSepeti’nde listelenen varyant ve bu sayfada indirilen M2M3 teknik föyü 40 m menzil ve 10.000 örnek/sn belirtir. SLAMTEC’in güncel web tablosunda 32.000 örnek/sn görünmektedir. Bu farkı model revizyonu veya doküman sürümü açısından satıcıyla teyit etmek gerekir.'
     ],
     scenarios: ['Elde veya robot üzerinde 2D haritalama', 'Harita ve pozun aynı cihazdan alınması', 'Wi-Fi/Ethernet ile ROS veya özel uygulama entegrasyonu'],
     extraSpecs: [['Veri bağlantısı', '100 Mbit Ethernet ve Wi-Fi'], ['Harita alanı', 'En çok 300 × 300 m (teknik föy)'], ['Harita çözünürlüğü', '0,05 m (teknik föy)']],
@@ -160,7 +160,7 @@ const productEditorial = {
     gallery: ['m2m2-2.jpg', 'm2m2-3.jpg'],
     detail: [
       'Mapper M2M2, 360° lazer tarayıcı ve yerleşik SLAM motorunu birleştirir. Harita oluşturma ve gerçek zamanlı konum verisi üretme görevleri, cihaz üzerinde çalışan algoritmayla yürütülür. Ham LiDAR taraması da SDK veya ROS üzerinden alınabilir.',
-      'Üretici teknik föyü 40 m menzil, 9.200 örnek/sn, 300 × 300 m azami harita alanı ve 5 cm harita çözünürlüğü belirtir. Yerleşik Wi-Fi ve Ethernet çıkışı, saha değerlendirmesi veya robot entegrasyonu için kullanılır. Slamtec Support bu modeli EOL olarak işaretler; RobotSepeti’nde listelense de tedarik durumu kontrol edilmelidir.'
+      'Üretici teknik föyü 40 m menzil, 9.200 örnek/sn, 300 × 300 m azami harita alanı ve 5 cm harita çözünürlüğü belirtir. Yerleşik Wi-Fi ve Ethernet çıkışı, saha değerlendirmesi veya robot entegrasyonu için kullanılır. SLAMTEC Support bu modeli EOL olarak işaretler; RobotSepeti’nde listelense de tedarik durumu kontrol edilmelidir.'
     ],
     scenarios: ['Mevcut Mapper M2M2 sistemlerinin bakımı', 'Elde ortam haritalama', 'ROS/SDK üzerinden harita ve poz verisi kullanımı'],
     extraSpecs: [['Veri bağlantısı', 'Wi-Fi ve 100 Mbit Ethernet'], ['Harita alanı', 'En çok 300 × 300 m'], ['Harita çözünürlüğü', '0,05 m']],
