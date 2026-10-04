@@ -20,6 +20,7 @@
 5. uFactory ürün rotası yenileme ve tarayıcı geri/ileri ile korunur; kapalı katalog kontrolleri klavye ve erişilebilirlik ağacından çıkarıldı.
 6. Doğrulanmayan otomatik insan algılama, kesin durdurma/teslim süresi ve tarih iddiaları çıkarıldı. Teknik açıklamalar model ve kontrolcü işlevlerine göre düzenlendi.
 7. SLAMKit'in masaüstü ve mobil anlatımında kalan İngilizce ölçüm etiketleri Türkçeleştirildi.
+8. uFactory'deki birleştirilmiş “Robotik Eğitim Kiti” kaydı, konveyör bant sistemi ve Slider kızak sistemi olarak ayrıldı. Her ürün kendi açıklamasını, teknik özelliklerini, galerisini ve satış adresini gösterir; robot kolunun dahil olmadığı açıklanır. Kategori “uArm Aksesuarları” oldu. İki ürünün 1440/320/768 px kontrolleri, galeri ve bağlantı doğrulamaları uFactory raporunda kayıtlıdır. Bu düzeltmeyle uFactory kart sayısı 14 oldu; önceki taramadaki toplam 47 farklı satış adresi değişmedi.
 
 ## Ek mobil denetim — 4 Ekim 2026
 
