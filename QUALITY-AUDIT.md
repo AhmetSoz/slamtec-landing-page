@@ -19,6 +19,7 @@
 4. uFactory'de kesilen teknik etiketler, kırpılan videolar ve görseli örten başlıklar düzeltildi. Lite tutucu ve eğitim seti seçimleri kendi görselini/özelliklerini gösterir.
 5. uFactory ürün rotası yenileme ve tarayıcı geri/ileri ile korunur; kapalı katalog kontrolleri klavye ve erişilebilirlik ağacından çıkarıldı.
 6. Doğrulanmayan otomatik insan algılama, kesin durdurma/teslim süresi ve tarih iddiaları çıkarıldı. Teknik açıklamalar model ve kontrolcü işlevlerine göre düzenlendi.
+7. SLAMKit'in masaüstü ve mobil anlatımında kalan İngilizce ölçüm etiketleri Türkçeleştirildi.
 
 ## Tekrar çalıştırma
 
