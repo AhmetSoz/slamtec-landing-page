@@ -23,7 +23,7 @@ const products = [
     url: 'https://www.robotsepeti.com/slamtec-aurora-all-in-one-yerellestirme-ve-haritalama-multi-source-lidar-sensor',
     summary: 'Yerleşik LiDAR, binoküler kamera ve IMU verilerini birleştirerek 3D harita ve 6DoF konum üretir.',
     paragraphs: [
-      'Aurora, LiDAR, görüntü, IMU ve öğrenme tabanlı algoritmaları tek bir gövdede birleştiren yerelleştirme ve haritalama sensörüdür. Harici sensöre bağımlı kalmadan üç boyutlu ortam haritaları ve 6DoF konum verisi üretebilir.',
+      'Aurora, LiDAR, görüntü, IMU ve öğrenme tabanlı algoritmaları tek bir gövdede birleştiren yerelleştirme ve haritalama sensörüdür. Haricî sensöre bağımlı kalmadan üç boyutlu ortam haritaları ve 6DoF konum verisi üretebilir.',
       'RobotSepeti ürün açıklamasında RoboStudio arayüzü ve SDK araçlarının geliştirme sürecine sağladığı destek öne çıkıyor. GPS/RTK ve odometri gibi ek kaynaklarla genişletilebilen çoklu veri füzyonu, mobil robot ve araştırma uygulamalarına uyum sağlar.'
     ],
     features: ['LiDAR + binoküler görüş + IMU füzyonu', 'İç ve dış mekânda 3D haritalama', 'RoboStudio ve SDK ile geliştirme desteği'],
@@ -191,7 +191,7 @@ const products = [
     url: 'https://www.robotsepeti.com/slamtec-m2m3-mapper-yerlesik-slam-motorlu-lidar-haritalama-sensoru',
     summary: '360° LiDAR ile yerleşik SLAM motorunu birleştiren haritalama ve gerçek zamanlı konumlandırma sensörü.',
     paragraphs: [
-      'Mapper M2M3, 360° lazer tarayıcıyı yerleşik SLAM motoruyla bir araya getirir. Harici hesaplama zincirini sadeleştirerek karmaşık ortamların otonom haritalanmasına ve gerçek zamanlı konum belirlemeye yardımcı olur.',
+      'Mapper M2M3, 360° lazer tarayıcıyı yerleşik SLAM motoruyla bir araya getirir. Haricî hesaplama zincirini sadeleştirerek karmaşık ortamların otonom haritalanmasına ve gerçek zamanlı konum belirlemeye yardımcı olur.',
       'RobotSepeti ürün açıklamasında SharpEdge teknolojisi ve SLAMTEC’in üçüncü nesil SLAM motoru vurgulanır. Depo ve bina haritalama, lojistik robotları, arama kurtarma ve Ar-Ge platformlarına entegrasyon başlıca uygulama alanlarıdır.'
     ],
     features: ['Yerleşik SLAM motoru', 'SharpEdge harita optimizasyonu', 'Harita ve poz verisi çıkışı'],
