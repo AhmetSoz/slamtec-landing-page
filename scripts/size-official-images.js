@@ -14,8 +14,15 @@ for(const page of Object.values(pages)){
   if(!sizes.has(src))sizes.set(src,imageSize(fs.readFileSync(path.join(root,src))));
   const {width,height}=sizes.get(src);
   if(!width||!height)throw new Error(`Invalid image dimensions: ${src}`);
-  $(e).attr('width',String(width)).attr('height',String(height));
-  $(e).attr('style',($(e).attr('style')||'')+`;aspect-ratio:${width}/${height}`);
+  // Authored dimensions also describe presentation size (especially feature icons).
+  // Reserve natural dimensions only when the manufacturer did not specify a size.
+  const authoredWidth=Number($(e).attr('width'));
+  const authoredHeight=Number($(e).attr('height'));
+  if(!authoredWidth)$(e).attr('width',String(width));
+  if(!authoredHeight)$(e).attr('height',String(height));
+  const ratioWidth=authoredWidth||width,ratioHeight=authoredHeight||height;
+  const style=($(e).attr('style')||'').replace(/(?:^|;)\s*aspect-ratio\s*:[^;]*/g,'');
+  $(e).attr('style',style+`;aspect-ratio:${ratioWidth}/${ratioHeight}`);
   reserved++;
  });
  page.html=$('body').html();

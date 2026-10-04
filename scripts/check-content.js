@@ -43,6 +43,24 @@ for(const {file} of designAssets){
   if(!fs.existsSync(target)||fs.statSync(target).size===0)errors.push(`Missing official design media: ${file}`);
 }
 console.log(`Checked ${designAssets.length} official design media files`);
+const designSource=fs.readFileSync(path.join(root,'official-design.js'),'utf8');
+const designPages=JSON.parse(designSource.slice(designSource.indexOf('{'),designSource.lastIndexOf(';')));
+let posterCount=0;
+for(const [model,page]of Object.entries(designPages)){
+  for(const match of page.html.matchAll(/(?:src|poster)="(assets\/[^\"]+)"/g)){
+    const file=path.join(root,match[1]);
+    if(!fs.existsSync(file)||fs.statSync(file).size===0)errors.push(`Missing rendered media for ${model}: ${match[1]}`);
+  }
+  for(const match of page.html.matchAll(/<video\b[^>]*>/g)){
+    if(!/poster="assets\/video-posters\/[^\"]+"/.test(match[0]))errors.push(`Video has no preview for ${model}`);
+    else posterCount++;
+  }
+  for(const match of page.html.matchAll(/<img\b[^>]*auroras-section1-icon[^>]*>/g)){
+    const width=Number(match[0].match(/width="(\d+)"/)?.[1]),height=Number(match[0].match(/height="(\d+)"/)?.[1]);
+    if(!width||!height||width>100||height>70)errors.push(`Oversized Aurora S feature icon: ${match[0].slice(0,130)}`);
+  }
+}
+console.log(`Checked ${posterCount} video previews and authored feature icon dimensions`);
 
 (async () => {
   for (let i = 0; i < urls.length; i += 4) {

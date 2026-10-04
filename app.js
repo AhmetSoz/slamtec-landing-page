@@ -429,9 +429,9 @@ function route({ scroll = false, focus = false } = {}) {
       intro.hidden = true;
     } else showCatalog();
   };
-  const finish = () => {
+  const finish = (behavior = reducedMotion ? 'auto' : 'smooth') => {
     if (revision !== routeRevision) return;
-    if (scroll && (product || location.hash === '#urunler')) productsSection.scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth', block: 'start' });
+    if (scroll && (product || location.hash === '#urunler')) productsSection.scrollIntoView({ behavior, block: 'start' });
     if (focus && product) detail.querySelector('#detail-back')?.focus({ preventScroll: true });
     if (focus && !product && location.hash === '#urunler') {
       const heading = document.getElementById('products-heading');
@@ -440,7 +440,12 @@ function route({ scroll = false, focus = false } = {}) {
     }
   };
   if (scroll && changingView && !reducedMotion && document.startViewTransition) {
-    document.startViewTransition(update).finished.then(finish).catch(finish);
+    // Position and focus the new view before its animation begins. A delayed
+    // finish must not override a document-link click made during the transition.
+    document.startViewTransition(() => {
+      update();
+      finish('auto');
+    }).finished.catch(() => {});
   } else {
     update();
     finish();
@@ -450,10 +455,12 @@ function route({ scroll = false, focus = false } = {}) {
 renderCards();
 route();
 window.addEventListener('hashchange', () => route({ scroll: true, focus: true }));
-document.querySelector('.floating-top').addEventListener('click', () => {
+function returnToTop(event) {
+  event.preventDefault();
   const top = detail.hidden ? 0 : productsSection.getBoundingClientRect().top + window.scrollY - document.querySelector('.site-header').offsetHeight;
   window.scrollTo({ top: Math.max(0, top), behavior: reducedMotion ? 'auto' : 'smooth' });
-});
+}
+document.querySelectorAll('.floating-top,.site-footer a[href="#top"]').forEach(control=>control.addEventListener('click',returnToTop));
 detail.addEventListener('click', (event) => {
   if (event.target.closest('#detail-back')) location.hash = 'urunler';
   if (event.target.closest('[data-scroll-docs]')) detail.querySelector('#belgeler')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
