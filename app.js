@@ -359,6 +359,49 @@ function renderDetail(product) {
   `;
   const official = detail.querySelector('#official-product');
   official.querySelectorAll('[data-store-link]').forEach(a=>{a.href=product.url;});
+  for (const number of [5, 6]) {
+    for (const phone of [false, true]) {
+      const suffix = phone ? '-phone' : '';
+      const prefix = `slamkit-section${number}`;
+      const box = official.querySelector(`.${prefix}-tab${suffix}`);
+      if (!box) continue;
+      const controls = [...box.querySelectorAll(`.${prefix}-tab-nav${suffix} a`)];
+      const panels = [...box.querySelectorAll(`.${prefix}-tab-con${suffix}`)];
+      const backgrounds = [...box.querySelectorAll(`.${prefix}-tab-img${suffix}`)];
+      const extra = number === 5 ? official.querySelector(phone ? '.slamkit-section5-tab-con-phone-2-extra' : '.slamkit-section5-tab-con-2-extra') : null;
+      function selectPanel(index, animate = true) {
+        controls.forEach((control, i) => {
+          control.classList.toggle('cur', i === index);
+          control.setAttribute('aria-pressed', String(i === index));
+        });
+        panels.forEach((panel, i) => {
+          panel.hidden = i !== index;
+          panel.style.display = i === index ? 'block' : 'none';
+          if (i === index) {
+            panel.querySelectorAll('[data-reveal]').forEach(element => element.classList.add('is-revealed'));
+            if (animate && !reducedMotion) panel.animate([{opacity:.4},{opacity:1}], {duration:350,easing:'ease-out'});
+          }
+        });
+        backgrounds.forEach((image, i) => {
+          image.hidden = i !== index;
+          image.style.display = i === index ? 'block' : 'none';
+        });
+        if (extra) { extra.hidden = index !== 1; extra.style.display = index === 1 ? 'block' : 'none'; }
+      }
+      controls.forEach((control, index) => {
+        const id = `${prefix}${suffix}-panel-${index}`;
+        panels[index].id = id;
+        control.href = `#${id}`;
+        control.setAttribute('role', 'button');
+        control.setAttribute('aria-controls', id);
+        control.addEventListener('click', event => { event.preventDefault(); selectPanel(index); });
+        control.addEventListener('keydown', event => {
+          if (event.key === ' ') { event.preventDefault(); selectPanel(index); }
+        });
+      });
+      selectPanel(0, false);
+    }
+  }
   official.querySelectorAll('[data-intro-video]').forEach(video=>{
     if(product.video?.type==='video') video.dataset.mediaSrc=product.video.src;
     else video.closest('.video-responsive')?.remove();
@@ -461,11 +504,21 @@ function returnToTop(event) {
   window.scrollTo({ top: Math.max(0, top), behavior: reducedMotion ? 'auto' : 'smooth' });
 }
 document.querySelectorAll('.floating-top,.site-footer a[href="#top"]').forEach(control=>control.addEventListener('click',returnToTop));
+function scrollToProductSection(id) {
+  const section = detail.querySelector(`#${id}`);
+  if (!section) return;
+  const header = document.querySelector('.site-header').getBoundingClientRect().height;
+  const navigation = detail.querySelector('nav[aria-label="Ürün içeriği"]').getBoundingClientRect().height;
+  window.scrollTo({
+    top: Math.max(0, window.scrollY + section.getBoundingClientRect().top - header - navigation - 24),
+    behavior: reducedMotion ? 'auto' : 'smooth'
+  });
+}
 detail.addEventListener('click', (event) => {
   if (event.target.closest('#detail-back')) location.hash = 'urunler';
-  if (event.target.closest('[data-scroll-docs]')) detail.querySelector('#belgeler')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  if (event.target.closest('[data-scroll-docs]')) scrollToProductSection('belgeler');
   const scrollButton = event.target.closest('[data-scroll-target]');
-  if (scrollButton) detail.querySelector(`#${scrollButton.dataset.scrollTarget}`)?.scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth', block: 'start' });
+  if (scrollButton) scrollToProductSection(scrollButton.dataset.scrollTarget);
 });
 document.querySelectorAll('.filter').forEach((button) => button.addEventListener('click', () => {
   activeFilter = button.dataset.filter;
