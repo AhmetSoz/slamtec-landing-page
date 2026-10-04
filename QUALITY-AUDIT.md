@@ -43,4 +43,4 @@ node scripts/check-live-assets.js
 
 Testler Chromium masaüstü/telefon boyutlarında yapıldı; fiziksel cihazlarda Safari/Firefox ayrıca test edilmedi. E-posta/WhatsApp/tel bağlantılarının hedefleri incelendi; müşteri mesajı gönderilmedi ve arama yapılmadı. Stok ve teslim süresi mağazadaki güncel bilgiye bağlıdır.
 
-uFactory üretim bağımlılıklarında `npm audit --omit=dev` sonucu 0 açık. Tam denetimde, yaması yayımlanmamış `braces@3.0.3` üzerinden ESLint geliştirme araçlarında 5 ilişkili yüksek önem uyarısı var; bu zincir üretim bağımlılıkları arasında değil. Uyumsuz ESLint sürümüne zorla düşürülmedi. Detay uFactory deposundaki kontrol raporunda.
+uFactory üretim bağımlılıklarında `npm audit --omit=dev` sonucu son kontrolde de 0 açık. Tam denetimde `braces@3.0.3` üzerinden ESLint geliştirme araçlarında 5 ilişkili yüksek önem uyarısı var; bu zincir üretim bağımlılıkları arasında değil. 4 Ekim 2026'da npm'deki güncel kararlı paketler ve [ilgili güvenlik duyurusu](https://github.com/advisories/GHSA-vfj7-8cjw-p6xm) tekrar kontrol edildi: henüz yamalı sürüm yok. Uyumsuz ESLint sürümüne zorla düşürülmedi. Detay ve kullanım kapsamı uFactory deposundaki kontrol raporunda.
