@@ -21,6 +21,15 @@
 6. Doğrulanmayan otomatik insan algılama, kesin durdurma/teslim süresi ve tarih iddiaları çıkarıldı. Teknik açıklamalar model ve kontrolcü işlevlerine göre düzenlendi.
 7. SLAMKit'in masaüstü ve mobil anlatımında kalan İngilizce ölçüm etiketleri Türkçeleştirildi.
 
+## Ek mobil denetim — 4 Ekim 2026
+
+- 29 ürünün tamamı 320 px küçük telefon ve 768 px tablet genişliklerinde tekrar incelendi; ek olarak 360, 390, 414, 844 ve 1024 px genişliklerde temsilci ürünler denetlendi. 844 × 390 yatay telefon görünümü de kontrol edildi.
+- Menü açma/kapatma, kategori seçimi, ürün seçme/kataloğa dönme, teknik tablo ve belge alanları; kırık medya, yatay taşma ve kenardan kesilen metinler kontrol edildi.
+- SLAMKit'in 320 px açılış etiketinin yazı boyutu kutusuna uyacak şekilde düzenlendi.
+- RPLIDAR A3'ün tablet anlatımında kenardan kesilen iki başlık ortalandı; metin alanı ekran genişliğiyle sınırlanıyor.
+- uFactory'nin uzun avantaj başlığı küçük telefona uyarlandı. Ürün ailesi kartlarında ekran yönü değişirken genişliğin animasyonla daralması önlendi; görünme ve hareket animasyonları korundu.
+- Düzeltmelerden sonra hedef alanlar tekrar kontrol edildi; testler tarayıcı ekran boyutu emülasyonu ile yapıldı.
+
 ## Tekrar çalıştırma
 
 ```sh

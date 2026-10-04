@@ -5,6 +5,8 @@ body.has-product-detail .hero,body.has-product-detail .trust-strip{display:none}
 #official-product .full-section{padding-top:0!important}
 #official-product .phone-body-box{padding-top:0!important}
 #official-product .phone-body-box>.phone-section:first-of-type{padding-top:0!important}
+#official-product .scroll-phone-container .swiper-slide p{font-size:clamp(14px,5vw,20px)}
+#official-product .a3-mobile-05.en .a3-mobile-text,#official-product .a3-mobile-07.en .a3-mobile-text{left:50%;margin-left:0;width:90%;max-width:630px;transform:translateX(-50%)}
 #official-product .fullpage-img img{display:block;width:100%;height:auto}
 #official-product .official-intro-video{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
 #official-product .video-responsive{position:relative;aspect-ratio:16/9;height:auto;padding:0;background:#02040e}
